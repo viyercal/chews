@@ -74,3 +74,23 @@ standalone/deployed app.
 
 See `DESIGN.md` for product/design decisions and architecture. Entry points:
 `index.html` → `js/main.js`; pure logic in `js/core/` (tested), UI in `js/ui/`.
+
+## Deploy
+
+Live at **https://viyercal.github.io/chews/** (GitHub Pages, serving `docs/`).
+GPS and BYOK live search work there (real https origin — the claude.ai
+artifact preview blocks both by sandbox policy).
+
+Ship an update:
+
+```bash
+node scripts/build.mjs && cp dist/chews.html docs/index.html
+git add -A && git commit -m "release" && git push
+```
+
+Secrets policy: no API keys exist anywhere in this repo (verified by pattern
+scan pre-push); data-pipeline scripts read `GOOGLE_MAPS_API_KEY` from the
+environment only, and `data/` intermediates containing third-party review
+excerpts are gitignored. If you use your own key in the deployed app's BYOK
+field, restrict it in Google Cloud console to HTTP referrers
+`https://viyercal.github.io/*` and `http://localhost:*`.
