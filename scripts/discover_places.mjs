@@ -32,7 +32,6 @@ const SJ = [
   [37.3620, -121.8420], [37.2900, -121.8100],
 ]
 
-import { CHAIN_RE as CHAIN_BLOCKLIST } from '../js/core/live.js' // one chain policy everywhere
 
 const QUALITY = { sf: { minRating: 4.3, minCount: 250 }, sj: { minRating: 4.2, minCount: 150 } }
 
@@ -98,7 +97,6 @@ for (const [cityKey, grid] of Object.entries(grids)) {
         if (found.has(p.id)) continue
         if (p.businessStatus !== 'OPERATIONAL') continue
         if (!p.rating || p.rating < q.minRating || (p.userRatingCount || 0) < q.minCount) continue
-        if (CHAIN_BLOCKLIST.test(p.displayName.text)) continue
         if (existingNames.has(norm(p.displayName.text))) continue
         const loc = { lat: p.location.latitude, lng: p.location.longitude }
         if (existing.some((r) => mi(r, loc) < 0.09 && norm(r.name).includes(norm(p.displayName.text).slice(0, 8)))) continue

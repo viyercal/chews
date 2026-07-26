@@ -1,0 +1,529 @@
+[
+ {
+  "placeId": "ChIJBVY2Bxh-j4ARa2zO8Jd6H2A",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Mission District",
+  "tags": [
+   "bread",
+   "sweet",
+   "dessert",
+   "coffee",
+   "brunch"
+  ],
+  "emoji": "🥐",
+  "why": "Line-worthy morning buns and pastries in the Mission.",
+  "signatureDish": {
+   "name": "Morning Bun",
+   "description": "Caramelized-sugar morning bun, crispy-flaky outside, soft and citrusy inside.",
+   "basis": "The morning bun was one of the best pastries I’ve ever had!"
+  },
+  "menu": [
+   {
+    "name": "Chocolate Croissant",
+    "description": "Crispy outside, flaky interior.",
+    "basis": "Loved their chocolate croissant - perfectly crispy on the outside"
+   },
+   {
+    "name": "Passion Fruit Lime Coconut Cake",
+    "description": "Tropical cake slice, a park-day treat.",
+    "basis": "The passion fruit lime coconut cake slice is SO good."
+   },
+   {
+    "name": "Egg Sando",
+    "description": "Served on buttermilk loaf with gougère and bread pudding.",
+    "basis": "Had the egg sando on a buttermilk loaf, gougere, cafe au latte and bread pudding."
+   },
+   {
+    "name": "Bread Pudding",
+    "description": "Sweet, fruity, custardy comfort.",
+    "basis": "The bread pudding was a sweet fruity custardy heaven"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJxZMBuHV_j4ARK1fO7KSqyOE",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Mission District",
+  "tags": [
+   "cheese",
+   "meat-heavy",
+   "comfort",
+   "date-night",
+   "casual"
+  ],
+  "emoji": "🍕",
+  "why": "Wood-fired sausage pizza and hearty pastas on Valencia Street.",
+  "signatureDish": {
+   "name": "Sausage Pizza",
+   "description": "Sausage pizza loaded with meat, crisp-chewy crust, balanced tangy sauce.",
+   "basis": "The sausage pizza was one of the best pizza’s I’ve had: lots of meat, right about of sauce, crust was crispy and chewy."
+  },
+  "menu": [
+   {
+    "name": "Meatball Appetizer",
+    "description": "Moist meatballs in a tangy-sweet sauce.",
+    "basis": "I liked the meatball appetizer, the sauce had the right amount of tang and sweet."
+   },
+   {
+    "name": "Fried Calamari",
+    "description": "Light, crispy fried calamari.",
+    "basis": "I took a star away because of the fried calamari."
+   },
+   {
+    "name": "Brussels Sprouts and Bruschetta",
+    "description": "Excellent shared starters.",
+    "basis": "We started with Brussels sprouts and bruschetta, which were excellent."
+   },
+   {
+    "name": "Fettuccine with Vodka Sauce",
+    "description": "One of several house pasta options.",
+    "basis": "we ordered gnocchi with Bolognese sauce, gnocchi with pesto, and fettuccine with vodka sauce."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJU889QiB-j4ARzQofqaFrMJU",
+  "skip": false,
+  "cuisine": "Burgers",
+  "neighborhood": "Mission District",
+  "tags": [
+   "casual",
+   "meat-heavy",
+   "late-night",
+   "brunch"
+  ],
+  "emoji": "🍔",
+  "why": "Dive-y beer garden famous for its no-frills burger and patio.",
+  "signatureDish": {
+   "name": "Burger",
+   "description": "Classic burger, a genuine crowd-pleaser amid the beer-garden buzz.",
+   "basis": "Burger is awesome! That’s a real burger!"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJ74VF-qaAhYARb0YeIN1ZqEA",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "NoPa",
+  "tags": [
+   "coffee",
+   "brunch",
+   "healthy",
+   "vegetarian-friendly",
+   "casual"
+  ],
+  "emoji": "🍓",
+  "why": "NoPa favorite for standout açaí bowls and specialty coffee.",
+  "signatureDish": {
+   "name": "Açaí Bowl",
+   "description": "Açaí bowl bursting with vibrant, deep-red fruit flavor.",
+   "basis": "I highly recommend the Açaí bowl"
+  },
+  "menu": [
+   {
+    "name": "Latte",
+    "description": "Standout specialty coffee pour.",
+    "basis": "The latte I ordered was the best I’ve had"
+   },
+   {
+    "name": "Iced Americano",
+    "description": "A recommended morning order.",
+    "basis": "Went with an iced americano and a yogurt, can recommend both."
+   },
+   {
+    "name": "Yogurt",
+    "description": "Simple, recommended breakfast pick.",
+    "basis": "a yogurt, can recommend both."
+   },
+   {
+    "name": "Hibiscus Herbal Tea",
+    "description": "A milder tea option.",
+    "basis": "The hibiscus herbal tea I had here was alright."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvfGInjd-j4AR3KUQRwLSfbA",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Mission District",
+  "tags": [
+   "soup",
+   "rice",
+   "brunch",
+   "comfort"
+  ],
+  "emoji": "🍙",
+  "why": "Cozy Japanese-French spot known for its ingredient-packed miso soup.",
+  "signatureDish": {
+   "name": "Miso Soup",
+   "description": "Miso soup loaded with ingredients, part of the Japanese breakfast set.",
+   "basis": "The miso soup is packed with ingredients, which is great!"
+  },
+  "menu": [
+   {
+    "name": "Onigiri",
+    "description": "Rice ball, a fun breakfast choice.",
+    "basis": "It’s fun to have a choice for a rice ball, or “onigiri."
+   },
+   {
+    "name": "Rice Bowl",
+    "description": "Generously portioned rice bowl.",
+    "basis": "The rice bowls have a lottt of rice, which is exactly what they do in japan"
+   },
+   {
+    "name": "Japanese Breakfast",
+    "description": "Weekend-only breakfast set.",
+    "basis": "Bon, Nene’s wonderful Japanese breakfast is available from 10:00am only on Fridays and Saturdays!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJcUlD0eOAhYARucGJj8eN9I8",
+  "skip": false,
+  "cuisine": "Burgers",
+  "neighborhood": "Fisherman's Wharf",
+  "tags": [
+   "meat-heavy",
+   "fried",
+   "quick-bite",
+   "casual",
+   "late-night"
+  ],
+  "emoji": "🍔",
+  "why": "Cult-favorite Double-Double and animal style fries near the pier.",
+  "signatureDish": {
+   "name": "Double-Double",
+   "description": "Double-Double combo, the classic In-N-Out burger done to order.",
+   "basis": "Grabbed a Double-Double combo and a cheeseburger"
+  },
+  "menu": [
+   {
+    "name": "Cheeseburger",
+    "description": "Combo option alongside the Double-Double.",
+    "basis": "a cheeseburger, and the self-serve free refills were a huge plus"
+   },
+   {
+    "name": "Animal Style Fries",
+    "description": "The real hidden gem here.",
+    "basis": "Animal style fries are so good."
+   },
+   {
+    "name": "French Fries",
+    "description": "Tasty classic fries.",
+    "basis": "The French fries were tasty."
+   },
+   {
+    "name": "Grilled Onions",
+    "description": "Add-on that elevates the burger.",
+    "basis": "ask for grilled onions in your burger—it completely elevates the flavor"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ0Xb_IqR_j4ARoBy8BX7TMCE",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJP6c8_1t-j4ARNQxhfTKbw0g",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJXaDe9yqHhYARh78sF8k1uSA",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJee-2JWLLj4ARHhYmnOFo6i4",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "tags": [
+   "bread",
+   "quick-bite",
+   "casual",
+   "comfort"
+  ],
+  "emoji": "🥪",
+  "why": "Grab-and-go egg sandwiches for a quick breakfast bite.",
+  "signatureDish": {
+   "name": "Egg and Cheese Sandwich",
+   "description": "Egg and cheese sandwich, a simple go-to breakfast order.",
+   "basis": "I wanted an egg and cheese sandwich and a hot tea."
+  },
+  "menu": [
+   {
+    "name": "Breakfast Sandwich",
+    "description": "Sourdough breakfast sandwich option.",
+    "basis": "I was so shocked when I got this breakfast sandwich at this very small size of it"
+   },
+   {
+    "name": "Salad",
+    "description": "Still a tasty choice.",
+    "basis": "It was still a tasty salad though."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJjS5n_YLMj4ARlfgRtxtoW00",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Japantown",
+  "tags": [
+   "fried",
+   "comfort",
+   "casual",
+   "late-night"
+  ],
+  "emoji": "🥞",
+  "why": "24-hour diner known for its crispy fried steak.",
+  "signatureDish": {
+   "name": "Fried Steak",
+   "description": "Fried steak, crispy outside, tender inside, a diner favorite.",
+   "basis": "This is the best fried steak I’ve ever had!"
+  },
+  "menu": [
+   {
+    "name": "Pancakes",
+    "description": "The chain's signature stack.",
+    "basis": "serving a wide variety of pancakes & other American breakfast & diner fare."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJhW1M8IPMj4ARxt4SjJAS3pA",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJv8UYSVkzjoAR4v9x2T1QpL8",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJRZn44aIyjoARAtT99_jCzNg",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJsdryaRwzjoARaL78VgNdTOo",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "tags": [
+   "fried",
+   "meat-heavy",
+   "quick-bite",
+   "casual",
+   "comfort"
+  ],
+  "emoji": "🍗",
+  "why": "Praised chicken sandwich elevated by can't-skip signature sauces.",
+  "signatureDish": {
+   "name": "Chicken Sandwich",
+   "description": "Chicken sandwich, above average, elevated by standout signature sauces.",
+   "basis": "the chicken sandwiches are above average but the sauces are the best around."
+  },
+  "menu": [
+   {
+    "name": "Strawberry Shake",
+    "description": "The recommended shake flavor.",
+    "basis": "The shakes are also great I recommend the strawberry one."
+   },
+   {
+    "name": "Nuggets",
+    "description": "Sold alongside sandwiches.",
+    "basis": "dry nuggets and sandwiches staring back at me"
+   },
+   {
+    "name": "Sauces",
+    "description": "The standout condiment lineup.",
+    "basis": "constantly forgets the sauces I clearly select in my order."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJiQsO11YyjoAR1cq0VxhB0VQ",
+  "skip": false,
+  "cuisine": "Cafe",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "emoji": "☕",
+  "why": "Neighborhood Starbucks loved for its custom Caramel Crmfr order.",
+  "signatureDish": {
+   "name": "Caramel Crmfr",
+   "description": "Caramel Crmfr, a customizable cold coffee drink favorite here.",
+   "basis": "I was started by a Caramel Crmfr without coffee."
+  },
+  "menu": [
+   {
+    "name": "Hot Chocolate",
+    "description": "Go-to fall drink.",
+    "basis": "My favorite drinks are hot chocolate for fall"
+   },
+   {
+    "name": "Tea",
+    "description": "Winter hot-tea pick.",
+    "basis": "cold drinks like crmfr for summer, and all teas for winter with hot."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJy34rTcIzjoARoE9Z7neA4VI",
+  "skip": false,
+  "cuisine": "Burgers",
+  "tags": [
+   "meat-heavy",
+   "fried",
+   "grilled",
+   "comfort",
+   "casual"
+  ],
+  "emoji": "🍔",
+  "why": "Charbroiled burgers headlined by the crowd-pleasing Family CharBox.",
+  "signatureDish": {
+   "name": "Family CharBox",
+   "description": "Family CharBox bundles four juicy burgers and fries for $35.",
+   "basis": "best bang for your buck is the Family CharBox at $35 bucks where you get 4 burgers and 4 fries."
+  },
+  "menu": [
+   {
+    "name": "Tempura Green Beans",
+    "description": "Hot, crispy fries swap option.",
+    "basis": "we swapped 1 fries for the tempura green beans for .80 cents, which were all hot and crispy."
+   },
+   {
+    "name": "Sweet Potato Fries",
+    "description": "A softer alternative to regular fries.",
+    "basis": "I like that they have sweet potatoes fries, and It was good but not so crunchy"
+   },
+   {
+    "name": "Grilled Cauliflower",
+    "description": "Grilled side, a bit soft and oily.",
+    "basis": "My sister ordered the cauliflower grilled, it was ok, a bit too soft"
+   },
+   {
+    "name": "Cheeseburger",
+    "description": "Classic charbroiled cheeseburger.",
+    "basis": "THERE WAS NO CHEESE ON MAH CHEEZBURGER!!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJVd_4Edo0joAR5ZX3L8fIiZE",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Campbell",
+  "tags": [
+   "soup",
+   "bread",
+   "cheese",
+   "comfort",
+   "casual"
+  ],
+  "emoji": "🥪",
+  "why": "Comfort classics: grilled cheese, soup, and a hearty steak sandwich.",
+  "signatureDish": {
+   "name": "Italian Steak and Mozzarella Sandwich",
+   "description": "Italian Steak and Mozzarella Sandwich, fresh and hot, $13.69 combo.",
+   "basis": "Italian Steak and Mozzarella Sandwich comes with Kettle Potato Chips $13.69 and Hazelnut Coffees $3.89."
+  },
+  "menu": [
+   {
+    "name": "Grilled Cheese",
+    "description": "Classic pairing with chicken noodle soup.",
+    "basis": "I got a classic grilled cheese with chicken noodle soup."
+   },
+   {
+    "name": "Chicken Noodle Soup",
+    "description": "A happy-making combo choice.",
+    "basis": "with chicken noodle soup. I’m vary happy with my meal"
+   },
+   {
+    "name": "Kettle Potato Chips",
+    "description": "Combo side.",
+    "basis": "Kettle Potato Chips $13.69 and Hazelnut Coffees $3.89."
+   },
+   {
+    "name": "Hazelnut Coffee",
+    "price": "$3.89",
+    "description": "Combo beverage.",
+    "basis": "Kettle Potato Chips $13.69 and Hazelnut Coffees $3.89."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJN8oddJPKj4ARVRd-na9n2kc",
+  "skip": false,
+  "cuisine": "Cafe",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "emoji": "🍵",
+  "why": "Try the custom Ice Protein Matcha at this artsy Starbucks.",
+  "signatureDish": {
+   "name": "Ice Protein Matcha",
+   "description": "Ice Protein Matcha, a customizable protein-boosted iced matcha order.",
+   "basis": "I ordered an Ice Protein Matcha"
+  },
+  "menu": [
+   {
+    "name": "Dragon Fruit Drink",
+    "description": "A well-liked fruity refresher.",
+    "basis": "Dragon fruit drink was good."
+   },
+   {
+    "name": "Cappuccino",
+    "description": "Milkier than expected per one order.",
+    "basis": "My Cappuccino is not upto the par."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJEwKgSF3Lj4ARLm3v_NoXr78",
+  "skip": false,
+  "cuisine": "Burgers",
+  "neighborhood": "The Alameda",
+  "tags": [
+   "meat-heavy",
+   "fried",
+   "cheese",
+   "quick-bite",
+   "casual"
+  ],
+  "emoji": "🍔",
+  "why": "Made-to-order burgers piled with free toppings and crisp fries.",
+  "signatureDish": {
+   "name": "Little Bacon Burger",
+   "description": "Little bacon burger with wonderfully crisp bacon, a top pick.",
+   "basis": "I recommend the little bacon burger and bacon burger."
+  },
+  "menu": [
+   {
+    "name": "Cheese Hot Dog",
+    "price": "$10",
+    "description": "A pricier menu option.",
+    "basis": "How is a cheese hot dog $10?"
+   },
+   {
+    "name": "Little Bacon Cheeseburger",
+    "description": "Best for American cheese lovers.",
+    "basis": "If you like American cheese, the little bacon cheeseburger is the way to go."
+   },
+   {
+    "name": "Fries",
+    "description": "Distinct from other fast-food fries.",
+    "basis": "The fries are different from other restaurants"
+   },
+   {
+    "name": "Pickles",
+    "description": "A nice accompaniment.",
+    "basis": "the pickles are really nice too."
+   }
+  ]
+ }
+]

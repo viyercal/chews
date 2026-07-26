@@ -4,16 +4,13 @@
 
 const PRICE = { PRICE_LEVEL_INEXPENSIVE: 1, PRICE_LEVEL_MODERATE: 2, PRICE_LEVEL_EXPENSIVE: 3, PRICE_LEVEL_VERY_EXPENSIVE: 4 }
 
-// One chain policy for the whole product — the index sweep and live search
-// must agree (a 4.5-star suburban Subway is still a Subway).
-export const CHAIN_RE = /\bsubway\b|in-?n-?out|chipotle|mcdonald|starbucks|panda express|taco bell|chick-?fil|shake shack|five guys|wingstop|popeyes|kfc|burger king|wendy'?s|domino|pizza hut|papa john|jack in the box|habit burger|sweetgreen|\bcava\b|panera|applebee|olive garden|cheesecake factory|denny'?s|ihop|round table|little caesar|carl'?s jr|el pollo loco|jamba|dutch bros|peet'?s|philz|dunkin/i
-
+// Quality bar is the only gate — chains included by owner decision (2026-07-26):
+// if a spot clears the rating/review bar, it deals, whoever owns it.
 export function passesLiveQuality(p, { minRating = 4.2, minCount = 100 } = {}) {
   return (
     p.businessStatus === 'OPERATIONAL' &&
     (p.rating || 0) >= minRating &&
-    (p.userRatingCount || 0) >= minCount &&
-    !CHAIN_RE.test(p.displayName?.text || '')
+    (p.userRatingCount || 0) >= minCount
   )
 }
 
