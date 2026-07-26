@@ -4,6 +4,27 @@
 
 const PRICE = { PRICE_LEVEL_INEXPENSIVE: 1, PRICE_LEVEL_MODERATE: 2, PRICE_LEVEL_EXPENSIVE: 3, PRICE_LEVEL_VERY_EXPENSIVE: 4 }
 
+// One chain policy for the whole product — the index sweep and live search
+// must agree (a 4.5-star suburban Subway is still a Subway).
+export const CHAIN_RE = /\bsubway\b|in-?n-?out|chipotle|mcdonald|starbucks|panda express|taco bell|chick-?fil|shake shack|five guys|wingstop|popeyes|kfc|burger king|wendy'?s|domino|pizza hut|papa john|jack in the box|habit burger|sweetgreen|\bcava\b|panera|applebee|olive garden|cheesecake factory|denny'?s|ihop|round table|little caesar|carl'?s jr|el pollo loco|jamba|dutch bros|peet'?s|philz|dunkin/i
+
+export function passesLiveQuality(p, { minRating = 4.2, minCount = 100 } = {}) {
+  return (
+    p.businessStatus === 'OPERATIONAL' &&
+    (p.rating || 0) >= minRating &&
+    (p.userRatingCount || 0) >= minCount &&
+    !CHAIN_RE.test(p.displayName?.text || '')
+  )
+}
+
+const CUISINE_EMOJI = {
+  Mexican: '🌮', Chinese: '🥡', 'Dim Sum': '🥟', Japanese: '🍣', Sushi: '🍣', Ramen: '🍜',
+  Korean: '🍖', Italian: '🍝', Pizza: '🍕', Thai: '🍛', Vietnamese: '🍜', Indian: '🍛',
+  Seafood: '🦞', Steakhouse: '🥩', Burgers: '🍔', Sandwiches: '🥪', Mediterranean: '🥙',
+  'Middle Eastern': '🧆', French: '🥖', Greek: '🥙', Cafe: '☕', Bakery: '🥐', Dessert: '🍨',
+  Breakfast: '🍳', Vegan: '🥗', Hawaiian: '🍧', 'New American': '🍽️', Californian: '🥗',
+}
+
 const CATEGORY_TO_CUISINE = {
   mexican: 'Mexican', chinese: 'Chinese', japanese: 'Japanese', sushi: 'Sushi', ramen: 'Ramen',
   korean: 'Korean', italian: 'Italian', pizza: 'Pizza', thai: 'Thai', vietnamese: 'Vietnamese',
@@ -33,15 +54,18 @@ export function toHoursCompact(reg) {
   return out.length ? out : undefined
 }
 
-// Pure mapper — tested without network.
+// Pure mapper — tested without network. Live finds have NO researched dish:
+// the card hero is the cuisine, the description is Google's own summary, and
+// the sheet renders a dedicated live-result section instead of a fake dish.
 export function mapLivePlace(p) {
   const category = p.primaryTypeDisplayName?.text || 'Restaurant'
   const summary = p.editorialSummary?.text || ''
+  const cuisine = categoryToCuisine(category)
   return {
     id: `live-${p.id}`,
     live: true,
     name: p.displayName.text,
-    cuisine: categoryToCuisine(category),
+    cuisine,
     neighborhood: '',
     city: (String(p.formattedAddress || '').match(/,\s*([A-Za-z .]+),\s*[A-Z]{2}/) || [])[1] || '',
     address: String(p.formattedAddress || '').replace(/, USA$/, ''),
@@ -50,14 +74,15 @@ export function mapLivePlace(p) {
     rating: p.rating || 0,
     ratingCount: p.userRatingCount || 0,
     price: PRICE[p.priceLevel] || 2,
-    emoji: '🔎',
+    emoji: CUISINE_EMOJI[cuisine] || '🍽️',
     signatureDish: {
-      name: category.replace(/ restaurant$/i, '') || 'Local find',
-      description: summary || 'Live Google result — menu research not yet available for this spot.',
+      name: cuisine,
+      description: summary || `A well-rated ${cuisine.toLowerCase()} spot from live Google results.`,
     },
     menu: [],
     tags: [],
-    why: summary,
+    why: '',
+    liveSummary: summary,
     ...(toHoursCompact(p.regularOpeningHours) ? { hours: toHoursCompact(p.regularOpeningHours) } : {}),
     mapsUrl: p.googleMapsUri,
     googleCategory: category,
@@ -93,7 +118,5 @@ export async function liveSearch({ lat, lng, key, radiusMeters = 4000, minRating
   })
   if (!res.ok) throw new Error(`live search failed (${res.status})`)
   const places = (await res.json()).places || []
-  return places
-    .filter((p) => p.businessStatus === 'OPERATIONAL' && (p.rating || 0) >= minRating && (p.userRatingCount || 0) >= minCount)
-    .map(mapLivePlace)
+  return places.filter((p) => passesLiveQuality(p, { minRating, minCount })).map(mapLivePlace)
 }

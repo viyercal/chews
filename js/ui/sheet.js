@@ -39,12 +39,18 @@ export class Sheet {
           <div class="chip-row sheet-chips">${openChip(resto)}${vegChip(resto)}</div>
           ${th ? `<p class="sheet-hours">Today: ${esc(th)}</p>` : ''}
           ${resto.why ? `<p class="sheet-why">“${esc(resto.why)}”</p>` : ''}
-          <div class="sheet-section-label">The one to order</div>
-          <div class="sheet-sig">
-            <div class="menu-line"><span class="menu-name">${esc(resto.signatureDish?.name || '')}</span></div>
-            <p class="menu-desc">${esc(resto.signatureDish?.description || '')}</p>
-          </div>
-          ${menu ? `<div class="sheet-section-label">Also great</div><ul class="sheet-menu">${menu}</ul>` : ''}
+          ${resto.live
+            ? `<div class="sheet-section-label">🔎 Live Google result</div>
+               <div class="sheet-sig">
+                 <p class="menu-desc">${esc(resto.liveSummary || `A well-rated ${resto.cuisine.toLowerCase()} spot near your searched address.`)}</p>
+                 <p class="menu-desc dim-note">Found live outside the curated index — dish picks aren't researched for this spot yet.</p>
+               </div>`
+            : `<div class="sheet-section-label">The one to order</div>
+               <div class="sheet-sig">
+                 <div class="menu-line"><span class="menu-name">${esc(resto.signatureDish?.name || '')}</span></div>
+                 <p class="menu-desc">${esc(resto.signatureDish?.description || '')}</p>
+               </div>
+               ${menu ? `<div class="sheet-section-label">Also great</div><ul class="sheet-menu">${menu}</ul>` : ''}`}
           <p class="sheet-addr">${esc(resto.address)}${resto.neighborhood ? ` · ${esc(resto.neighborhood)}` : ''}</p>
           <p class="sheet-src">${DATA_META.verifiedAt
             ? `Rating, reviews, price &amp; hours: Google Maps · verified ${esc(DATA_META.verifiedAt)}`

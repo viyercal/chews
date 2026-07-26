@@ -54,3 +54,22 @@ test('liveCache survives pruneTo and match bookkeeping', () => {
   assert.deepEqual(store.matches, [live.id])
   assert.ok(store.state.liveCache[live.id])
 })
+
+test('chain policy blocks Subway-tier chains in live results (user-reported)', async () => {
+  const { passesLiveQuality, CHAIN_RE } = await import('../js/core/live.js')
+  const subway = { ...PLACE, displayName: { text: 'Subway' }, rating: 4.5, userRatingCount: 106 }
+  assert.equal(passesLiveQuality(subway), false)
+  assert.equal(passesLiveQuality(PLACE), true) // real spot passes
+  for (const chain of ['In-N-Out Burger', "McDonald's", 'Dutch Bros Coffee', 'Round Table Pizza']) {
+    assert.ok(CHAIN_RE.test(chain), chain)
+  }
+  assert.ok(!CHAIN_RE.test('The Submarine House')) // no false positive on near-names
+})
+
+test('live entries carry no fake dish: cuisine hero, summary once, cuisine emoji', () => {
+  const r = mapLivePlace(PLACE)
+  assert.equal(r.signatureDish.name, 'Vietnamese')
+  assert.equal(r.emoji, '🍜')
+  assert.equal(r.why, '')
+  assert.equal(r.liveSummary, PLACE.editorialSummary.text)
+})

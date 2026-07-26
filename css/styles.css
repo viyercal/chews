@@ -517,6 +517,7 @@ em { font-style: normal; }
 .menu-name { font-weight: 700; font-size: 15px; }
 .menu-price { color: var(--text-dim); font-size: 13.5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .menu-desc { color: var(--text-dim); font-size: 13.5px; line-height: 1.45; margin-top: 2px; }
+.dim-note { color: var(--text-faint); font-size: 12px; margin-top: 8px; }
 .sheet-addr { color: var(--text-faint); font-size: 13px; margin: 16px 0 14px; }
 .sheet-actions { display: flex; gap: 10px; flex-wrap: wrap; }
 .sheet-actions .btn { flex: 1; }

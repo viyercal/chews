@@ -32,7 +32,7 @@ const SJ = [
   [37.3620, -121.8420], [37.2900, -121.8100],
 ]
 
-const CHAIN_BLOCKLIST = /in-?n-?out|chipotle|mcdonald|starbucks|subway|panda express|taco bell|chick-?fil|shake shack|five guys|wingstop|popeyes|kfc|burger king|wendy'?s|domino|pizza hut|papa john|jack in the box|habit burger|sweetgreen|\bcava\b|panera|applebee|olive garden|cheesecake factory|denny'?s|ihop/i
+import { CHAIN_RE as CHAIN_BLOCKLIST } from '../js/core/live.js' // one chain policy everywhere
 
 const QUALITY = { sf: { minRating: 4.3, minCount: 250 }, sj: { minRating: 4.2, minCount: 150 } }
 
