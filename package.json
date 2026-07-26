@@ -1,0 +1,11 @@
+{
+  "name": "chews",
+  "version": "1.0.0",
+  "description": "Tinder for restaurants — swipe. match. eat.",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "test": "node --test 'tests/*.test.mjs'",
+    "build": "node scripts/build.mjs"
+  }
+}

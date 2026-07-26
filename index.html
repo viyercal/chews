@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#15100e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Chews — swipe. match. eat.</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍜</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <header id="topbar">
+      <div class="wordmark">Chews</div>
+      <button id="loc-pill" class="pill">Set location</button>
+    </header>
+
+    <div id="mode-seg" class="segment" role="tablist" aria-label="Deck mode">
+      <button role="tab" data-mode="forYou" aria-selected="true">For You</button>
+      <button role="tab" data-mode="new" aria-selected="false">Something New</button>
+    </div>
+
+    <main id="views">
+      <section id="view-discover" class="view view-deck">
+        <div id="stack" aria-label="Restaurant cards"></div>
+        <div id="deck-actions">
+          <button id="btn-undo" class="act act-undo" aria-label="Undo last swipe" title="Undo (z)">↺</button>
+          <button id="btn-pass" class="act act-pass" aria-label="Pass" title="Pass (←)">✕</button>
+          <button id="btn-yum" class="act act-yum" aria-label="Yum — save it" title="Yum (→)">♥</button>
+        </div>
+      </section>
+      <section id="view-matches" class="view view-scroll hidden"></section>
+      <section id="view-taste" class="view view-scroll hidden"></section>
+    </main>
+
+    <nav id="tabbar" aria-label="Main">
+      <button id="tab-discover" class="tab" role="tab" aria-selected="true">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="5" y="3.5" width="11" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8" transform="rotate(-8 10 11)"/><rect x="9" y="5" width="11" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8" transform="rotate(7 15 13)"/></svg></span>
+        <span class="tab-name">Discover</span>
+      </button>
+      <button id="tab-matches" class="tab" role="tab" aria-selected="false" aria-label="Matches">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 20s-7-4.6-9-9c-1.2-2.8.6-6 3.7-6 2 0 3.5 1.2 4.3 2.6h2C13.8 6.2 15.3 5 17.3 5c3.1 0 4.9 3.2 3.7 6-2 4.4-9 9-9 9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span class="tab-badge"></span></span>
+        <span class="tab-name">Matches</span>
+      </button>
+      <button id="tab-taste" class="tab" role="tab" aria-selected="false">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="2.2" fill="var(--bg-elev)" stroke="currentColor" stroke-width="1.8"/><circle cx="15" cy="12" r="2.2" fill="var(--bg-elev)" stroke="currentColor" stroke-width="1.8"/><circle cx="7" cy="17" r="2.2" fill="var(--bg-elev)" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        <span class="tab-name">Taste</span>
+      </button>
+    </nav>
+
+    <div id="sheet-root"></div>
+    <div id="faceoff-root"></div>
+    <div id="onboarding-root"></div>
+    <div id="toast-root"></div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

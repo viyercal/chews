@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+# Pipeline intermediates — contain third-party review excerpts; not needed to run or rebuild the app
+data/discovered.json
+data/editorial.json
+data/polish_queue.json
+data/pending/
+data/reconcile_report.json
