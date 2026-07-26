@@ -33,7 +33,7 @@ export class Sheet {
             <span class="sheet-emoji" aria-hidden="true">${esc(resto.emoji || '🍽️')}</span>
             <div>
               <h2 class="sheet-name">${esc(resto.name)}</h2>
-              <p class="sheet-meta">${esc(resto.cuisine)} · ${priceHtml(resto.price)} · ★ ${Number(resto.rating).toFixed(1)} <em>(${fmtCount(resto.ratingCount)} reviews)</em>${distanceMi != null ? ` · ${esc(fmtMiles(distanceMi))}` : ''}</p>
+              <p class="sheet-meta">${esc(resto.cuisine)} · ${priceHtml(resto.price)}${resto.priceRange ? ` <em>(${esc(resto.priceRange)}/person)</em>` : ''} · ★ ${Number(resto.rating).toFixed(1)} <em>(${fmtCount(resto.ratingCount)} reviews)</em>${distanceMi != null ? ` · ${esc(fmtMiles(distanceMi))}` : ''}</p>
             </div>
           </div>
           <div class="chip-row sheet-chips">${openChip(resto)}${vegChip(resto)}</div>

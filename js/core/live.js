@@ -74,6 +74,9 @@ export function mapLivePlace(p) {
     rating: p.rating || 0,
     ratingCount: p.userRatingCount || 0,
     price: PRICE[p.priceLevel] || 2,
+    ...(p.priceRange?.startPrice?.units
+      ? { priceRange: `$${p.priceRange.startPrice.units}${p.priceRange.endPrice?.units ? `–${p.priceRange.endPrice.units}` : '+'}` }
+      : {}),
     emoji: CUISINE_EMOJI[cuisine] || '🍽️',
     signatureDish: {
       name: cuisine,
@@ -91,7 +94,7 @@ export function mapLivePlace(p) {
 }
 
 const FIELDS =
-  'places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.priceLevel,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.regularOpeningHours,places.editorialSummary'
+  'places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.priceLevel,places.priceRange,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.regularOpeningHours,places.editorialSummary'
 
 export async function geocodeAddress(query, key) {
   const res = await fetch('https://places.googleapis.com/v1/places:searchText', {

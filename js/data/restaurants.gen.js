@@ -12,7 +12,7 @@ export const RESTAURANTS = [
   "lat": 37.7508,
   "lng": -122.4181,
   "rating": 4.5,
-  "ratingCount": 7341,
+  "ratingCount": 7345,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -78,6 +78,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2449088951294747765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -90,7 +91,7 @@ export const RESTAURANTS = [
   "lat": 37.7524,
   "lng": -122.4184,
   "rating": 4.5,
-  "ratingCount": 5731,
+  "ratingCount": 5732,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -166,6 +167,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14071389523854149921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -254,6 +256,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14646507251947174243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -266,7 +269,7 @@ export const RESTAURANTS = [
   "lat": 37.7529,
   "lng": -122.41,
   "rating": 4.5,
-  "ratingCount": 1349,
+  "ratingCount": 1350,
   "price": 1,
   "emoji": "🌽",
   "signatureDish": {
@@ -336,6 +339,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16753855001018446220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -423,6 +427,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6783954193617216976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -511,6 +516,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7425555542407297460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -599,6 +605,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11712703125106285619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -687,6 +694,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14791641875717612830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -699,7 +707,7 @@ export const RESTAURANTS = [
   "lat": 37.7527,
   "lng": -122.4087,
   "rating": 4.5,
-  "ratingCount": 769,
+  "ratingCount": 770,
   "price": 2,
   "emoji": "🥪",
   "signatureDish": {
@@ -775,6 +783,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9995558870809953415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -852,6 +861,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8415690810252159793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -940,6 +950,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16637289521744974450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -952,7 +963,7 @@ export const RESTAURANTS = [
   "lat": 37.7714,
   "lng": -122.413,
   "rating": 4.7,
-  "ratingCount": 568,
+  "ratingCount": 569,
   "price": 4,
   "emoji": "🥩",
   "signatureDish": {
@@ -1016,6 +1027,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8442746962918335853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -1028,7 +1040,7 @@ export const RESTAURANTS = [
   "lat": 37.7619,
   "lng": -122.418,
   "rating": 4.1,
-  "ratingCount": 792,
+  "ratingCount": 793,
   "price": 2,
   "emoji": "🫓",
   "signatureDish": {
@@ -1106,7 +1118,7 @@ export const RESTAURANTS = [
   "lat": 37.7647,
   "lng": -122.4216,
   "rating": 4.5,
-  "ratingCount": 2098,
+  "ratingCount": 2099,
   "price": 1,
   "emoji": "🧀",
   "signatureDish": {
@@ -1182,6 +1194,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=379046721520461420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -1270,6 +1283,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=13071699425987086308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–90",
   "verified": true
  },
  {
@@ -1392,6 +1406,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12288100453195726903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -1568,6 +1583,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11617637120380086622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -1580,7 +1596,7 @@ export const RESTAURANTS = [
   "lat": 37.792,
   "lng": -122.3927,
   "rating": 4.3,
-  "ratingCount": 1776,
+  "ratingCount": 1777,
   "price": 3,
   "emoji": "🥟",
   "signatureDish": {
@@ -1649,6 +1665,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4796004074498715809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–60",
   "verified": true
  },
  {
@@ -1725,6 +1742,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6546475524924113864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -1737,7 +1755,7 @@ export const RESTAURANTS = [
   "lat": 37.7947,
   "lng": -122.4045,
   "rating": 4.3,
-  "ratingCount": 3920,
+  "ratingCount": 3922,
   "price": 2,
   "emoji": "🦀",
   "signatureDish": {
@@ -1811,6 +1829,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9919333893051552971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–80",
   "verified": true
  },
  {
@@ -1923,6 +1942,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4487413833151112242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2009,6 +2029,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6804753063080555914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2021,7 +2042,7 @@ export const RESTAURANTS = [
   "lat": 37.7961,
   "lng": -122.4058,
   "rating": 4,
-  "ratingCount": 1858,
+  "ratingCount": 1859,
   "price": 2,
   "emoji": "🦐",
   "signatureDish": {
@@ -2091,6 +2112,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=13595111836853839999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2103,7 +2125,7 @@ export const RESTAURANTS = [
   "lat": 37.7965,
   "lng": -122.4053,
   "rating": 4.1,
-  "ratingCount": 5342,
+  "ratingCount": 5344,
   "price": 2,
   "emoji": "🍗",
   "signatureDish": {
@@ -2178,6 +2200,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9482508346896050955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2258,6 +2281,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17365716478370140479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -2270,7 +2294,7 @@ export const RESTAURANTS = [
   "lat": 37.7802,
   "lng": -122.481,
   "rating": 4.4,
-  "ratingCount": 2089,
+  "ratingCount": 2091,
   "price": 2,
   "emoji": "🥟",
   "signatureDish": {
@@ -2380,6 +2404,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6924344292273102319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–40",
   "verified": true
  },
  {
@@ -2392,7 +2417,7 @@ export const RESTAURANTS = [
   "lat": 37.7807,
   "lng": -122.4766,
   "rating": 4.2,
-  "ratingCount": 1657,
+  "ratingCount": 1658,
   "price": 2,
   "emoji": "🥮",
   "signatureDish": {
@@ -2501,6 +2526,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17059354013414288102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2577,6 +2603,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7825534589645157029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -2699,6 +2726,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=79250329966471860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–30",
   "verified": true
  },
  {
@@ -2802,6 +2830,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1377951454417225584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2885,6 +2914,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=685315674439444948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -2971,6 +3001,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1017026934925400169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -3073,6 +3104,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7022952798831110620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–40",
   "verified": true
  },
  {
@@ -3194,6 +3226,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=18262744718463610406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -3206,7 +3239,7 @@ export const RESTAURANTS = [
   "lat": 37.8057,
   "lng": -122.4226,
   "rating": 4.4,
-  "ratingCount": 1563,
+  "ratingCount": 1564,
   "price": 2,
   "emoji": "🍮",
   "signatureDish": {
@@ -3281,6 +3314,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16511280044574109475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–90",
   "verified": true
  },
  {
@@ -3369,6 +3403,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16845894830648429348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -3381,7 +3416,7 @@ export const RESTAURANTS = [
   "lat": 37.7856,
   "lng": -122.4299,
   "rating": 4.5,
-  "ratingCount": 3284,
+  "ratingCount": 3285,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -3469,7 +3504,7 @@ export const RESTAURANTS = [
   "lat": 37.7865,
   "lng": -122.4139,
   "rating": 4.5,
-  "ratingCount": 3370,
+  "ratingCount": 3376,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -3544,6 +3579,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17252469779755439990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -3626,6 +3662,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16233121339072713172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -3724,6 +3761,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3384850164810597686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–60",
   "verified": true
  },
  {
@@ -3736,7 +3774,7 @@ export const RESTAURANTS = [
   "lat": 37.7851,
   "lng": -122.4321,
   "rating": 4.7,
-  "ratingCount": 2211,
+  "ratingCount": 2223,
   "price": 2,
   "emoji": "🍝",
   "signatureDish": {
@@ -3810,6 +3848,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=513609154607549972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -3886,6 +3925,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14380921691623689697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -3962,6 +4002,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11528286229822959395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -4063,6 +4104,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16742691009294365832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -4165,6 +4207,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=767342299258929974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–50",
   "verified": true
  },
  {
@@ -4177,7 +4220,7 @@ export const RESTAURANTS = [
   "lat": 37.7594,
   "lng": -122.4097,
   "rating": 4.6,
-  "ratingCount": 737,
+  "ratingCount": 738,
   "price": 3,
   "emoji": "🥩",
   "signatureDish": {
@@ -4252,6 +4295,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5214199124945126817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -4364,6 +4408,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14511245178569392468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -4376,7 +4421,7 @@ export const RESTAURANTS = [
   "lat": 37.7655,
   "lng": -122.4664,
   "rating": 4.4,
-  "ratingCount": 934,
+  "ratingCount": 935,
   "price": 2,
   "emoji": "🍲",
   "signatureDish": {
@@ -4471,6 +4516,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16166611691695403553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -4558,6 +4604,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12535393502197204722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -4640,6 +4687,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=13278492606567949173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -4716,6 +4764,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10499958179645100960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–90",
   "verified": true
  },
  {
@@ -4728,7 +4777,7 @@ export const RESTAURANTS = [
   "lat": 37.8003,
   "lng": -122.409,
   "rating": 4.5,
-  "ratingCount": 10420,
+  "ratingCount": 10431,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -4803,6 +4852,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=13813662513369709376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–40",
   "verified": true
  },
  {
@@ -4815,7 +4865,7 @@ export const RESTAURANTS = [
   "lat": 37.7996,
   "lng": -122.4077,
   "rating": 4.7,
-  "ratingCount": 4938,
+  "ratingCount": 4940,
   "price": 1,
   "emoji": "🍕",
   "signatureDish": {
@@ -4886,6 +4936,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16218573224995018158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -4898,7 +4949,7 @@ export const RESTAURANTS = [
   "lat": 37.7985,
   "lng": -122.4073,
   "rating": 4.6,
-  "ratingCount": 2528,
+  "ratingCount": 2530,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -4973,6 +5024,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6781377139221339014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -5055,6 +5107,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16208596979648080959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -5067,7 +5120,7 @@ export const RESTAURANTS = [
   "lat": 37.7837,
   "lng": -122.483,
   "rating": 4.6,
-  "ratingCount": 1062,
+  "ratingCount": 1063,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -5166,6 +5219,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=797538431435835784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -5339,6 +5393,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14505081418271178166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -5351,7 +5406,7 @@ export const RESTAURANTS = [
   "lat": 37.7996,
   "lng": -122.4079,
   "rating": 4.6,
-  "ratingCount": 5120,
+  "ratingCount": 5122,
   "price": 2,
   "emoji": "🦀",
   "signatureDish": {
@@ -5426,6 +5481,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11842344414635121701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -5438,7 +5494,7 @@ export const RESTAURANTS = [
   "lat": 37.8006,
   "lng": -122.4125,
   "rating": 4.6,
-  "ratingCount": 961,
+  "ratingCount": 963,
   "price": 2,
   "emoji": "🍝",
   "signatureDish": {
@@ -5502,6 +5558,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7605219919254920639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–80",
   "verified": true
  },
  {
@@ -5514,7 +5571,7 @@ export const RESTAURANTS = [
   "lat": 37.8,
   "lng": -122.4095,
   "rating": 4.5,
-  "ratingCount": 3510,
+  "ratingCount": 3512,
   "price": 2,
   "emoji": "🍳",
   "signatureDish": {
@@ -5588,6 +5645,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4122984683780751627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -5665,6 +5723,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2766364805144128390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–90",
   "verified": true
  },
  {
@@ -5751,6 +5810,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7434356861941711840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -5763,7 +5823,7 @@ export const RESTAURANTS = [
   "lat": 37.7974,
   "lng": -122.4034,
   "rating": 4.5,
-  "ratingCount": 2237,
+  "ratingCount": 2238,
   "price": 3,
   "emoji": "🍝",
   "signatureDish": {
@@ -5833,6 +5893,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3844909922527115641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -5920,6 +5981,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12373724143351226560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -5932,7 +5994,7 @@ export const RESTAURANTS = [
   "lat": 37.798,
   "lng": -122.4191,
   "rating": 4.7,
-  "ratingCount": 936,
+  "ratingCount": 937,
   "price": 3,
   "emoji": "🥟",
   "signatureDish": {
@@ -6129,6 +6191,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10744315307919991702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -6212,6 +6275,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8686963272104716245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -6224,7 +6288,7 @@ export const RESTAURANTS = [
   "lat": 37.7694,
   "lng": -122.4222,
   "rating": 4.5,
-  "ratingCount": 2266,
+  "ratingCount": 2267,
   "price": 2,
   "emoji": "🥥",
   "signatureDish": {
@@ -6324,6 +6388,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3728111535059805777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -6446,6 +6511,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12526953157639105755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -6569,6 +6635,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4805880436195582905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -6581,7 +6648,7 @@ export const RESTAURANTS = [
   "lat": 37.7603,
   "lng": -122.411,
   "rating": 4.4,
-  "ratingCount": 3064,
+  "ratingCount": 3063,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -6703,7 +6770,7 @@ export const RESTAURANTS = [
   "lat": 37.7856,
   "lng": -122.4285,
   "rating": 4.2,
-  "ratingCount": 586,
+  "ratingCount": 587,
   "price": 3,
   "emoji": "🍛",
   "signatureDish": {
@@ -6778,6 +6845,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17431474946500495682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -6880,6 +6948,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9250841361756986550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -6962,6 +7031,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8098574517201545436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -6974,7 +7044,7 @@ export const RESTAURANTS = [
   "lat": 37.7851,
   "lng": -122.4095,
   "rating": 4.1,
-  "ratingCount": 827,
+  "ratingCount": 828,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -7172,6 +7242,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6092413087633036346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -7269,6 +7340,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2014299451089600556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -7346,6 +7418,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8581795061234155490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -7358,7 +7431,7 @@ export const RESTAURANTS = [
   "lat": 37.7812,
   "lng": -122.3919,
   "rating": 4.2,
-  "ratingCount": 1993,
+  "ratingCount": 1994,
   "price": 3,
   "emoji": "🥟",
   "signatureDish": {
@@ -7457,6 +7530,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5256029728723995869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -7545,6 +7619,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1639095280205471883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -7662,6 +7737,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16667242964397114430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -7750,6 +7826,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2738263226782471939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -7960,6 +8037,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11491213088621274249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -7972,7 +8050,7 @@ export const RESTAURANTS = [
   "lat": 37.7749,
   "lng": -122.4376,
   "rating": 4.5,
-  "ratingCount": 3045,
+  "ratingCount": 3047,
   "price": 3,
   "emoji": "🍔",
   "signatureDish": {
@@ -8048,6 +8126,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6373257973262962437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -8134,6 +8213,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7596983855284674601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -8221,6 +8301,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8889672814233392895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -8233,7 +8314,7 @@ export const RESTAURANTS = [
   "lat": 37.7564,
   "lng": -122.4191,
   "rating": 4.5,
-  "ratingCount": 3375,
+  "ratingCount": 3377,
   "price": 3,
   "emoji": "🥧",
   "signatureDish": {
@@ -8318,6 +8399,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3410591911709045721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -8395,6 +8477,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16410008678401663590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -8472,6 +8555,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14940833471404246876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -8554,6 +8638,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3797539235718751932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -8566,7 +8651,7 @@ export const RESTAURANTS = [
   "lat": 37.8057,
   "lng": -122.4207,
   "rating": 4.6,
-  "ratingCount": 2142,
+  "ratingCount": 2143,
   "price": 4,
   "emoji": "🦪",
   "signatureDish": {
@@ -8631,6 +8716,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=643548390411983809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -8713,6 +8799,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16765858646085057492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -8725,7 +8812,7 @@ export const RESTAURANTS = [
   "lat": 37.7955,
   "lng": -122.3937,
   "rating": 4.6,
-  "ratingCount": 4080,
+  "ratingCount": 4081,
   "price": 2,
   "emoji": "🦪",
   "signatureDish": {
@@ -8800,6 +8887,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9442219819750554241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–80",
   "verified": true
  },
  {
@@ -8812,7 +8900,7 @@ export const RESTAURANTS = [
   "lat": 37.7938,
   "lng": -122.3987,
   "rating": 4.5,
-  "ratingCount": 3167,
+  "ratingCount": 3168,
   "price": 3,
   "emoji": "🍲",
   "signatureDish": {
@@ -8881,6 +8969,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7707263299283615717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -8893,7 +8982,7 @@ export const RESTAURANTS = [
   "lat": 37.7602,
   "lng": -122.435,
   "rating": 4.7,
-  "ratingCount": 1291,
+  "ratingCount": 1293,
   "price": 3,
   "emoji": "🥣",
   "signatureDish": {
@@ -8958,6 +9047,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6034675008981876862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–90",
   "verified": true
  },
  {
@@ -9045,6 +9135,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12626790939350947437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -9132,6 +9223,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1653683732221744139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -9214,6 +9306,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10254198419123471356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -9312,6 +9405,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7735275253502241069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -9424,6 +9518,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5816310654355357114&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -9506,6 +9601,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6031502507306345747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -9594,6 +9690,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10529249855144009895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -9681,6 +9778,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16690411774610381805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -9693,7 +9791,7 @@ export const RESTAURANTS = [
   "lat": 37.7986,
   "lng": -122.459,
   "rating": 4.5,
-  "ratingCount": 761,
+  "ratingCount": 762,
   "price": 3,
   "emoji": "🍖",
   "signatureDish": {
@@ -9793,6 +9891,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5219830582866008268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -9875,6 +9974,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10076426650582733874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -9962,6 +10062,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12984168898346388209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -10029,6 +10130,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=18266580331805785828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -10112,6 +10214,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10239776955387566534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -10189,6 +10292,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2979238809767697128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–50",
   "verified": true
  },
  {
@@ -10272,6 +10376,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4987122522690713342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -10359,6 +10464,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2706358230920516010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -10441,6 +10547,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=572681753558665126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -10528,6 +10635,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8313741686577171050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -10615,6 +10723,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5281322147656219676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -10702,6 +10811,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=15255183613653254552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -10714,7 +10824,7 @@ export const RESTAURANTS = [
   "lat": 37.7626,
   "lng": -122.4348,
   "rating": 4.5,
-  "ratingCount": 2499,
+  "ratingCount": 2498,
   "price": 1,
   "emoji": "🥞",
   "signatureDish": {
@@ -10764,6 +10874,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10041217971138293323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -10866,6 +10977,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4711698260768283897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -10936,6 +11048,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10097423285979079490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -10948,7 +11061,7 @@ export const RESTAURANTS = [
   "lat": 37.8799,
   "lng": -122.2692,
   "rating": 4.8,
-  "ratingCount": 3934,
+  "ratingCount": 3935,
   "price": 1,
   "emoji": "🍕",
   "signatureDish": {
@@ -11028,6 +11141,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3552060944393988550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -11115,6 +11229,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1539656467643397915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -11201,6 +11316,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10281728224616806414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -11287,6 +11403,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16876334277588658414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–80",
   "verified": true
  },
  {
@@ -11369,6 +11486,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6869354402642975602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -11451,6 +11569,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5382214507843184322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -11463,7 +11582,7 @@ export const RESTAURANTS = [
   "lat": 37.8425,
   "lng": -122.252,
   "rating": 4.6,
-  "ratingCount": 1018,
+  "ratingCount": 1019,
   "price": 3,
   "emoji": "🍝",
   "signatureDish": {
@@ -11532,6 +11651,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8811260290038589195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–80",
   "verified": true
  },
  {
@@ -11618,6 +11738,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10100782191381320303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -11685,6 +11806,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14522168114770232508&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -11802,6 +11924,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9212674289142816346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -11884,6 +12007,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12725629705284371971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -11981,6 +12105,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17218392365732018360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -11993,7 +12118,7 @@ export const RESTAURANTS = [
   "lat": 37.8285,
   "lng": -122.2501,
   "rating": 4.5,
-  "ratingCount": 6030,
+  "ratingCount": 6032,
   "price": 2,
   "emoji": "🍨",
   "signatureDish": {
@@ -12143,6 +12268,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9931477722607485783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -12219,6 +12345,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1442291869440709281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–90",
   "verified": true
  },
  {
@@ -12231,7 +12358,7 @@ export const RESTAURANTS = [
   "lat": 37.8106,
   "lng": -122.2667,
   "rating": 4.4,
-  "ratingCount": 994,
+  "ratingCount": 995,
   "price": 2,
   "emoji": "🌯",
   "signatureDish": {
@@ -12306,6 +12433,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7985416640651682854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -12378,6 +12506,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17549336940037293530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -12390,7 +12519,7 @@ export const RESTAURANTS = [
   "lat": 37.4267,
   "lng": -122.1447,
   "rating": 4.5,
-  "ratingCount": 5609,
+  "ratingCount": 5610,
   "price": 2,
   "emoji": "🍛",
   "signatureDish": {
@@ -12466,6 +12595,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4731526808716002673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -12589,6 +12719,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16667334061402288779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -12710,6 +12841,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5409610892132198324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -12785,6 +12917,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10987375865865838498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -12907,6 +13040,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=7915057846767945699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -13019,6 +13153,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11506663761387059784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -13106,6 +13241,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8848343824943156965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -13118,7 +13254,7 @@ export const RESTAURANTS = [
   "lat": 37.3999,
   "lng": -122.071,
   "rating": 4.4,
-  "ratingCount": 1081,
+  "ratingCount": 1082,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -13193,6 +13329,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10916141406942703533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -13205,7 +13342,7 @@ export const RESTAURANTS = [
   "lat": 37.3907,
   "lng": -122.0813,
   "rating": 4.3,
-  "ratingCount": 4880,
+  "ratingCount": 4881,
   "price": 3,
   "emoji": "🥘",
   "signatureDish": {
@@ -13280,6 +13417,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10379152436202523147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -13392,6 +13530,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1088971282538688260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -13404,7 +13543,7 @@ export const RESTAURANTS = [
   "lat": 37.3941,
   "lng": -122.0787,
   "rating": 4.4,
-  "ratingCount": 3140,
+  "ratingCount": 3141,
   "price": 2,
   "emoji": "🧆",
   "signatureDish": {
@@ -13479,6 +13618,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2240672490920547061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -13783,6 +13923,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1402449894611514653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -13886,6 +14027,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12839185113128555425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -13988,6 +14130,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=9520196907547279420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -14110,6 +14253,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=15400804847654811430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -14122,7 +14266,7 @@ export const RESTAURANTS = [
   "lat": 37.60269,
   "lng": -122.37473,
   "rating": 4.5,
-  "ratingCount": 3416,
+  "ratingCount": 3417,
   "price": 2,
   "emoji": "🦞",
   "signatureDish": {
@@ -14196,6 +14340,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12864490729758444117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -14283,6 +14428,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16214124108504298473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -14396,6 +14542,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=15777676697472399239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -14499,6 +14646,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=5238777652169081523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -14587,6 +14735,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10997057679810195836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -14599,7 +14748,7 @@ export const RESTAURANTS = [
   "lat": 37.3339,
   "lng": -121.9153,
   "rating": 4.5,
-  "ratingCount": 3783,
+  "ratingCount": 3786,
   "price": 2,
   "emoji": "🌮",
   "signatureDish": {
@@ -14674,6 +14823,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=18435811866372102235&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -14757,6 +14907,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3236007952133247017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -14769,7 +14920,7 @@ export const RESTAURANTS = [
   "lat": 37.3363,
   "lng": -121.8774,
   "rating": 4.3,
-  "ratingCount": 147,
+  "ratingCount": 148,
   "price": 2,
   "emoji": "🍗",
   "signatureDish": {
@@ -14845,6 +14996,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=15527786685924686524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -14923,6 +15075,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=6085992475834858751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -15000,6 +15153,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16167744071020578481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -15103,6 +15257,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=13733259734922034462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -15191,6 +15346,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12379275982210195764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -15304,6 +15460,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8078065954163573649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -15391,6 +15548,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2702281014159586006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -15479,6 +15637,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=8759555625896402599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -15654,6 +15813,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=11681243989752172410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -15777,6 +15937,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=1620836540042913001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -15888,6 +16049,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2097292003347285189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -15900,7 +16062,7 @@ export const RESTAURANTS = [
   "lat": 37.3235,
   "lng": -122.0093,
   "rating": 4.4,
-  "ratingCount": 207,
+  "ratingCount": 208,
   "price": 2,
   "emoji": "🥟",
   "signatureDish": {
@@ -16010,6 +16172,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=82703266602620628&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -16022,7 +16185,7 @@ export const RESTAURANTS = [
   "lat": 37.3182,
   "lng": -122.0314,
   "rating": 4.1,
-  "ratingCount": 635,
+  "ratingCount": 636,
   "price": 2,
   "emoji": "☕",
   "signatureDish": {
@@ -16098,6 +16261,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=15082675060969183874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -16267,6 +16431,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=13878078190866534047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -16349,6 +16514,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=12785219178625967625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -16421,6 +16587,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3368512938252252835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -16504,6 +16671,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=14863698970470574711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -16516,7 +16684,7 @@ export const RESTAURANTS = [
   "lat": 37.5024,
   "lng": -122.4839,
   "rating": 4.4,
-  "ratingCount": 9020,
+  "ratingCount": 9021,
   "price": 2,
   "emoji": "🦞",
   "signatureDish": {
@@ -16591,6 +16759,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=2828005579592320106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–40",
   "verified": true
  },
  {
@@ -16678,6 +16847,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=3717042603262137464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–90",
   "verified": true
  },
  {
@@ -16690,7 +16860,7 @@ export const RESTAURANTS = [
   "lat": 37.5835,
   "lng": -122.3467,
   "rating": 4.4,
-  "ratingCount": 1460,
+  "ratingCount": 1461,
   "price": 2,
   "emoji": "🥞",
   "signatureDish": {
@@ -16760,6 +16930,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=10808819029013538274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -16841,6 +17012,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=4140843673288073926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–20",
   "verified": true
  },
  {
@@ -16923,6 +17095,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=16474555199964218082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -17035,6 +17208,7 @@ export const RESTAURANTS = [
    ]
   ],
   "mapsUrl": "https://maps.google.com/?cid=17784138080442575365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -17121,7 +17295,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9860582280079748003&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9860582280079748003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -17134,7 +17309,7 @@ export const RESTAURANTS = [
   "lat": 37.75309,
   "lng": -122.4189,
   "rating": 4.4,
-  "ratingCount": 4005,
+  "ratingCount": 4011,
   "price": 2,
   "emoji": "🍗",
   "signatureDish": {
@@ -17208,7 +17383,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8512402524539659654&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8512402524539659654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -17221,7 +17397,7 @@ export const RESTAURANTS = [
   "lat": 37.75265,
   "lng": -122.41832,
   "rating": 4.5,
-  "ratingCount": 5731,
+  "ratingCount": 5732,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -17285,7 +17461,8 @@ export const RESTAURANTS = [
     "03:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14071389523854149921&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14071389523854149921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -17298,7 +17475,7 @@ export const RESTAURANTS = [
   "lat": 37.75518,
   "lng": -122.42038,
   "rating": 4.7,
-  "ratingCount": 781,
+  "ratingCount": 782,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -17372,7 +17549,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1992238530594605581&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1992238530594605581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -17444,7 +17622,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7300198297212145296&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7300198297212145296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -17457,7 +17636,7 @@ export const RESTAURANTS = [
   "lat": 37.75922,
   "lng": -122.41119,
   "rating": 4.5,
-  "ratingCount": 1339,
+  "ratingCount": 1341,
   "price": 2,
   "emoji": "🥗",
   "signatureDish": {
@@ -17516,7 +17695,8 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2046835123862417023&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2046835123862417023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -17598,7 +17778,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=475804761464350236&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=475804761464350236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -17680,7 +17861,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8428301566270344888&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8428301566270344888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -17767,7 +17949,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=740708305128434099&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=740708305128434099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -17854,7 +18037,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=94277804552405232&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=94277804552405232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -17867,7 +18051,7 @@ export const RESTAURANTS = [
   "lat": 37.73986,
   "lng": -122.40912,
   "rating": 4.6,
-  "ratingCount": 665,
+  "ratingCount": 666,
   "price": 2,
   "emoji": "🫓",
   "signatureDish": {
@@ -17919,7 +18103,7 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3531682362775022989&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3531682362775022989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -18006,7 +18190,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14369954423285208794&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14369954423285208794&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -18061,7 +18246,7 @@ export const RESTAURANTS = [
     "01:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7480995183221924552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7480995183221924552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -18074,7 +18259,7 @@ export const RESTAURANTS = [
   "lat": 37.74902,
   "lng": -122.41612,
   "rating": 4.6,
-  "ratingCount": 1523,
+  "ratingCount": 1524,
   "price": 1,
   "emoji": "🌮",
   "signatureDish": {
@@ -18143,7 +18328,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11135028595742739183&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11135028595742739183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -18156,7 +18342,7 @@ export const RESTAURANTS = [
   "lat": 37.75386,
   "lng": -122.42063,
   "rating": 4.5,
-  "ratingCount": 2603,
+  "ratingCount": 2604,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -18230,7 +18416,8 @@ export const RESTAURANTS = [
     "23:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8845976221826617844&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8845976221826617844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -18243,7 +18430,7 @@ export const RESTAURANTS = [
   "lat": 37.75738,
   "lng": -122.42136,
   "rating": 4.6,
-  "ratingCount": 1911,
+  "ratingCount": 1912,
   "price": 2,
   "emoji": "🌮",
   "signatureDish": {
@@ -18312,7 +18499,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5817645904408455586&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5817645904408455586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -18325,7 +18513,7 @@ export const RESTAURANTS = [
   "lat": 37.75284,
   "lng": -122.41116,
   "rating": 4.4,
-  "ratingCount": 2303,
+  "ratingCount": 2304,
   "price": 1,
   "emoji": "🧀",
   "signatureDish": {
@@ -18399,7 +18587,8 @@ export const RESTAURANTS = [
     "02:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=348294281383901630&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=348294281383901630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -18486,7 +18675,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4183952693552058523&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4183952693552058523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -18544,7 +18734,7 @@ export const RESTAURANTS = [
    ],
    [
     1,
-    "10:00",
+    "11:00",
     "14:30"
    ],
    [
@@ -18554,7 +18744,7 @@ export const RESTAURANTS = [
    ],
    [
     2,
-    "10:00",
+    "11:00",
     "14:30"
    ],
    [
@@ -18564,7 +18754,7 @@ export const RESTAURANTS = [
    ],
    [
     3,
-    "10:00",
+    "11:00",
     "14:30"
    ],
    [
@@ -18574,7 +18764,7 @@ export const RESTAURANTS = [
    ],
    [
     4,
-    "10:00",
+    "11:00",
     "14:30"
    ],
    [
@@ -18584,7 +18774,7 @@ export const RESTAURANTS = [
    ],
    [
     5,
-    "10:00",
+    "11:00",
     "14:30"
    ],
    [
@@ -18603,7 +18793,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10265476190830450046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10265476190830450046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -18680,7 +18870,8 @@ export const RESTAURANTS = [
     "16:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7972274954358231876&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7972274954358231876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -18762,7 +18953,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8035808143876133197&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8035808143876133197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–90",
   "verified": true
  },
  {
@@ -18775,7 +18967,7 @@ export const RESTAURANTS = [
   "lat": 37.75551,
   "lng": -122.4194,
   "rating": 4.7,
-  "ratingCount": 447,
+  "ratingCount": 449,
   "price": 2,
   "emoji": "🌯",
   "signatureDish": {
@@ -18844,7 +19036,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6310974859539234486&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6310974859539234486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -18926,7 +19119,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14860508968013689900&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14860508968013689900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -19013,7 +19207,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5813021140766969039&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5813021140766969039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -19090,7 +19285,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17167338190865312281&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17167338190865312281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -19177,7 +19373,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12074054251018812705&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12074054251018812705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -19190,7 +19387,7 @@ export const RESTAURANTS = [
   "lat": 37.78331,
   "lng": -122.40845,
   "rating": 4.5,
-  "ratingCount": 5109,
+  "ratingCount": 5110,
   "price": 2,
   "emoji": "🍔",
   "signatureDish": {
@@ -19264,7 +19461,8 @@ export const RESTAURANTS = [
     "03:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2123593674217502316&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2123593674217502316&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -19277,7 +19475,7 @@ export const RESTAURANTS = [
   "lat": 37.7769,
   "lng": -122.42403,
   "rating": 4.3,
-  "ratingCount": 2318,
+  "ratingCount": 2320,
   "price": 2,
   "emoji": "🍝",
   "signatureDish": {
@@ -19351,7 +19549,8 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17876618845727866415&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17876618845727866415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -19364,7 +19563,7 @@ export const RESTAURANTS = [
   "lat": 37.78654,
   "lng": -122.40199,
   "rating": 4.4,
-  "ratingCount": 4987,
+  "ratingCount": 4990,
   "price": 2,
   "emoji": "🥪",
   "signatureDish": {
@@ -19433,7 +19632,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8426102553862613404&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8426102553862613404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -19446,7 +19646,7 @@ export const RESTAURANTS = [
   "lat": 37.78509,
   "lng": -122.40014,
   "rating": 4.7,
-  "ratingCount": 12457,
+  "ratingCount": 12470,
   "price": 3,
   "emoji": "🥩",
   "signatureDish": {
@@ -19515,7 +19715,8 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3640425673480170838&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3640425673480170838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -19528,7 +19729,7 @@ export const RESTAURANTS = [
   "lat": 37.78625,
   "lng": -122.40737,
   "rating": 4.6,
-  "ratingCount": 961,
+  "ratingCount": 962,
   "price": 2,
   "emoji": "🥐",
   "signatureDish": {
@@ -19597,7 +19798,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12717132763794429512&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12717132763794429512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -19679,7 +19881,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10154288238805617480&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10154288238805617480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -19766,7 +19969,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16617454649299879023&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16617454649299879023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -19779,7 +19983,7 @@ export const RESTAURANTS = [
   "lat": 37.78627,
   "lng": -122.40852,
   "rating": 4.6,
-  "ratingCount": 3270,
+  "ratingCount": 3277,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -19843,7 +20047,7 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15710928742549781021&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15710928742549781021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -19856,7 +20060,7 @@ export const RESTAURANTS = [
   "lat": 37.79703,
   "lng": -122.39976,
   "rating": 4.7,
-  "ratingCount": 3536,
+  "ratingCount": 3537,
   "price": 4,
   "emoji": "🥗",
   "signatureDish": {
@@ -19955,7 +20159,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12957869814535908416&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12957869814535908416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -19968,7 +20173,7 @@ export const RESTAURANTS = [
   "lat": 37.79211,
   "lng": -122.39997,
   "rating": 4.5,
-  "ratingCount": 3036,
+  "ratingCount": 3037,
   "price": 3,
   "emoji": "🍗",
   "signatureDish": {
@@ -20042,7 +20247,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3987028339363157431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3987028339363157431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -20055,7 +20261,7 @@ export const RESTAURANTS = [
   "lat": 37.79471,
   "lng": -122.39618,
   "rating": 4.3,
-  "ratingCount": 1905,
+  "ratingCount": 1907,
   "price": 2,
   "emoji": "🦀",
   "signatureDish": {
@@ -20155,7 +20361,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14619576797544353265&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14619576797544353265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–90",
   "verified": true
  },
  {
@@ -20277,7 +20484,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12288100453195726903&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12288100453195726903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -20290,7 +20498,7 @@ export const RESTAURANTS = [
   "lat": 37.809,
   "lng": -122.41029,
   "rating": 4.5,
-  "ratingCount": 10263,
+  "ratingCount": 10267,
   "price": 3,
   "emoji": "🦞",
   "signatureDish": {
@@ -20364,7 +20572,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6503829504474142630&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6503829504474142630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–80",
   "verified": true
  },
  {
@@ -20377,7 +20586,7 @@ export const RESTAURANTS = [
   "lat": 37.79858,
   "lng": -122.39664,
   "rating": 4.4,
-  "ratingCount": 2852,
+  "ratingCount": 2853,
   "price": 3,
   "emoji": "🥘",
   "signatureDish": {
@@ -20451,7 +20660,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=18211740569183750920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=18211740569183750920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -20464,7 +20674,7 @@ export const RESTAURANTS = [
   "lat": 37.80851,
   "lng": -122.41492,
   "rating": 4.4,
-  "ratingCount": 18388,
+  "ratingCount": 18391,
   "price": 2,
   "emoji": "🍲",
   "signatureDish": {
@@ -20538,7 +20748,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2872510795816751133&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2872510795816751133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -20551,7 +20762,7 @@ export const RESTAURANTS = [
   "lat": 37.79343,
   "lng": -122.42273,
   "rating": 4.6,
-  "ratingCount": 7368,
+  "ratingCount": 7369,
   "price": 3,
   "emoji": "🥩",
   "signatureDish": {
@@ -20619,7 +20830,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4535787543201006809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4535787543201006809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -20706,7 +20918,7 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8328974222457553626&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8328974222457553626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -20787,7 +20999,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15834506969560336642&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15834506969560336642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -20800,7 +21013,7 @@ export const RESTAURANTS = [
   "lat": 37.80136,
   "lng": -122.41203,
   "rating": 4.7,
-  "ratingCount": 2312,
+  "ratingCount": 2314,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -20869,7 +21082,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7123610778461487082&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7123610778461487082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -20941,7 +21155,8 @@ export const RESTAURANTS = [
     "14:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=380461771238322376&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=380461771238322376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -20954,7 +21169,7 @@ export const RESTAURANTS = [
   "lat": 37.79761,
   "lng": -122.43266,
   "rating": 4.3,
-  "ratingCount": 1245,
+  "ratingCount": 1246,
   "price": 2,
   "emoji": "🌶️",
   "signatureDish": {
@@ -21027,7 +21242,7 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6198882807425499962&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6198882807425499962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -21040,7 +21255,7 @@ export const RESTAURANTS = [
   "lat": 37.78785,
   "lng": -122.41323,
   "rating": 4.7,
-  "ratingCount": 1946,
+  "ratingCount": 1948,
   "price": 2,
   "emoji": "🥟",
   "signatureDish": {
@@ -21144,7 +21359,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9804814980080340962&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9804814980080340962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -21230,7 +21446,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14086990629012002121&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14086990629012002121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -21243,7 +21460,7 @@ export const RESTAURANTS = [
   "lat": 37.78571,
   "lng": -122.43512,
   "rating": 4.6,
-  "ratingCount": 4585,
+  "ratingCount": 4584,
   "price": 2,
   "emoji": "🥓",
   "signatureDish": {
@@ -21312,7 +21529,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9820403042462480656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9820403042462480656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -21399,7 +21617,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9597942420626082025&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9597942420626082025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -21486,7 +21705,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15124456772888069814&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15124456772888069814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -21567,7 +21787,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10204820908065283006&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10204820908065283006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -21580,7 +21801,7 @@ export const RESTAURANTS = [
   "lat": 37.77818,
   "lng": -122.4387,
   "rating": 4.6,
-  "ratingCount": 2368,
+  "ratingCount": 2369,
   "price": 2,
   "emoji": "🍤",
   "signatureDish": {
@@ -21654,7 +21875,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12451850581526844884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12451850581526844884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -21736,7 +21958,8 @@ export const RESTAURANTS = [
     "14:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14674752585050018180&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14674752585050018180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -21823,7 +22046,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13686094195963484054&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13686094195963484054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -21910,7 +22133,8 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1813415702402284432&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1813415702402284432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22032,7 +22256,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2743365124441067329&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2743365124441067329&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–50",
   "verified": true
  },
  {
@@ -22114,7 +22339,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7410533157536703795&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7410533157536703795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -22127,7 +22352,7 @@ export const RESTAURANTS = [
   "lat": 37.77031,
   "lng": -122.44648,
   "rating": 4.5,
-  "ratingCount": 552,
+  "ratingCount": 555,
   "price": 2,
   "emoji": "🍯",
   "signatureDish": {
@@ -22211,7 +22436,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17049333872233319378&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17049333872233319378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22224,7 +22450,7 @@ export const RESTAURANTS = [
   "lat": 37.7762,
   "lng": -122.43825,
   "rating": 4.3,
-  "ratingCount": 3562,
+  "ratingCount": 3563,
   "price": 2,
   "emoji": "🍔",
   "signatureDish": {
@@ -22298,7 +22524,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12381967146001095423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12381967146001095423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22385,7 +22612,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16137989884000874860&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16137989884000874860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22472,7 +22700,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10926756026849679460&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10926756026849679460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22537,7 +22766,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4623249714326036447&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4623249714326036447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22623,7 +22853,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3470456051766939047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3470456051766939047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -22704,7 +22935,8 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17603668988289106272&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17603668988289106272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -22717,7 +22949,7 @@ export const RESTAURANTS = [
   "lat": 37.77743,
   "lng": -122.46366,
   "rating": 4.7,
-  "ratingCount": 3114,
+  "ratingCount": 3115,
   "price": 1,
   "emoji": "🥟",
   "signatureDish": {
@@ -22791,7 +23023,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14287218678531349815&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14287218678531349815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -22803,8 +23036,8 @@ export const RESTAURANTS = [
   "address": "1408 Clement St",
   "lat": 37.7827,
   "lng": -122.47439,
-  "rating": 4.5,
-  "ratingCount": 688,
+  "rating": 4.6,
+  "ratingCount": 689,
   "price": 2,
   "emoji": "🍞",
   "signatureDish": {
@@ -22878,7 +23111,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8560502750337166765&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8560502750337166765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -22891,7 +23125,7 @@ export const RESTAURANTS = [
   "lat": 37.7876,
   "lng": -122.45279,
   "rating": 4.6,
-  "ratingCount": 1762,
+  "ratingCount": 1763,
   "price": 3,
   "emoji": "🧀",
   "signatureDish": {
@@ -22964,7 +23198,8 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12784987250191810097&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12784987250191810097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -23040,7 +23275,7 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9388983638677160076&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9388983638677160076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -23053,7 +23288,7 @@ export const RESTAURANTS = [
   "lat": 37.78321,
   "lng": -122.46178,
   "rating": 4.6,
-  "ratingCount": 489,
+  "ratingCount": 490,
   "price": 2,
   "emoji": "🍝",
   "signatureDish": {
@@ -23126,7 +23361,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15197794953885896645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15197794953885896645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -23207,7 +23442,8 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4029567097657152419&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4029567097657152419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -23293,7 +23529,8 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13143237729077794698&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13143237729077794698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -23306,7 +23543,7 @@ export const RESTAURANTS = [
   "lat": 37.78131,
   "lng": -122.46376,
   "rating": 4.6,
-  "ratingCount": 690,
+  "ratingCount": 691,
   "price": 2,
   "emoji": "🥩",
   "signatureDish": {
@@ -23415,7 +23652,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15211455221720376767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15211455221720376767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -23428,7 +23666,7 @@ export const RESTAURANTS = [
   "lat": 37.7804,
   "lng": -122.47329,
   "rating": 4.5,
-  "ratingCount": 835,
+  "ratingCount": 836,
   "price": 1,
   "emoji": "🥪",
   "signatureDish": {
@@ -23501,7 +23739,8 @@ export const RESTAURANTS = [
     "16:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3081654750105553721&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3081654750105553721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -23587,7 +23826,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8796091866073628729&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8796091866073628729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -23674,7 +23914,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15121375768645143278&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15121375768645143278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -23687,7 +23928,7 @@ export const RESTAURANTS = [
   "lat": 37.78219,
   "lng": -122.47859,
   "rating": 4.6,
-  "ratingCount": 1481,
+  "ratingCount": 1483,
   "price": 2,
   "emoji": "🍳",
   "signatureDish": {
@@ -23780,7 +24021,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1484469486853409295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1484469486853409295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -23852,7 +24094,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3745784112502633337&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3745784112502633337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -23938,7 +24181,7 @@ export const RESTAURANTS = [
     "21:15"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8354691837836480808&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8354691837836480808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -24024,7 +24267,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8213457289968802272&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8213457289968802272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -24037,7 +24281,7 @@ export const RESTAURANTS = [
   "lat": 37.78054,
   "lng": -122.47899,
   "rating": 4.5,
-  "ratingCount": 1032,
+  "ratingCount": 1034,
   "price": 1,
   "emoji": "🥐",
   "signatureDish": {
@@ -24111,7 +24355,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6497071946209425920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6497071946209425920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -24207,7 +24452,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15246294121082901782&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15246294121082901782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -24294,7 +24540,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3271213819998521494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3271213819998521494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -24381,7 +24628,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5313836137334844891&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5313836137334844891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -24492,7 +24740,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11951398073884896099&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11951398073884896099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -24574,7 +24823,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7147808795502063528&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7147808795502063528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -24587,7 +24837,7 @@ export const RESTAURANTS = [
   "lat": 37.7768,
   "lng": -122.47678,
   "rating": 4.7,
-  "ratingCount": 382,
+  "ratingCount": 383,
   "price": 2,
   "emoji": "🌶️",
   "signatureDish": {
@@ -24681,7 +24931,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2595860895115004587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2595860895115004587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–30",
   "verified": true
  },
  {
@@ -24758,7 +25009,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10314375757048911801&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10314375757048911801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–50",
   "verified": true
  },
  {
@@ -24840,7 +25092,8 @@ export const RESTAURANTS = [
     "17:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12351370422955391107&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12351370422955391107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -24927,7 +25180,8 @@ export const RESTAURANTS = [
     "16:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2483138551609238955&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2483138551609238955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -24940,7 +25194,7 @@ export const RESTAURANTS = [
   "lat": 37.7634,
   "lng": -122.46644,
   "rating": 4.7,
-  "ratingCount": 2002,
+  "ratingCount": 2004,
   "price": 1,
   "emoji": "🍕",
   "signatureDish": {
@@ -25009,7 +25263,8 @@ export const RESTAURANTS = [
     "18:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13622220163385564142&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13622220163385564142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–20",
   "verified": true
  },
  {
@@ -25106,7 +25361,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13665605208594713042&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13665605208594713042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -25178,7 +25434,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11358015950526245521&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11358015950526245521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -25259,7 +25516,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4507930422110845076&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4507930422110845076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -25345,7 +25603,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10042388447820018155&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10042388447820018155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -25358,7 +25617,7 @@ export const RESTAURANTS = [
   "lat": 37.76516,
   "lng": -122.4662,
   "rating": 4.4,
-  "ratingCount": 488,
+  "ratingCount": 490,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -25447,7 +25706,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3202976836462053693&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3202976836462053693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -25460,7 +25720,7 @@ export const RESTAURANTS = [
   "lat": 37.76403,
   "lng": -122.46345,
   "rating": 4.3,
-  "ratingCount": 1203,
+  "ratingCount": 1204,
   "price": 2,
   "emoji": "🍖",
   "signatureDish": {
@@ -25543,7 +25803,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15709125574362809784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15709125574362809784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -25556,7 +25817,7 @@ export const RESTAURANTS = [
   "lat": 37.76336,
   "lng": -122.46614,
   "rating": 4.9,
-  "ratingCount": 405,
+  "ratingCount": 406,
   "price": 2,
   "emoji": "🍰",
   "signatureDish": {
@@ -25619,7 +25880,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11525510325098571958&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11525510325098571958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -25701,7 +25963,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12597143836121485162&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12597143836121485162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -25802,7 +26065,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11978953456330409802&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11978953456330409802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–90",
   "verified": true
  },
  {
@@ -25874,7 +26138,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10077078221504778709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10077078221504778709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -25956,7 +26221,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17153051094196301538&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17153051094196301538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -26033,7 +26299,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7618468246889615891&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7618468246889615891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -26134,7 +26401,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=767342299258929974&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=767342299258929974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–50",
   "verified": true
  },
  {
@@ -26147,7 +26415,7 @@ export const RESTAURANTS = [
   "lat": 37.76384,
   "lng": -122.46767,
   "rating": 4.7,
-  "ratingCount": 697,
+  "ratingCount": 698,
   "price": 2,
   "emoji": "🫓",
   "signatureDish": {
@@ -26211,7 +26479,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4204386035738433423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4204386035738433423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -26283,7 +26552,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=18316560866406018863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=18316560866406018863&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -26370,7 +26640,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1194693127858981665&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1194693127858981665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -26382,8 +26653,8 @@ export const RESTAURANTS = [
   "address": "272 Claremont Blvd",
   "lat": 37.74109,
   "lng": -122.46507,
-  "rating": 4.6,
-  "ratingCount": 347,
+  "rating": 4.5,
+  "ratingCount": 348,
   "price": 2,
   "emoji": "🍛",
   "signatureDish": {
@@ -26452,7 +26723,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15524093667039907294&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15524093667039907294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–50",
   "verified": true
  },
  {
@@ -26539,7 +26811,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5851781544791128635&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5851781544791128635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–30",
   "verified": true
  },
  {
@@ -26552,7 +26825,7 @@ export const RESTAURANTS = [
   "lat": 37.74286,
   "lng": -122.47635,
   "rating": 4.6,
-  "ratingCount": 919,
+  "ratingCount": 920,
   "price": 1,
   "emoji": "🫓",
   "signatureDish": {
@@ -26651,7 +26924,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9779931811721457403&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9779931811721457403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -26738,7 +27012,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11831036656267557450&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11831036656267557450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -26825,7 +27100,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5963005899177861479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5963005899177861479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -26901,7 +27177,8 @@ export const RESTAURANTS = [
     "15:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15721194497255722035&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15721194497255722035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -26914,7 +27191,7 @@ export const RESTAURANTS = [
   "lat": 37.74325,
   "lng": -122.47548,
   "rating": 4.4,
-  "ratingCount": 799,
+  "ratingCount": 801,
   "price": 2,
   "emoji": "🌶️",
   "signatureDish": {
@@ -26988,7 +27265,8 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7466564088202970079&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7466564088202970079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–40",
   "verified": true
  },
  {
@@ -27075,7 +27353,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13634164444868624366&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13634164444868624366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27088,7 +27367,7 @@ export const RESTAURANTS = [
   "lat": 37.7431,
   "lng": -122.47775,
   "rating": 4.7,
-  "ratingCount": 673,
+  "ratingCount": 674,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -27156,7 +27435,8 @@ export const RESTAURANTS = [
     "14:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8850910871117725023&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8850910871117725023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27238,7 +27518,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14383185706817955137&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14383185706817955137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–30",
   "verified": true
  },
  {
@@ -27324,7 +27605,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=547262463030123412&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=547262463030123412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27445,7 +27727,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14434717806789711294&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14434717806789711294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27566,7 +27849,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9345506621248531029&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9345506621248531029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27579,7 +27863,7 @@ export const RESTAURANTS = [
   "lat": 37.77103,
   "lng": -122.3918,
   "rating": 4.6,
-  "ratingCount": 3972,
+  "ratingCount": 3971,
   "price": 1,
   "emoji": "🥗",
   "signatureDish": {
@@ -27631,7 +27915,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13058251630736931626&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13058251630736931626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27707,7 +27992,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4028737649315105771&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4028737649315105771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–60",
   "verified": true
  },
  {
@@ -27809,7 +28095,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9332737843888528132&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9332737843888528132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–80",
   "verified": true
  },
  {
@@ -27822,7 +28109,7 @@ export const RESTAURANTS = [
   "lat": 37.76076,
   "lng": -122.38736,
   "rating": 4.4,
-  "ratingCount": 461,
+  "ratingCount": 462,
   "price": 2,
   "emoji": "🍗",
   "signatureDish": {
@@ -27880,7 +28167,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15782947146682019185&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15782947146682019185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -27961,7 +28249,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15736920294532807350&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15736920294532807350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -27974,7 +28263,7 @@ export const RESTAURANTS = [
   "lat": 37.76241,
   "lng": -122.3968,
   "rating": 4.6,
-  "ratingCount": 1750,
+  "ratingCount": 1751,
   "price": 2,
   "emoji": "🧅",
   "signatureDish": {
@@ -28047,7 +28336,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12419187818726857299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12419187818726857299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -28133,7 +28423,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13298796059514011709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13298796059514011709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -28146,7 +28437,7 @@ export const RESTAURANTS = [
   "lat": 37.76498,
   "lng": -122.39644,
   "rating": 4.7,
-  "ratingCount": 1077,
+  "ratingCount": 1078,
   "price": 1,
   "emoji": "🍔",
   "signatureDish": {
@@ -28161,7 +28452,7 @@ export const RESTAURANTS = [
    "late-night"
   ],
   "why": "Iconic indie music venue where the made-to-order Bottom Burger fuels the mosh pit.",
-  "mapsUrl": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -28174,7 +28465,7 @@ export const RESTAURANTS = [
   "lat": 37.76353,
   "lng": -122.40036,
   "rating": 4.4,
-  "ratingCount": 295,
+  "ratingCount": 297,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -28247,7 +28538,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2329398201019078924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2329398201019078924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -28260,7 +28552,7 @@ export const RESTAURANTS = [
   "lat": 37.76819,
   "lng": -122.38645,
   "rating": 4.5,
-  "ratingCount": 446,
+  "ratingCount": 447,
   "price": 3,
   "emoji": "🥩",
   "signatureDish": {
@@ -28333,7 +28625,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=498485797938547268&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=498485797938547268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -28409,7 +28702,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8440922987957013865&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8440922987957013865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -28496,7 +28790,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8579269968999229375&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8579269968999229375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -28582,7 +28877,8 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17614894869044024701&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17614894869044024701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -28595,7 +28891,7 @@ export const RESTAURANTS = [
   "lat": 37.75949,
   "lng": -122.38818,
   "rating": 4.6,
-  "ratingCount": 1181,
+  "ratingCount": 1182,
   "price": 2,
   "emoji": "🍕",
   "signatureDish": {
@@ -28658,7 +28954,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12914241654456479691&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12914241654456479691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -28765,7 +29062,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5121278328001698495&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5121278328001698495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -28867,7 +29165,8 @@ export const RESTAURANTS = [
     "20:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10326220872660902495&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10326220872660902495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -28969,7 +29268,7 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5004970138539466928&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5004970138539466928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -29046,7 +29345,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10844399131625521726&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10844399131625521726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -29133,7 +29433,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15254735241768485028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15254735241768485028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -29210,7 +29511,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17909878048335708996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17909878048335708996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–40",
   "verified": true
  },
  {
@@ -29282,7 +29584,7 @@ export const RESTAURANTS = [
     "17:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10149469685930107388&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10149469685930107388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -29379,7 +29681,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11284227759187381871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11284227759187381871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -29456,7 +29759,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=18102838917262822760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=18102838917262822760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$60–100",
   "verified": true
  },
  {
@@ -29543,7 +29847,8 @@ export const RESTAURANTS = [
     "21:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2301519660228290745&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2301519660228290745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -29620,7 +29925,8 @@ export const RESTAURANTS = [
     "18:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10294252873636279414&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10294252873636279414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -29697,7 +30003,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15198558697488479021&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15198558697488479021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–70",
   "verified": true
  },
  {
@@ -29774,7 +30081,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14557312102538406629&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14557312102538406629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -29851,7 +30159,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14599154797189884654&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14599154797189884654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -29864,7 +30173,7 @@ export const RESTAURANTS = [
   "lat": 37.72135,
   "lng": -122.43764,
   "rating": 4.3,
-  "ratingCount": 1487,
+  "ratingCount": 1486,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -29928,7 +30237,8 @@ export const RESTAURANTS = [
     "02:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9351223460942847845&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9351223460942847845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -29941,7 +30251,7 @@ export const RESTAURANTS = [
   "lat": 37.7341,
   "lng": -122.43419,
   "rating": 4.4,
-  "ratingCount": 1418,
+  "ratingCount": 1419,
   "price": 1,
   "emoji": "🌮",
   "signatureDish": {
@@ -30010,7 +30320,7 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5976768216711853739&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5976768216711853739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -30072,7 +30382,8 @@ export const RESTAURANTS = [
     "16:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4712778331293013511&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4712778331293013511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -30085,7 +30396,7 @@ export const RESTAURANTS = [
   "lat": 37.72679,
   "lng": -122.44138,
   "rating": 4.7,
-  "ratingCount": 789,
+  "ratingCount": 790,
   "price": 2,
   "emoji": "🥪",
   "signatureDish": {
@@ -30149,7 +30460,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6244824352518074394&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6244824352518074394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -30236,7 +30548,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13529656557931225733&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13529656557931225733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -30323,7 +30636,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8114814777890038701&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8114814777890038701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -30336,7 +30650,7 @@ export const RESTAURANTS = [
   "lat": 37.72748,
   "lng": -122.4765,
   "rating": 4.5,
-  "ratingCount": 2593,
+  "ratingCount": 2600,
   "price": 1,
   "emoji": "🍜",
   "signatureDish": {
@@ -30395,7 +30709,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6637289439453658029&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6637289439453658029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -30482,7 +30797,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11374719826192953240&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11374719826192953240&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -30559,7 +30875,8 @@ export const RESTAURANTS = [
     "13:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4508888738563704383&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4508888738563704383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -30681,7 +30998,8 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14737575875041731608&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14737575875041731608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -30763,7 +31081,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6430619850323950763&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6430619850323950763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -30776,7 +31095,7 @@ export const RESTAURANTS = [
   "lat": 37.80645,
   "lng": -122.43218,
   "rating": 4.4,
-  "ratingCount": 1680,
+  "ratingCount": 1682,
   "price": 2,
   "emoji": "🍖",
   "signatureDish": {
@@ -30845,7 +31164,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11911821416543106618&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11911821416543106618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -30858,7 +31178,7 @@ export const RESTAURANTS = [
   "lat": 37.80028,
   "lng": -122.4397,
   "rating": 4.5,
-  "ratingCount": 2876,
+  "ratingCount": 2877,
   "price": 1,
   "emoji": "🍔",
   "signatureDish": {
@@ -30932,7 +31252,7 @@ export const RESTAURANTS = [
     "23:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9554433872465103306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9554433872465103306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -31019,7 +31339,7 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1673450017666150658&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1673450017666150658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -31032,7 +31352,7 @@ export const RESTAURANTS = [
   "lat": 37.79989,
   "lng": -122.44097,
   "rating": 4.5,
-  "ratingCount": 1770,
+  "ratingCount": 1772,
   "price": 2,
   "emoji": "🍝",
   "signatureDish": {
@@ -31105,7 +31425,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12108406718764696771&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12108406718764696771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -31118,7 +31439,7 @@ export const RESTAURANTS = [
   "lat": 37.79834,
   "lng": -122.44609,
   "rating": 4.7,
-  "ratingCount": 525,
+  "ratingCount": 527,
   "price": 2,
   "emoji": "🥐",
   "signatureDish": {
@@ -31212,7 +31533,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8686443022461326646&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8686443022461326646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -31225,7 +31547,7 @@ export const RESTAURANTS = [
   "lat": 37.80653,
   "lng": -122.42072,
   "rating": 4.6,
-  "ratingCount": 8197,
+  "ratingCount": 8198,
   "price": 2,
   "emoji": "☕",
   "signatureDish": {
@@ -31294,7 +31616,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14927879775871877059&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14927879775871877059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -31307,7 +31630,7 @@ export const RESTAURANTS = [
   "lat": 37.80893,
   "lng": -122.41843,
   "rating": 4.6,
-  "ratingCount": 7079,
+  "ratingCount": 7083,
   "price": 3,
   "emoji": "🥘",
   "signatureDish": {
@@ -31381,7 +31704,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10911037040230255668&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10911037040230255668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -31394,7 +31718,7 @@ export const RESTAURANTS = [
   "lat": 37.80978,
   "lng": -122.41055,
   "rating": 4.4,
-  "ratingCount": 8670,
+  "ratingCount": 8674,
   "price": 2,
   "emoji": "🍤",
   "signatureDish": {
@@ -31468,7 +31792,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11351540828558533108&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11351540828558533108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -31481,7 +31806,7 @@ export const RESTAURANTS = [
   "lat": 37.80655,
   "lng": -122.42024,
   "rating": 4.7,
-  "ratingCount": 1915,
+  "ratingCount": 1916,
   "price": 1,
   "emoji": "🥪",
   "signatureDish": {
@@ -31555,7 +31880,8 @@ export const RESTAURANTS = [
     "18:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12086907588489085060&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12086907588489085060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -31632,7 +31958,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13091262678725062769&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13091262678725062769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -31645,7 +31972,7 @@ export const RESTAURANTS = [
   "lat": 37.33256,
   "lng": -121.88439,
   "rating": 4.2,
-  "ratingCount": 3665,
+  "ratingCount": 3667,
   "price": 1,
   "emoji": "🌯",
   "signatureDish": {
@@ -31714,7 +32041,8 @@ export const RESTAURANTS = [
     "03:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3375830997583788937&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3375830997583788937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -31791,7 +32119,8 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3915125089239094417&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3915125089239094417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–50",
   "verified": true
  },
  {
@@ -31878,7 +32207,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12405285157949925557&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12405285157949925557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -31891,7 +32221,7 @@ export const RESTAURANTS = [
   "lat": 37.3361,
   "lng": -121.88603,
   "rating": 4.8,
-  "ratingCount": 1392,
+  "ratingCount": 1396,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -31965,7 +32295,8 @@ export const RESTAURANTS = [
     "23:15"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5894274947122402309&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5894274947122402309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -31978,7 +32309,7 @@ export const RESTAURANTS = [
   "lat": 37.33517,
   "lng": -121.89312,
   "rating": 4.2,
-  "ratingCount": 2350,
+  "ratingCount": 2352,
   "price": 2,
   "emoji": "🍖",
   "signatureDish": {
@@ -32052,7 +32383,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10933642169963397892&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10933642169963397892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -32065,7 +32397,7 @@ export const RESTAURANTS = [
   "lat": 37.33364,
   "lng": -121.88645,
   "rating": 4.5,
-  "ratingCount": 540,
+  "ratingCount": 542,
   "price": 1,
   "emoji": "🍔",
   "signatureDish": {
@@ -32124,7 +32456,7 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8798666889278262772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8798666889278262772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -32137,7 +32469,7 @@ export const RESTAURANTS = [
   "lat": 37.33008,
   "lng": -121.88622,
   "rating": 4.2,
-  "ratingCount": 720,
+  "ratingCount": 721,
   "price": 2,
   "emoji": "🐙",
   "signatureDish": {
@@ -32211,7 +32543,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12311738630769233579&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12311738630769233579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–90",
   "verified": true
  },
  {
@@ -32323,7 +32656,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12746475122430218209&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12746475122430218209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -32415,7 +32749,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9834169826127848956&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9834169826127848956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–70",
   "verified": true
  },
  {
@@ -32492,7 +32827,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4618096047447324070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4618096047447324070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -32579,7 +32915,8 @@ export const RESTAURANTS = [
     "02:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14603957821432387680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14603957821432387680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -32666,7 +33003,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3228849561342076633&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3228849561342076633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -32738,7 +33076,7 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3027053782762902722&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3027053782762902722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -32751,7 +33089,7 @@ export const RESTAURANTS = [
   "lat": 37.34842,
   "lng": -121.8951,
   "rating": 4.6,
-  "ratingCount": 932,
+  "ratingCount": 933,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -32845,7 +33183,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4288108735851399952&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4288108735851399952&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -32858,7 +33197,7 @@ export const RESTAURANTS = [
   "lat": 37.34944,
   "lng": -121.89384,
   "rating": 4.6,
-  "ratingCount": 355,
+  "ratingCount": 356,
   "price": 2,
   "emoji": "🐟",
   "signatureDish": {
@@ -32932,7 +33271,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12034445160452196439&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12034445160452196439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -33019,7 +33359,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=410759279344293175&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=410759279344293175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -33121,7 +33462,8 @@ export const RESTAURANTS = [
     "20:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10715835044798903883&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10715835044798903883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -33203,7 +33545,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6704161160231133367&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6704161160231133367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -33315,7 +33658,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5337169568554003107&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5337169568554003107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -33417,7 +33761,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7496173696978753581&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7496173696978753581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -33519,7 +33864,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10824266338444578569&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10824266338444578569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -33532,7 +33878,7 @@ export const RESTAURANTS = [
   "lat": 37.35058,
   "lng": -121.89675,
   "rating": 4.3,
-  "ratingCount": 1280,
+  "ratingCount": 1281,
   "price": 1,
   "emoji": "🍔",
   "signatureDish": {
@@ -33601,7 +33947,7 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15286160527935462836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15286160527935462836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -33614,7 +33960,7 @@ export const RESTAURANTS = [
   "lat": 37.30756,
   "lng": -121.90088,
   "rating": 4.5,
-  "ratingCount": 2690,
+  "ratingCount": 2693,
   "price": 2,
   "emoji": "🌯",
   "signatureDish": {
@@ -33688,7 +34034,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3166912344110420225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3166912344110420225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -33770,7 +34117,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10801627667994797579&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10801627667994797579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -33857,7 +34205,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16024180919315051330&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16024180919315051330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -33944,7 +34293,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11349351760288316059&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11349351760288316059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34021,7 +34371,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3586288423550609757&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3586288423550609757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34108,7 +34459,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6338003078161193071&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6338003078161193071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34180,7 +34532,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7983024818747655450&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7983024818747655450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -34193,7 +34545,7 @@ export const RESTAURANTS = [
   "lat": 37.30657,
   "lng": -121.89169,
   "rating": 4.5,
-  "ratingCount": 976,
+  "ratingCount": 977,
   "price": 1,
   "emoji": "🍕",
   "signatureDish": {
@@ -34262,7 +34614,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17550955061444827508&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17550955061444827508&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -34275,7 +34628,7 @@ export const RESTAURANTS = [
   "lat": 37.30465,
   "lng": -121.89846,
   "rating": 4.7,
-  "ratingCount": 1130,
+  "ratingCount": 1131,
   "price": 2,
   "emoji": "🦞",
   "signatureDish": {
@@ -34339,7 +34692,8 @@ export const RESTAURANTS = [
     "17:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12435122802138542323&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12435122802138542323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -34352,7 +34706,7 @@ export const RESTAURANTS = [
   "lat": 37.30683,
   "lng": -121.90031,
   "rating": 4.6,
-  "ratingCount": 867,
+  "ratingCount": 869,
   "price": 2,
   "emoji": "🍛",
   "signatureDish": {
@@ -34426,7 +34780,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1602837382436643140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1602837382436643140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34439,7 +34794,7 @@ export const RESTAURANTS = [
   "lat": 37.30782,
   "lng": -121.90026,
   "rating": 4.5,
-  "ratingCount": 577,
+  "ratingCount": 579,
   "price": 1,
   "emoji": "🥯",
   "signatureDish": {
@@ -34502,7 +34857,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10231384762276880742&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10231384762276880742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -34589,7 +34945,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16143162291568447478&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16143162291568447478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34675,7 +35032,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9859823360689134784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9859823360689134784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34688,7 +35046,7 @@ export const RESTAURANTS = [
   "lat": 37.33158,
   "lng": -121.9126,
   "rating": 4.6,
-  "ratingCount": 989,
+  "ratingCount": 995,
   "price": 2,
   "emoji": "🍳",
   "signatureDish": {
@@ -34756,7 +35114,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3405539193598996364&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3405539193598996364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -34837,7 +35196,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14004512725014523812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14004512725014523812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -34913,7 +35273,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1836304767740183163&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1836304767740183163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -35034,7 +35395,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8875566112942070673&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8875566112942070673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -35115,7 +35477,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6311609432654414641&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6311609432654414641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -35201,7 +35564,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9967398617567560694&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9967398617567560694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -35214,7 +35578,7 @@ export const RESTAURANTS = [
   "lat": 37.35598,
   "lng": -121.9051,
   "rating": 4.3,
-  "ratingCount": 656,
+  "ratingCount": 657,
   "price": 2,
   "emoji": "🥩",
   "signatureDish": {
@@ -35312,7 +35676,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12183034454780292291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12183034454780292291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -35413,7 +35778,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4619366484504519664&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4619366484504519664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -35426,7 +35792,7 @@ export const RESTAURANTS = [
   "lat": 37.36034,
   "lng": -121.90886,
   "rating": 4.5,
-  "ratingCount": 721,
+  "ratingCount": 722,
   "price": 2,
   "emoji": "🍣",
   "signatureDish": {
@@ -35489,7 +35855,7 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13146463620067887994&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13146463620067887994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -35570,7 +35936,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5519964576385492686&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5519964576385492686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -35583,7 +35950,7 @@ export const RESTAURANTS = [
   "lat": 37.33892,
   "lng": -121.84416,
   "rating": 4.6,
-  "ratingCount": 644,
+  "ratingCount": 643,
   "price": 1,
   "emoji": "🥩",
   "signatureDish": {
@@ -35656,7 +36023,7 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5500275453534415884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5500275453534415884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -35737,7 +36104,7 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5722440423862485185&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5722440423862485185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -35750,7 +36117,7 @@ export const RESTAURANTS = [
   "lat": 37.33142,
   "lng": -121.85857,
   "rating": 4.2,
-  "ratingCount": 615,
+  "ratingCount": 616,
   "price": 2,
   "emoji": "🌮",
   "signatureDish": {
@@ -35818,7 +36185,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15828207537825956819&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15828207537825956819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -35899,7 +36267,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10110977289430026367&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10110977289430026367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -35912,7 +36281,7 @@ export const RESTAURANTS = [
   "lat": 37.33296,
   "lng": -121.85629,
   "rating": 4.2,
-  "ratingCount": 191,
+  "ratingCount": 192,
   "price": 2,
   "emoji": "🍩",
   "signatureDish": {
@@ -35980,7 +36349,7 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11153641829867052849&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11153641829867052849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -35993,7 +36362,7 @@ export const RESTAURANTS = [
   "lat": 37.33186,
   "lng": -121.85698,
   "rating": 4.3,
-  "ratingCount": 199,
+  "ratingCount": 200,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -36056,7 +36425,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10077075984821630261&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10077075984821630261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -36069,7 +36439,7 @@ export const RESTAURANTS = [
   "lat": 37.34532,
   "lng": -121.84872,
   "rating": 4.2,
-  "ratingCount": 1637,
+  "ratingCount": 1639,
   "price": 1,
   "emoji": "🌮",
   "signatureDish": {
@@ -36132,7 +36502,7 @@ export const RESTAURANTS = [
     "03:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13851079568650276224&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13851079568650276224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -36213,7 +36583,7 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12916725348081806274&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12916725348081806274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -36294,7 +36664,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=69107126838840629&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=69107126838840629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -36365,7 +36736,7 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4904483027168126133&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4904483027168126133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -36378,7 +36749,7 @@ export const RESTAURANTS = [
   "lat": 37.31948,
   "lng": -121.8236,
   "rating": 4.2,
-  "ratingCount": 710,
+  "ratingCount": 712,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -36436,7 +36807,8 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6984656896145455415&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6984656896145455415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -36449,7 +36821,7 @@ export const RESTAURANTS = [
   "lat": 37.3218,
   "lng": -121.82736,
   "rating": 4.2,
-  "ratingCount": 674,
+  "ratingCount": 675,
   "price": 1,
   "emoji": "🥖",
   "signatureDish": {
@@ -36512,7 +36884,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16579993270031902295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16579993270031902295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -36593,7 +36966,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=162368590301878530&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=162368590301878530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -36675,7 +37049,8 @@ export const RESTAURANTS = [
     "00:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12127172218105905116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12127172218105905116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -36687,8 +37062,8 @@ export const RESTAURANTS = [
   "address": "2011 Tully Rd",
   "lat": 37.32624,
   "lng": -121.8212,
-  "rating": 4.4,
-  "ratingCount": 488,
+  "rating": 4.5,
+  "ratingCount": 492,
   "price": 2,
   "emoji": "🍢",
   "signatureDish": {
@@ -36762,7 +37137,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15750196651967340397&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15750196651967340397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -36844,7 +37220,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11358132891288126585&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11358132891288126585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -36926,7 +37303,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5635664223929068005&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5635664223929068005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -36939,7 +37317,7 @@ export const RESTAURANTS = [
   "lat": 37.30298,
   "lng": -121.84384,
   "rating": 4.2,
-  "ratingCount": 362,
+  "ratingCount": 363,
   "price": 2,
   "emoji": "🍲",
   "signatureDish": {
@@ -37003,7 +37381,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11481786858890828821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11481786858890828821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -37085,7 +37464,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8505717171556247036&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8505717171556247036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -37098,7 +37478,7 @@ export const RESTAURANTS = [
   "lat": 37.28994,
   "lng": -121.84864,
   "rating": 4.4,
-  "ratingCount": 908,
+  "ratingCount": 909,
   "price": 2,
   "emoji": "🥤",
   "signatureDish": {
@@ -37171,7 +37551,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9300865560940984442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9300865560940984442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -37257,7 +37638,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9927042216967114712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9927042216967114712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -37334,7 +37716,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12482364378463454509&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12482364378463454509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -37347,7 +37730,7 @@ export const RESTAURANTS = [
   "lat": 37.25357,
   "lng": -121.87631,
   "rating": 4.2,
-  "ratingCount": 1378,
+  "ratingCount": 1379,
   "price": 2,
   "emoji": "🍖",
   "signatureDish": {
@@ -37421,7 +37804,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12662287798905863411&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12662287798905863411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -37434,7 +37818,7 @@ export const RESTAURANTS = [
   "lat": 37.26135,
   "lng": -121.87604,
   "rating": 4.5,
-  "ratingCount": 404,
+  "ratingCount": 405,
   "price": 1,
   "emoji": "🍚",
   "signatureDish": {
@@ -37508,7 +37892,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12779890612669838656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12779890612669838656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -37595,7 +37980,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10822710918608423820&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10822710918608423820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -37681,7 +38067,8 @@ export const RESTAURANTS = [
     "16:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11137991588716491468&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11137991588716491468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -37694,7 +38081,7 @@ export const RESTAURANTS = [
   "lat": 37.25842,
   "lng": -121.87474,
   "rating": 4.2,
-  "ratingCount": 281,
+  "ratingCount": 282,
   "price": 2,
   "emoji": "🥟",
   "signatureDish": {
@@ -37768,7 +38155,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4088878721991977844&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4088878721991977844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -37849,7 +38237,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10271457272584849498&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10271457272584849498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -37930,7 +38319,8 @@ export const RESTAURANTS = [
     "18:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8406129759890979555&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8406129759890979555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–20",
   "verified": true
  },
  {
@@ -37943,7 +38333,7 @@ export const RESTAURANTS = [
   "lat": 37.25884,
   "lng": -121.87453,
   "rating": 4.3,
-  "ratingCount": 719,
+  "ratingCount": 720,
   "price": 2,
   "emoji": "🐟",
   "signatureDish": {
@@ -38007,7 +38397,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15900554989820736111&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15900554989820736111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -38094,7 +38485,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17079291962427313599&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17079291962427313599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -38107,7 +38499,7 @@ export const RESTAURANTS = [
   "lat": 37.25798,
   "lng": -121.87694,
   "rating": 4.3,
-  "ratingCount": 994,
+  "ratingCount": 995,
   "price": 2,
   "emoji": "🥧",
   "signatureDish": {
@@ -38181,7 +38573,8 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4056373108755655556&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4056373108755655556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -38269,7 +38662,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9125121978596492940&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9125121978596492940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -38282,7 +38676,7 @@ export const RESTAURANTS = [
   "lat": 37.25889,
   "lng": -121.87518,
   "rating": 4.3,
-  "ratingCount": 368,
+  "ratingCount": 369,
   "price": 1,
   "emoji": "🥙",
   "signatureDish": {
@@ -38356,7 +38750,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13062762290142265870&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13062762290142265870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -38369,7 +38763,7 @@ export const RESTAURANTS = [
   "lat": 37.28897,
   "lng": -121.93327,
   "rating": 4.5,
-  "ratingCount": 2325,
+  "ratingCount": 2327,
   "price": 2,
   "emoji": "🍠",
   "signatureDish": {
@@ -38443,7 +38837,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15375157011876615567&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15375157011876615567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -38543,7 +38938,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17885299112236916396&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17885299112236916396&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–80",
   "verified": true
  },
  {
@@ -38614,7 +39010,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6212335565470434104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6212335565470434104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -38701,7 +39098,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15366129266900634498&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15366129266900634498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -38714,7 +39112,7 @@ export const RESTAURANTS = [
   "lat": 37.28781,
   "lng": -121.93421,
   "rating": 4.2,
-  "ratingCount": 366,
+  "ratingCount": 367,
   "price": 1,
   "emoji": "🍗",
   "signatureDish": {
@@ -38787,7 +39185,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16832864528720089189&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16832864528720089189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -38858,7 +39257,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=179899690403118316&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=179899690403118316&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -38939,7 +39339,7 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12077939800596822232&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12077939800596822232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -39040,7 +39440,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15785184081999864561&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15785184081999864561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -39127,7 +39528,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=18060850325225720639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=18060850325225720639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–50",
   "verified": true
  },
  {
@@ -39140,7 +39542,7 @@ export const RESTAURANTS = [
   "lat": 37.28844,
   "lng": -121.93379,
   "rating": 4.2,
-  "ratingCount": 1511,
+  "ratingCount": 1513,
   "price": 2,
   "emoji": "🍝",
   "signatureDish": {
@@ -39213,7 +39615,8 @@ export const RESTAURANTS = [
     "22:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12706432365649649019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12706432365649649019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–50",
   "verified": true
  },
  {
@@ -39289,7 +39692,8 @@ export const RESTAURANTS = [
     "00:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12215925918794105024&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12215925918794105024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -39302,7 +39706,7 @@ export const RESTAURANTS = [
   "lat": 37.2776,
   "lng": -121.93259,
   "rating": 4.5,
-  "ratingCount": 1743,
+  "ratingCount": 1744,
   "price": 2,
   "emoji": "🍔",
   "signatureDish": {
@@ -39360,7 +39764,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8358997684139658741&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8358997684139658741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -39446,7 +39851,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6050166388706257056&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6050166388706257056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -39552,7 +39958,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8266650843042992679&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8266650843042992679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -39638,7 +40045,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7132855764854828453&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7132855764854828453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -39651,7 +40059,7 @@ export const RESTAURANTS = [
   "lat": 37.32309,
   "lng": -121.94763,
   "rating": 4.4,
-  "ratingCount": 4985,
+  "ratingCount": 4987,
   "price": 2,
   "emoji": "🍗",
   "signatureDish": {
@@ -39725,7 +40133,8 @@ export const RESTAURANTS = [
     "00:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2853841256566007855&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2853841256566007855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -39811,7 +40220,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4639501970163985264&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4639501970163985264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -39887,7 +40297,8 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17200689946577167943&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17200689946577167943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$50–100",
   "verified": true
  },
  {
@@ -39931,7 +40342,7 @@ export const RESTAURANTS = [
    "family-style"
   ],
   "why": "Santana Row movie house where the buttery popcorn and hot pizza are half the fun.",
-  "mapsUrl": "https://maps.google.com/?cid=7671132077789047101&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7671132077789047101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -39944,7 +40355,7 @@ export const RESTAURANTS = [
   "lat": 37.32096,
   "lng": -121.9492,
   "rating": 4.8,
-  "ratingCount": 3572,
+  "ratingCount": 3585,
   "price": 2,
   "emoji": "🥩",
   "signatureDish": {
@@ -40017,7 +40428,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11289834068450932571&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11289834068450932571&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -40030,7 +40442,7 @@ export const RESTAURANTS = [
   "lat": 37.31916,
   "lng": -121.94762,
   "rating": 4.5,
-  "ratingCount": 894,
+  "ratingCount": 896,
   "price": 3,
   "emoji": "🥟",
   "signatureDish": {
@@ -40103,7 +40515,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5338194004148484689&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5338194004148484689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$40–100",
   "verified": true
  },
  {
@@ -40189,7 +40602,8 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10287518527007176547&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10287518527007176547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–80",
   "verified": true
  },
  {
@@ -40276,7 +40690,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7218840566020631993&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7218840566020631993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -40346,7 +40761,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11379037326590657176&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11379037326590657176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -40433,7 +40849,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1663448991247046052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1663448991247046052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -40545,7 +40962,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6988801106474337695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6988801106474337695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -40631,7 +41049,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16904434670495662524&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16904434670495662524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–30",
   "verified": true
  },
  {
@@ -40644,7 +41063,7 @@ export const RESTAURANTS = [
   "lat": 37.31893,
   "lng": -121.97416,
   "rating": 4.8,
-  "ratingCount": 1169,
+  "ratingCount": 1172,
   "price": 2,
   "emoji": "🍜",
   "signatureDish": {
@@ -40708,7 +41127,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11873078577244964253&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11873078577244964253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -40830,7 +41250,8 @@ export const RESTAURANTS = [
     "23:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16102717206537062563&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16102717206537062563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -40941,7 +41362,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7322809382588498140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7322809382588498140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -41053,7 +41475,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5436000304034491432&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5436000304034491432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -41119,7 +41542,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3641031775660801205&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3641031775660801205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -41173,7 +41597,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5619771407724064208&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5619771407724064208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$100+",
   "verified": true
  },
  {
@@ -41245,7 +41670,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10245606128707958678&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10245606128707958678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -41346,7 +41772,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9246285856643680996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9246285856643680996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -41359,7 +41786,7 @@ export const RESTAURANTS = [
   "lat": 37.36603,
   "lng": -121.91488,
   "rating": 4.2,
-  "ratingCount": 273,
+  "ratingCount": 270,
   "price": 2,
   "emoji": "🍛",
   "signatureDish": {
@@ -41468,7 +41895,7 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13386917368036710789&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13386917368036710789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -41539,7 +41966,8 @@ export const RESTAURANTS = [
     "17:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13953314033371791277&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13953314033371791277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -41621,7 +42049,7 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10623071563695632501&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10623071563695632501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -41723,7 +42151,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17193975573514305693&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17193975573514305693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -41736,7 +42165,7 @@ export const RESTAURANTS = [
   "lat": 37.39671,
   "lng": -121.889,
   "rating": 4.7,
-  "ratingCount": 4507,
+  "ratingCount": 4510,
   "price": 2,
   "emoji": "🥟",
   "signatureDish": {
@@ -41806,7 +42235,7 @@ export const RESTAURANTS = [
     "01:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=8802161177605201518&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=8802161177605201518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -41872,7 +42301,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5421002651339749079&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5421002651339749079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$30–40",
   "verified": true
  },
  {
@@ -41959,7 +42389,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16084141163960047729&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16084141163960047729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -42041,7 +42472,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5063214333250305936&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5063214333250305936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -42123,7 +42555,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12244627775891966716&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12244627775891966716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -42195,7 +42628,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=10286032384759449808&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=10286032384759449808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -42317,7 +42751,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=16194161988003416183&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=16194161988003416183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -42330,7 +42765,7 @@ export const RESTAURANTS = [
   "lat": 37.39716,
   "lng": -121.87402,
   "rating": 4.6,
-  "ratingCount": 182,
+  "ratingCount": 183,
   "price": 2,
   "emoji": "🍤",
   "signatureDish": {
@@ -42404,7 +42839,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3490958290846563070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3490958290846563070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -42486,7 +42922,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=3712815229257217397&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=3712815229257217397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -42567,7 +43004,7 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7894055419780230245&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7894055419780230245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -42649,7 +43086,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=17156804847259531833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=17156804847259531833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -42662,7 +43100,7 @@ export const RESTAURANTS = [
   "lat": 37.33306,
   "lng": -121.91417,
   "rating": 4.3,
-  "ratingCount": 1166,
+  "ratingCount": 1167,
   "price": 2,
   "emoji": "🌶️",
   "signatureDish": {
@@ -42726,7 +43164,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=9190675831431704554&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=9190675831431704554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -42813,7 +43252,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=619388243342189657&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=619388243342189657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -42895,7 +43335,8 @@ export const RESTAURANTS = [
     "14:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13766676162831212911&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13766676162831212911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -42982,7 +43423,7 @@ export const RESTAURANTS = [
     "23:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=4892882560263047841&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=4892882560263047841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -43059,7 +43500,8 @@ export const RESTAURANTS = [
     "21:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11619339469528981744&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11619339469528981744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -43146,7 +43588,8 @@ export const RESTAURANTS = [
     "15:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14117793389896355660&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14117793389896355660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -43228,7 +43671,8 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=15811538230972760009&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=15811538230972760009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -43310,7 +43754,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7984097563766699464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7984097563766699464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–30",
   "verified": true
  },
  {
@@ -43422,7 +43867,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=11963860340148104518&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=11963860340148104518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–60",
   "verified": true
  },
  {
@@ -43509,7 +43955,7 @@ export const RESTAURANTS = [
     "19:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=14051945133227638751&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=14051945133227638751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -43591,7 +44037,8 @@ export const RESTAURANTS = [
     "22:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=7255834365801669878&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=7255834365801669878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -43687,7 +44134,8 @@ export const RESTAURANTS = [
     "20:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=12949834808040623348&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=12949834808040623348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -43753,7 +44201,8 @@ export const RESTAURANTS = [
     "23:45"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=5509520118421445710&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=5509520118421445710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$20–30",
   "verified": true
  },
  {
@@ -43766,7 +44215,7 @@ export const RESTAURANTS = [
   "lat": 37.37197,
   "lng": -121.84618,
   "rating": 4.3,
-  "ratingCount": 351,
+  "ratingCount": 352,
   "price": 2,
   "emoji": "🥩",
   "signatureDish": {
@@ -43840,7 +44289,7 @@ export const RESTAURANTS = [
     "02:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=2833145430047023415&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=2833145430047023415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "verified": true
  },
  {
@@ -43952,7 +44401,8 @@ export const RESTAURANTS = [
     "21:30"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=6392193794898358877&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=6392193794898358877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  },
  {
@@ -43965,7 +44415,7 @@ export const RESTAURANTS = [
   "lat": 37.36593,
   "lng": -121.85005,
   "rating": 4.2,
-  "ratingCount": 513,
+  "ratingCount": 514,
   "price": 1,
   "emoji": "🥯",
   "signatureDish": {
@@ -43999,7 +44449,8 @@ export const RESTAURANTS = [
     "24:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=13041112933075841290&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=13041112933075841290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$1–10",
   "verified": true
  },
  {
@@ -44081,7 +44532,8 @@ export const RESTAURANTS = [
     "20:00"
    ]
   ],
-  "mapsUrl": "https://maps.google.com/?cid=1334226614885208650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsUrl": "https://maps.google.com/?cid=1334226614885208650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "priceRange": "$10–20",
   "verified": true
  }
 ]

@@ -55,6 +55,7 @@ for (const r of raw.restaurants) {
     why: r.why || '',
     ...(hours && hours.length ? { hours } : {}),
     ...(r.mapsUrl ? { mapsUrl: r.mapsUrl } : {}),
+    ...(r.priceRange ? { priceRange: r.priceRange } : {}),
     ...(r.verified ? { verified: true } : {}),
   })
 }

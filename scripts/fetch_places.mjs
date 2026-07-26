@@ -42,7 +42,7 @@ async function lookup(r) {
       'Content-Type': 'application/json',
       'X-Goog-Api-Key': KEY,
       'X-Goog-FieldMask':
-        'places.displayName,places.rating,places.userRatingCount,places.priceLevel,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.location,places.regularOpeningHours',
+        'places.displayName,places.rating,places.userRatingCount,places.priceLevel,places.priceRange,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.location,places.regularOpeningHours',
     },
     body: JSON.stringify({ textQuery: `${r.name} ${r.address} ${r.city || ''}`.trim(), maxResultCount: 1 }),
   })
@@ -80,6 +80,10 @@ for (const r of data.restaurants) {
     if (p.rating) r.rating = p.rating
     if (p.userRatingCount) r.ratingCount = p.userRatingCount
     if (p.priceLevel && PRICE[p.priceLevel]) r.price = PRICE[p.priceLevel]
+    if (p.priceRange?.startPrice?.units) {
+      const end = p.priceRange.endPrice?.units
+      r.priceRange = end ? `$${p.priceRange.startPrice.units}–${end}` : `$${p.priceRange.startPrice.units}+`
+    }
     if (p.googleMapsUri) r.mapsUrl = p.googleMapsUri
     if (p.primaryTypeDisplayName?.text) r.googleCategory = p.primaryTypeDisplayName.text
     const hours = toHours(p.regularOpeningHours)
