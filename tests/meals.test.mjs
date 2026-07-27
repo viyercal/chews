@@ -71,3 +71,12 @@ test('decay clock serializes; legacy profiles load fresh', () => {
   legacy.record(resto({ cuisine: 'Thai', tags: [] }), 1, { at: T0 })
   assert.equal(legacy.cuisines.Korean.likes, 5) // no retroactive decay on first touch
 })
+
+test('profile displays integer totals despite float internals (user-reported)', () => {
+  const e = new TasteEngine(rand)
+  e.seedCuisines(['Korean'])
+  for (let i = 0; i < 10; i++) e.record(resto(), 1, { at: T0 + i * 3 * DAY })
+  e.record(resto(), 1, { at: T0 + 200 * DAY }) // decay makes total fractional
+  assert.ok(!Number.isInteger(e.total)) // internal float is expected...
+  assert.ok(Number.isInteger(e.profile().total)) // ...but never shown to a human
+})

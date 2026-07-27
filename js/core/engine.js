@@ -186,7 +186,8 @@ export class TasteEngine {
       .filter((t) => t.n >= 2 && t.affinity > 0.55)
       .sort((a, b) => b.affinity - a.affinity)
       .slice(0, 6)
-    return { rows, topTags, total: this.total, confidence: this.confidence() }
+    // Display summary — counters are decayed floats internally; humans get integers.
+    return { rows, topTags, total: Math.round(this.total), confidence: this.confidence() }
   }
 
   toJSON() {
