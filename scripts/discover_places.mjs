@@ -133,6 +133,9 @@ for (const [cityKey, grid] of Object.entries(grids)) {
           rating: p.rating,
           ratingCount: p.userRatingCount,
           price: PRICE[p.priceLevel] || 2,
+          ...(p.priceRange?.startPrice?.units
+            ? { priceRange: `$${p.priceRange.startPrice.units}${p.priceRange.endPrice?.units ? `–${p.priceRange.endPrice.units}` : '+'}` }
+            : {}),
           mapsUrl: p.googleMapsUri,
           googleCategory: p.primaryTypeDisplayName?.text || '',
           hours: toHours(p.regularOpeningHours),
