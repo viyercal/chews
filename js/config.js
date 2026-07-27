@@ -1,7 +1,13 @@
+const INJECTED_KEY = '__CHEWS_PLACES_KEY__' // build.mjs substitutes; '' in dev
+
 export const CONFIG = {
   appName: 'Chews',
   tagline: 'swipe. match. eat.',
   storageKey: 'chews.v1',
+  // House Places key (referrer-restricted, browser-safe) — powers address +
+  // live search for everyone. Empty in dev/source; users may still override
+  // with their own key in settings.
+  placesKey: INJECTED_KEY.startsWith('__') ? '' : INJECTED_KEY,
 
   radius: { default: 10, min: 1, max: 25 },     // miles
 

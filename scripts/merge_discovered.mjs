@@ -20,7 +20,7 @@ const existingNames = new Set(data.restaurants.map((r) => norm(r.name)))
 const cityOf = (addr, cityKey) => {
   const m = addr.match(/,\s*([A-Za-z .]+),\s*CA/)
   if (m) return m[1].trim()
-  return cityKey === 'sj' ? 'San Jose' : 'San Francisco'
+  return { sj: 'San Jose', eb: 'Oakland', pen: 'San Mateo', fre: 'Fremont' }[cityKey] || 'San Francisco'
 }
 
 let added = 0

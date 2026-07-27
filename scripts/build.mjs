@@ -6,11 +6,13 @@ import { fileURLToPath } from 'node:url'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const read = (p) => readFileSync(join(root, p), 'utf8')
 
-// 1. Bundle all JS into one IIFE.
-const js = execSync('npx -y esbuild js/main.js --bundle --format=iife --minify --charset=utf8', {
+// 1. Bundle all JS into one IIFE. The house Places key (if provided) is
+//    injected here — source stays keyless; only built output carries it.
+let js = execSync('npx -y esbuild js/main.js --bundle --format=iife --minify --charset=utf8', {
   cwd: root,
   maxBuffer: 64 * 1024 * 1024,
 }).toString()
+js = js.replace('__CHEWS_PLACES_KEY__', process.env.CHEWS_PUBLIC_KEY || '__NONE__')
 
 // 2. Inline the display fonts into the CSS as data URIs.
 let css = read('css/styles.css')

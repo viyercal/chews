@@ -32,9 +32,9 @@ export class ProfileView {
   }
 
   async goToAddress(query) {
-    const key = this.store.settings.byokKey
+    const key = this.store.settings.byokKey || CONFIG.placesKey
     if (!key) {
-      toast('Add your Google API key below to search any address')
+      toast('Add a Google API key below to search any address')
       return
     }
     try {
@@ -56,10 +56,13 @@ export class ProfileView {
   }
 
   byokCard(s) {
+    const house = !!CONFIG.placesKey
     const card = el(`
       <section class="panel">
-        <div class="panel-label">Live search · bring your own key</div>
-        <p class="panel-note">Outside SF &amp; San Jose, Chews can search any area live using your own Google Places API key. The key is stored only on this device and calls go straight from your browser to Google (you pay Google directly, ~3¢ per area search).</p>
+        <div class="panel-label">Live search${house ? '' : ' · bring your own key'}</div>
+        ${house
+          ? `<p class="panel-note">Address + live search are on the house — no key needed. Optionally use your own Google Places key instead (stored only on this device).</p>`
+          : `<p class="panel-note">Chews can search any area live using your own Google Places API key. The key is stored only on this device and calls go straight from your browser to Google (you pay Google directly, ~3¢ per area search).</p>`}
         <p class="panel-note dim">Heads up: the hosted claude.ai preview blocks location and outside calls — GPS and live search work when Chews runs at its own URL (locally or deployed).</p>
         <div class="addr-row">
           <input type="password" autocomplete="off" placeholder="AIza…" value="${esc(s.byokKey || '')}" aria-label="Google Places API key">

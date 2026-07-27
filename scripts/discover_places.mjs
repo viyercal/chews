@@ -31,9 +31,31 @@ const SJ = [
   [37.3700, -121.9220], [37.3900, -121.8800], [37.3340, -121.9180], [37.2510, -121.9080],
   [37.3620, -121.8420], [37.2900, -121.8100],
 ]
+const EB = [ // Oakland / Berkeley / Alameda
+  [37.8044, -122.2712], [37.8117, -122.2650], [37.7983, -122.2500], [37.8280, -122.2560],
+  [37.8360, -122.2640], [37.8420, -122.2520], [37.7850, -122.2400], [37.7690, -122.2100],
+  [37.8000, -122.2870], [37.8250, -122.2200], [37.8715, -122.2730], [37.8800, -122.2690],
+  [37.8570, -122.2530], [37.8660, -122.2590], [37.8910, -122.2790], [37.7650, -122.2410],
+]
+const PEN = [ // Daly City → Burlingame → San Mateo → RWC → Palo Alto → Mountain View
+  [37.7060, -122.4620], [37.6540, -122.4080], [37.6000, -122.3860], [37.5840, -122.3660],
+  [37.5779, -122.3481], [37.5630, -122.3255], [37.5460, -122.3120], [37.4852, -122.2364],
+  [37.4690, -122.2140], [37.4419, -122.1430], [37.4260, -122.1450], [37.3861, -122.0839],
+  [37.3940, -122.0780], [37.3770, -122.0300], [37.6180, -122.4300], [37.5060, -122.2600],
+]
+const FRE = [ // Fremont / Hayward / Union City / Milpitas edge
+  [37.5485, -121.9886], [37.5300, -121.9200], [37.5620, -122.0000], [37.5930, -122.0440],
+  [37.6690, -122.0800], [37.6350, -122.0570], [37.5000, -121.9300], [37.7050, -122.0850],
+]
 
 
-const QUALITY = { sf: { minRating: 4.3, minCount: 250 }, sj: { minRating: 4.2, minCount: 150 } }
+const QUALITY = {
+  sf: { minRating: 4.3, minCount: 250 },
+  sj: { minRating: 4.2, minCount: 150 },
+  eb: { minRating: 4.2, minCount: 150 },
+  pen: { minRating: 4.2, minCount: 150 },
+  fre: { minRating: 4.2, minCount: 120 },
+}
 
 const existing = JSON.parse(readFileSync(join(root, 'data/restaurants.json'), 'utf8')).restaurants
 const norm = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '')
@@ -52,7 +74,7 @@ async function nearby(lat, lng) {
       'Content-Type': 'application/json',
       'X-Goog-Api-Key': KEY,
       'X-Goog-FieldMask':
-        'places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.priceLevel,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.regularOpeningHours',
+        'places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.priceLevel,places.priceRange,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.regularOpeningHours',
     },
     body: JSON.stringify({
       includedTypes: ['restaurant'],
@@ -84,7 +106,9 @@ const toHours = (reg) => {
   return out.length ? out : undefined
 }
 
-const grids = cityArg === 'sf' ? { sf: SF } : cityArg === 'sj' ? { sj: SJ } : { sf: SF, sj: SJ }
+const ALL_GRIDS = { sf: SF, sj: SJ, eb: EB, pen: PEN, fre: FRE }
+const keys = cityArg === 'all' ? Object.keys(ALL_GRIDS) : cityArg.split(',').filter((k) => ALL_GRIDS[k])
+const grids = Object.fromEntries(keys.map((k) => [k, ALL_GRIDS[k]]))
 const found = new Map()
 let calls = 0
 for (const [cityKey, grid] of Object.entries(grids)) {
@@ -129,7 +153,12 @@ let enriched = 0
 for (const c of list) {
   const d = await details(c.placeId)
   c.editorialSummary = d.editorialSummary?.text || ''
-  c.reviews = (d.reviews || []).map((r) => (r.text?.text || '').slice(0, 400)).filter(Boolean).slice(0, 5)
+  // Slice on code points, not UTF-16 units — a 400-unit cut can split an emoji
+  // into an invalid lone surrogate that breaks downstream JSON tooling.
+  c.reviews = (d.reviews || [])
+    .map((r) => [...(r.text?.text || '')].slice(0, 400).join(''))
+    .filter(Boolean)
+    .slice(0, 5)
   if (c.reviews.length) enriched++
   await new Promise((s) => setTimeout(s, 80))
 }
