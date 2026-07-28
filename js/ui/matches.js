@@ -1,5 +1,6 @@
 import { el, esc, cuisineGradient } from './cards.js'
 import { fmtMiles, milesBetween } from '../core/geo.js'
+import { duoLink } from '../core/duo.js'
 import { toast } from './toast.js'
 
 // Matches tab: Saved (right-swipes, recent first) and Regulars (places marked
@@ -44,9 +45,27 @@ export class MatchesView {
           <button role="tab" data-seg="saved" aria-selected="${this.segment === 'saved'}">Saved · ${saved.length}</button>
           <button role="tab" data-seg="regulars" aria-selected="${this.segment === 'regulars'}">Regulars · ${regulars.length}</button>
         </div>
-        <button class="btn btn-accent btn-faceoff" ${saved.length < 2 ? 'disabled' : ''}>⚡ Face-off</button>
+        <span class="header-btns">
+          <button class="btn btn-ghost btn-duo" ${saved.length < 2 ? 'disabled' : ''} title="Send your shortlist to someone">💞 Together</button>
+          <button class="btn btn-accent btn-faceoff" ${saved.length < 2 ? 'disabled' : ''}>⚡ Face-off</button>
+        </span>
       </div>
     `)
+    header.querySelector('.btn-duo').addEventListener('click', async () => {
+      const link = duoLink({ ids: this.store.matches, loc: this.store.settings.location })
+      if (!link) {
+        toast('Need at least 2 saved (non-live) spots to send')
+        return
+      }
+      const msg = 'Help me pick where we eat 💞 — swipe my shortlist:'
+      try {
+        if (navigator.share) await navigator.share({ title: 'Chews — decide together', text: msg, url: link })
+        else {
+          await navigator.clipboard.writeText(`${msg} ${link}`)
+          toast('Link copied — send it to your dinner partner')
+        }
+      } catch {} // share sheet dismissed — no-op
+    })
     header.querySelectorAll('[data-seg]').forEach((b) =>
       b.addEventListener('click', () => {
         this.segment = b.dataset.seg

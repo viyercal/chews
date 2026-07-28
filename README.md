@@ -94,3 +94,11 @@ environment only, and `data/` intermediates containing third-party review
 excerpts are gitignored. If you use your own key in the deployed app's BYOK
 field, restrict it in Google Cloud console to HTTP referrers
 `https://viyercal.github.io/*` and `http://localhost:*`.
+
+## Couple Mode
+
+Matches → **💞 Together** shares a link encoding your shortlist (top 12, in
+the URL hash — zero backend). Your partner opens it, swipes your picks
+through their own taste, and the overlap goes straight to Face-off. One
+mutual yes = decided; no overlap = a pick-one-anyway bracket. Their swipes
+teach their own taste profile; nothing else persists.

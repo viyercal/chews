@@ -9,6 +9,8 @@ import { MatchesView } from './ui/matches.js'
 import { Faceoff } from './ui/faceoff.js'
 import { ProfileView } from './ui/profile.js'
 import { showOnboarding } from './ui/onboarding.js'
+import { DuoView } from './ui/duo.js'
+import { duoTokenFromHash, decodeDuo } from './core/duo.js'
 
 const $ = (sel) => document.querySelector(sel)
 
@@ -127,8 +129,15 @@ function updateLocPill() {
 $('#loc-pill').addEventListener('click', () => go('taste'))
 
 // --- Keyboard (desktop niceness) ---
+let activeDuo = null // Couple Mode session, when an invite is open
+
 document.addEventListener('keydown', (e) => {
   if (e.repeat) return // a held arrow key must not machine-gun swipes
+  if (activeDuo?.controller) {
+    if (e.key === 'ArrowLeft') activeDuo.controller.fling(-1)
+    else if (e.key === 'ArrowRight') activeDuo.controller.fling(1)
+    return
+  }
   if (current !== 'discover' || sheet.isOpen) {
     if (e.key === 'Escape') sheet.close()
     return
@@ -161,16 +170,42 @@ const applySeed = (cuisines) => {
 // QA hook — lets the persona driver seed explicit preferences like a user would.
 window.__chewsSeed = applySeed
 
-if (!store.settings.onboarded || !store.settings.location) {
-  showOnboarding($('#onboarding-root'), {
+const startNormally = () => {
+  if (!store.settings.onboarded || !store.settings.location) {
+    showOnboarding($('#onboarding-root'), {
+      store,
+      seedChoices,
+      onSeed: applySeed,
+      onDone: () => {
+        updateLocPill()
+        discover.refresh()
+      },
+    })
+  } else {
+    discover.refresh()
+  }
+}
+
+// Couple Mode invite (#duo=…): the receiver swipes the sender's shortlist
+// FIRST — no onboarding gate; their first touch of the app is deciding dinner.
+const duoToken = duoTokenFromHash(location.hash)
+const duoPayload = duoToken && decodeDuo(duoToken)
+if (duoPayload) {
+  history.replaceState(null, '', location.pathname + location.search) // don't re-trigger on reload
+  const duo = new DuoView({
+    root: $('#faceoff-root'),
+    byId,
+    engine,
     store,
-    seedChoices,
-    onSeed: applySeed,
-    onDone: () => {
-      updateLocPill()
-      discover.refresh()
+    faceoff,
+    onExit: () => {
+      activeDuo = null
+      store.saveTaste(engine.toJSON())
+      startNormally()
     },
   })
+  activeDuo = duo
+  duo.start(duoPayload)
 } else {
-  discover.refresh()
+  startNormally()
 }

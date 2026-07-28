@@ -637,6 +637,24 @@ em { font-style: normal; }
 .mini-meta { color: rgba(246, 239, 231, 0.7); font-size: 12.5px; }
 
 .champion { align-items: center; justify-content: center; gap: 22px; text-align: center; }
+
+/* Couple Mode overlay — shares the face-off shell */
+.duo {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(100% 40% at 50% 0%, rgba(255, 122, 89, 0.12), transparent 60%),
+    var(--bg);
+  padding: calc(env(safe-area-inset-top) + 16px) 18px calc(env(safe-area-inset-bottom) + 14px);
+}
+.duo.champion { align-items: center; justify-content: center; gap: 18px; text-align: center; }
+.duo-stack { flex: 1; position: relative; margin: 10px 0 6px; min-height: 0; }
+.duo-actions { padding-bottom: 4px; }
+.header-btns { display: flex; gap: 8px; }
+.btn-duo { padding: 9px 13px; font-size: 13.5px; }
 .champ-label { font-family: var(--display); font-size: 32px; font-weight: 600; letter-spacing: -0.01em; }
 .champ-card-slot { width: 100%; max-width: 360px; }
 .champ-card { width: 100%; cursor: default; }
