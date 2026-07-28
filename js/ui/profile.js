@@ -26,7 +26,9 @@ export class ProfileView {
     this.root.appendChild(this.tasteCard(p))
     this.root.appendChild(this.locationCard(s))
     this.root.appendChild(this.radiusCard(s))
-    this.root.appendChild(this.byokCard(s))
+    // BYOK panel only exists in keyless dev builds — production live search
+    // runs on the house key, no user setup.
+    if (!CONFIG.placesKey) this.root.appendChild(this.byokCard(s))
     this.root.appendChild(this.statsCard(p))
     this.root.appendChild(this.footerCard())
   }
@@ -56,14 +58,10 @@ export class ProfileView {
   }
 
   byokCard(s) {
-    const house = !!CONFIG.placesKey
     const card = el(`
       <section class="panel">
-        <div class="panel-label">Live search${house ? '' : ' · bring your own key'}</div>
-        ${house
-          ? `<p class="panel-note">Address + live search are on the house — no key needed. Optionally use your own Google Places key instead (stored only on this device).</p>`
-          : `<p class="panel-note">Chews can search any area live using your own Google Places API key. The key is stored only on this device and calls go straight from your browser to Google (you pay Google directly, ~3¢ per area search).</p>`}
-        <p class="panel-note dim">Heads up: the hosted claude.ai preview blocks location and outside calls — GPS and live search work when Chews runs at its own URL (locally or deployed).</p>
+        <div class="panel-label">Live search · bring your own key (dev build)</div>
+        <p class="panel-note">This keyless build needs your own Google Places API key for address + live search. Stored only on this device; calls go straight from your browser to Google.</p>
         <div class="addr-row">
           <input type="password" autocomplete="off" placeholder="AIza…" value="${esc(s.byokKey || '')}" aria-label="Google Places API key">
           <button class="btn btn-ghost btn-key">${s.byokKey ? 'Update' : 'Save'}</button>
@@ -137,6 +135,7 @@ export class ProfileView {
           <input type="text" class="addr-input" placeholder="Or search any address or city…" aria-label="Search address">
           <button class="btn btn-ghost btn-addr">Go</button>
         </div>
+        <p class="panel-note dim">In the hosted claude.ai preview, GPS and address search are blocked by the sandbox — everything works at the app's own URL.</p>
       </section>
     `)
     const addrInput = card.querySelector('.addr-input')
