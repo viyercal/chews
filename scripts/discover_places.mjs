@@ -55,6 +55,11 @@ const TRIV = [ // Tri-Valley: Pleasanton / Dublin / Livermore / San Ramon / Danv
   [37.6624, -121.8747], [37.6939, -121.9270], [37.6997, -121.8916], [37.7057, -121.9284],
   [37.7104, -121.8759], [37.6819, -121.7686], [37.6866, -121.7929], [37.6900, -121.7550],
   [37.7625, -121.9500], [37.7780, -121.9780], [37.8216, -121.9996],
+  // Densified pass — Nearby caps at 20/cell, so commercial corridors need their own cells.
+  [37.6595, -121.8760], [37.6660, -121.8900], [37.6740, -121.8730], [37.6800, -121.9020],
+  [37.6930, -121.9050], [37.6900, -121.8650], [37.6620, -121.8500], [37.7040, -121.8590],
+  [37.7160, -121.9330], [37.6980, -121.7460], [37.6740, -121.8060], [37.7500, -121.9530],
+  [37.8090, -121.9910],
 ]
 const BK = [ // Brooklyn, NYC — neighborhood commercial strips
   [40.7143, -73.9614], [40.7245, -73.9515], [40.7005, -73.9270], [40.6872, -73.9418],
@@ -71,7 +76,7 @@ const QUALITY = {
   eb: { minRating: 4.2, minCount: 150 },
   pen: { minRating: 4.2, minCount: 150 },
   fre: { minRating: 4.2, minCount: 120 },
-  triv: { minRating: 4.2, minCount: 120 },
+  triv: { minRating: 4.0, minCount: 60 }, // suburban review volumes run lower than SF
   bk: { minRating: 4.3, minCount: 250 },
 }
 
@@ -95,7 +100,7 @@ async function nearby(lat, lng) {
         'places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.priceLevel,places.priceRange,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.regularOpeningHours',
     },
     body: JSON.stringify({
-      includedTypes: ['restaurant'],
+      includedTypes: ['restaurant', 'cafe', 'bakery'], // breakfast/cafe spots often lack the restaurant type
       maxResultCount: 20,
       rankPreference: 'POPULARITY',
       locationRestriction: { circle: { center: { latitude: lat, longitude: lng }, radius: 1200 } },

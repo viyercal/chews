@@ -1,0 +1,4004 @@
+[
+ {
+  "placeId": "ChIJw3q5qHLpj4ARcvzUzAGULWI",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Downtown Pleasanton",
+  "emoji": "🍽️",
+  "why": "A stylish Main Street spot where fresh oysters, watermelon margaritas, and spicy street noodles turn any dinner into a celebration.",
+  "tags": [
+   "date-night",
+   "seafood",
+   "noodles",
+   "spicy",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Spicy Noodles",
+   "description": "The go-to entree for celebration dinners here, recommended by regulars.",
+   "basis": "I recommend the Spicy Noodles"
+  },
+  "menu": [
+   {
+    "name": "Calamari",
+    "description": "A crispy starter served with a chili sweet and spicy sauce.",
+    "basis": "We ordered the Calamari, super yummy."
+   },
+   {
+    "name": "Carne Asada Bone Marrow",
+    "description": "A rich, savory appetizer diners call delicious.",
+    "basis": "We also ordered the carne Asada Bone Marrow"
+   },
+   {
+    "name": "Chicken Street Noodles",
+    "description": "A hearty noodle plate that satisfies a big appetite.",
+    "basis": "I had the chicken street noodles"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJL0hUJ73pj4ARFCQeWLSKAvE",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Downtown Pleasanton",
+  "emoji": "🧁",
+  "why": "Wedding-cake specialists whose mini cannolis and vegan strawberry mousse cake steal the show at every party.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "vegan-friendly",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mini Cannolis",
+   "description": "Bite-sized cannolis that guests can't stop complimenting.",
+   "basis": "the real star of the show were the mini cannolis"
+  },
+  "menu": [
+   {
+    "name": "Vegan Strawberry Mousse Cake",
+    "description": "A rare vegan option that one reviewer calls their all-time favorite dessert.",
+    "basis": "the Vegan Strawberry Mousse Cake, which is my favorite dessert of all time"
+   },
+   {
+    "name": "Strawberry-Rhubarb Pie",
+    "description": "A seasonal pie worth calling around town to track down.",
+    "basis": "get myself a strawberry-rhubarb pie for my birthday"
+   },
+   {
+    "name": "Red Velvet Cheesecake",
+    "description": "A layered cake with a jelly-like top and creme-brulee-style pudding underneath.",
+    "basis": "I tried the Red velvet cheesecake this time and it was delicious"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJlwYH2XTsj4ARsCK41oI8Vf0",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Stoneridge",
+  "emoji": "🥟",
+  "why": "Family-friendly Asian-fusion chain known for its bao buns, spicy chicken sets, and a dessert case worth saving room for.",
+  "tags": [
+   "noodles",
+   "spicy",
+   "sweet",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pork Bao Belly Buns",
+   "description": "A well-liked steamed bun appetizer.",
+   "basis": "The Pork Bao Belly Buns were good"
+  },
+  "menu": [
+   {
+    "name": "Shrimp and Noodle Dish",
+    "description": "A new menu item packed with flavor.",
+    "basis": "their new shrimp and noodle dish which was full of flavor"
+   },
+   {
+    "name": "Red Velvet Cake",
+    "description": "A simple but cute dessert to close out the meal.",
+    "basis": "a simple red velvet cake but cute and delicious"
+   },
+   {
+    "name": "Chang's Special Spicy Chicken Set",
+    "description": "A daily lunch special paired with a side and a refresher drink.",
+    "basis": "the Chang’s special spicy chicken set"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJv1TdQ3Hsj4ARPBxxN7NfDxA",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Stoneridge",
+  "emoji": "🍕",
+  "why": "A reliable mall pizza spot where the BBQ chicken pizza and Mexican street corn keep regulars coming back weekly.",
+  "tags": [
+   "cheese",
+   "comfort",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Original BBQ Chicken Pizza",
+   "description": "A well-regarded pizza pick among the inventive menu.",
+   "basis": "the Original BBQ Chicken Pizza, which was quite good"
+  },
+  "menu": [
+   {
+    "name": "Mexican Street Corn",
+    "description": "A must-try starter full of flavor.",
+    "basis": "the Mexican Street Corn—both were delicious and full of flavour"
+   },
+   {
+    "name": "Chicken Tequila Pasta",
+    "description": "A standing weekly order for regulars.",
+    "basis": "Hubs always orders his Chicken Tequila pasta"
+   },
+   {
+    "name": "Butter Cake",
+    "description": "A classic dessert order alongside the pizza and mac and cheese.",
+    "basis": "1/2 and 1/2 pizza, and butter cake"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ1ZMmFgDtj4ARUJvMG8bhL04",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Dublin",
+  "emoji": "☕",
+  "why": "A cozy Yemeni coffeehouse pouring specialty drinks like Adeni Chai and Turkish coffee for two.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Adeni Chai",
+   "description": "A spiced chai reviewers say is unforgettable.",
+   "basis": "the Adeni Chai is to dye for"
+  },
+  "menu": [
+   {
+    "name": "Turkish Coffee Service for 2",
+    "description": "A shareable, memorable coffee ritual.",
+    "basis": "Try the Turkish Coffee service for 2, it's unforgettable"
+   },
+   {
+    "name": "Cardamom Ginger Coffee",
+    "description": "A warming, spiced coffee drink.",
+    "basis": "so is the cardamom ginger coffee"
+   },
+   {
+    "name": "Delah Mofawar",
+    "description": "A signature specialty coffee drink.",
+    "basis": "The one I ordered was Delah Mofawar, and it was absolutely delicious"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJEQrSn5Xtj4ARjUadPfh2ze0",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Stoneridge",
+  "emoji": "🍜",
+  "why": "An izakaya gem tucked into a mall, famous for bone-marrow ramen, fresh sushi, and yakitori by the skewer.",
+  "tags": [
+   "soup",
+   "noodles",
+   "seafood",
+   "raw"
+  ],
+  "signatureDish": {
+   "name": "Bone Marrow Ramen",
+   "description": "The most popular ramen on the menu, rich and full of flavor.",
+   "basis": "their most popular ramen with bone marrow and it was phenomenal"
+  },
+  "menu": [
+   {
+    "name": "Zuwaigani Crab Chawanmushi",
+    "description": "A steamed egg custard dish with exceptionally fresh crab and fish.",
+    "basis": "The Zuwaigani Crab Chawanmushi was phenomenal"
+   },
+   {
+    "name": "Beef Broth Ramen",
+    "description": "A highly recommended, deeply flavorful ramen bowl.",
+    "basis": "The beef broth ramen is absolutely delicious and highly recommended"
+   },
+   {
+    "name": "Yellowtail Roll",
+    "description": "A standout sushi roll alongside the ramen menu.",
+    "basis": "especially the yellowtail roll"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJqXwstGztj4ARXS3XQSJ34SY",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Stoneridge",
+  "emoji": "☕",
+  "why": "A mall coffee stop where the staff feel like family and the iced green tea lemonade and breakfast sandwich taste homemade.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Iced Green Tea Lemonade",
+   "description": "A consistently delicious house favorite drink.",
+   "basis": "iced green tea lemonade is always delicious"
+  },
+  "menu": [
+   {
+    "name": "Breakfast Sandwich",
+    "description": "A morning sandwich that tastes homemade.",
+    "basis": "i tried a breakfast sandwich this morning and i was blown away by how delicious it was"
+   },
+   {
+    "name": "Decaf Espresso",
+    "description": "An after-5pm option for coffee lovers avoiding caffeine.",
+    "basis": "They have decaf espresso for your after 5pm coffee"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJWc9LNnHsj4ARe22ENp_z66M",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Stoneridge",
+  "emoji": "🥐",
+  "why": "A European-style bakery loved for its Japanese strawberry-cream sandwich and hearty cranberry walnut bread.",
+  "tags": [
+   "bread",
+   "vegetarian-friendly",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Japanese Strawberry Cream Sandwich",
+   "description": "A fruit sandwich with excellent bread and ripe strawberries.",
+   "basis": "Japanese style strawberries and cream sandwitch"
+  },
+  "menu": [
+   {
+    "name": "Vegetarian Sandwiches",
+    "description": "Part of a full vegetarian spread including soups and salad.",
+    "basis": "We ordered vegetarian sandwiches, veg soups and veg salad."
+   },
+   {
+    "name": "Cranberry Walnut Bread",
+    "description": "An artisan bread praised alongside the focaccia.",
+    "basis": "Tried Cranberry walnut bread and focaccia etc."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJjQi1EHTsj4ARbwtT4gfqUis",
+  "skip": false,
+  "cuisine": "Pretzel",
+  "neighborhood": "Stoneridge",
+  "emoji": "🥨",
+  "why": "A mall go-to for hand-rolled pretzels and gooey pizza bites, backed by staff regulars rave about by name.",
+  "tags": [
+   "sweet",
+   "quick-bite",
+   "casual",
+   "street-food"
+  ],
+  "signatureDish": {
+   "name": "Pizza Bites",
+   "description": "Warm, soft bites that melt in your mouth with a cream dip.",
+   "basis": "The pizza bites were so juicy and soft and melted right in my mouth with the cream"
+  },
+  "menu": [
+   {
+    "name": "Frosted Blue Raspberry Lemonade",
+    "description": "A refreshing drink to wash down the pretzels.",
+    "basis": "a nice frosted blue raspberry lemonade"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5yHYk7Luj4ARAMr3kBD9TOc",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJ_27MxLLuj4AR2glFltSjvlA",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJ3zJw6v_rj4AR2HbY6E0RxJI",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJ83SoqLDpj4ARPkXmAR2Rhug",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Stoneridge",
+  "emoji": "🫓",
+  "why": "A hidden grocery-store kitchen turning out 10/10 thalis, crisp non-greasy dosas, and fresh sambar and chutneys.",
+  "tags": [
+   "vegetarian-friendly",
+   "casual",
+   "healthy",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Thali",
+   "description": "A full South Indian platter, including savory-sweet Pongal, rated a perfect 10/10.",
+   "basis": "Everything on my thali was 10/10 including the savory and sweet Pongal"
+  },
+  "menu": [
+   {
+    "name": "Dosa",
+    "description": "A crisp, non-greasy dosa served alongside soft idli.",
+    "basis": "dosa was crisp ,non greasy"
+   },
+   {
+    "name": "Millet Dosa",
+    "description": "A lighter dosa option regulars order for its health benefits.",
+    "basis": "I started eating the millet dosa and I lost quite a bit of weight"
+   },
+   {
+    "name": "Sambar and Chutneys",
+    "description": "Fresh accompaniments served with the thali.",
+    "basis": "Sambar and chutneys were very fresh"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJjb6fYDLpj4AR6JfLV_8e-bw",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Hacienda",
+  "emoji": "🍛",
+  "why": "A massive-menu Andhra spot where the Palanadu biryanis and legendary chutney keep regulars coming back.",
+  "tags": [
+   "spicy",
+   "rice",
+   "casual",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Palanadu Biryani",
+   "description": "The house specialty, recommended above the rest of a sprawling menu.",
+   "basis": "trying their Palandu specials, especially the Palanadu Biryanis and Pulavs"
+  },
+  "menu": [
+   {
+    "name": "Chutney",
+    "description": "Called the best chutney in the Bay Area by regulars.",
+    "basis": "the chutney was absolutely amazing - it's hands down the best chutney in the Bay Area"
+   },
+   {
+    "name": "Gongura Chicken",
+    "description": "A spicy chicken dish with a good kick.",
+    "basis": "the Gongura chicken which was nice and had good amount of spice in it"
+   },
+   {
+    "name": "Garlic Naan",
+    "description": "A solid bread pairing for the curries.",
+    "basis": "The garlic naan was pretty good to accompany with"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2_LJHizrj4AR8IkMsIt4my0",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Hopyard",
+  "emoji": "🍧",
+  "why": "A tiny, big-hearted shaved-ice shop where the kinako kakigori and matcha rice latte are worth the drive from the city.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Kinako Kakigori",
+   "description": "A melt-in-your-mouth shaved ice with a refreshing roasted-soybean sweetness.",
+   "basis": "the kinako kakigori (pictured), which had perfect melt-in-your mouth texture and a refreshing sweet flavor in every bite"
+  },
+  "menu": [
+   {
+    "name": "Roasted Matcha Rice Latte",
+    "description": "A unique roasted-flavor latte that pairs well with kakigori.",
+    "basis": "The roasted matcha rice latte had a delicious and unique flavor"
+   },
+   {
+    "name": "Matcha with Red Bean and Mochi",
+    "description": "A shareable, large-portion shaved ice with classic toppings.",
+    "basis": "We got the matcha with red bean and mochi"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJQwOmU2zsj4ARL1OEw9L_v4Y",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJbSCejWvsj4ARWW8UbYngrYw",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Dublin",
+  "emoji": "🍰",
+  "why": "A French-Asian bakery beloved for its cloud cakes, custard buns, and a Vanilla Chocolate Heart Mousse Cake worth ordering for a birthday.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "bread",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Fruit Cloud Cake",
+   "description": "A light, gorgeous cake reviewers call perfection.",
+   "basis": "The fruit cloud cakes though, perfection!"
+  },
+  "menu": [
+   {
+    "name": "Custard Bun",
+    "description": "A savory-sweet pastry snack, best paired with the hot spicy sausage.",
+    "basis": "Loved the custard bun and the hot spicy sausage"
+   },
+   {
+    "name": "Vanilla Chocolate Heart Mousse Cake",
+    "description": "A delicious, fluffy mousse cake for special occasions.",
+    "basis": "I got the Vanilla Chocolate Heart Mousse Cake. It was very delicious and fluffy"
+   },
+   {
+    "name": "Walnut and Maple Roll Cake",
+    "description": "A reviewer favorite roll cake.",
+    "basis": "The most favorite is the Walnut and Maple roll cake"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJP5GzN6rtj4AReuSmCs8zmFY",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Dublin",
+  "emoji": "🥡",
+  "why": "A Hong Kong-style cafe turning out comforting classics — baked pork chop rice, shrimp chow fun, milk tea — done right every visit.",
+  "tags": [
+   "rice",
+   "comfort",
+   "casual",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Baked Pork Chop Rice",
+   "description": "A classic Hong Kong cafe rice dish, fresh and flavorful.",
+   "basis": "baked pork chop rice, milk tea, and chicken wings, and everything was delicious"
+  },
+  "menu": [
+   {
+    "name": "Shrimp Chow Fun",
+    "description": "A stir-fried noodle dish ordered alongside the pork chop rice.",
+    "basis": "We ordered shrimp chow fun, baked pork chop rice, milk tea, and chicken wings, and everything was delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJH8CVjzPpj4ARaNBYjk635e4",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJn6hcOTTpj4ARMNmzXe8rriw",
+  "skip": false,
+  "cuisine": "Dim Sum",
+  "neighborhood": "Dublin",
+  "emoji": "🥟",
+  "why": "The Bay Area's benchmark for dim sum — think Peking duck, daikon cake, and bbq pork buns, all served hot and fresh.",
+  "tags": [
+   "upscale",
+   "family-style",
+   "meat-heavy",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Peking Duck Set",
+   "description": "A standout amazing dish for a family dinner.",
+   "basis": "Amazing food, especially, the Peking Duck set."
+  },
+  "menu": [
+   {
+    "name": "Daikon Cake",
+    "description": "A dim sum favorite named alongside chicken feet and bbq pork buns.",
+    "basis": "I especially love the chicken feet, daikon cake and bbq pork buns."
+   },
+   {
+    "name": "Chicken Feet",
+    "description": "A traditional dim sum dish singled out as a favorite.",
+    "basis": "the chicken feet, daikon cake and bbq pork buns"
+   },
+   {
+    "name": "BBQ Pork Buns",
+    "description": "A classic steamed bun beloved by regulars.",
+    "basis": "daikon cake and bbq pork buns"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvft8FSTpj4AR9vT0wAw5w4o",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Dublin",
+  "emoji": "🥡",
+  "why": "Indo-Chinese comfort food — chilli paneer, schezwan tofu, burnt garlic rice — with bold flavor and great presentation.",
+  "tags": [
+   "spicy",
+   "vegetarian-friendly",
+   "rice",
+   "soup",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Chilli Paneer",
+   "description": "A seasoned-to-perfection Indo-Chinese classic.",
+   "basis": "We absolutely loved the chilli paneer and schzwan tofu, which were both seasoned to perfection."
+  },
+  "menu": [
+   {
+    "name": "Schezwan Tofu",
+    "description": "A perfectly seasoned tofu dish paired with the chilli paneer.",
+    "basis": "schzwan tofu, which were both seasoned to perfection"
+   },
+   {
+    "name": "Chinese Bhel & Hot n Sour Soup",
+    "description": "A zesty starter combo that kicks off the meal.",
+    "basis": "The Chinese bhel and hot n sour soup provided the perfect, zesty start to our meal"
+   },
+   {
+    "name": "Burnt Garlic Rice",
+    "description": "A fragrant fried rice that pairs beautifully with the mains.",
+    "basis": "The burnt garlic rice was incredibly fragrant and paired beautifully with all our main dishes"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJVXxM85fnj4AROmK9fjzlRMw",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJsc0k2Zjnj4ARQelYmcleGN4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "☕",
+  "why": "A minimalist, dog-friendly coffee bar where the Whiskey Latte and peach kouign-amann are must-orders.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "dessert"
+  ],
+  "signatureDish": {
+   "name": "Whiskey Latte",
+   "description": "A unique specialty latte reviewers call a must-try.",
+   "basis": "the Whiskey Latte is a must-try"
+  },
+  "menu": [
+   {
+    "name": "Butter Croissant",
+    "description": "A classic pastry paired with a sweet latte.",
+    "basis": "Tried the butter croissant and sweet latte"
+   },
+   {
+    "name": "Peach Kouign-Amann",
+    "description": "A seasonal pastry that hits the spot alongside iced drinks.",
+    "basis": "Had a yummy peach kouign-amann and 2 season iced drinks that hit so good"
+   },
+   {
+    "name": "Blueberry Matcha / Tres Leches Latte",
+    "description": "Two seasonal drink must-tries.",
+    "basis": "Blueberry matcha and tres leches latte are a must-try"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJoyutmYfnj4AR4njjCpc8DR8",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🌮",
+  "why": "Livermore's brunch darling — breakfast queso tacos, portobello quiche, and lavender lemonade served fast despite the lines.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Queso Tacos",
+   "description": "Light, fluffy eggs with avocado and bacon in a must-have taco.",
+   "basis": "The breakfast queso tacos are to die for"
+  },
+  "menu": [
+   {
+    "name": "Portobello Quiche",
+    "description": "A superb quiche made in limited daily batches.",
+    "basis": "The portobello quiche - superb."
+   },
+   {
+    "name": "Lavender Lemonade",
+    "description": "A refreshing house drink.",
+    "basis": "lavender Lemonade very refreshing"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJK1Jspv_nj4ARbUo0alS8YPs",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Livermore",
+  "emoji": "☕",
+  "why": "A community-loved cafe where the breakfast sandwich and salmon labneh croissant have people driving out just for the food.",
+  "tags": [
+   "breakfast",
+   "coffee",
+   "brunch",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Sandwich",
+   "description": "A saucy, delicious sandwich reviewers describe as heavenly.",
+   "basis": "THE BREAKFAST SANDWICH WAS TO DIE FOR, I was in heaven with every bite, it’s so saucy and delicious"
+  },
+  "menu": [
+   {
+    "name": "Breakfast Oats",
+    "description": "A supremely flavorful oats dish worth the hype.",
+    "basis": "The breakfast oats was fantastic! Supper flavorful and worth the hype"
+   },
+   {
+    "name": "Salmon Labneh Croissant",
+    "description": "A fantastic savory croissant with salmon and labneh.",
+    "basis": "My wife also had the salmon labneh croissant and I got the breakfast sandwich. Those were FANTASTIC"
+   },
+   {
+    "name": "Vietnamese Coffee",
+    "description": "An excellent coffee option beyond the standard brews.",
+    "basis": "I got a Vietnamese coffee. Both were excellent"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJqT-PL7jnj4ARzsXcuWq1cl8",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🍛",
+  "why": "A Thai-American brunch mashup famous for crispy fried chicken, rich crab curry, and a yellow curry portion big enough to share.",
+  "tags": [
+   "spicy",
+   "fried",
+   "brunch",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Fried Chicken",
+   "description": "Crispy, juicy fried chicken seasoned to perfection with Thai flavor.",
+   "basis": "Their fried chicken is absolutely on point—crispy, juicy, and seasoned to perfection"
+  },
+  "menu": [
+   {
+    "name": "Crab Curry",
+    "description": "A rich, authentic-tasting curry that impresses.",
+    "basis": "The crab curry is beyond impressive, delivering an authentic taste that’s rich and flavorful"
+   },
+   {
+    "name": "Yellow Curry",
+    "description": "A generously portioned curry good for sharing.",
+    "basis": "Yellow curry was amazing"
+   },
+   {
+    "name": "Pork Ka Pow",
+    "description": "A well-liked stir-fried pork dish.",
+    "basis": "I ordered pork ka pow and really liked the taste"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJxbLOjWfnj4ARIvlLn0iZf5w",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🥡",
+  "why": "Livermore's go-to Chinese spot for seared Mongolian beef and a can't-miss House Special Dinner spread.",
+  "tags": [
+   "meat-heavy",
+   "noodles",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mongolian Beef",
+   "description": "Seared beef slices, not rubbery like at other restaurants.",
+   "basis": "the beef slices in the Mongolian Beef was seared and not rubbery like some other places"
+  },
+  "menu": [
+   {
+    "name": "House Special Dinner",
+    "description": "A fantastic shared spread including prawns, egg rolls, and spare ribs.",
+    "basis": "The three of us shared the House Special Dinner, which was a fantastic spread"
+   },
+   {
+    "name": "Pepper Beef and Orange Chicken",
+    "description": "Reviewer favorites among the entree lineup.",
+    "basis": "The pepper beef and orange chicken was the best"
+   },
+   {
+    "name": "Chicken Chow Mein",
+    "description": "Part of a well-prepared multi-dish spread.",
+    "basis": "We had the chicken chow mein, sweet and sour soup, sizzling pepper steak, Mongolian beef, and sweet and sour pork. Every dish was delicious and well-prepared."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJp3NnY5Xnj4ARWLB_jX2RtjA",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🍩",
+  "why": "A line-out-the-door donut shop known for fluffy frosted cake donuts and custom-filled custards loaded with toppings.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "breakfast",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Frosted Cake Donut",
+   "description": "A thick, big, fluffy donut with just the right amount of icing and sprinkles.",
+   "basis": "The frosted cake donuts are thick, big, and fluffy"
+  },
+  "menu": [
+   {
+    "name": "Cinnamon Twist",
+    "description": "A well-liked classic twist pastry.",
+    "basis": "The cinnamon twists are really good"
+   },
+   {
+    "name": "Custard Filled Donut",
+    "description": "A custom-order donut loaded with frosting and sprinkles.",
+    "basis": "Custom filled custard donuts on request and frosting and sprinkles are loaded"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJUU1QDZ_nj4ARNg-kuFqE5F0",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🥪",
+  "why": "A surprisingly solid casino bar kitchen — reviewers say the patty melt and onion rings rival any diner, at reasonable prices.",
+  "tags": [
+   "comfort",
+   "casual",
+   "meat-heavy",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Patty Melt",
+   "description": "A lunch order that came out exactly as liked.",
+   "basis": "I came in for lunch and had a patty melt with onion rings. Food came out just the way I liked it"
+  },
+  "menu": [
+   {
+    "name": "Onion Rings",
+    "description": "A side served alongside the patty melt.",
+    "basis": "had a patty melt with onion rings. Food came out just the way I liked it"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvyuYYhbnj4ARm9A9LWnNcis",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Livermore",
+  "emoji": "🍖",
+  "why": "A reliably good Tex-Mex chain stop — tender baby back ribs and Texas cheese fries keep this Livermore location a family favorite.",
+  "tags": [
+   "meat-heavy",
+   "comfort",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Baby Back Ribs",
+   "description": "Tender, delicious ribs a reviewer's husband couldn't stop raving about.",
+   "basis": "My husband had his baby back ribs"
+  },
+  "menu": [
+   {
+    "name": "Texas Cheese Fries",
+    "description": "A calorie-worth-it cheesy fries order.",
+    "basis": "I tried their Texas cheese fries"
+   },
+   {
+    "name": "Salad",
+    "description": "A reviewer favorite fresh side.",
+    "basis": "The salad was my favorite,  I will be back every other day."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ03riW5zyj4ARqJGHiXkY9Ak",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJT-xDF5_zj4ARCw58zASw22Q",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJGWCEHYLzj4ARAZtoTViCouU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "San Ramon",
+  "emoji": "☕",
+  "why": "A laid-back San Ramon coffee stop known for rich, custom-blended coffee made exactly how strong you like it.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Custom-Blended Coffee",
+   "description": "A fragrant, full-character coffee that can be made creamy smooth and strong.",
+   "basis": "Its coffees are so fragrant and full of character.  They can make it creamy smooth with thick heavy cream, the way I like a strong coffee."
+  },
+  "menu": [
+   {
+    "name": "Snacks",
+    "description": "A nice selection paired with the trendy coffee menu.",
+    "basis": "excellent flavors and nice selection of snacks too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ42Hj-0Xzj4ARwEkVtXYscpI",
+  "skip": false,
+  "cuisine": "Vietnamese",
+  "neighborhood": "San Ramon",
+  "emoji": "🦆",
+  "why": "The San Ramon outpost of the legendary SF original, famous for dry-aged roasted duck, shaking beef, and generous family-style service.",
+  "tags": [
+   "seafood",
+   "upscale",
+   "date-night",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Dry-Aged Salted Wood Roasted Duck",
+   "description": "A scrumptious, chef-perfected signature duck dish aged for 10 days.",
+   "basis": "the scrumptious 10- day dry-aged salted wood roasted duck perfected by the late Chef Charles Phan"
+  },
+  "menu": [
+   {
+    "name": "Papaya Salad",
+    "description": "A light, refreshing salad accented with rau ram.",
+    "basis": "Papaya salad was light and refreshing, accented with rau ram"
+   },
+   {
+    "name": "Shaking Beef",
+    "description": "A signature beef dish ordered alongside pea tendrils and spring rolls.",
+    "basis": "We ordered the shaking beef, pea tendrils, and the spring rolls"
+   },
+   {
+    "name": "Chicken Clay Pot",
+    "description": "A well-loved clay pot dish among the appetizers.",
+    "basis": "We especially enjoyed the fish, chicken clay pot, and appetizers such as papaya salad and spring rolls"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJy1QD7-Xzj4AR9LaRNJX5XSw",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "San Ramon",
+  "emoji": "🍕",
+  "why": "A Bishop Ranch Italian spot loved for warmed olives, beet salad, steak on a stick, and a margarita pizza worth the visit.",
+  "tags": [
+   "casual",
+   "cheese",
+   "meat-heavy",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Margarita Pizza",
+   "description": "A recommended pizza pick to try here.",
+   "basis": "I would recommend the margarita pizza."
+  },
+  "menu": [
+   {
+    "name": "Warmed Olives",
+    "description": "A flavorful, salty starter.",
+    "basis": "got the warmed olives, beet salad, steak on a stick, and the pizza"
+   },
+   {
+    "name": "Beet Salad",
+    "description": "A salad topped with cheese that hits all the right notes.",
+    "basis": "the beet salad topped with hints of cheese hit all the taste buds in just the right way"
+   },
+   {
+    "name": "Steak on a Stick",
+    "description": "A skewered steak cooked to perfection.",
+    "basis": "steak on a stick, and the pizza. Everything was cooked to perfection with the flavors being unique and complementing each other."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJtQvCqb_zj4ARymmdZ2qStzM",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "San Ramon",
+  "emoji": "🍪",
+  "why": "A rotating specialty cookie shop where even the mini flavors get kids, and quality-obsessed reviewers, excited.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Specialty Cookies",
+   "description": "Cookies that can mimic nearly any flavor imaginable.",
+   "basis": "the cookies are simply delicious. They can mimic anything and turn it into a cookie"
+  },
+  "menu": [
+   {
+    "name": "Mini Crumbl Cookies",
+    "description": "A smaller-format cookie lineup kids love trying in every flavor.",
+    "basis": "Liked most of the flavors of mini crumble cookies. Kids were very excited and happy to try all the flavors"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJtZUfeXXzj4ARDpHTEVpL1Zg",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJF0bBqLjyj4ARpd6Hx0EaEZ4",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJCzoyRcTyj4ARakQQzvVJinQ",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "San Ramon",
+  "emoji": "🍛",
+  "why": "A grocery-store kitchen specializing in Andhra/Hyderabad cuisine, where the biryani and lunch combo are a locals-only secret.",
+  "tags": [
+   "vegetarian-friendly",
+   "rice",
+   "casual",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Biryani",
+   "description": "A house specialty paired with a lunch combo that's a local favorite.",
+   "basis": "Their biryanis and lunch combo are so good"
+  },
+  "menu": [
+   {
+    "name": "Onion Pokora",
+    "description": "A popular side dish add-on to the lunch combo.",
+    "basis": "For additional sides, I buy onion Pokora"
+   },
+   {
+    "name": "Indian Snacks",
+    "description": "A snack selection reminiscent of local bakery treats.",
+    "basis": "Their Indian snacks are just like local bakery snacks"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ8_Ku4lPzj4ARPKP5dyS1GyU",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "San Ramon",
+  "emoji": "🍛",
+  "why": "Exquisite Indian dining known for tender Chicken Tikka, spicy Lamb Punjabi, and a standout crispy Fish Pakora.",
+  "tags": [
+   "spicy",
+   "meat-heavy",
+   "fried",
+   "seafood"
+  ],
+  "signatureDish": {
+   "name": "Chicken Tikka",
+   "description": "Tender, juicy chicken full of flavor.",
+   "basis": "The Chicken Tikka was tender, juicy, and full of flavor"
+  },
+  "menu": [
+   {
+    "name": "Lamb Punjabi",
+    "description": "A spicy, savory lamb dish.",
+    "basis": "the Lamb Punjabi was spicy and savory"
+   },
+   {
+    "name": "Fish Pakora",
+    "description": "A standout fried fish appetizer, crispy outside and tender inside.",
+    "basis": "The Fish Pakora was a standout dish - crispy on the outside and tender on the inside, with just the right amount of seasoning"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJcXvzXLrzj4ARXL2iNL22r8g",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "San Ramon",
+  "emoji": "🍜",
+  "why": "Diners call it some of the best Thai food they've ever had, anchored by a rich, must-order Khao Soi.",
+  "tags": [
+   "soup",
+   "noodles",
+   "spicy",
+   "family-style",
+   "upscale"
+  ],
+  "signatureDish": {
+   "name": "Khao Soi",
+   "description": "A rich, flavorful curry noodle soup that reviewers say is the highlight of the meal.",
+   "basis": "The Khao Soi was excellent and easily the highlight of the meal."
+  },
+  "menu": [
+   {
+    "name": "Eggplant with Basil",
+    "description": "A savory basil-stir-fried eggplant dish ordered as part of a lunch spread.",
+    "basis": "I had the eggplant with basil and tom yum soup with chicken."
+   },
+   {
+    "name": "Tom Yum Soup with Chicken",
+    "description": "A tangy, aromatic chicken soup that's a lunch favorite.",
+    "basis": "tom yum soup with chicken"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJW9asCYrzj4ARN3lFxfDmALQ",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "San Ramon",
+  "emoji": "🍧",
+  "why": "Ultra-fine, milky shave ice piled with fresh fruit and mochi that regulars call their new favorite dessert spot in the Bay Area.",
+  "tags": [
+   "dessert",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Mango & Strawberry Bingsoo",
+   "description": "A shave ice bingsoo topped with fresh mango and strawberry that reviewers call outstanding.",
+   "basis": "We got the mango and strawberry bingsoo. Both were outstanding."
+  },
+  "menu": [
+   {
+    "name": "Injeolmi Bingsoo",
+    "description": "A soybean-powder bingsoo flavor named a repeat favorite by regulars who've tried five varieties.",
+    "basis": "I’ve tried 5 different bingsoos, and injeolmi and matcha are my favorites."
+   },
+   {
+    "name": "Matcha Red Bean Bingsoo",
+    "description": "A matcha and red bean shave ice flavor among the shop's rotating lineup.",
+    "basis": "the mango, strawberry, matcha red bean, and chocolate flavors"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ-0ThIACNj4ARs2kjX0DfBnU",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Danville",
+  "emoji": "🍔",
+  "why": "A craft brewery taproom slinging a flavorful Wagyu burger and crispy fries in a come-as-you-are, fire-pit-filled space.",
+  "tags": [
+   "casual",
+   "meat-heavy",
+   "fried",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Wagyu Burger",
+   "description": "A Wagyu beef burger reviewers say delivers on both flavor and quality.",
+   "basis": "The Wagyu burger was good, delivering on flavor and quality."
+  },
+  "menu": [
+   {
+    "name": "Crispy Fries",
+    "description": "A generous side of crispy fries served with the burger.",
+    "basis": "The burger comes with some crispy fries that were plenty."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFeYfDmHpj4AR-oRb6KHJhNA",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍛",
+  "why": "Well-cooked mutton biryani and banana-leaf South Indian classics that reviewers call excellent value for money.",
+  "tags": [
+   "rice",
+   "spicy",
+   "meat-heavy",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mutton Biryani",
+   "description": "A well-cooked biryani with distinct, fluffy rice that reviewers call the standout of the combo.",
+   "basis": "The biryani was particularly enjoyable—the rice was well cooked"
+  },
+  "menu": [
+   {
+    "name": "Chicken 65",
+    "description": "A crispy fried chicken appetizer that's a family favorite alongside dosa and parottas.",
+    "basis": "the Balaji Special Dosa, Chicken 65, and their parottas"
+   },
+   {
+    "name": "Hyderabadi Dum Biryani",
+    "description": "A slow-cooked Hyderabadi-style biryani recommended by regulars.",
+    "basis": "Try their Hyderabdi dum biryani"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJI-KDWHDpj4ARlbDTzPI1bh0",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Hopyard",
+  "emoji": "🍕",
+  "why": "A pizza-and-arcade institution where the Sicilian Margherita pizza is called an absolute must-try.",
+  "tags": [
+   "cheese",
+   "family-style",
+   "fried",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Sicilian Margherita Pizza",
+   "description": "A Sicilian-style Margherita pizza reviewers say is a must-order.",
+   "basis": "especially the Sicilian Margherita pizza. It’s a must!"
+  },
+  "menu": [
+   {
+    "name": "Rustic Margarita Pizza",
+    "description": "A rustic Margarita pizza ordered alongside spaghetti and garlic bread.",
+    "basis": "I ordered the rustic Margarita Pizza"
+   },
+   {
+    "name": "Fried Chicken",
+    "description": "Fried chicken ordered as part of a combo pizza order that reviewers found solid.",
+    "basis": "2 orders of fried chicken and large combo pizza. The chicken and salad were fine."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJsVi1mmTpj4ARcaqR7ybEPR0",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Hopyard",
+  "emoji": "🌮",
+  "why": "A patio taqueria with a stacked salsa bar where the quesabirria and breakfast burritos keep regulars coming back.",
+  "tags": [
+   "cheese",
+   "spicy",
+   "casual",
+   "breakfast",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Quesabirria",
+   "description": "A tender, juicy quesabirria with cheese dripping into its dipping soup.",
+   "basis": "The quesabirria was on point today, and the superburrito was equally tasty."
+  },
+  "menu": [
+   {
+    "name": "Breakfast Burrito",
+    "description": "A fairly priced, good-sized breakfast burrito with potato, cheese, bacon and egg.",
+    "basis": "Standard potato, cheese, bacon, and egg breakfast burrito."
+   },
+   {
+    "name": "Taco Monday Tacos",
+    "description": "Fat, flavorful tacos served fast and hot on Taco Monday.",
+    "basis": "Fat tacos, delicious flavor, served fast and hot temp wise!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJsamzBDzpj4ARyjUxGT_kFu4",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍕",
+  "why": "A pizza spot with an Indian-inspired twist, where the butter chicken taco and cauliflower crust pizza set it apart.",
+  "tags": [
+   "cheese",
+   "spicy",
+   "family-style",
+   "casual",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Butter Chicken Taco",
+   "description": "An Indian-style taco with butter chicken and soft naan, made to order.",
+   "basis": "I would recommend butter chicken taco"
+  },
+  "menu": [
+   {
+    "name": "Meat Lovers Cauliflower Crust Pizza",
+    "description": "A meat lovers pizza on a cauliflower crust that regulars call absolutely delicious.",
+    "basis": "Our favorite is their meat lovers cauliflower crust pizza—it’s absolutely delicious."
+   },
+   {
+    "name": "Indian Pizza",
+    "description": "A curry-spiced Indian pizza reviewers call a must-try.",
+    "basis": "The Indian pizza is a must try but the regular pizza flavors are pretty good too."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ-YtrAwfpj4ARntPqDFbSS8A",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Pleasanton",
+  "emoji": "🌮",
+  "why": "A patio taqueria loaded with meat where the real-grilled fish taco is called one of the best around.",
+  "tags": [
+   "seafood",
+   "spicy",
+   "casual",
+   "quick-bite",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Fish Taco",
+   "description": "A real grilled-fish taco, not the frozen battered kind, that a self-described fish taco fan calls one of the best.",
+   "basis": "My favorite item is the fish taco. I'm a sucker for fish tacos and this place has one of best I've ever had."
+  },
+  "menu": [
+   {
+    "name": "Shrimp Burrito",
+    "description": "A shrimp burrito enjoyed alongside the taqueria's vegetarian-friendly rice and beans.",
+    "basis": "my husband also enjoyed his shrimp burrito."
+   },
+   {
+    "name": "Soft Shrimp Taco",
+    "description": "A soft shrimp taco with amazing flavor and shrimp that isn't rubbery.",
+    "basis": "I has a soft shrimp taco. The flavor and taste was just amazing."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ_VPEd9_pj4ARmxq-V0ykzwA",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍱",
+  "why": "A quick-bite teriyaki grill where the ribeye steak and chicken bowl is tender and marinated, not drowned in sauce.",
+  "tags": [
+   "quick-bite",
+   "casual",
+   "grilled",
+   "rice",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Ribeye Steak and Chicken Bowl",
+   "description": "A bowl with tender, marinated ribeye and chicken that isn't drenched in sauce.",
+   "basis": "The ribeye steak and chicken bowl was tasty. The  meats were tender and marinated not drenched in a deluge of sauce."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJTdzaH-3pj4AREL8t3Y_A-0Y",
+  "skip": false,
+  "cuisine": "Korean",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍗",
+  "why": "Reviewers call it the KFC champ of the East Bay, with crispy Korean fried chicken and sotteok sotteok skewers on repeat order.",
+  "tags": [
+   "fried",
+   "spicy",
+   "meat-heavy",
+   "casual",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Half-Half Fried Chicken",
+   "description": "A half original, half yangnyeom fried chicken combo that's the go-to order.",
+   "basis": "Our go-to is the Half-Half (original + yang nyum) and the Sodduk Sodduk."
+  },
+  "menu": [
+   {
+    "name": "Sotteok Sotteok Skewers",
+    "description": "Grilled sausage and rice cake skewers that were a favorite item.",
+    "basis": "Our favorite thing we got though was the sotteok sotteok sausage and rice cake skewers."
+   },
+   {
+    "name": "Original Whole Fried Chicken",
+    "description": "A juicy, crispy whole fried chicken that needs no extra sauce or flavoring.",
+    "basis": "The original whole fried chicken was delicious! It was juicy, crispy, and flavorful, and truly didn’t need any extra sauce or flavoring."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJnSQJ1oDpj4AR-poCPNyJHAI",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Pleasanton",
+  "emoji": "🌮",
+  "why": "A sprawling, family-friendly cantina where tender beef-and-shrimp fajitas and a 20-year favorite Pollo Barracho keep birthdays coming back.",
+  "tags": [
+   "meat-heavy",
+   "seafood",
+   "family-style",
+   "casual",
+   "grilled"
+  ],
+  "signatureDish": {
+   "name": "Beef and Shrimp Fajitas",
+   "description": "Tender, juicy fajita-style beef cooked over grilled peppers and onions with rice, beans and tortillas.",
+   "basis": "The beef fajitas are well-prepared with tender, juicy meat cooked fajita-style over grilled bell peppers and onions"
+  },
+  "menu": [
+   {
+    "name": "Shrimp Fajitas",
+    "description": "Fresh, flavorful shrimp fajitas that stand out from the classic beef version.",
+    "basis": "The shrimp fajitas stand out with fresh, flavorful shrimp"
+   },
+   {
+    "name": "Pollo Barracho (Drunken Chicken)",
+    "description": "Marinated chicken breast with rice, beans, salsa and tortillas, a two-decade favorite.",
+    "basis": "the Pollo Barracho (drunken  chicken) dinner has been a favorite of mine for over 20 years."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5dwJSgDpj4ARA3gQHgOSY2c",
+  "skip": false,
+  "cuisine": "Seafood",
+  "neighborhood": "Pleasanton",
+  "emoji": "🐟",
+  "why": "A fresh seafood market and kitchen where the housemade-batter Cod n Prawn and clam chowder rival any seafront restaurant.",
+  "tags": [
+   "seafood",
+   "fried",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Cod n Prawn with Chips",
+   "description": "Fresh cod and prawns in a light housemade batter, served hot and fast with plentiful chips.",
+   "basis": "I had the Cod n Prawn with Chips—everything was incredibly fresh, cooked to perfection with a light, housemade batter, and served hot and fast."
+  },
+  "menu": [
+   {
+    "name": "Clam Chowder",
+    "description": "A chowder a Santa Cruz native calls just about perfect.",
+    "basis": "Chowder was just about perfect, and I grew up on this living in Santa Cruz."
+   },
+   {
+    "name": "Focaccia with Crab",
+    "description": "A shared focaccia topped with crab.",
+    "basis": "We also shared the focaccia with crab on top"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJmz_vQJXpj4ARUfS2B4uuhwc",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Pleasanton",
+  "emoji": "🥯",
+  "why": "Housemade bagels turned into a pesto bagel pizza and a top-tier Pastrami Panini make this a quick-lunch favorite.",
+  "tags": [
+   "quick-bite",
+   "casual",
+   "cheese",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Pesto Bagel Pizza",
+   "description": "A pesto-topped bagel pizza a reviewer says they can't go back to their usual order after trying.",
+   "basis": "I had there pesto bagel pizza. I don't think I can ever go back to my usual. This was AMAZING!!!!"
+  },
+  "menu": [
+   {
+    "name": "Pastrami Panini",
+    "description": "A well-liked pastrami panini served by welcoming staff.",
+    "basis": "The Pastrami Panini is really good"
+   },
+   {
+    "name": "Veggie Avocado Sandwich",
+    "description": "A fresh veggie avocado sandwich with optional extra cream cheese.",
+    "basis": "Today I tried their veggie avocado sandwich, added cream cheese extra. It was very fresh and nice."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJQzTm75zpj4AR5EiSxdThJaI",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Downtown Pleasanton",
+  "emoji": "🍳",
+  "why": "A cozy fairgrounds diner where the Denver omelette and fresh-squeezed OJ deliver a generous, nostalgic breakfast.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Denver Omelette",
+   "description": "A generously served Denver omelette reviewers call very good.",
+   "basis": "My Denver omelette was very good."
+  },
+  "menu": [
+   {
+    "name": "Fresh Squeezed Orange Juice",
+    "description": "A fresh-squeezed OJ with plenty of pulp, called perfect by regulars.",
+    "basis": "My fresh squeezed orange juice was perfect, with lots of pulp, yay!"
+   },
+   {
+    "name": "Red Potatoes",
+    "description": "A well-seasoned side of red potatoes that isn't overly salty.",
+    "basis": "Had the red potatoes. Good not salty"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJY4Gm1cfpj4ARPM6EHNxW4JE",
+  "skip": false,
+  "cuisine": "Hawaiian",
+  "neighborhood": "Pleasanton",
+  "emoji": "🐟",
+  "why": "Huge, fresh poke bowls with high-quality fish, from a spicy tuna bowl to an addictive spicy miso salmon.",
+  "tags": [
+   "seafood",
+   "raw",
+   "rice",
+   "spicy",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Spicy Miso Salmon",
+   "description": "A spicy miso salmon bowl reviewers rave about.",
+   "basis": "that spicy miso salmon? UGH so good"
+  },
+  "menu": [
+   {
+    "name": "Spicy Tuna Bowl",
+    "description": "A spicy tuna bowl with sriracha that's well worth the price.",
+    "basis": "I got the spicy tuna bowl with sriracha and really liked it."
+   },
+   {
+    "name": "Chicken Shoyu",
+    "description": "A shoyu chicken bowl option reviewers call really good.",
+    "basis": "Chicken shoyu is really good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ-3i-54Ppj4ARu0i2wRNUwXM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Pleasanton",
+  "emoji": "☕",
+  "why": "A spacious Afghan-run coffee spot with ping pong and pool tables, pouring smooth, gentle coffee and unique flavors like rose matcha.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Rose Matcha",
+   "description": "A unique rose matcha drink among the cafe's signature flavored options.",
+   "basis": "saffron and rose matcha"
+  },
+  "menu": [
+   {
+    "name": "Vanilla Latte",
+    "description": "A vanilla latte reviewers say is great in taste.",
+    "basis": "The vanilla latte and rose matcha were great in taste"
+   },
+   {
+    "name": "House Coffee",
+    "description": "A smooth, gentle coffee that's easy even on sensitive stomachs.",
+    "basis": "their coffee was incredibly smooth and gentle—no discomfort at all."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJpeUAAQzpj4ARa5MteG7-ZEg",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJsaQKmg3pj4AR50RjDOpftF8",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Pleasanton",
+  "emoji": "☕",
+  "why": "A bustling, farm-to-table cafe famous for its strawberry shortcake and rich coffee, worth the after-10am line.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "brunch",
+   "casual",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Strawberry Shortcake",
+   "description": "A strawberry shortcake reviewers call great, alongside an excellent latte.",
+   "basis": "The strawberry shortcake was great, the latte was excellent"
+  },
+  "menu": [
+   {
+    "name": "Oat Milk Latte & Tostini",
+    "description": "An oat milk latte paired with avocado-and-egg tostini.",
+    "basis": "Had an oat milk latte and tostini with avocado and egg."
+   },
+   {
+    "name": "House Coffee",
+    "description": "Rich, smooth coffee made with clearly farm-fresh care.",
+    "basis": "The coffee deserves a special mention: rich, smooth"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ45LcQlnpj4AR3KsOYhhIll0",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍛",
+  "why": "Incredible grilled Banjara Chicken, fiery-but-tolerable goat curry, and soft naan served with genuinely warm hospitality.",
+  "tags": [
+   "spicy",
+   "meat-heavy",
+   "grilled",
+   "bread",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Banjara Chicken",
+   "description": "Boneless chicken thighs marinated in yogurt and spices, then grilled, called incredible and juicy.",
+   "basis": "The Banjara Chicken was incredible. Boneless pieces of chicken thighs marinated in yogurt and spices then grilled were very flavorful and juicy."
+  },
+  "menu": [
+   {
+    "name": "Butter Chicken",
+    "description": "A butter chicken reviewers call fire, served alongside a tolerably spicy goat dish.",
+    "basis": "Butter chicken was fire and the goat dish was spicy but tolerable."
+   },
+   {
+    "name": "Goat Biryani",
+    "description": "A flavorful, authentic-tasting goat biryani.",
+    "basis": "Goat biryani and UlavacharU veg dum biryani. All of them tasted great and authentic."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ0oH2pvpj4AR0rFJCc-de9Y",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍛",
+  "why": "Behind the grocery aisles, a live-parotta hot food counter serves flavorful biryani and chicken kothu at reasonable cost.",
+  "tags": [
+   "rice",
+   "spicy",
+   "meat-heavy",
+   "street-food",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Biryani",
+   "description": "Flavorful biryani from the store's south Indian hot food counter, a must-try alongside parottas and chicken kothu.",
+   "basis": "Flavourful Biriyani, parottas, chicken kothu, chicken gravy are must try on the list."
+  },
+  "menu": [
+   {
+    "name": "Parottas",
+    "description": "Fresh, hot, flaky parottas made at a live counter.",
+    "basis": "Fresh hot flaky parottas will definitely satisfy your inner child who wants to visit India for food."
+   },
+   {
+    "name": "Made-to-Order South Indian Dishes",
+    "description": "A hot food station out front serving made-to-order south Indian dishes.",
+    "basis": "There was also a station out front with made to order south Indian dishes."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJE0qZrA3pj4ARYvHJ78E7IlU",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍜",
+  "why": "A well-oiled Thai kitchen where the appetizer sampler's bottle-worthy chile sauce and mango sticky rice keep loyal regulars coming back.",
+  "tags": [
+   "spicy",
+   "noodles",
+   "sweet",
+   "rice",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Appetizer Sampler",
+   "description": "A crisp, perfectly flavored sampler platter served with a sweet-and-sour chile dipping sauce reviewers say could be bottled and sold.",
+   "basis": "We ordered the sampler to start, each item was perfectly crisp and flavored, and the sweet and sour chile dipping sauce was incredible, could be bottled and sold."
+  },
+  "menu": [
+   {
+    "name": "Chicken Satay",
+    "description": "Chicken satay served with mango sticky rice in generous portion sizes.",
+    "basis": "We also had the chicken satay and mango sticky rice. Both incredibly delicious and perfect portion sizes."
+   },
+   {
+    "name": "Drunken Noodles",
+    "description": "Drunken noodles among the dishes reviewers loved on a favorite-appetizer night out.",
+    "basis": "We loved the appetizer sampler, drunken noodles, prik khing and mango sticky rice."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJtUfPsA3pj4ARJfehlLKMUs4",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍗",
+  "why": "Charcoal-grilled wings that a self-described picky wing lover calls hands-down the best in the area, plus a beloved monthly turkey dip.",
+  "tags": [
+   "meat-heavy",
+   "fried",
+   "grilled",
+   "casual",
+   "bbq"
+  ],
+  "signatureDish": {
+   "name": "Grilled Wings",
+   "description": "Charcoal-grilled wings a picky regular calls hands-down the best in the area.",
+   "basis": "My favorite spot for Grilled Wings and I am very picky when it comes to wings. These are hands down the best wings in the area."
+  },
+  "menu": [
+   {
+    "name": "Turkey Dip",
+    "description": "A monthly-order turkey dip with perfect fries and piping hot au jus.",
+    "basis": "I went for my monthly turkey dip again last night. Once again the French fries were perfect, the dip was giant and the au jus was piping hot."
+   },
+   {
+    "name": "Charcoal-Grilled Meats",
+    "description": "Meats grilled over charcoal for extra flavor, a house signature.",
+    "basis": "Love that they grill the meat over charcoal. It gives it so much flavor."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ1T37dw3pj4ARF5DjWoCWCyk",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Pleasanton",
+  "emoji": "🌮",
+  "why": "A no-frills community taqueria where a shrimp-stuffed vegetarian burrito and a stacked salsa bar keep regulars loyal for years.",
+  "tags": [
+   "seafood",
+   "casual",
+   "vegetarian-friendly",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Vegetarian Burrito with Shrimp",
+   "description": "A vegetarian burrito customized with added shrimp, called perfect by a longtime regular.",
+   "basis": "I thought I would get their vegetarian burrito but have them add shrimp to it and it was perfect."
+  },
+  "menu": [
+   {
+    "name": "Tacos with Mango & Hibiscus Agua Fresca",
+    "description": "Good-proportioned tacos paired with a superb mango and hibiscus agua fresca.",
+    "basis": "Got the tacos and agua fresca- Mango & Hibiscus - superb"
+   },
+   {
+    "name": "Salsa Bar & Fresh Chips",
+    "description": "A fresh salad and salsa bar with homemade chips, a standout over other taquerias.",
+    "basis": "Loved their fresh salad and salsa bar, unlike other stores, they provide fresh homemade chips."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJbYoftQ3pj4ARaqVacb9Mr6s",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Pleasanton",
+  "emoji": "🥢",
+  "why": "A bright neighborhood mainstay where tender Mongolian beef and crab cheese wontons keep families coming back for reunions.",
+  "tags": [
+   "meat-heavy",
+   "cheese",
+   "soup",
+   "casual",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Mongolian Beef",
+   "description": "Tender Mongolian beef among a spread of dishes reviewers call all delicious.",
+   "basis": "We sampled their crab cheese wontons, salty fish chicken fried rice, Mongolian beef, and hot and sour soup – all delicious."
+  },
+  "menu": [
+   {
+    "name": "Crab Cheese Wontons",
+    "description": "Crispy crab cheese wontons, part of a well-loved sampling of dishes.",
+    "basis": "We sampled their crab cheese wontons, salty fish chicken fried rice, Mongolian beef, and hot and sour soup – all delicious."
+   },
+   {
+    "name": "Salt and Pepper Tofu",
+    "description": "A delicious vegetarian salt and pepper tofu dish.",
+    "basis": "The two vegetarian dishes we ordered, salt and pepper tofu and green bean sprouts, are delicious too."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJV3PUaHpj4ARhaY6a7Uqbqw",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Downtown Pleasanton",
+  "emoji": "🌮",
+  "why": "A family-run taqueria where the tasty asada torta and comforting caldo de pollo have regulars calling it their top Mexican spot in town.",
+  "tags": [
+   "meat-heavy",
+   "soup",
+   "casual",
+   "street-food",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Asada Torta",
+   "description": "A flavorful, tasty carne asada torta.",
+   "basis": "I got a asada torta and it was good. Asada has flavor and it was very tasty."
+  },
+  "menu": [
+   {
+    "name": "Caldo de Pollo",
+    "description": "A comforting chicken soup recommended for turning a bad day around.",
+    "basis": "Try caldo de pollo if you are feeling down. You will feel better in a jiffy!"
+   },
+   {
+    "name": "Horchata",
+    "description": "A well-made horchata that isn't grainy.",
+    "basis": "The horchata is good! It’s not grainy and they made it right."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJOW-fVqHpj4ARAgaMRtO5Qu8",
+  "skip": false,
+  "cuisine": "Sushi",
+  "neighborhood": "Downtown Pleasanton",
+  "emoji": "🍣",
+  "why": "A buzzy, packed-early sushi spot known for fresh rolls and a fried edamame starter reviewers rave about.",
+  "tags": [
+   "raw",
+   "seafood",
+   "spicy",
+   "casual",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Fried Edamame",
+   "description": "A fried edamame appetizer reviewers call really good, alongside fresh rolls.",
+   "basis": "The fried edamame was really good!  The rolls were fresh and delicious."
+  },
+  "menu": [
+   {
+    "name": "Bluefin Tuna & Fatty Hamachi",
+    "description": "Specialty bluefin tuna and fatty hamachi pieces.",
+    "basis": "I like their specialty such as bluefin tuna and fatty hamachi."
+   },
+   {
+    "name": "Jin's Taco",
+    "description": "A refreshing, well-presented sushi taco with the perfect amount of spice.",
+    "basis": "Definitely recommend Jin's Taco! Perfect amount of spice, so refreshing and great presentation."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ9fWmJAzpj4ARP30cNUBpaO4",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍣",
+  "why": "A calm, screen-door dining room known for a corn tempura you won't be disappointed by, and late-night sushi with the best service around.",
+  "tags": [
+   "raw",
+   "casual",
+   "late-night",
+   "fried",
+   "seafood"
+  ],
+  "signatureDish": {
+   "name": "Corn Tempura",
+   "description": "A corn tempura reviewers promise you will not be disappointed by.",
+   "basis": "Try the corn tempura, you will not be disappointed."
+  },
+  "menu": [
+   {
+    "name": "Late Night Sushi Rolls",
+    "description": "Sushi rolls served late, recommended to anyone passing by.",
+    "basis": "I would recommend this place to anybody local or passing by for some late night sushi"
+   },
+   {
+    "name": "Raw Sushi Selection",
+    "description": "A wide variety of raw sushi options for raw-fish lovers.",
+    "basis": "there is still so much variety for raw sushi lovers."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHa0AI8Dpj4ARvRtJmg8HR_k",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Downtown Pleasanton",
+  "emoji": "🥢",
+  "why": "A downtown lunch-special favorite where the spicy basil chicken keeps regulars coming back for fresh, flavorful food.",
+  "tags": [
+   "spicy",
+   "casual",
+   "rice",
+   "vegetarian-friendly",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Spicy Chicken with Basil",
+   "description": "A spicy basil chicken that's a lunch-special regular's go-to order.",
+   "basis": "I always get the spicy chicken with basil"
+  },
+  "menu": [
+   {
+    "name": "Hunan Salmon",
+    "description": "A recommended Hunan-style salmon, ordered as a lunch-special alternative.",
+    "basis": "my dad gets the human salmon- highly recommend."
+   },
+   {
+    "name": "Veg Chow Mein",
+    "description": "Vegetable chow mein and dumplings among a reasonably priced order for two.",
+    "basis": "We ordered veg soup, veg chow mein, veg dumplings and chicken satay. Quantity was enough for 2 and everything was reasonably priced."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJj7r-wmPpj4AReOYRrTnZquw",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Hopyard",
+  "emoji": "🍳",
+  "why": "Hefty portions of classic American breakfast, from a delicious Chicken Fried Steak to California eggs benedict.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "comfort",
+   "casual",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Chicken Fried Steak",
+   "description": "A hefty-portion Chicken Fried Steak reviewers call delicious.",
+   "basis": "I had the Chicken Fried Steak and it was delicious"
+  },
+  "menu": [
+   {
+    "name": "California Eggs Benedict",
+    "description": "A California-style eggs benedict served with a country skillet order.",
+    "basis": "We got the country skillet and california eggs benedict."
+   },
+   {
+    "name": "Chilaquiles",
+    "description": "A quick-served chilaquiles plate praised for its beautiful presentation.",
+    "basis": "I ordered the chilaquiles"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJReNO8uDrj4ARvl8Z1Q5jdsU",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJeXiK6CLrj4ARRT44rOvc0qg",
+  "skip": false,
+  "cuisine": "Mediterranean",
+  "neighborhood": "Hopyard",
+  "emoji": "🥙",
+  "why": "Melt-in-your-mouth meat and a masterpiece hummus make this the best Turkish restaurant in California, regulars say.",
+  "tags": [
+   "meat-heavy",
+   "grilled",
+   "bread",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Beef and Lamb Gyro Plate",
+   "description": "A shareable beef and lamb gyro plate too generous for one person to finish.",
+   "basis": "I order the Beef and Lamb Gryos plate and my son ordered the Alexander."
+  },
+  "menu": [
+   {
+    "name": "Hummus",
+    "description": "A silky hummus reviewers call a true masterpiece.",
+    "basis": "The hummus is truly a masterpiece — silky,"
+   },
+   {
+    "name": "Truva Combination Plate",
+    "description": "A combination plate with sides, delicious and generous enough for two to share.",
+    "basis": "We decided on the truva combination plate which was DELICIOUS and enough for 2 to share with some sides."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJj7r-wmPpj4ARLSBgOe9z-UY",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Hopyard",
+  "emoji": "🍟",
+  "why": "Crispy fried pickles and a well-battered, flavorful fried chicken headline this roomy alehouse's pub grub.",
+  "tags": [
+   "fried",
+   "cheese",
+   "casual",
+   "meat-heavy",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Fried Pickles (Frickles)",
+   "description": "Crispy fried pickles reviewers call some of the better ones they've had.",
+   "basis": "These are some of the better fried pickles (frickles) I’ve had, I just wish there were more that came with it."
+  },
+  "menu": [
+   {
+    "name": "Fried Chicken",
+    "description": "Flavorful fried chicken in a delicious, crispy batter.",
+    "basis": "their batter for fried foods is delicious and crispy. The chicken was so flavorful and the texture was amazing."
+   },
+   {
+    "name": "Cheesesteak Sandwich",
+    "description": "A good cheesesteak sandwich served with fries.",
+    "basis": "The cheesesteak sandwich and fries were good, price point a bit high."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJbwiXdy_rj4AR-ZrD9Q4YYPs",
+  "skip": false,
+  "cuisine": "Sushi",
+  "neighborhood": "Hopyard",
+  "emoji": "🍣",
+  "why": "A rice-paper-wrapped 'pocket sushi' twist, with the Mango Madness and Dragon Pocket among cult-favorite orders.",
+  "tags": [
+   "seafood",
+   "raw",
+   "casual",
+   "quick-bite",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Mango Madness",
+   "description": "A rice-paper-wrapped pocket sushi with mango, salmon, avocado, tempura and lemon aioli.",
+   "basis": "Got their mango madness multiple times and its so good. There are mangos, salmon, avocado, tempura, and a really good lemon aioli sauce inside and its wrapped in some sort of rice paper."
+  },
+  "menu": [
+   {
+    "name": "Dragon Pocket",
+    "description": "A dragon-flavored pocket sushi ordered alongside a classic California roll.",
+    "basis": "I had the dragon pocket, my wife had the California roll"
+   },
+   {
+    "name": "Spam and Egg Pocket",
+    "description": "A spam and egg pocket sushi that's a regular's go-to order.",
+    "basis": "My go to is the spam and egg! I will be coming back often."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ_SK3c5frj4AR2Cc1uF-2OJc",
+  "skip": false,
+  "cuisine": "Vietnamese",
+  "neighborhood": "Hopyard",
+  "emoji": "🍜",
+  "why": "Bold, rich Bun Bo Hue with a nice kick of spice makes this a family-favorite pho destination.",
+  "tags": [
+   "soup",
+   "spicy",
+   "family-style",
+   "casual",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Bun Bo Hue",
+   "description": "A bold, flavorful spicy beef noodle soup with a rich, savory broth.",
+   "basis": "The Bun Bo Hue at Pho Saigon is bold and flavorful, with a rich, savory broth and a nice kick of spice."
+  },
+  "menu": [
+   {
+    "name": "Large Beef Pho",
+    "description": "A large beef pho served hot in a generous portion.",
+    "basis": "I recently dined at Pho Saigon and ordered the large beef pho, chicken with rice, and fried rice with shrimp."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJSUbRm-Lrj4ARsL_aBuTpaIo",
+  "skip": false,
+  "cuisine": "Deli",
+  "neighborhood": "Hopyard",
+  "emoji": "🍖",
+  "why": "The namesake honey baked ham comes with Kings Hawaiian Rolls and chocolate rum cake for a full holiday-worthy spread.",
+  "tags": [
+   "meat-heavy",
+   "family-style",
+   "sweet",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Honey Baked Ham",
+   "description": "The signature honey baked ham, put together with rolls, cake and sauces for a full spread.",
+   "basis": "Did a great job getting together my Honey Baked Ham, Kings Hawaiian Rolls, Chocolate Rum Cake, honey infused sauces and more!"
+  },
+  "menu": [
+   {
+    "name": "Kings Hawaiian Rolls",
+    "description": "Kings Hawaiian Rolls served as part of the ham spread.",
+    "basis": "Kings Hawaiian Rolls, Chocolate Rum Cake, honey infused sauces and more!"
+   },
+   {
+    "name": "Chocolate Rum Cake",
+    "description": "A chocolate rum cake rounding out the holiday order.",
+    "basis": "Chocolate Rum Cake, honey infused sauces and more!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJx0kb9ODrj4AR6Cp9x4B2CNM",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Pleasanton",
+  "emoji": "🍝",
+  "why": "A hidden-gem trattoria where the delectable cannelloni special and crab-and-shrimp ravioli make it a favorite for date night.",
+  "tags": [
+   "cheese",
+   "date-night",
+   "upscale",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Cannelloni Special",
+   "description": "Soft pasta filled with crunchy asparagus, ham and delicate ricotta, called delectable.",
+   "basis": "Cannelloni special: delectable. Amazingly soft pasta filled with just crunchy enough asparagus, ham, and delicate ricotta."
+  },
+  "menu": [
+   {
+    "name": "Crab and Shrimp Ravioli",
+    "description": "A crab and shrimp ravioli special reviewers say was so very good.",
+    "basis": "Ordered the steak special and the Crab and Shrimp Ravioli special and they were so very good."
+   },
+   {
+    "name": "Cannoli",
+    "description": "A very enjoyable cannoli for dessert, alongside warm apple pie with vanilla bean ice cream.",
+    "basis": "Cannoli was VERY enjoyable as was the warm apple pie w vanilla bean ice cream."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJdd3AX2Tpj4ARTBuwyxeDugQ",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Hopyard",
+  "emoji": "🍕",
+  "why": "A neighborhood carry-out spot where regulars say the housemade-dough pizza is always fresh.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Pizza",
+   "description": "Housemade-dough pizza that regulars say is always fresh.",
+   "basis": "Pizza is always Fresh!"
+  },
+  "menu": [
+   {
+    "name": "Chicken Wings",
+    "description": "Chicken wings on the menu at this carry-out pizza chain location.",
+    "basis": "Carry-out chain featuring chicken wings, signature breadsticks & pizza tossed from housemade dough."
+   },
+   {
+    "name": "Breadsticks",
+    "description": "Signature breadsticks made from housemade dough.",
+    "basis": "signature breadsticks & pizza tossed from housemade dough."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJj7r-wmPpj4ARzr-bbLWqSqc",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Hopyard",
+  "emoji": "🍣",
+  "why": "A calm, family-run Japanese spot where the Sukiyaki hot plate and top-quality chirashi are regulars' go-to orders.",
+  "tags": [
+   "soup",
+   "raw",
+   "casual",
+   "comfort",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Sukiyaki",
+   "description": "A hot plate sukiyaki that's a customer favorite.",
+   "basis": "Sukiyaki is one of my favorite hot plates."
+  },
+  "menu": [
+   {
+    "name": "Clam Ramen",
+    "description": "A very good clam ramen served alongside good nigiri.",
+    "basis": "The clam ramen was very good and the nigiri was good as well."
+   },
+   {
+    "name": "Chirashi",
+    "description": "Top-quality fish chirashi with well-flavored rice, a regular's go-to.",
+    "basis": "My go to for chirashi. Fish is top quality and really like how they flavored the rice."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJB_PfyCfrj4ARHGVpQ9uFty4",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Hopyard",
+  "emoji": "🍛",
+  "why": "A Thursday buffet with live dosa and chaat, plus an outstanding Dindigul Thalappakatti Biryani worth revisiting for.",
+  "tags": [
+   "spicy",
+   "vegetarian-friendly",
+   "rice",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Dindigul Thalappakatti Biryani",
+   "description": "A flavorful, delicious biryani that's worth visiting again for.",
+   "basis": "I also tried the Dindigul Thalappakatti Biryani"
+  },
+  "menu": [
+   {
+    "name": "Live Dosa and Chaat",
+    "description": "Live-made dosa and chaat, called amazing and top quality.",
+    "basis": "The live dosa and chaat turned out amazing. The quality of dosas is top."
+   },
+   {
+    "name": "Malai Kofta",
+    "description": "A delicious malai kofta served alongside Guntur paneer veg biryani.",
+    "basis": "Malai kofta and Guntur Paneer veg Biryani were delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJIXS8Gb3rj4ARegEvmOKPvy4",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Hopyard",
+  "emoji": "🍛",
+  "why": "Authentic South Indian flavors headlined by a standout sambar and a mini podi idli that's a certified hit with kids.",
+  "tags": [
+   "vegetarian-friendly",
+   "rice",
+   "spicy",
+   "casual",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Sambar",
+   "description": "A standout sambar reviewers say is the best they've tasted.",
+   "basis": "the real standout for me was the sambar. The flavor is simply amazing; I honestly haven't tasted sambar this good"
+  },
+  "menu": [
+   {
+    "name": "Mini Podi Idli",
+    "description": "Mini podi idli that was a massive hit, especially with kids.",
+    "basis": "The mini podi idli was a massive hit—my son absolutely loved it!"
+   },
+   {
+    "name": "Ghee Dosa",
+    "description": "A crispy ghee dosa served with unlimited sambar and chutneys.",
+    "basis": "ghee dosa was crispy."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJs2TpAOjrj4ARxaGhMS1F5BU",
+  "skip": false,
+  "cuisine": "Korean",
+  "neighborhood": "Hopyard",
+  "emoji": "🥩",
+  "why": "Reviewers rave that this newly-opened Korean BBQ spot serves chef-quality, traditional flavors, with mouthwatering wagyu in its all-you-can-eat tiers.",
+  "tags": [
+   "meat-heavy",
+   "bbq",
+   "grilled",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Wagyu Beef (Supreme Tier)",
+   "description": "Tender, mouthwatering wagyu beef anchors the top all-you-can-eat tier.",
+   "basis": "We did the Supreme tier level, and the beef wagyu was mouth watering."
+  },
+  "menu": [
+   {
+    "name": "Green Onion Salad",
+    "description": "A tangy green onion salad reviewers call one of the best BBQ sides they've had.",
+    "basis": "If you've never tried green onion salad with your bbq, highly recommend it - theirs is one of the best I've had."
+   },
+   {
+    "name": "Basic Supreme (AYCE)",
+    "description": "Even the entry-level Supreme tier delivers a wide variety of quality meats.",
+    "basis": "Even just the basic supreme you could get your moneys worth."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJwxGCDf_rj4ARQXJEFUlunvk",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJMym0CD_pj4AR5NXRp_kmM1s",
+  "skip": false,
+  "cuisine": "Korean",
+  "neighborhood": "Santa Rita",
+  "emoji": "🍲",
+  "why": "Regulars swear by the rich ox-bone gomtang broth and cold noodles that keep them coming back year after year.",
+  "tags": [
+   "soup",
+   "comfort",
+   "noodles",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Combo Gomtang",
+   "description": "A rich, deeply savory ox-bone soup that's the house specialty.",
+   "basis": "Combo Gomtang is very rich and delicious as is Chadol Gomtang!"
+  },
+  "menu": [
+   {
+    "name": "Cold Noodles",
+    "description": "A cult-favorite cold noodle dish loyal regulars can't get enough of.",
+    "basis": "my wife is in love with their cold noodles."
+   },
+   {
+    "name": "Beef Short Ribs",
+    "description": "Tender beef short ribs, a popular first-timer order.",
+    "basis": "I ordered the beef short ribs, and my wife opted for the beef fried rice."
+   },
+   {
+    "name": "Hot Stone Bibimbap",
+    "description": "Sizzling hot stone bibimbap rounds out the menu alongside cold noodles.",
+    "basis": "We ordered the cold noodles and hot stone bibimbap."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHfI9RHXpj4ARjuGL1yOSL28",
+  "skip": false,
+  "cuisine": "Mediterranean",
+  "neighborhood": "Rosewood",
+  "emoji": "🥙",
+  "why": "Fresh, hot kebabs and shawarma piled with signature sauces keep regulars coming back every Friday.",
+  "tags": [
+   "grilled",
+   "meat-heavy",
+   "quick-bite",
+   "casual",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Chicken Shawarma",
+   "description": "Chicken shawarma paired with saffron rice, a reviewer favorite.",
+   "basis": "we tried chicken shawarma and saffron rice really enjoyed"
+  },
+  "menu": [
+   {
+    "name": "Beef Kebab",
+    "description": "A juicier, more flavorful pick than the chicken kebab option.",
+    "basis": "The beef dish was more juicy and flavorful."
+   },
+   {
+    "name": "Kids Meal Kebabs with Caesar Crunch",
+    "description": "Steak, chicken, and shrimp kebabs served with a Caesar crunch, a family favorite.",
+    "basis": "We love the kids meals and steak, chicken, and shrimp kebabs with a Caesar crunch."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJXSr7fbfpj4ARYLEDHHteM0k",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJOctOkDrpj4AR3OZShguu-fM",
+  "skip": false,
+  "cuisine": "Vegan",
+  "neighborhood": "Pimlico",
+  "emoji": "🌱",
+  "why": "This 100% vegan Asian kitchen turns out pho, orange 'chicken,' and cheesecake so good reviewers say they didn't miss the meat.",
+  "tags": [
+   "vegan-friendly",
+   "healthy",
+   "noodles",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Vegan Pho",
+   "description": "A satisfying vegan pho that reviewers say was great.",
+   "basis": "Pho was great, and the blueberry cheesecake was delightful."
+  },
+  "menu": [
+   {
+    "name": "Orange \"Chicken\" with Broccoli",
+    "description": "A plant-based take on orange chicken with broccoli.",
+    "basis": "My husband had orange chicken with broccoli."
+   },
+   {
+    "name": "Blueberry Cheesecake",
+    "description": "A delightful vegan blueberry cheesecake for dessert.",
+    "basis": "the blueberry cheesecake was delightful"
+   },
+   {
+    "name": "Queen Dinner Special",
+    "description": "A tasty dinner special that's become a customer go-to.",
+    "basis": "I ordered the Queen dinner special and it tasted good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2Vwmbzrpj4AR6w8RMaZ6Blw",
+  "skip": false,
+  "cuisine": "Hawaiian",
+  "neighborhood": "Santa Rita",
+  "emoji": "🐟",
+  "why": "Fresh, generously-portioned poke bowls and a standout sushi bake make this the go-to spot for Trivalley poke fans.",
+  "tags": [
+   "seafood",
+   "raw",
+   "quick-bite",
+   "casual",
+   "rice",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Poke Bowl",
+   "description": "Freshly-prepared poke with generous portions and great value.",
+   "basis": "Every toppings are very freshly prepared, portion size is generous, great value and mostly amazing taste."
+  },
+  "menu": [
+   {
+    "name": "Spam Musubi",
+    "description": "A kid-favorite side of spam musubi.",
+    "basis": "Kids loved spam musubi too."
+   },
+   {
+    "name": "Sushi Bake",
+    "description": "A shareable sushi bake loaded with flavor and served with seaweed.",
+    "basis": "I ordered their sushi bake and it was so worth it! Lots of different flavors and it comes with a side of seaweed!"
+   },
+   {
+    "name": "Salmon and Tuna Mix Bowl",
+    "description": "A go-to salmon and tuna mix bowl for regulars.",
+    "basis": "We enjoy their salmon and tuna mix."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJpamoR9bpj4ARNjdp-l5SoFQ",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Rosewood",
+  "emoji": "🍕",
+  "why": "A counter-serve pizzeria where you build your own crispy thin-crust pie exactly the way you like it.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "cheese",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Build-Your-Own Thin Crust Pizza",
+   "description": "Crispy, thin-crust pizza built with your pick of creative toppings and sauces.",
+   "basis": "crispy, thin-crust pies made with creative toppings & sauces"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJ81cSCADpj4ARo1YWS-25S_o",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Santa Rita",
+  "emoji": "🧇",
+  "why": "A cozy neighborhood tea cafe beloved for its pandan waffles, matcha lattes, and a staff that remembers your order.",
+  "tags": [
+   "sweet",
+   "coffee",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pandan Waffle with Salted Cheese",
+   "description": "A beloved pandan waffle topped with salted cheese, a regular's go-to order.",
+   "basis": "I personally get a strawberry matcha and a pandan waffle with salted cheese."
+  },
+  "menu": [
+   {
+    "name": "Matcha Mango Latte",
+    "description": "A well-balanced matcha mango drink, not too sweet.",
+    "basis": "Matcha mango - was delicious. Not too sweet and not too matcha.."
+   },
+   {
+    "name": "Oreo Bubble Waffle",
+    "description": "A crispy, flavorful Oreo bubble waffle.",
+    "basis": "The Oreo bubble waffle is flavorful and crispy."
+   },
+   {
+    "name": "Grapefruit Tea",
+    "description": "A solid, refreshing grapefruit tea.",
+    "basis": "Grapefruit tea is solid."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJH9ZMwfLpj4AR8gZw3F-yDKU",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "Santa Rita",
+  "emoji": "🍗",
+  "why": "This snug counter-service spot nails Hainanese-style chicken and rice, with an addictive ginger sauce reviewers can't stop raving about.",
+  "tags": [
+   "rice",
+   "comfort",
+   "quick-bite",
+   "casual",
+   "soup"
+  ],
+  "signatureDish": {
+   "name": "Original Chicken & Rice (Khao Man Gai)",
+   "description": "Tender chicken and fragrant rice with an amazing garlic-ginger sauce and a side of veggies.",
+   "basis": "I ordered the original, which had the chicken and rice with this amazing garlic and ginger sauce and a side of veggies."
+  },
+  "menu": [
+   {
+    "name": "Habanero Sauce",
+    "description": "The must-try habanero sauce among the lineup of sauces.",
+    "basis": "Try all the sauces for sure.  Jabanero is a must."
+   },
+   {
+    "name": "Chicken Broth Side",
+    "description": "A clean, savory chicken broth served alongside the rice.",
+    "basis": "comes with a side serving of chicken broth and mixed soy sauce condiment."
+   },
+   {
+    "name": "Veg Chicken (No Rice)",
+    "description": "A lighter veg option served without rice.",
+    "basis": "We had 3 originals and 1 veg without rice."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJyQ_tkD_pj4ARBZHTH1TflC4",
+  "skip": false,
+  "cuisine": "Sushi",
+  "neighborhood": "Santa Rita",
+  "emoji": "🍣",
+  "why": "A family-run neighborhood sushi spot locals have trusted for two decades, prized for ultra-fresh fish and a can't-miss chirashi bowl.",
+  "tags": [
+   "raw",
+   "seafood",
+   "casual",
+   "noodles",
+   "soup"
+  ],
+  "signatureDish": {
+   "name": "Chirashi Bowl",
+   "description": "A generous chirashi bowl with seaweed salad and miso soup, great even for take-out.",
+   "basis": "Super yummy chirashi bowl even for take out. It had seaweed salad and miso soup."
+  },
+  "menu": [
+   {
+    "name": "Caviar Roll",
+    "description": "Caviar that melts in your mouth atop a perfectly balanced roll.",
+    "basis": "The caviar just melts in your mouth, and the rolls are perfectly balanced."
+   },
+   {
+    "name": "Beef Noodle Soup",
+    "description": "A hot, flavorful beef noodle soup served in the $16 range.",
+    "basis": "I ordered the beef noodle soup the other day It was yummy."
+   },
+   {
+    "name": "Green Tea Ice Cream",
+    "description": "A classic finish beloved by the local following.",
+    "basis": "local following for rolls & green tea ice cream"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ8eS7CD_pj4AR0jTne5nO7Es",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Santa Rita",
+  "emoji": "🥡",
+  "why": "A down-to-earth family-owned Chinese standby where the honey walnut prawns and salt-and-pepper shrimp keep loyalists coming back.",
+  "tags": [
+   "comfort",
+   "casual",
+   "family-style",
+   "fried",
+   "seafood"
+  ],
+  "signatureDish": {
+   "name": "Honey Walnut Prawns",
+   "description": "Honey walnut prawns over fried rice, a lunchtime favorite.",
+   "basis": "I had the honey walnut prawns with fried rice for lunch today and it was very yummy."
+  },
+  "menu": [
+   {
+    "name": "Salt and Pepper Shrimp",
+    "description": "A standout among the table's order, really good according to reviewers.",
+    "basis": "the salt an pepper shrimp were really good"
+   },
+   {
+    "name": "Egg Roll",
+    "description": "A crispy egg roll served alongside entrees.",
+    "basis": "It came with an egg roll and it was very crispy."
+   },
+   {
+    "name": "Chow Mein with Shrimp",
+    "description": "Chow mein loaded with extra vegetables and shrimp.",
+    "basis": "We ordered chow mein with extra vegetables and shrimp, along with two drinks."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ6bzYazrpj4ARShrMJhI6C-8",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Santa Rita",
+  "emoji": "🌮",
+  "why": "A neighborhood taqueria where the birria tacos and al pastor keep former Dubliners driving back for a taste of home.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "meat-heavy",
+   "street-food"
+  ],
+  "signatureDish": {
+   "name": "Birria Beef Tacos",
+   "description": "Birria beef tacos served with rice and beans, a longtime local favorite.",
+   "basis": "My friend ordered the birria beef tacos and loved them only $15 with rice and beans."
+  },
+  "menu": [
+   {
+    "name": "Al Pastor Tacos",
+    "description": "Excellent al pastor tacos alongside non-deep-fried fish tacos.",
+    "basis": "Fish tacos are good (not deep fried) and al pastor tacos are excellent."
+   },
+   {
+    "name": "Chile Verde",
+    "description": "A well-done chile verde.",
+    "basis": "Chile Verde is also good (well done)."
+   },
+   {
+    "name": "Horchata",
+    "description": "A pretty good horchata to wash it all down.",
+    "basis": "the horchata is pretty good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJPQzqZTrpj4ARU9B75sGxx4Y",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Santa Rita",
+  "emoji": "🍩",
+  "why": "A mom-and-pop donut shop off I-580 famous for maple bars and apple fritters so fresh regulars call it hands-down the best in town.",
+  "tags": [
+   "sweet",
+   "breakfast",
+   "casual",
+   "quick-bite",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Maple Bars & Apple Fritters",
+   "description": "Fresh, fluffy maple bars and apple fritters that are a must-try.",
+   "basis": "The maple bars and apple fritters are a must-try, but honestly, everything in the case is top-notch."
+  },
+  "menu": [
+   {
+    "name": "Breakfast Sandwich",
+    "description": "A really good breakfast sandwich alongside the fresh, fluffy donuts.",
+    "basis": "they also have really good breakfast sandwiches and pig in a blanket (bagel hot dog)."
+   },
+   {
+    "name": "Pig in a Blanket (Bagel Hot Dog)",
+    "description": "A playful bagel hot dog twist on pig in a blanket.",
+    "basis": "pig in a blanket (bagel hot dog)."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJizPtJ27pj4AR7AEHM1GQpzs",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Santa Rita",
+  "emoji": "🍕",
+  "why": "A neighborhood red-tablecloth pizzeria where regulars say the same great slice, kabobs, or chicken Alfredo keeps them coming back twice a week.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Pizza by the Slice",
+   "description": "Big, generously-sized pizza slices reviewers call absolutely amazing.",
+   "basis": "Just went there today for pizza slices and they were absolutely amazing."
+  },
+  "menu": [
+   {
+    "name": "Chicken Alfredo",
+    "description": "A comforting chicken Alfredo, a regular's rotating order.",
+    "basis": "kabobs or chicken Alfredo"
+   },
+   {
+    "name": "Kabob Plate",
+    "description": "Kabobs round out this regular's favorite meal rotation.",
+    "basis": "a slice of my favorite pizza, kabobs"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ7UFJSUPpj4ARJkVFeG1TJ28",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Stanley Blvd",
+  "emoji": "🍜",
+  "why": "This Northern Chinese noodle house is beloved for its handmade beef noodle soup, with tender beef in a rich, savory broth reviewers call top-tier.",
+  "tags": [
+   "noodles",
+   "soup",
+   "comfort",
+   "casual",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Braised Beef Noodle Soup",
+   "description": "Handmade noodles in a rich, savory broth loaded with tender beef.",
+   "basis": "the soup which came with tender beef and handmade noodles in a savoury rich broth which had loads of flavor."
+  },
+  "menu": [
+   {
+    "name": "Oiled Pork with Garlic Sauce",
+    "description": "A flavorful garlic-sauced oiled pork appetizer.",
+    "basis": "I ordered the oiled pork with garlic sauce for an appetizer"
+   },
+   {
+    "name": "Pork and Shrimp Chive Dumplings",
+    "description": "Tasty pork and shrimp dumplings with chives.",
+    "basis": "pork and shrimp with chive dumplings."
+   },
+   {
+    "name": "Beef Noodle Stew",
+    "description": "A hearty beef noodle stew.",
+    "basis": "We have the beef noodle stew."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJR3Ikj6zpj4AR1ddrkkhhEno",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Stanley Blvd",
+  "emoji": "🌯",
+  "why": "Locals swear by the deliciously juicy burritos and top-notch salsa bar at this no-frills taqueria — some drive 50 miles just for a fix.",
+  "tags": [
+   "casual",
+   "meat-heavy",
+   "spicy",
+   "quick-bite",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Super Burrito",
+   "description": "A deliciously juicy burrito reviewers call one of their all-time favorites.",
+   "basis": "Burrito was on the deliciously juicy side--and one of my favorites of all time."
+  },
+  "menu": [
+   {
+    "name": "Tacos al Pastor",
+    "description": "Al pastor tacos, easily dressed up with add-ons like shrimp.",
+    "basis": "I got tacos al pastor and burrito with al pastor and added shrimp"
+   },
+   {
+    "name": "Super Shrimp Burrito & Chicken Enchilada",
+    "description": "A hearty combo of super shrimp burrito and chicken enchilada.",
+    "basis": "Got the super shrimp burrito + 3 chicken enchilada"
+   },
+   {
+    "name": "Salsa Bar",
+    "description": "A top-notch salsa selection with warm tortilla chips.",
+    "basis": "Selection of salsas top-notch. Warm tortilla chips a nice touch."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJb5vTJRvpj4ARTvquXT2sEvA",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Bernal",
+  "emoji": "🍦",
+  "why": "Friendly staff and design-your-own creations mixed to order on a cold granite slab make this everyone's go-to ice cream stop.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Custom Ice Cream Creation",
+   "description": "Design-your-own ice cream creations hand-mixed right on a granite slab.",
+   "basis": "design-your-own creations hand-mixed on a granite slab"
+  },
+  "menu": [
+   {
+    "name": "Milkshake",
+    "description": "Classic milkshakes round out the menu.",
+    "basis": "plus shakes & more."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJjR8GDhrpj4ARPj1v99vpYQs",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Bernal",
+  "emoji": "🍕",
+  "why": "This curry pizza spot wins fans with pizzas stuffed full of chicken toppings and a crust that's crunchy on the bottom every time.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Chicken Supreme & Pesto Chicken Pizza",
+   "description": "Flavorful pizza stuffed with chicken toppings.",
+   "basis": "Took chicken supreme and pesto chicken. Loved the pizzas - flavorful and stuffed with chicken toppings."
+  },
+  "menu": [
+   {
+    "name": "Crunchy Crust Pizza",
+    "description": "A super crunchy bottom crust on an overall flavorful pizza.",
+    "basis": "The bottom of the pizza is super crunchy & overall a flavorful meal"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJnb1PMbPpj4ARKvtmSeApZyU",
+  "skip": false,
+  "cuisine": "Sushi",
+  "neighborhood": "Bernal",
+  "emoji": "🍣",
+  "why": "A cozy neighborhood sushi bistro known for ultra-fresh fish, generous cuts, and a chirashi don loaded with six kinds of sushi.",
+  "tags": [
+   "raw",
+   "seafood",
+   "upscale",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Chirashi Don",
+   "description": "A generous chirashi don with six kinds of sushi, mini unagi, and tamago.",
+   "basis": "we tried the Chirashi Don which had 6 different kinds of sushi, a mini unagi & a tamago."
+  },
+  "menu": [
+   {
+    "name": "Kamikaze Roll",
+    "description": "The roll reviewers say they'd order again.",
+    "basis": "Both were good but Kamakaze was what we’d order again."
+   },
+   {
+    "name": "Toro (Assorted)",
+    "description": "Varieties of toro from salmon to bluefin tuna to yellowtail, always fresh.",
+    "basis": "They have varieties of toro (salmon, bluefin tuna, yellow tail etc) and most importantly, the food is very fresh."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ_wIJj6zpj4AR8-K1jpDZtSc",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Stanley Blvd",
+  "emoji": "🍛",
+  "why": "This informal Punjabi spot wins raves for fabulous garlic naan and a table-filling spread of tandoori and curry classics.",
+  "tags": [
+   "spicy",
+   "comfort",
+   "vegetarian-friendly",
+   "bread",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Garlic Naan",
+   "description": "Crispy garlic naan bursting with aromatic garlic flavor.",
+   "basis": "The garlic naan is crispy and the aromatic of garlic teste so good."
+  },
+  "menu": [
+   {
+    "name": "Tandoori & Butter Chicken Spread",
+    "description": "A spread of tandoori chicken, butter chicken, tandoori kabob, and korma chicken.",
+    "basis": "We also had tandoori chicken, butter chicken, tandoori kabob, korma chicken, plain naan and garlic naan."
+   },
+   {
+    "name": "Chicken and Fish Pakora",
+    "description": "Fresh and tasty chicken and fish pakora to start.",
+    "basis": "We had the chicken and fish pakora to start."
+   },
+   {
+    "name": "Shrimp Tikka Masala",
+    "description": "A well-liked shrimp tikka masala.",
+    "basis": "We ordered shrimp tikka Masala and chicken korma, too."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJC3oghqzpj4ARJVlmHfbjxEQ",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Stanley Blvd",
+  "emoji": "🥪",
+  "why": "A reliably friendly neighborhood Subway where regulars say the staff build your sandwich exactly the way you like it.",
+  "tags": [
+   "quick-bite",
+   "casual",
+   "healthy",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Build-Your-Own Sub",
+   "description": "A customizable sandwich piled with fresh veggies, made your way at the counter.",
+   "basis": "build-your-own sandwiches & salads, with health-conscious options"
+  },
+  "menu": [
+   {
+    "name": "Extra Veggie Sub",
+    "description": "A sub loaded with extra vegetables, made with hospitality.",
+    "basis": "prepared my sandwich with extra vegetables and the greatest hospitality!!"
+   },
+   {
+    "name": "Special Request Sandwich",
+    "description": "A custom sandwich made just the way a regular likes it.",
+    "basis": "Maria is fantastic. Always friendly and makes my special request sandwich just as I like."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJVcVH4Bvpj4ARHCNqndqkqFw",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Bernal",
+  "emoji": "🍕",
+  "why": "Halal tandoori-style pizza with a devoted late-night following — reviewers say the chicken tikka pie never disappoints.",
+  "tags": [
+   "cheese",
+   "casual",
+   "late-night",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Chicken Tikka Pizza",
+   "description": "Halal chicken tikka pizza that's flavorful and perfectly done.",
+   "basis": "we went with the chicken tikka pizza—and it did NOT disappoint. So flavorful and perfectly done."
+  },
+  "menu": [
+   {
+    "name": "Halal Pepperoni Pizza",
+    "description": "Halal pepperoni pizza, a delicious pairing with the chicken tikka pie.",
+    "basis": "I have tried the Chicken Tikka and Halal Pepperoni pizza and they are both delicious."
+   },
+   {
+    "name": "Cheese Pizza & Mozzarella Cheese Sticks",
+    "description": "A kid-friendly cheese pizza with mozzarella cheese sticks on the side.",
+    "basis": "The food was delicious I ordered cheese pizza and   mozzarella cheese sticks"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJieik6nnpj4ARnZLFm18kKIE",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Stoneridge",
+  "emoji": "🍛",
+  "why": "This South Indian spot has reviewers calling the flavors insane, thanks to high-quality butter in its pastries.",
+  "tags": [
+   "vegetarian-friendly",
+   "sweet",
+   "brunch",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "South Indian Pastries",
+   "description": "Buttery South Indian pastries reviewers say use high-quality butter.",
+   "basis": "The flavors are insane! As someone who loves pastries and butter, I can say whatever butter they used must be high quality."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJufNH8N3oj4ARM0x_Hutlt-g",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Stoneridge",
+  "emoji": "🥐",
+  "why": "This Taiwanese bakery chain draws loyal regulars for jalapeño cheese bread, cream buns, and Marble Taro loaves.",
+  "tags": [
+   "sweet",
+   "bread",
+   "coffee",
+   "casual",
+   "dessert"
+  ],
+  "signatureDish": {
+   "name": "Jalapeño Cheese Bread",
+   "description": "Amazing jalapeño cheese bread, a fan favorite.",
+   "basis": "The jalapeño cheese bread tastes amazing, and the white chocolate toast is one of my favorites."
+  },
+  "menu": [
+   {
+    "name": "Cream Buns",
+    "description": "Soft, fresh cream buns that are a must-try every time.",
+    "basis": "The cream buns are a must-try—soft, fresh, and delicious every time."
+   },
+   {
+    "name": "Marble Taro Bread",
+    "description": "A soft, chewy Marble Taro bread that's a customer favorite.",
+    "basis": "I love Marble Taro bread the most."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJN61u0d3oj4ARBaLlJyJv3d4",
+  "skip": false,
+  "cuisine": "Hotpot",
+  "neighborhood": "Stoneridge",
+  "emoji": "🍲",
+  "why": "Individual hot pots with halal meats, vegan bases, and a mushroom sauce reviewers rave about make this a crowd-pleasing choice for any diet.",
+  "tags": [
+   "soup",
+   "spicy",
+   "vegan-friendly",
+   "meat-heavy",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Vegetarian Hot Pot with Mushroom Sauce",
+   "description": "Vegetarian hot pot with mushroom soup and rice, finished with an addictive mushroom sauce.",
+   "basis": "I got the vegetarian hot pot with mushroom soup, rice, and oh my goodness it was sooo good with their mushroom sauce"
+  },
+  "menu": [
+   {
+    "name": "Halal Meats & Vegan Bases",
+    "description": "Halal meat and vegan broth bases make this hot pot spot inclusive for every diet.",
+    "basis": "I love that they offer halal meats and vegan bases for their hot pot."
+   },
+   {
+    "name": "Basic Meat Package",
+    "description": "A basic meat package whose quality exceeded expectations.",
+    "basis": "I got the basic meat package and its quality exceeded for what was expected."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJxXM6HQDpj4ARYOfHntj7paE",
+  "skip": false,
+  "cuisine": "Sichuan",
+  "neighborhood": "Dublin",
+  "emoji": "🌶️",
+  "why": "A build-your-own numbing-spicy malatang soup spot where reviewers say every bowl feels personal, rich, and satisfying.",
+  "tags": [
+   "soup",
+   "spicy",
+   "noodles",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "DIY Malatang Bowl",
+   "description": "Build-your-own spicy Chinese soup with your pick of proteins, veggies, and noodles.",
+   "basis": "You get the freedom to pick your own mix of proteins, veggies, and noodles, which makes every bowl feel personal and satisfying."
+  },
+  "menu": [
+   {
+    "name": "Mild Beef Broth",
+    "description": "A perfectly seasoned mild beef broth base.",
+    "basis": "My husband and I shared the bowl with the mild Beef Broth."
+   },
+   {
+    "name": "Fishballs",
+    "description": "Flavorful fishballs that stand out in the nonspicy soup.",
+    "basis": "We got the nonspicy soup and it was very flavorful and great fishballs"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ177fNQDpj4ARyrX36TehK-Y",
+  "skip": false,
+  "cuisine": "Hotpot",
+  "neighborhood": "Dublin",
+  "emoji": "🍲",
+  "why": "Individual hot pots loaded with fresh meats and seafood — reviewers call the sesame ball dessert finisher a must-have.",
+  "tags": [
+   "soup",
+   "meat-heavy",
+   "seafood",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Individual Hot Pot",
+   "description": "A great, hygienic individual hot pot format with a wide selection of meats and sauces.",
+   "basis": "The individual pot is a great idea especially if hygiene is a concern."
+  },
+  "menu": [
+   {
+    "name": "Sesame Ball",
+    "description": "A sweet sesame ball dessert that's a must-have finisher.",
+    "basis": "The sesame ball is a must have as finisher."
+   },
+   {
+    "name": "Fresh Beef & Seafood Set",
+    "description": "A good-value weekday set with fresh beef and seafood.",
+    "basis": "good value, $22.00 per person weekday. Fresh beef, seafood."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2_YrC9Htj4ARheJJLN7oXwM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Dublin",
+  "emoji": "🧋",
+  "why": "A buzzing boba destination where the mango sago and creme brûlée pearl latte keep lines out the door.",
+  "tags": [
+   "sweet",
+   "coffee",
+   "casual",
+   "dessert"
+  ],
+  "signatureDish": {
+   "name": "Mango Sago",
+   "description": "A yummy mango sago, a customer favorite.",
+   "basis": "This time we ordered the Mango sago and the Strawberry milk bar. Yummy!"
+  },
+  "menu": [
+   {
+    "name": "Creme Brûlée Pearl Latte",
+    "description": "A rich creme brûlée pearl latte a regular gets every time.",
+    "basis": "their creme brûlée and brown sugar is so good"
+   },
+   {
+    "name": "Passion Fruit Tea with Lychee Jelly",
+    "description": "A refreshing passion fruit tea with a great lychee jelly texture.",
+    "basis": "The passion fruit tea was so good! I loved the texture"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJBRXFJWbsj4ARBScLDCxVsTw",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Dublin",
+  "emoji": "🌮",
+  "why": "A family-owned Mexican staple where the creamy nacho cheese and a recommended beef taco plate keep regulars loyal.",
+  "tags": [
+   "casual",
+   "family-style",
+   "meat-heavy",
+   "spicy"
+  ],
+  "signatureDish": {
+   "name": "Nachos",
+   "description": "A half order of nachos with cheese so creamy reviewers rave about it.",
+   "basis": "I had the half order of nachos and the cheese was so creamy."
+  },
+  "menu": [
+   {
+    "name": "Beef Taco Plate",
+    "description": "A server-recommended beef taco plate that's so good.",
+    "basis": "recommended their special beef taco plate which we had never tried. It was so good."
+   },
+   {
+    "name": "Street Tacos",
+    "description": "Street tacos alongside the popular taco combo plates.",
+    "basis": "I’ve enjoyed the taco combo plates, and street tacos"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZ8SRNmbsj4ARZNebLDhFIvw",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Dublin",
+  "emoji": "🍔",
+  "why": "This dog-friendly brewery pub scores big with carne asada nachos loaded with all the fixings and a beloved pesto chicken sandwich.",
+  "tags": [
+   "meat-heavy",
+   "cheese",
+   "fried",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Carne Asada Nachos",
+   "description": "Nachos loaded with carne asada, pico de gallo, jalapeños, guacamole, sour cream, and plenty of cheese.",
+   "basis": "The nachos with carne asada were absolutely amazing loaded with flavorful meat, fresh pico de gallo, jalapeños, guacamole, sour cream, and plenty of cheese."
+  },
+  "menu": [
+   {
+    "name": "Pesto Chicken Sandwich",
+    "description": "A standout pesto chicken sandwich served with on-point fries.",
+    "basis": "Loved the pesto chicken sandwich and the burger, the fries were on point."
+   },
+   {
+    "name": "Fried Pickles",
+    "description": "Excellent fried pickles.",
+    "basis": "Fried pickles were excellent."
+   },
+   {
+    "name": "Quesadillas",
+    "description": "A family favorite quesadilla.",
+    "basis": "Quesadillas is one of my son’s favorites."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJt3jT9Wjsj4ARjziG_ezOHzI",
+  "skip": false,
+  "cuisine": "Dim Sum",
+  "neighborhood": "Dublin",
+  "emoji": "🥟",
+  "why": "A Dublin dim sum institution where the salt-and-pepper pork chops and BBQ pork buns are can't-miss orders.",
+  "tags": [
+   "comfort",
+   "family-style",
+   "casual",
+   "fried",
+   "noodles"
+  ],
+  "signatureDish": {
+   "name": "Salt and Pepper Pork Chops",
+   "description": "Must-get salt and pepper pork chops alongside sausage rolls and BBQ pork buns.",
+   "basis": "Definitely must get the salt and pepper pork chops, the Chinese sausage roll and BBQ pork buns!"
+  },
+  "menu": [
+   {
+    "name": "Shumai",
+    "description": "Especially large-portioned shumai.",
+    "basis": "Shumai is especially large portion."
+   },
+   {
+    "name": "Pan-Fried Turnip Cake",
+    "description": "A favorite pan-fried turnip cake among the dim sum spread.",
+    "basis": "My favorite dishes include BBQ pork pastry, siu mai, steamed BBQ pork buns, pan-fried turnip cake"
+   },
+   {
+    "name": "Hong Kong Noodles",
+    "description": "Recommended Hong Kong noodles.",
+    "basis": "Recommend Hong Kong noodles too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJN_Mk-1Psj4AR8BApapGRjn4",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Dublin",
+  "emoji": "🍚",
+  "why": "Reviewers call this their go-to for Hyderabadi biryani — tender, perfectly spiced, and consistently one of the best in the Bay Area.",
+  "tags": [
+   "spicy",
+   "rice",
+   "meat-heavy",
+   "comfort",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Chicken Biryani",
+   "description": "Tender chicken biryani with perfectly cooked, well-spiced rice.",
+   "basis": "Try Chicken Biryani and Mutton Biryani. The pieces were tender and rice is perfectly cooked with correct amount of spices."
+  },
+  "menu": [
+   {
+    "name": "Gongura Chicken Biryani",
+    "description": "Amazing gongura chicken biryani served with salan and raitha.",
+    "basis": "Tried gougura chicken biriyani ! And it turned out to be amazing salan and raitha was good on the side."
+   },
+   {
+    "name": "Gobi Manchuria",
+    "description": "A great Gobi Manchuria on the Indo-Chinese side of the menu.",
+    "basis": "Gobi manchuria was great aswell !"
+   },
+   {
+    "name": "Palnadu Chicken Roast Pulao",
+    "description": "A to-die-for palnadu chicken roast pulao.",
+    "basis": "Tried their palnadu chicken roast pula which is to die for."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJgWtFuCLtj4ARIFT2f3IJVc4",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Dublin",
+  "emoji": "🍕",
+  "why": "A laid-back surf-themed pizzeria known for bold, unexpected topping combos like Gorgonzola, hot honey, and peaches.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Creative Topping Thin Crust Pizza",
+   "description": "Thin-crust pizza topped with unexpected combos like apples, peaches, Gorgonzola, artichokes, and hot honey.",
+   "basis": "unique combinations—apples, peaches, Gorgonzola, artichokes, and hot honey"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJe6eA7Wrsj4ARWkKRqKnDsVM",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Dublin",
+  "emoji": "🍳",
+  "why": "A humble all-day diner where the avocado bacon Benedict and hearty omelettes make it Dublin's go-to breakfast spot.",
+  "tags": [
+   "breakfast",
+   "comfort",
+   "brunch",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Avocado and Bacon Benedict",
+   "description": "A good avocado and bacon eggs Benedict.",
+   "basis": "I got an avocado and bacon Benedict which was good."
+  },
+  "menu": [
+   {
+    "name": "Hash Browns",
+    "description": "Perfectly cooked hash browns on the side.",
+    "basis": "We both got the hash brown for our sides and it was perfectly cooked."
+   },
+   {
+    "name": "Omelette",
+    "description": "Amazing, big-portioned omelettes.",
+    "basis": "The omelettes are amazing. Big portions."
+   },
+   {
+    "name": "Ham, Cheese & Chili Omelet",
+    "description": "A yummy ham, cheese, and chili omelet served with toast and potatoes.",
+    "basis": "Omelet was ham, cheese, chilie, and with toast plus potatoes. So yummy!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJBYXYMw3tj4ARvw7njVWNfe8",
+  "skip": false,
+  "cuisine": "Vietnamese",
+  "neighborhood": "Dublin",
+  "emoji": "🥖",
+  "why": "This warm, family-run spot turns out crunchy-fresh banh mi and standout condensed milk coffee that regulars crave within days.",
+  "tags": [
+   "bread",
+   "coffee",
+   "casual",
+   "quick-bite",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Banh Mi",
+   "description": "Flavorful banh mi on a roll that's crispy and soft at once.",
+   "basis": "The banh mi are flavorful and the roll is crispy and soft at the same time."
+  },
+  "menu": [
+   {
+    "name": "Grilled Pork & Beef",
+    "description": "Grilled pork and beef options that friends enjoyed just as much.",
+    "basis": "My friends also tried grill pork and beef. They enjoyed those too."
+   },
+   {
+    "name": "Vietnamese Condensed Milk Coffee",
+    "description": "A really good Vietnamese coffee with condensed milk.",
+    "basis": "I also got the Vietnamese coffee with condensed milk and it was really good."
+   },
+   {
+    "name": "Daikon Carrot Pickle",
+    "description": "A really good daikon and carrot pickle served on the side.",
+    "basis": "The dakon and carrot pickle is really good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ69adgD3nj4ARTw_n-pHBUnQ",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJtxib1fDnj4ARYvQbt8dGeC4",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🥐",
+  "why": "This French-Asian bakery cafe hides Livermore's best savory breakfast — a Bacon, Egg, and Cheese croissant that's always fresh-baked.",
+  "tags": [
+   "sweet",
+   "bread",
+   "breakfast",
+   "coffee",
+   "dessert"
+  ],
+  "signatureDish": {
+   "name": "Bacon, Egg, and Cheese Croissant",
+   "description": "A delicious, always fresh-baked savory breakfast croissant.",
+   "basis": "The Bacon, Egg, and Cheese croissant is DELICIOUS and always available, and always fresh-baked."
+  },
+  "menu": [
+   {
+    "name": "Mango Blueberry Cloud Cake",
+    "description": "Mango and blueberry cloud cake slices, a weekend treat.",
+    "basis": "Came for mango and blueberry cloud cake slices."
+   },
+   {
+    "name": "Strawberry Cream Croissant",
+    "description": "A cream-filled strawberry croissant alongside other savory croissant flavors.",
+    "basis": "Left with 2 strawberries cream crossiants, spanish feta crossiant and a hot dog crossiant."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJq-PYNhbnj4ARk_HLmDw9kzk",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Downtown Livermore",
+  "emoji": "🍝",
+  "why": "A hidden Livermore gem where the Pizza Primavera, silky gnocchi, and hearty lasagna keep the whole family coming back.",
+  "tags": [
+   "cheese",
+   "comfort",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pizza Primavera",
+   "description": "A standout pizza with fresh toppings and a crust that's crispy yet chewy.",
+   "basis": "The Pizza Primavera was a standout — fresh toppings, perfectly balanced flavors, and a crust that hit just the right spot between crispy and chewy."
+  },
+  "menu": [
+   {
+    "name": "Gnocchi",
+    "description": "Fantastic gnocchi, split half bolognese and half pesto.",
+    "basis": "My gnocchi was fantastic! I did half bolognese and half pesto."
+   },
+   {
+    "name": "Lasagna & Linguini with Clams",
+    "description": "Hearty lasagna and linguini with clams, a delicious family dinner order.",
+    "basis": "I had lasagna, my wife had gnocchi with a bolognese sauce and mother had a linguini with clams, everything was delicious and hot"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ9aJKiiHnj4ARd_b2Hxx1vSs",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Livermore",
+  "emoji": "🍣",
+  "why": "A compact Japanese spot locals compare to Nobu for freshness and quality, with classic rolls and a full sashimi list.",
+  "tags": [
+   "raw",
+   "seafood",
+   "upscale",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "California Roll & Unagi Roll",
+   "description": "Classic California and Unagi rolls, a great starting point on the menu.",
+   "basis": "We decided to try some classic sushi rolls, starting with the California Roll and Unagi Roll."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJU_dsjyHnj4ARiunNPPO9vOA",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Springtown",
+  "emoji": "🌮",
+  "why": "A regular calls it the food heaven would serve if heaven had a Mexican restaurant, and the pozole's hearty broth backs it up.",
+  "tags": [
+   "casual",
+   "comfort",
+   "meat-heavy",
+   "quick-bite",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Pozole",
+   "description": "A super flavorful, hearty broth with toppings served on the side so you can customize each bowl.",
+   "basis": "The pozole had a super flavorful, hearty broth"
+  },
+  "menu": [
+   {
+    "name": "Carne Asada Burrito",
+    "description": "A solid-sized burrito ordered alongside the pozole.",
+    "basis": "We ordered the pozole and a carne asada burrito, and both were really good."
+   },
+   {
+    "name": "Fish and Shrimp Tacos",
+    "description": "Ordered plain, they're worth the short wait the sign promises.",
+    "basis": "I have the fish and shrimp tacos, plain."
+   },
+   {
+    "name": "East Bay Munch",
+    "description": "Loaded carne asada fries sized to feed two or three people.",
+    "basis": "For $25, the volume at least matches where it can feed 2-3 people."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJlX7SZ_3nj4ARlN3lR8f2beM",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Springtown",
+  "emoji": "🥡",
+  "why": "A regular calls it the best Singapore noodles and wings they've ever had, right alongside spring rolls people say are to die for.",
+  "tags": [
+   "casual",
+   "noodles",
+   "quick-bite",
+   "comfort",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Singapore Noodles",
+   "description": "Curry-spiced noodles a regular calls the best they've ever had, paired with equally praised wings.",
+   "basis": "This is the best Singapore noodles and wings I have ever had."
+  },
+  "menu": [
+   {
+    "name": "Vietnamese Vegetable Spring Rolls",
+    "description": "Fresh rolls reviewers say are to die for.",
+    "basis": "The Vietnamese vegetable spring rolls are to die for! Delicious!"
+   },
+   {
+    "name": "Wonton Soup",
+    "description": "A light, clear broth with flavorful, tasty wonton stuffing.",
+    "basis": "Wonton soup is light and clear with the wonton stuffing flavorful and tasty."
+   },
+   {
+    "name": "Fried Chicken",
+    "description": "A milder fried chicken option reviewers say is very good.",
+    "basis": "Fried chicken was also very good and not spicy."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ85upMklBkIAR4UhtlvQ2s30",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Springtown",
+  "emoji": "🌯",
+  "why": "A regular calls it the spot with the best tacos and quesabirrias in Livermore, with al pastor burritos big enough to earn their own photo.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "meat-heavy",
+   "street-food",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Quesabirria",
+   "description": "Consensus pick for the best in town, with extra meat options on weekends.",
+   "basis": "This spot has the best tacos and quesabirrias!"
+  },
+  "menu": [
+   {
+    "name": "Al Pastor Burrito",
+    "description": "A burrito sized big enough to earn its own photo.",
+    "basis": "We got Al pastor burritos and quesabirria."
+   },
+   {
+    "name": "Chips and Salsa",
+    "description": "A house favorite for dipping alongside the tacos.",
+    "basis": "their chips and salsas are my favorite too."
+   },
+   {
+    "name": "Quesadilla",
+    "description": "Another crowd-pleaser reviewers lump in with the can't-go-wrong menu.",
+    "basis": "Burritos, tacos, quesadillas, everything, just delicious"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJoz6s7Rfnj4ARfhAUNbwVhBM",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Las Positas",
+  "emoji": "🌮",
+  "why": "Hand-made tortillas one reviewer calls to die for, plus a build-your-own taco setup with a delicious house orange sauce.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "street-food",
+   "spicy",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Hand-Made Tortillas",
+   "description": "Fresh tortillas made in house that one reviewer says are to die for.",
+   "basis": "The hand made tortillas are to die for"
+  },
+  "menu": [
+   {
+    "name": "Build-Your-Own Taco",
+    "description": "Custom tacos where you pick the fillings yourself.",
+    "basis": "you can customize your own taco"
+   },
+   {
+    "name": "House Spicy Carrots",
+    "description": "House-pickled carrots milder than the canned jalapeño kind but still a favorite add-on.",
+    "basis": "They make their own \"spicy\" carrots, too."
+   },
+   {
+    "name": "Orange Sauce",
+    "description": "A tangy-spicy house sauce reviewers call delicious.",
+    "basis": "Their orange sauce is delicious"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ2VDVWbnj4ARLXZGv34c464",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Las Positas",
+  "emoji": "🍪",
+  "why": "Fresh, chewy cookies in rotating weekly flavors, plus a Biscoff pie one reviewer calls the best treat they've had here.",
+  "tags": [
+   "dessert",
+   "sweet",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Signature Cookies",
+   "description": "Rotating weekly flavors that come out fresh and chewy.",
+   "basis": "The cookies were fresh, chewy, and full of flavor."
+  },
+  "menu": [
+   {
+    "name": "Mini Cookie 3-Pack",
+    "description": "A perfectly portioned sweet treat, great for an after-school snack.",
+    "basis": "The mini Crumbl Cookie 3 pack is the perfect amount of sweetness for an after school treat!"
+   },
+   {
+    "name": "Biscoff Pie",
+    "description": "A standout treat one reviewer calls their husband's favorite.",
+    "basis": "my husband absolutely love the Biscoff pie"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJredyoj7zj4ARL-fHUpD6hH0",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Camino Ramon",
+  "emoji": "🌶️",
+  "why": "The famous Shaam Savera doesn't disappoint, and the garlic naan is on point according to regulars.",
+  "tags": [
+   "spicy",
+   "upscale",
+   "comfort",
+   "vegetarian-friendly",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Shaam Savera",
+   "description": "A creamy-textured signature dish reviewers say lives up to its fame.",
+   "basis": "We tried their famous Shaam Savera and it did not disappoint at all."
+  },
+  "menu": [
+   {
+    "name": "Mutton Rogan Josh",
+    "description": "A richly spiced mutton curry, often ordered alongside the Amritsari Fish.",
+    "basis": "the Amritsari Fish and the Mutton Rogan Josh"
+   },
+   {
+    "name": "Garlic Naan",
+    "description": "Naan reviewers say is on point alongside the mains.",
+    "basis": "their garlic naan was on point."
+   },
+   {
+    "name": "Subz Roohani Biryani",
+    "description": "A biryani so good reviewers couldn't stop eating it.",
+    "basis": "We also tried the Subz Roohani Biryani, and it was something we"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJA9x9bkvzj4AReMR_T9lpAUk",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Camino Ramon",
+  "emoji": "🍽️",
+  "why": "Regulars call the pot roast a tender flavorful winner and the salmon cooked to perfection, in a farm-to-table Mediterranean-leaning menu.",
+  "tags": [
+   "upscale",
+   "date-night",
+   "meat-heavy",
+   "seafood",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Pot Roast",
+   "description": "A farm-to-table pot roast reviewers call a tender, flavorful winner.",
+   "basis": "pot roast as a “tender flavorful winner,”"
+  },
+  "menu": [
+   {
+    "name": "Salmon Special",
+    "description": "A rotating salmon special reviewers say is cooked to perfection.",
+    "basis": "salmon specials “cooked to perfection,”"
+   },
+   {
+    "name": "Lamb",
+    "description": "Perfectly tender, well-seasoned lamb from a quiet, comfortable dinner.",
+    "basis": "I had the lamb. It was perfectly tender and seasoned."
+   },
+   {
+    "name": "Wagyu Burger",
+    "description": "A fresh, well-seasoned Wagyu burger that clearly wasn't frozen.",
+    "basis": "I had a Wagyu burger you could tell it wasn’t frozen."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJbewDBkvzj4ARuQJhHWTTJE4",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Camino Ramon",
+  "emoji": "🍕",
+  "why": "A crust reviewers call the best around, topped with inventive options like golden Idaho potatoes.",
+  "tags": [
+   "casual",
+   "cheese",
+   "comfort",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "NYC-Style Pizza",
+   "description": "Brick-oven pizza with a crust one reviewer calls the best, topped with options like golden Idaho potatoes.",
+   "basis": "The best pizza crust and they offer original type different toppings like golden Idaho potatoes, veggies, etc."
+  },
+  "menu": [
+   {
+    "name": "Veggie Pizza",
+    "description": "A veggie pie with a crust reviewers describe as crispy and flavorful.",
+    "basis": "The crust was nicely done crispy and flavorful"
+   },
+   {
+    "name": "Pasta",
+    "description": "House pastas served alongside the pizzas, with gluten-free options available.",
+    "basis": "brick-oven, NYC-style pizzas & pastas, plus gluten-free options."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJL32FF0vzj4ARPCd33KyXwO8",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Camino Ramon",
+  "emoji": "🥞",
+  "why": "Chicken fried steak one reviewer calls soo good, plus hearty breakfasts like the California omelet and The Grizz.",
+  "tags": [
+   "comfort",
+   "breakfast",
+   "family-style",
+   "casual",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Chicken Fried Steak",
+   "description": "Chicken fried steak with gravy that one reviewer calls soo good.",
+   "basis": "their chicken fried steak with gravy. It is soo good."
+  },
+  "menu": [
+   {
+    "name": "California Omelet",
+    "description": "A breakfast omelet ordered alongside The Grizz.",
+    "basis": "I had the California omelet and he had The Grizz."
+   },
+   {
+    "name": "Big Bear Burger",
+    "description": "Part of a well-cooked, generously portioned lineup reviewers praise as fresh and delicious.",
+    "basis": "Big Bear Burger, Corn Muffins and Ice Cream Sundae. The dishes were fresh, well cooked with large portions and delicious."
+   },
+   {
+    "name": "The Grizz",
+    "description": "A hearty plate reviewers polished off with leftovers to spare.",
+    "basis": "he had The Grizz. Portions were generous - we had leftovers."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJsf-R07OMj4ARY49JhQdBgww",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Sycamore Valley",
+  "emoji": "🌮",
+  "why": "The chips and salsa are the move, even for reviewers who found the entrees hit-or-miss.",
+  "tags": [
+   "casual",
+   "comfort",
+   "family-style",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Chips and Salsa",
+   "description": "The one thing every reviewer agrees is great, even when the entrees miss.",
+   "basis": "Not the best Mexican food but great chips and salsa."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJ3bxb4naNj4ARku5Zw60aBp0",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Downtown Danville",
+  "emoji": "🍛",
+  "why": "The Chicken Kathi Roll left one reviewer simply blown away, and the biryanis keep locals coming back.",
+  "tags": [
+   "spicy",
+   "meat-heavy",
+   "rice",
+   "comfort",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Chicken Kathi Roll",
+   "description": "A crispy wrap with melt-in-the-mouth chicken that left one reviewer blown away.",
+   "basis": "ordered Chicken Kathi Roll. Was simply blown away by the sheer deliciousness of this item"
+  },
+  "menu": [
+   {
+    "name": "Chicken Biryani",
+    "description": "A well-spiced biryani with portions big enough for leftovers.",
+    "basis": "we both had the chicken biryani - medium spicy"
+   },
+   {
+    "name": "Garlic Chicken Kabob",
+    "description": "Fresh, well-cooked kabobs reviewers rate among the standouts.",
+    "basis": "The Garlic Chicken Kabob is fresh and well cooked"
+   },
+   {
+    "name": "Garlic Naan",
+    "description": "Thin, perfectly done breads reviewers call amazing.",
+    "basis": "The breads were amazing – super thin and perfectly done"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJfcIbXqyMj4ARNyRyixAgBDw",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Downtown Danville",
+  "emoji": "🌯",
+  "why": "The chicken happy burrito comes out amazing and perfectly balanced, and the carnitas have a crispy edge one reviewer can't stop thinking about.",
+  "tags": [
+   "casual",
+   "comfort",
+   "meat-heavy",
+   "family-style",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Chicken Happy Burrito",
+   "description": "A perfectly balanced burrito with tender, juicy chicken.",
+   "basis": "We had the chicken happy burrito and bottomless chips and salsa."
+  },
+  "menu": [
+   {
+    "name": "Carnitas",
+    "description": "Tender carnitas with a crispy edge one reviewer says they can't stop thinking about.",
+    "basis": "the carnitas were so tender and had this crispy edge that i cant stop thinking about"
+   },
+   {
+    "name": "Chips and Salsa",
+    "description": "Bottomless chips with a salsa reviewers call homemade and delicious.",
+    "basis": "The chips were good and the salsa was homemade and delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJxX91LzeNj4ARo-Ur6l-G8rs",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Sycamore Valley",
+  "emoji": "🍣",
+  "why": "Sushi rolls like the Cherry Blossom and Salmon Lover come out fresh, flavorful, and beautifully presented.",
+  "tags": [
+   "raw",
+   "seafood",
+   "date-night",
+   "casual",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Signature Sushi Rolls",
+   "description": "The Cherry Blossom, Salmon Lover, and Under the Sea rolls, all fresh, flavorful, and beautifully plated.",
+   "basis": "We ordered the Cherry Blossom, Salmon Lover, and Under the Sea sushi rolls, and every single one was fresh, flavorful, and beautifully presented."
+  },
+  "menu": [
+   {
+    "name": "Miso Soup",
+    "description": "A quick starter one reviewer flags as excellent.",
+    "basis": "I was thinking of some miso, (excellent BTW)"
+   },
+   {
+    "name": "Karaage",
+    "description": "Karaage praised as excellently done, though it runs on the salty side.",
+    "basis": "Ordered the karaage and although it was done excellently it was very salty."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ0QBRP66Nj4AR_WePOWWpyg8",
+  "skip": false,
+  "cuisine": "Korean",
+  "neighborhood": "Town and Country",
+  "emoji": "🍲",
+  "why": "The spicy pork lunch set comes with generous portions and well-seasoned japchae, plus a surprising seafood jeon.",
+  "tags": [
+   "spicy",
+   "meat-heavy",
+   "seafood",
+   "fried",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Spicy Pork Lunch Set",
+   "description": "A well put-together set with tasty sides and a generous portion of spicy pork.",
+   "basis": "I ordered the spicy pork lunch set here. The side dishes were tasty, and the set itself was well put together."
+  },
+  "menu": [
+   {
+    "name": "Japchae",
+    "description": "Well-seasoned glass noodles with a nice variety of ingredients.",
+    "basis": "It came with japchae, which was well-seasoned and had a nice variety of ingredients."
+   },
+   {
+    "name": "Seafood Jeon",
+    "description": "A well-fried seafood pancake loaded with seafood and a balanced sauce.",
+    "basis": "Seafood jeon is a surprise, well fried, containing lots of seafood, with well balanced sauce."
+   },
+   {
+    "name": "Banchan",
+    "description": "Side dishes reviewers say complement the meal nicely.",
+    "basis": "The banchan were great and complemented the meal nicely."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJzb-s1KmMj4ARWDPB8BWpoSo",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Town and Country",
+  "emoji": "🎂",
+  "why": "The ube and earl grey wedding cake was called divine, and the Chocolate Dulce de Leche is rich but not heavy.",
+  "tags": [
+   "dessert",
+   "sweet",
+   "upscale",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Ube & Earl Grey Cake",
+   "description": "A divine, uniquely flavored wedding cake combining ube and earl grey.",
+   "basis": "Their ube and early grey cake was divine, and everyone enjoyed the uniqueness of the flavors."
+  },
+  "menu": [
+   {
+    "name": "Chocolate Dulce de Leche Cake",
+    "description": "A rich, flavorful, and moist cake paired often with the Vanilla Apricot flavor.",
+    "basis": "We ended up going with the Chocolate Dulce de Leche cake along with the Vanilla Apricot."
+   },
+   {
+    "name": "Custom Birthday Cakes",
+    "description": "Personalized designs like a Thomas train and volcano cake that kids still remember.",
+    "basis": "My kid still remembers the Thomas train and Volcano cake that you made last year for his birthday."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJN7gNtq2Mj4ARfClFbKlhmB4",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Downtown Danville",
+  "emoji": "🍺",
+  "why": "The homemade sausage platter is a standout, and the grilled chicken pesto sandwich with sweet potato fries is a lively favorite.",
+  "tags": [
+   "casual",
+   "meat-heavy",
+   "bread",
+   "grilled",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Homemade Sausage Platter",
+   "description": "A standout platter of two homemade sausages.",
+   "basis": "The homemade sausage platter (2 pcs) is a standout"
+  },
+  "menu": [
+   {
+    "name": "Grilled Chicken Pesto Sandwich",
+    "description": "Grilled chicken with pesto and avocado, served with sweet potato fries.",
+    "basis": "I enjoyed their grilled chicken breast pesto sandwich with avocado & sweet potato fries!"
+   },
+   {
+    "name": "Laughing Monk 9th Gospel",
+    "description": "A well-liked craft beer on tap, best sipped carefully at 10% ABV.",
+    "basis": "I had the laughing monk 9th gospel which was very good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJxWzv9ayMj4ARxmqFsbNejOo",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Downtown Danville",
+  "emoji": "☕",
+  "why": "A regular calls the plant-milk caramel latte the best hot drink they've had in years.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Caramel Latte",
+   "description": "A plant-milk caramel latte one regular calls the best hot drink they've had in years.",
+   "basis": "I tried caramel latte with plant milk more than once and I must say that’s the best hot drink I had in years."
+  },
+  "menu": [
+   {
+    "name": "Tanzanian Peaberry Beans",
+    "description": "Rare single-origin beans a regular religiously buys.",
+    "basis": "I religiously buy their Tanzanian peaberry and Panama Highlands Catuai."
+   },
+   {
+    "name": "Bagels",
+    "description": "Always fresh bagels paired with the coffee.",
+    "basis": "I love the coffee and Bagels always fresh and delicious"
+   }
+  ]
+ }
+]
