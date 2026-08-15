@@ -63,7 +63,10 @@ const matches = new MatchesView({
   sheet,
   faceoff,
   deck,
-  onChanged: () => updateBadge(),
+  onChanged: () => {
+    updateBadge()
+    discover.refresh() // meal verdicts, removals, and hides re-rank the deck
+  },
 })
 
 const profile = new ProfileView({

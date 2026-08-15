@@ -44,7 +44,8 @@ export class Deck {
     return this.withDistance(location).filter(({ resto, distanceMi }) => {
       if (distanceMi > radiusMi) return false
       if (this.status(resto, now) !== 'fresh') return false
-      if (mode === 'new' && this.store.visits[resto.id]) return false
+      const visit = this.store.visits[resto.id]
+      if (mode === 'new' && visit && !visit.hidden) return false
       if (maxPrice && resto.price > maxPrice) return false
       if (vegOnly && !(resto.tags || []).some((t) => VEG_TAGS.includes(t))) return false
       if (openNowOnly && hoursStatus(resto, date).status === 'closed') return false
@@ -105,6 +106,22 @@ export class Deck {
     const [item] = list.splice(idx, 1)
     list.splice(Math.min(2, list.length), 0, item)
     return list
+  }
+
+  // Hiding a regular strips its meal evidence from the taste model — Discover
+  // stops chasing (or fleeing) a place the user disowned — and lets Something
+  // New deal the place again. The swipe (Saved) is untouched.
+  hideRegular(id, now = Date.now()) {
+    const v = this.store.visits[id]
+    if (!v || v.hidden) return
+    const resto = this.restaurants.find((r) => r.id === id)
+    if (resto) {
+      // Legacy visits predate the per-meal log: reverse the one verdict we know.
+      const log = v.log || (v.lastVerdict ? [{ v: v.lastVerdict, at: v.lastAt }] : [])
+      for (const m of log) this.engine.unrecordMeal(resto, m.v, m.at, now)
+      this.store.saveTaste(this.engine.toJSON())
+    }
+    this.store.hideVisit(id)
   }
 
   // Removing a match = full un-swipe: store, engine, and undo history move together.

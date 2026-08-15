@@ -13,7 +13,7 @@ const DEFAULTS = () => ({
   },
   swipes: {},                 // { [id]: { dir: 1|-1, at: epochMs } }
   matches: [],                // right-swiped ids, most recent first
-  visits: {},                 // { [id]: { count, lastAt } }
+  visits: {},                 // { [id]: { count, lastAt, lastVerdict?, log?, hidden? } }
   taste: null,                // TasteEngine.toJSON()
   liveCache: {},              // { [id]: restaurant } — matched live-search finds
 })
@@ -142,13 +142,27 @@ export class Store {
 
   markVisited(id, at = Date.now()) {
     const v = this.state.visits[id] || { count: 0, lastAt: 0 }
+    delete v.hidden // eating there again revives a hidden regular
     this.state.visits[id] = { ...v, count: v.count + 1, lastAt: at }
     this.save()
   }
 
-  setVisitVerdict(id, verdict) {
-    if (!this.state.visits[id]) return
-    this.state.visits[id].lastVerdict = verdict
+  setVisitVerdict(id, verdict, at = Date.now()) {
+    const v = this.state.visits[id]
+    if (!v) return
+    v.lastVerdict = verdict
+    ;(v.log ||= []).push({ v: verdict, at }) // per-meal ledger — hiding reverses these
+    this.save()
+  }
+
+  // Hidden regulars leave the Regulars list but keep their visit history.
+  // The log is cleared because its evidence has been reversed by the caller —
+  // re-hiding after a revival must never subtract the same meals twice.
+  hideVisit(id) {
+    const v = this.state.visits[id]
+    if (!v) return
+    v.hidden = true
+    v.log = []
     this.save()
   }
 

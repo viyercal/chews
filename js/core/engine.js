@@ -53,17 +53,29 @@ export class TasteEngine {
     this.record(resto, verdict === 'miss' ? -1 : 1, { weight, at })
   }
 
-  unrecord(resto, dir) {
+  // Subtract previously-added evidence (undo, un-match, hide-a-regular).
+  // `at` is when the evidence landed: the subtraction decays exactly like the
+  // evidence itself did, so reversing an old meal removes only what's left of it.
+  unrecord(resto, dir, { weight = 1, at = null, now = Date.now() } = {}) {
+    this._decayTo(now)
+    const hl = CONFIG.decay.halfLifeDays * 86400 * 1000
+    const w = at ? weight * 0.5 ** (Math.max(0, now - at) / hl) : weight
     const field = dir > 0 ? 'likes' : 'dislikes'
     const drop = (map, key) => {
       const c = key != null && map[key]
-      if (c && c[field] > 0) c[field] = Math.max(0, c[field] - 1)
-      if (c && c.likes < 0.001 && c.dislikes < 0.001) delete map[key]
+      if (!c) return
+      c[field] = Math.max(0, c[field] - w)
+      if (c.likes < 0.001 && c.dislikes < 0.001) delete map[key]
     }
     drop(this.cuisines, resto.cuisine)
     for (const t of resto.tags || []) drop(this.tags, t)
     drop(this.prices, resto.price)
-    this.total = Math.max(0, this.total - 1)
+    this.total = Math.max(0, this.total - w)
+  }
+
+  unrecordMeal(resto, verdict, at = null, now = Date.now()) {
+    const weight = CONFIG.meals[verdict] ?? CONFIG.meals.fine
+    this.unrecord(resto, verdict === 'miss' ? -1 : 1, { weight, at, now })
   }
 
   // 0 at first launch -> 1 after fullConfidenceSwipes. Gates all personalization,

@@ -36,6 +36,24 @@ test('fine is a mild positive', () => {
   assert.equal(e.total, CONFIG.meals.fine)
 })
 
+test('unrecordMeal reverses recordMeal exactly (hide, same day)', () => {
+  const e = new TasteEngine(rand)
+  e.recordMeal(resto(), 'fire', T0)
+  e.unrecordMeal(resto(), 'fire', T0, T0)
+  assert.equal(e.affinity('Korean'), 0.5)
+  assert.equal(e.total, 0)
+})
+
+test('unrecording an old meal removes only what decay left of it', () => {
+  const e = new TasteEngine(rand)
+  e.recordMeal(resto(), 'fire', T0)
+  const later = T0 + CONFIG.decay.halfLifeDays * DAY
+  e.record(resto({ id: 'r2', cuisine: 'Thai', tags: [], price: 1 }), 1, { at: later })
+  e.unrecordMeal(resto(), 'fire', T0, later) // 10 recorded, 5 left after decay — remove 5
+  assert.equal(e.cuisines.Korean, undefined)
+  assert.ok(Math.abs(e.total - 1) < 0.01) // only the fresh Thai like remains
+})
+
 test('evidence halves after one half-life; confidence decays with it', () => {
   const e = new TasteEngine(rand)
   for (let i = 0; i < 10; i++) e.record(resto(), 1, { at: T0 })

@@ -4,7 +4,8 @@ import { duoLink } from '../core/duo.js'
 import { toast } from './toast.js'
 
 // Matches tab: Saved (right-swipes, recent first) and Regulars (places marked
-// "ate here", by visit count) — plus the Face-off entry point.
+// "ate here", by visit count; hideable — hiding also un-teaches the taste
+// model everything those meals taught it) — plus the Face-off entry point.
 export class MatchesView {
   constructor({ root, store, byId, sheet, faceoff, deck, onChanged }) {
     this.root = root
@@ -30,7 +31,7 @@ export class MatchesView {
   regularsList() {
     return Object.entries(this.store.visits)
       .map(([id, v]) => ({ resto: this.byId[id], v }))
-      .filter((x) => x.resto)
+      .filter((x) => x.resto && !x.v.hidden)
       .sort((a, b) => b.v.count - a.v.count || b.v.lastAt - a.v.lastAt)
   }
 
@@ -101,11 +102,11 @@ export class MatchesView {
       return
     }
     const ul = el('<ul class="match-list"></ul>')
-    for (const { resto, v } of regulars) ul.appendChild(this.row(resto, { visits: v.count }))
+    for (const { resto, v } of regulars) ul.appendChild(this.row(resto, { visits: v.count, hideable: true }))
     this.root.appendChild(ul)
   }
 
-  row(resto, { removable = false, visits = 0 } = {}) {
+  row(resto, { removable = false, hideable = false, visits = 0 } = {}) {
     const [g1, g2] = cuisineGradient(resto.cuisine)
     const d = this.distanceTo(resto)
     const lastVerdict = this.store.visits[resto.id]?.lastVerdict
@@ -131,6 +132,7 @@ export class MatchesView {
           : `<span class="match-actions">
                <button class="icon-btn" data-act="ate" title="Ate here">🍽️</button>
                ${removable ? '<button class="icon-btn" data-act="remove" title="Remove">✕</button>' : ''}
+               ${hideable ? '<button class="icon-btn" data-act="hide" title="Hide — stops shaping your deck">✕</button>' : ''}
              </span>`}
       </li>
     `)
@@ -142,6 +144,12 @@ export class MatchesView {
     li.querySelector('[data-act="remove"]')?.addEventListener('click', () => {
       this.deck.removeMatch(resto.id) // full un-swipe: store + engine + undo history
       toast(`Removed ${resto.name}`)
+      this.render()
+      this.onChanged?.()
+    })
+    li.querySelector('[data-act="hide"]')?.addEventListener('click', () => {
+      this.deck.hideRegular(resto.id) // drops its meal evidence from the taste model
+      toast(`Hidden — ${resto.name} won't sway your deck`)
       this.render()
       this.onChanged?.()
     })
