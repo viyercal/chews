@@ -68,6 +68,20 @@ const BK = [ // Brooklyn, NYC — neighborhood commercial strips
   [40.6720, -73.9570], [40.6410, -73.9660], [40.6400, -74.0020], [40.6290, -74.0240],
   [40.6050, -73.9940], [40.5860, -73.9540], [40.5776, -73.9610],
 ]
+const MAN = [ // Manhattan — Flatiron-weighted (overlapping cells beat the 20/cell cap)
+  [40.7411, -73.9897], [40.7448, -73.9878], [40.7359, -73.9911], [40.7376, -73.9834],
+  [40.7420, -73.9874], // Flatiron / NoMad / Union Sq / Gramercy / Madison Sq
+  [40.7060, -74.0086], [40.7163, -74.0086], [40.7158, -73.9970], [40.7185, -73.9880],
+  [40.7233, -73.9970], [40.7347, -74.0014], [40.7308, -73.9973], [40.7270, -73.9850],
+  [40.7430, -73.9990], [40.7420, -74.0048], [40.7450, -73.9780], [40.7480, -73.9860],
+  [40.7550, -73.9750], [40.7590, -73.9860], [40.7625, -73.9915], [40.7700, -73.9820],
+  [40.7810, -73.9800], [40.7900, -73.9740], [40.7730, -73.9560], [40.7810, -73.9510],
+  [40.7950, -73.9420], [40.8080, -73.9450], [40.8070, -73.9640], [40.8410, -73.9390],
+]
+const SO = [ // South Orange NJ — full-township coverage (village + every corridor)
+  [40.7490, -74.2610], [40.7460, -74.2470], [40.7434, -74.2452], [40.7390, -74.2620],
+  [40.7420, -74.2380], [40.7480, -74.2790], [40.7312, -74.2735], // Maplewood-border catch
+]
 
 
 const QUALITY = {
@@ -78,6 +92,8 @@ const QUALITY = {
   fre: { minRating: 4.2, minCount: 120 },
   triv: { minRating: 4.0, minCount: 60 }, // suburban review volumes run lower than SF
   bk: { minRating: 4.3, minCount: 250 },
+  man: { minRating: 4.3, minCount: 250 },
+  so: { minRating: 4.0, minCount: 30 }, // small township, full-coverage mandate
 }
 
 const existing = JSON.parse(readFileSync(join(root, 'data/restaurants.json'), 'utf8')).restaurants
@@ -129,7 +145,7 @@ const toHours = (reg) => {
   return out.length ? out : undefined
 }
 
-const ALL_GRIDS = { sf: SF, sj: SJ, eb: EB, pen: PEN, fre: FRE, triv: TRIV, bk: BK }
+const ALL_GRIDS = { sf: SF, sj: SJ, eb: EB, pen: PEN, fre: FRE, triv: TRIV, bk: BK, man: MAN, so: SO }
 const keys = cityArg === 'all' ? Object.keys(ALL_GRIDS) : cityArg.split(',').filter((k) => ALL_GRIDS[k])
 const grids = Object.fromEntries(keys.map((k) => [k, ALL_GRIDS[k]]))
 const found = new Map()

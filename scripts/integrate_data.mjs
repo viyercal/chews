@@ -17,7 +17,7 @@ let dropped = 0
 
 for (const r of raw.restaurants) {
   const inBay = r.lat > 36.8 && r.lat < 38.3 && r.lng > -122.9 && r.lng < -121.4
-  const inNyc = r.lat > 40.5 && r.lat < 40.85 && r.lng > -74.1 && r.lng < -73.7
+  const inNyc = r.lat > 40.5 && r.lat < 40.92 && r.lng > -74.35 && r.lng < -73.7 // NYC + NJ suburbs
   const ok =
     r.name && r.address && r.cuisine && r.signatureDish?.name &&
     Number.isFinite(r.lat) && Number.isFinite(r.lng) &&
@@ -63,7 +63,7 @@ for (const r of raw.restaurants) {
 }
 
 const meta = {
-  city: 'SF Bay Area · Brooklyn',
+  city: 'SF Bay · NYC · South Orange',
   generatedAt: raw.generatedAt || new Date().toISOString().slice(0, 10),
   ...(raw.verifiedAt ? { verifiedAt: raw.verifiedAt } : {}),
   refreshMonths: 2,

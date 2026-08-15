@@ -18,9 +18,9 @@ const norm = (s) => String(s).toLowerCase().replace(/\s+/g, ' ').trim()
 const existingNames = new Set(data.restaurants.map((r) => norm(r.name)))
 
 const cityOf = (addr, cityKey) => {
-  const m = addr.match(/,\s*([A-Za-z .]+),\s*(?:CA|NY)/)
+  const m = addr.match(/,\s*([A-Za-z .]+),\s*(?:CA|NY|NJ)/)
   if (m) return m[1].trim()
-  return { sj: 'San Jose', eb: 'Oakland', pen: 'San Mateo', fre: 'Fremont', triv: 'Pleasanton', bk: 'Brooklyn' }[cityKey] || 'San Francisco'
+  return { sj: 'San Jose', eb: 'Oakland', pen: 'San Mateo', fre: 'Fremont', triv: 'Pleasanton', bk: 'Brooklyn', man: 'New York', so: 'South Orange' }[cityKey] || 'San Francisco'
 }
 
 let added = 0
@@ -50,7 +50,7 @@ for (const e of editorial) {
     cuisine: e.cuisine,
     neighborhood: e.neighborhood || '',
     city: cityOf(d.address, d.cityKey),
-    address: d.address.replace(/,\s*[A-Za-z .]+,\s*(?:CA|NY)\s*\d*$/, ''),
+    address: d.address.replace(/,\s*[A-Za-z .]+,\s*(?:CA|NY|NJ)\s*\d*$/, ''),
     lat: d.lat,
     lng: d.lng,
     rating: d.rating,
