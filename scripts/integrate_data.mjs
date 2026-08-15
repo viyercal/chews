@@ -16,10 +16,12 @@ const out = []
 let dropped = 0
 
 for (const r of raw.restaurants) {
+  const inBay = r.lat > 36.8 && r.lat < 38.3 && r.lng > -122.9 && r.lng < -121.4
+  const inNyc = r.lat > 40.5 && r.lat < 40.85 && r.lng > -74.1 && r.lng < -73.7
   const ok =
     r.name && r.address && r.cuisine && r.signatureDish?.name &&
     Number.isFinite(r.lat) && Number.isFinite(r.lng) &&
-    r.lat > 36.8 && r.lat < 38.3 && r.lng > -122.9 && r.lng < -121.4 &&
+    (inBay || inNyc) &&
     Number.isFinite(r.rating)
   if (!ok) { dropped++; console.warn('drop (invalid):', r.name); continue }
   let id = slug(r.name)
@@ -61,7 +63,7 @@ for (const r of raw.restaurants) {
 }
 
 const meta = {
-  city: 'SF Bay Area',
+  city: 'SF Bay Area · Brooklyn',
   generatedAt: raw.generatedAt || new Date().toISOString().slice(0, 10),
   ...(raw.verifiedAt ? { verifiedAt: raw.verifiedAt } : {}),
   refreshMonths: 2,

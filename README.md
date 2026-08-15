@@ -1,6 +1,6 @@
 # Chews 🍜 — swipe. match. eat.
 
-Tinder for restaurants. Each card is one great dish from a real Bay Area restaurant —
+Tinder for restaurants. Each card is one great dish from a real restaurant —
 swipe right if it makes you hungry, left if not. Tap a card for the full menu.
 Can't decide among your matches? **Face-off** runs a head-to-head bracket until one
 restaurant remains.
@@ -40,7 +40,9 @@ QA override: `?loc=37.7599,-122.4148` sets a fake location and skips onboarding.
 
 ## Data
 
-**Indexed cities: San Francisco + San Jose** (plus earlier Bay Area seeds).
+**Indexed areas: SF Bay Area** (SF, San Jose, Oakland/Berkeley, Peninsula,
+Fremont, Tri-Valley: Pleasanton/Dublin/Livermore/San Ramon/Danville) **+
+Brooklyn, NYC**.
 `data/restaurants.json` holds the index; every entry's rating, review count,
 price level, weekly hours, category, and Maps link are **verbatim from the
 Google Places API** (`verifiedBy: places-api`). Editorial content (signature

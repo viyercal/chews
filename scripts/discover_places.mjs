@@ -11,6 +11,10 @@ import { fileURLToPath } from 'node:url'
 
 const KEY = process.env.GOOGLE_MAPS_API_KEY
 if (!KEY) { console.error('Set GOOGLE_MAPS_API_KEY'); process.exit(1) }
+// The house key is referrer-restricted (browser-safe); owner-side terminal runs
+// pass the allowed referrer explicitly, e.g. https://viyercal.github.io/chews/
+const REFERER = process.env.CHEWS_KEY_REFERER
+const authHeaders = { 'X-Goog-Api-Key': KEY, ...(REFERER ? { Referer: REFERER } : {}) }
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const cityArg = process.argv.includes('--city') ? process.argv[process.argv.indexOf('--city') + 1] : 'all'
 
@@ -47,6 +51,18 @@ const FRE = [ // Fremont / Hayward / Union City / Milpitas edge
   [37.5485, -121.9886], [37.5300, -121.9200], [37.5620, -122.0000], [37.5930, -122.0440],
   [37.6690, -122.0800], [37.6350, -122.0570], [37.5000, -121.9300], [37.7050, -122.0850],
 ]
+const TRIV = [ // Tri-Valley: Pleasanton / Dublin / Livermore / San Ramon / Danville
+  [37.6624, -121.8747], [37.6939, -121.9270], [37.6997, -121.8916], [37.7057, -121.9284],
+  [37.7104, -121.8759], [37.6819, -121.7686], [37.6866, -121.7929], [37.6900, -121.7550],
+  [37.7625, -121.9500], [37.7780, -121.9780], [37.8216, -121.9996],
+]
+const BK = [ // Brooklyn, NYC — neighborhood commercial strips
+  [40.7143, -73.9614], [40.7245, -73.9515], [40.7005, -73.9270], [40.6872, -73.9418],
+  [40.6880, -73.9700], [40.6990, -73.9890], [40.6890, -73.9950], [40.6790, -73.9990],
+  [40.6760, -74.0100], [40.6740, -73.9820], [40.6640, -73.9880], [40.6780, -73.9690],
+  [40.6720, -73.9570], [40.6410, -73.9660], [40.6400, -74.0020], [40.6290, -74.0240],
+  [40.6050, -73.9940], [40.5860, -73.9540], [40.5776, -73.9610],
+]
 
 
 const QUALITY = {
@@ -55,6 +71,8 @@ const QUALITY = {
   eb: { minRating: 4.2, minCount: 150 },
   pen: { minRating: 4.2, minCount: 150 },
   fre: { minRating: 4.2, minCount: 120 },
+  triv: { minRating: 4.2, minCount: 120 },
+  bk: { minRating: 4.3, minCount: 250 },
 }
 
 const existing = JSON.parse(readFileSync(join(root, 'data/restaurants.json'), 'utf8')).restaurants
@@ -72,7 +90,7 @@ async function nearby(lat, lng) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'X-Goog-Api-Key': KEY,
+      ...authHeaders,
       'X-Goog-FieldMask':
         'places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.priceLevel,places.priceRange,places.googleMapsUri,places.primaryTypeDisplayName,places.businessStatus,places.regularOpeningHours',
     },
@@ -89,7 +107,7 @@ async function nearby(lat, lng) {
 
 async function details(id) {
   const res = await fetch(`https://places.googleapis.com/v1/places/${id}`, {
-    headers: { 'X-Goog-Api-Key': KEY, 'X-Goog-FieldMask': 'editorialSummary,reviews' },
+    headers: { ...authHeaders, 'X-Goog-FieldMask': 'editorialSummary,reviews' },
   })
   if (!res.ok) return {}
   return await res.json()
@@ -106,7 +124,7 @@ const toHours = (reg) => {
   return out.length ? out : undefined
 }
 
-const ALL_GRIDS = { sf: SF, sj: SJ, eb: EB, pen: PEN, fre: FRE }
+const ALL_GRIDS = { sf: SF, sj: SJ, eb: EB, pen: PEN, fre: FRE, triv: TRIV, bk: BK }
 const keys = cityArg === 'all' ? Object.keys(ALL_GRIDS) : cityArg.split(',').filter((k) => ALL_GRIDS[k])
 const grids = Object.fromEntries(keys.map((k) => [k, ALL_GRIDS[k]]))
 const found = new Map()
