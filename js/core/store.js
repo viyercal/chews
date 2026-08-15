@@ -17,6 +17,7 @@ const DEFAULTS = () => ({
   taste: null,                // TasteEngine.toJSON()
   liveCache: {},              // { [id]: restaurant } — matched live-search finds
   liveBudget: { day: '', calls: 0 }, // daily cap on house-key rescue pulls
+  rescueCache: {},            // { [roundedLatLng]: { at, lat, lng, restos } } — free re-deals
 })
 
 // Sandboxed iframes / blocked-storage browsers throw on the mere *access* of
@@ -60,11 +61,23 @@ export class Store {
       taste: asObj(saved.taste) || d.taste,
       liveCache: asObj(saved.liveCache) || d.liveCache,
       liveBudget: asObj(saved.liveBudget) || d.liveBudget,
+      rescueCache: asObj(saved.rescueCache) || d.rescueCache,
     }
   }
 
   cacheLive(resto) {
     this.state.liveCache[resto.id] = resto
+    this.save()
+  }
+
+  get rescueCache() { return this.state.rescueCache }
+
+  // Persist one rescue pull, LRU-capped so a traveler can't bloat localStorage.
+  cacheRescue({ lat, lng, restos }, { maxEntries = 3, at = Date.now() } = {}) {
+    const key = `${lat.toFixed(2)},${lng.toFixed(2)}`
+    this.state.rescueCache[key] = { at, lat, lng, restos }
+    const keys = Object.keys(this.state.rescueCache).sort((a, b) => this.state.rescueCache[b].at - this.state.rescueCache[a].at)
+    for (const k of keys.slice(maxEntries)) delete this.state.rescueCache[k]
     this.save()
   }
 

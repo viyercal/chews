@@ -119,6 +119,16 @@ export function ringCenters(lat, lng, cells = 7, ringMeters = 3500) {
   return centers.slice(0, cells)
 }
 
+// Pure lookup over the persisted rescue cache: a fresh-enough pull whose
+// center is close enough to reuse — repeat visits to the same spot are free.
+export function findFreshRescue(cache, loc, { reuseMiles = 2.5, maxAgeDays = 7, now = Date.now(), milesBetween } = {}) {
+  for (const e of Object.values(cache || {})) {
+    if (now - e.at > maxAgeDays * 86400 * 1000) continue
+    if (milesBetween(loc, e) <= reuseMiles) return e
+  }
+  return null
+}
+
 // Out-of-coverage rescue: a small budgeted sweep around the user. Relaxed
 // quality gate — this is coverage of last resort, and ranking sorts the rest.
 export async function liveRescue({ lat, lng, key, cells = 7, cellRadiusM = 2200, minRating = 4.0, minCount = 50 }) {

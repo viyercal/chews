@@ -40,7 +40,12 @@ export const CONFIG = {
   // Out-of-coverage rescue: when "use my location" lands outside the indexed
   // cities, pull nearby spots live on the house key — capped at ~$1/day/device
   // (31 Nearby calls ≈ $0.99), ≤7 calls per pull.
-  liveRescue: { dailyCallCap: 31, cells: 7, cellRadiusM: 2200, minRating: 4.0, minCount: 50, sparseBelow: 8 },
+  liveRescue: {
+    dailyCallCap: 31, cells: 7, cellRadiusM: 2200, minRating: 4.0, minCount: 50, sparseBelow: 8,
+    // Device-local result cache: revisiting the same spot re-deals the cached
+    // pull for free instead of re-pinging the API.
+    cache: { maxEntries: 3, maxAgeDays: 7, reuseMiles: 2.5 },
+  },
 
   refreshMonths: 2,                             // dataset refresh cadence
 }

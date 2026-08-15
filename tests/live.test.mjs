@@ -100,3 +100,34 @@ test('ringCenters: center first, ring cells ~2.2mi out, capped by cells', async 
   }
   assert.equal(ringCenters(39.7392, -104.9903, 3).length, 3)
 })
+
+test('findFreshRescue: reuses a fresh nearby pull, rejects stale and far ones', async () => {
+  const { findFreshRescue } = await import('../js/core/live.js')
+  const { milesBetween } = await import('../js/core/geo.js')
+  const NOW = 1755200000000
+  const denver = { lat: 39.7392, lng: -104.9903 }
+  const cache = {
+    '39.74,-104.99': { at: NOW - 86400000, lat: 39.7392, lng: -104.9903, restos: [{ id: 'live-a' }] },
+  }
+  const opts = { reuseMiles: 2.5, maxAgeDays: 7, now: NOW, milesBetween }
+  assert.ok(findFreshRescue(cache, denver, opts)) // 1 day old, same spot → reuse
+  assert.ok(findFreshRescue(cache, { lat: 39.755, lng: -104.99 }, opts)) // ~1.1mi away → reuse
+  assert.equal(findFreshRescue(cache, { lat: 39.9392, lng: -104.99 }, opts), null) // ~14mi → new pull
+  assert.equal(findFreshRescue(cache, denver, { ...opts, now: NOW + 8 * 86400000 }), null) // 8 days stale
+  assert.equal(findFreshRescue({}, denver, opts), null)
+})
+
+test('cacheRescue: persists pulls, LRU-capped at maxEntries', () => {
+  const storage = memStorage()
+  const store = new Store(storage)
+  store.load()
+  for (let i = 0; i < 4; i++) {
+    store.cacheRescue({ lat: 39 + i, lng: -104, restos: [{ id: `live-${i}` }] }, { maxEntries: 3, at: 1000 + i })
+  }
+  store.flush()
+  const reloaded = new Store(storage)
+  reloaded.load()
+  const entries = Object.values(reloaded.rescueCache)
+  assert.equal(entries.length, 3)
+  assert.ok(!entries.some((e) => e.restos[0].id === 'live-0')) // oldest evicted
+})

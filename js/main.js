@@ -13,7 +13,8 @@ import { DuoView } from './ui/duo.js'
 import { duoTokenFromHash, decodeDuo } from './core/duo.js'
 import { SearchView } from './ui/search.js'
 import { CuisineFilter } from './ui/cuisines.js'
-import { liveRescue } from './core/live.js'
+import { liveRescue, findFreshRescue } from './core/live.js'
+import { milesBetween } from './core/geo.js'
 import { CONFIG } from './config.js'
 import { toast } from './ui/toast.js'
 
@@ -101,6 +102,15 @@ const rescueIfSparse = async () => {
   const key = CONFIG.placesKey || s.byokKey
   if (rescuing || !key || !s.location) return
   if (deck.inRadiusCount(s.radiusMi) >= CONFIG.liveRescue.sparseBelow) return
+  // Same spot as a recent pull? Re-deal the cached results — zero API spend.
+  const cached = findFreshRescue(store.rescueCache, s.location, { ...CONFIG.liveRescue.cache, milesBetween })
+  if (cached) {
+    if (deck.addLive(cached.restos)) {
+      discover.showLiveNotice()
+      discover.refresh()
+    }
+    return
+  }
   const grant = store.takeLiveBudget(CONFIG.liveRescue.cells, CONFIG.liveRescue.dailyCallCap)
   if (!grant) return
   rescuing = true
@@ -108,6 +118,7 @@ const rescueIfSparse = async () => {
   try {
     const { found } = await liveRescue({ ...CONFIG.liveRescue, lat: s.location.lat, lng: s.location.lng, key, cells: grant })
     const added = deck.addLive(found)
+    if (found.length) store.cacheRescue({ lat: s.location.lat, lng: s.location.lng, restos: found }, CONFIG.liveRescue.cache)
     if (added) {
       discover.showLiveNotice()
       discover.refresh()
