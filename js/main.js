@@ -13,6 +13,9 @@ import { DuoView } from './ui/duo.js'
 import { duoTokenFromHash, decodeDuo } from './core/duo.js'
 import { SearchView } from './ui/search.js'
 import { CuisineFilter } from './ui/cuisines.js'
+import { liveRescue } from './core/live.js'
+import { CONFIG } from './config.js'
+import { toast } from './ui/toast.js'
 
 const $ = (sel) => document.querySelector(sel)
 
@@ -89,6 +92,37 @@ const cuisineFilter = new CuisineFilter({
 $('#btn-search').addEventListener('click', () => searchView.open())
 $('#btn-cuisine').addEventListener('click', () => cuisineFilter.open())
 
+// Out-of-coverage rescue: "use my location" far from the indexed cities still
+// deserves a deck — pull nearby spots live on the house key, hard-capped at
+// ~$1/day/device, and tell the user the coverage is partial.
+let rescuing = false
+const rescueIfSparse = async () => {
+  const s = store.settings
+  const key = CONFIG.placesKey || s.byokKey
+  if (rescuing || !key || !s.location) return
+  if (deck.inRadiusCount(s.radiusMi) >= CONFIG.liveRescue.sparseBelow) return
+  const grant = store.takeLiveBudget(CONFIG.liveRescue.cells, CONFIG.liveRescue.dailyCallCap)
+  if (!grant) return
+  rescuing = true
+  toast('Sparse coverage here — pulling nearby spots live…')
+  try {
+    const { found } = await liveRescue({ ...CONFIG.liveRescue, lat: s.location.lat, lng: s.location.lng, key, cells: grant })
+    const added = deck.addLive(found)
+    if (added) {
+      discover.showLiveNotice()
+      discover.refresh()
+      toast(`${added} nearby spots loaded live`)
+    } else {
+      toast('No well-rated spots found nearby — try widening the radius')
+    }
+  } catch (e) {
+    const offline = /Failed to fetch|NetworkError|blocked/i.test(String(e?.message || e))
+    toast(offline ? 'Live pull blocked here — the deployed app at its own URL can fetch live spots' : `Live pull failed: ${e.message}`)
+  } finally {
+    rescuing = false
+  }
+}
+
 const matches = new MatchesView({
   root: $('#view-matches'),
   store,
@@ -111,6 +145,7 @@ const profile = new ProfileView({
   onSettingsChanged: () => {
     discover.refresh()
     updateLocPill()
+    rescueIfSparse()
   },
   onReset: () => {
     store.reset()
@@ -217,10 +252,12 @@ const startNormally = () => {
       onDone: () => {
         updateLocPill()
         discover.refresh()
+        rescueIfSparse()
       },
     })
   } else {
     discover.refresh()
+    rescueIfSparse()
   }
 }
 

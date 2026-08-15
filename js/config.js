@@ -37,5 +37,10 @@ export const CONFIG = {
   // Evidence half-life — your 2024 palate shouldn't govern your 2026 deck.
   decay: { halfLifeDays: 180 },
 
+  // Out-of-coverage rescue: when "use my location" lands outside the indexed
+  // cities, pull nearby spots live on the house key — capped at ~$1/day/device
+  // (31 Nearby calls ≈ $0.99), ≤7 calls per pull.
+  liveRescue: { dailyCallCap: 31, cells: 7, cellRadiusM: 2200, minRating: 4.0, minCount: 50, sparseBelow: 8 },
+
   refreshMonths: 2,                             // dataset refresh cadence
 }

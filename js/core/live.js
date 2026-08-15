@@ -105,6 +105,39 @@ export async function geocodeAddress(query, key) {
   return { lat: p.location.latitude, lng: p.location.longitude, label: p.displayName?.text || p.formattedAddress }
 }
 
+// Center + up to 6 ring cells ~3.5km out: covers a ~3.5mi disc with one call
+// each, so a whole rescue pull stays a few tens of cents.
+export function ringCenters(lat, lng, cells = 7, ringMeters = 3500) {
+  const centers = [[lat, lng]]
+  for (let i = 0; i < 6 && centers.length < cells; i++) {
+    const b = (i * Math.PI) / 3
+    centers.push([
+      lat + (ringMeters * Math.cos(b)) / 111320,
+      lng + (ringMeters * Math.sin(b)) / (111320 * Math.cos((lat * Math.PI) / 180)),
+    ])
+  }
+  return centers.slice(0, cells)
+}
+
+// Out-of-coverage rescue: a small budgeted sweep around the user. Relaxed
+// quality gate — this is coverage of last resort, and ranking sorts the rest.
+export async function liveRescue({ lat, lng, key, cells = 7, cellRadiusM = 2200, minRating = 4.0, minCount = 50 }) {
+  const seen = new Set()
+  const found = []
+  let calls = 0
+  for (const [la, ln] of ringCenters(lat, lng, cells)) {
+    try {
+      const batch = await liveSearch({ lat: la, lng: ln, key, radiusMeters: cellRadiusM, minRating, minCount })
+      calls++
+      for (const r of batch) if (!seen.has(r.id)) { seen.add(r.id); found.push(r) }
+    } catch (e) {
+      if (calls === 0) throw e // first call failing = key/CSP problem, surface it
+      break // partial results beat burning budget on a flaking network
+    }
+  }
+  return { found, calls }
+}
+
 export async function liveSearch({ lat, lng, key, radiusMeters = 4000, minRating = 4.2, minCount = 100 }) {
   const res = await fetch('https://places.googleapis.com/v1/places:searchNearby', {
     method: 'POST',

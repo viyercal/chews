@@ -27,6 +27,24 @@ export class DiscoverView {
     this.render()
   }
 
+  // Partial-coverage notice for out-of-coverage rescue pulls: honest about the
+  // free-tier cap and the missing dish layer on live cards. Dismiss lasts the
+  // session — it returns next visit if they're still outside coverage.
+  showLiveNotice() {
+    if (this.noticeDismissed || this.stackEl.parentElement.querySelector('.live-banner')) return
+    const b = el(`
+      <div class="live-banner">
+        <span>⚡ Partial results — you're outside Chews' researched cities, so nearby spots were pulled live from Google. Full coverage here is beyond the free tier, and 🔎 live cards don't have researched dish picks.</span>
+        <button class="icon-btn" aria-label="Dismiss">✕</button>
+      </div>
+    `)
+    b.querySelector('button').addEventListener('click', () => {
+      this.noticeDismissed = true
+      b.remove()
+    })
+    this.stackEl.parentElement.insertBefore(b, this.stackEl)
+  }
+
   top() {
     return this.queue[0] || null
   }

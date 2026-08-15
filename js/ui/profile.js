@@ -146,9 +146,11 @@ export class ProfileView {
       try {
         const loc = await locate()
         const { spot, miles } = nearestSpot(loc)
-        if (miles > 40) {
+        // Live-capable builds keep the real location — the rescue pull covers it.
+        const canLive = !!(CONFIG.placesKey || this.store.settings.byokKey)
+        if (miles > 40 && !canLive) {
           this.store.setSetting('location', { ...spot, source: 'manual', label: `${spot.name} (demo)` })
-          toast(`You're outside the Bay Area dataset — exploring ${spot.name}`)
+          toast(`You're outside the indexed cities — exploring ${spot.name}`)
         } else {
           this.store.setSetting('location', { ...loc, label: 'Near you' })
           toast('Location updated')

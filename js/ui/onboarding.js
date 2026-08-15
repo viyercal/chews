@@ -1,6 +1,7 @@
 import { el, esc } from './cards.js'
 import { locate, locateFailureCopy, nearestSpot, FALLBACK_SPOTS } from '../core/geo.js'
 import { toast } from './toast.js'
+import { CONFIG } from '../config.js'
 
 // First-run screen: get a location (GPS with graceful demo fallback), then an
 // optional taste-seed step, and go.
@@ -66,7 +67,11 @@ export function showOnboarding(root, { store, onDone, seedChoices = [], onSeed }
     try {
       const loc = await locate()
       const { spot, miles } = nearestSpot(loc)
-      if (miles > 40) {
+      // Live-capable builds keep the REAL location even far from coverage —
+      // the rescue pull fills the deck there. Keyless dev builds still snap
+      // to a demo city rather than stranding the user on an empty deck.
+      const canLive = !!(CONFIG.placesKey || store.settings.byokKey)
+      if (miles > 40 && !canLive) {
         store.setSetting('location', { ...spot, source: 'manual', label: `${spot.name} (demo)` })
         toast(`You're outside the indexed cities — exploring ${spot.name}`)
       } else {

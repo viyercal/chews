@@ -16,6 +16,7 @@ const DEFAULTS = () => ({
   visits: {},                 // { [id]: { count, lastAt, lastVerdict?, log?, hidden? } }
   taste: null,                // TasteEngine.toJSON()
   liveCache: {},              // { [id]: restaurant } — matched live-search finds
+  liveBudget: { day: '', calls: 0 }, // daily cap on house-key rescue pulls
 })
 
 // Sandboxed iframes / blocked-storage browsers throw on the mere *access* of
@@ -58,12 +59,23 @@ export class Store {
       visits: asObj(saved.visits) || d.visits,
       taste: asObj(saved.taste) || d.taste,
       liveCache: asObj(saved.liveCache) || d.liveCache,
+      liveBudget: asObj(saved.liveBudget) || d.liveBudget,
     }
   }
 
   cacheLive(resto) {
     this.state.liveCache[resto.id] = resto
     this.save()
+  }
+
+  // Grant up to `n` live-API calls against today's cap; returns the grant.
+  // The counter is persisted so reloads can't reset a device's daily budget.
+  takeLiveBudget(n, cap, today = new Date().toISOString().slice(0, 10)) {
+    const b = this.state.liveBudget?.day === today ? this.state.liveBudget : { day: today, calls: 0 }
+    const grant = Math.max(0, Math.min(n, cap - b.calls))
+    this.state.liveBudget = { day: today, calls: b.calls + grant }
+    if (grant) this.save()
+    return grant
   }
 
   load() {

@@ -70,3 +70,33 @@ test('live entries carry no fake dish: cuisine hero, summary once, cuisine emoji
   assert.equal(r.why, '')
   assert.equal(r.liveSummary, PLACE.editorialSummary.text)
 })
+
+test('takeLiveBudget: grants against a daily cap, persists, resets next day', () => {
+  const storage = memStorage()
+  const store = new Store(storage)
+  store.load()
+  assert.equal(store.takeLiveBudget(7, 31, '2026-08-15'), 7)
+  assert.equal(store.takeLiveBudget(7, 31, '2026-08-15'), 7)
+  assert.equal(store.takeLiveBudget(7, 31, '2026-08-15'), 7)
+  assert.equal(store.takeLiveBudget(7, 31, '2026-08-15'), 7)
+  assert.equal(store.takeLiveBudget(7, 31, '2026-08-15'), 3) // 28 spent → only 3 left
+  assert.equal(store.takeLiveBudget(7, 31, '2026-08-15'), 0) // cap exhausted
+  store.flush()
+  const reloaded = new Store(storage)
+  reloaded.load()
+  assert.equal(reloaded.takeLiveBudget(7, 31, '2026-08-15'), 0) // survives reload
+  assert.equal(reloaded.takeLiveBudget(7, 31, '2026-08-16'), 7) // fresh day, fresh budget
+})
+
+test('ringCenters: center first, ring cells ~2.2mi out, capped by cells', async () => {
+  const { ringCenters } = await import('../js/core/live.js')
+  const { milesBetween } = await import('../js/core/geo.js')
+  const centers = ringCenters(39.7392, -104.9903, 7)
+  assert.equal(centers.length, 7)
+  assert.deepEqual(centers[0], [39.7392, -104.9903])
+  for (const [lat, lng] of centers.slice(1)) {
+    const d = milesBetween({ lat: 39.7392, lng: -104.9903 }, { lat, lng })
+    assert.ok(d > 1.9 && d < 2.5, `ring cell ${d}mi from center`)
+  }
+  assert.equal(ringCenters(39.7392, -104.9903, 3).length, 3)
+})

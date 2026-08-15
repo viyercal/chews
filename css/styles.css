@@ -181,6 +181,22 @@ em { font-style: normal; }
 .search-hint { color: var(--text-dim); font-size: 13.5px; text-align: center; margin-top: 14px; }
 .result-status { font-size: 12px; color: var(--yum); font-style: normal; }
 
+/* Out-of-coverage live-pull notice */
+.live-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 8px 14px 0;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 200, 90, 0.35);
+  background: rgba(255, 200, 90, 0.08);
+  border-radius: 13px;
+  color: var(--gold);
+  font-size: 12.5px;
+  line-height: 1.45;
+}
+.live-banner .icon-btn { flex-shrink: 0; margin: -2px -4px 0 0; }
+
 /* ---------- Views ---------- */
 
 #views { flex: 1; min-height: 0; display: flex; }
