@@ -152,6 +152,35 @@ em { font-style: normal; }
 .segment.small { margin: 0; }
 .segment.small button { padding: 6px 13px; font-size: 12.5px; }
 
+#deck-controls { display: flex; align-items: center; justify-content: center; gap: 8px; }
+#deck-controls .segment { margin: 8px 0 4px; }
+.tool-pill { padding: 8px 11px; font-size: 14px; line-height: 1; margin-top: 4px; }
+.tool-pill.on { color: var(--accent); border-color: var(--accent-deep); }
+
+/* Cuisine picker + search overlays (share the sheet chrome) */
+.panel-title { font-family: var(--display); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+.panel-sub { color: var(--text-dim); font-size: 13.5px; line-height: 1.5; margin-top: 6px; }
+.cuisine-chips { margin: 14px 0 4px; max-height: 44vh; overflow-y: auto; scrollbar-width: thin; }
+.chip-btn em { font-style: normal; opacity: 0.5; font-size: 11px; margin-left: 3px; }
+.panel-actions { display: flex; gap: 10px; margin-top: 16px; }
+.panel-actions .btn { flex: 1; }
+
+.search-sheet { height: 82vh; height: 82svh; display: flex; flex-direction: column; }
+.search-input {
+  width: 100%;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+  padding: 12px 14px;
+}
+.search-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.search-results { flex: 1; overflow-y: auto; list-style: none; display: flex; flex-direction: column; gap: 8px; padding: 12px 0; scrollbar-width: thin; }
+.search-hint { color: var(--text-dim); font-size: 13.5px; text-align: center; margin-top: 14px; }
+.result-status { font-size: 12px; color: var(--yum); font-style: normal; }
+
 /* ---------- Views ---------- */
 
 #views { flex: 1; min-height: 0; display: flex; }

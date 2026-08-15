@@ -122,7 +122,7 @@ export class DiscoverView {
         <h2>${hiddenByFilters ? 'Your filters ate the deck' : `That's everything within ${radiusMi} mi`}</h2>
         <p>${
           hiddenByFilters
-            ? 'There are spots in range, but they’re hidden by open-now, price, or veg filters right now.'
+            ? 'There are spots in range, but they’re hidden by open-now, price, veg, or cuisine filters right now.'
             : (mode === 'new' ? 'You’ve explored every new spot in range.' : 'You’ve swiped the whole neighborhood.') +
               ` Widen the radius or check back — passes quietly return after ${CONFIG.resurfaceDays} days.`
         }</p>
@@ -130,6 +130,15 @@ export class DiscoverView {
       </div>
     `)
     const actions = panel.querySelector('.empty-actions')
+    if ((this.store.settings.cuisines || []).length) {
+      const clear = el('<button class="btn btn-accent">Clear cuisine filter</button>')
+      clear.addEventListener('click', () => {
+        this.store.clearSessionSetting('cuisines')
+        this.onCuisineCleared?.()
+        this.refresh()
+      })
+      actions.appendChild(clear)
+    }
     if (hiddenByFilters) {
       const loosen = el('<button class="btn btn-accent">Adjust filters</button>')
       loosen.addEventListener('click', () => this.onOpenFilters?.())

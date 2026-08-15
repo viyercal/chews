@@ -17,9 +17,13 @@
       <button id="loc-pill" class="pill">Set location</button>
     </header>
 
-    <div id="mode-seg" class="segment" role="tablist" aria-label="Deck mode">
-      <button role="tab" data-mode="forYou" aria-selected="true">For You</button>
-      <button role="tab" data-mode="new" aria-selected="false">Something New</button>
+    <div id="deck-controls">
+      <div id="mode-seg" class="segment" role="tablist" aria-label="Deck mode">
+        <button role="tab" data-mode="forYou" aria-selected="true">For You</button>
+        <button role="tab" data-mode="new" aria-selected="false">Something New</button>
+      </div>
+      <button id="btn-cuisine" class="pill tool-pill" title="Cuisine filter — tonight only" aria-label="Filter by cuisine">🍜</button>
+      <button id="btn-search" class="pill tool-pill" title="Search dishes &amp; restaurants" aria-label="Search">🔍</button>
     </div>
 
     <main id="views">
@@ -50,6 +54,7 @@
       </button>
     </nav>
 
+    <div id="overlay-root"></div>
     <div id="sheet-root"></div>
     <div id="faceoff-root"></div>
     <div id="onboarding-root"></div>

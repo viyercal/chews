@@ -80,6 +80,37 @@ test('price affinity: disliked tier scores lower at full confidence', () => {
   assert.ok(e.score(cheap, { distanceMi: 1 }) > e.score(pricey, { distanceMi: 1 }))
 })
 
+test('session cuisine filter narrows the deck, never persists', () => {
+  const storage = memStorage()
+  const store = new Store(storage)
+  store.load()
+  store.setSetting('location', { lat: 37.76, lng: -122.41 })
+  store.setSetting('openNowOnly', false)
+  const deck = new Deck({
+    restaurants: [resto({ id: 'mex' }), resto({ id: 'thai', cuisine: 'Thai', tags: ['soup'] })],
+    store,
+    engine: new TasteEngine(rand),
+  })
+  store.setSessionSetting('cuisines', ['Thai'])
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id), ['thai'])
+  store.clearSessionSetting('cuisines')
+  assert.equal(deck.candidates('forYou', WED_NOON).length, 2)
+  // Never persisted: a fresh store from the same storage has no cuisine filter.
+  store.setSessionSetting('cuisines', ['Thai'])
+  store.flush()
+  const reloaded = new Store(storage)
+  reloaded.load()
+  assert.equal(reloaded.settings.cuisines, undefined)
+})
+
+test('cuisinesInRange counts in-radius cuisines for the picker', () => {
+  const { deck } = mkDeck(
+    [resto({ id: 'a' }), resto({ id: 'b' }), resto({ id: 'c', cuisine: 'Thai', tags: [] }), resto({ id: 'far', lat: 39.5 })],
+    { openNowOnly: false }
+  )
+  assert.deepEqual(deck.cuisinesInRange(), [{ cuisine: 'Mexican', n: 2 }, { cuisine: 'Thai', n: 1 }])
+})
+
 test('settings deep-merge picks up new defaults for old profiles', () => {
   const storage = memStorage()
   storage.setItem(CONFIG.storageKey, JSON.stringify({ settings: { radiusMi: 5 } }))

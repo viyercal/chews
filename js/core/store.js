@@ -123,6 +123,16 @@ export class Store {
     this.save()
   }
 
+  // Tonight-only overrides (e.g. a cuisine craving): live in `session`, never
+  // persisted — a reload clears them, and the saved profile never sees them.
+  setSessionSetting(k, v) {
+    this.session[k] = v
+  }
+
+  clearSessionSetting(k) {
+    delete this.session[k]
+  }
+
   recordSwipe(id, dir, at = Date.now()) {
     const prev = this.state.swipes[id] || null
     this.state.swipes[id] = { dir, at }

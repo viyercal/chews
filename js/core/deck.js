@@ -39,11 +39,12 @@ export class Deck {
   }
 
   candidates(mode, now = Date.now(), { includeAvoided = false } = {}) {
-    const { location, radiusMi, openNowOnly, maxPrice, vegOnly } = this.store.settings
+    const { location, radiusMi, openNowOnly, maxPrice, vegOnly, cuisines } = this.store.settings
     const date = new Date(now)
     return this.withDistance(location).filter(({ resto, distanceMi }) => {
       if (distanceMi > radiusMi) return false
       if (this.status(resto, now) !== 'fresh') return false
+      if (cuisines?.length && !cuisines.includes(resto.cuisine)) return false
       const visit = this.store.visits[resto.id]
       if (mode === 'new' && visit && !visit.hidden) return false
       if (maxPrice && resto.price > maxPrice) return false
@@ -65,6 +66,19 @@ export class Deck {
   inRadiusCount(radiusMi) {
     const { location } = this.store.settings
     return this.withDistance(location).filter((c) => c.distanceMi <= radiusMi).length
+  }
+
+  // Cuisines available in range right now (fresh or not), with counts — feeds
+  // the tonight-only cuisine picker so it never offers an empty filter.
+  cuisinesInRange() {
+    const { location, radiusMi } = this.store.settings
+    const counts = {}
+    for (const { resto, distanceMi } of this.withDistance(location)) {
+      if (distanceMi <= radiusMi && resto.cuisine) counts[resto.cuisine] = (counts[resto.cuisine] || 0) + 1
+    }
+    return Object.entries(counts)
+      .map(([cuisine, n]) => ({ cuisine, n }))
+      .sort((a, b) => b.n - a.n || a.cuisine.localeCompare(b.cuisine))
   }
 
   // Cuisines of the most recently swiped cards — seeds the diversity guard

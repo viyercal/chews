@@ -11,6 +11,8 @@ import { ProfileView } from './ui/profile.js'
 import { showOnboarding } from './ui/onboarding.js'
 import { DuoView } from './ui/duo.js'
 import { duoTokenFromHash, decodeDuo } from './core/duo.js'
+import { SearchView } from './ui/search.js'
+import { CuisineFilter } from './ui/cuisines.js'
 
 const $ = (sel) => document.querySelector(sel)
 
@@ -55,6 +57,37 @@ const discover = new DiscoverView({
   sheet,
   onSwiped: () => updateBadge(),
 })
+
+const searchView = new SearchView({
+  root: $('#overlay-root'),
+  deck,
+  store,
+  sheet,
+  onSwiped: () => {
+    updateBadge()
+    discover.refresh()
+  },
+})
+
+const paintCuisinePill = () => {
+  const n = (store.settings.cuisines || []).length
+  const b = $('#btn-cuisine')
+  b.classList.toggle('on', n > 0)
+  b.textContent = n ? `🍜 ${n}` : '🍜'
+}
+
+const cuisineFilter = new CuisineFilter({
+  root: $('#overlay-root'),
+  store,
+  deck,
+  onChanged: () => {
+    paintCuisinePill()
+    discover.refresh()
+  },
+})
+
+$('#btn-search').addEventListener('click', () => searchView.open())
+$('#btn-cuisine').addEventListener('click', () => cuisineFilter.open())
 
 const matches = new MatchesView({
   root: $('#view-matches'),
@@ -103,7 +136,7 @@ function go(name) {
     v.el.classList.toggle('hidden', key !== name)
     v.tab.setAttribute('aria-selected', String(key === name))
   }
-  $('#mode-seg').classList.toggle('hidden', name !== 'discover')
+  $('#deck-controls').classList.toggle('hidden', name !== 'discover')
   views[name].onShow()
 }
 for (const [key, v] of Object.entries(views)) v.tab.addEventListener('click', () => go(key))
@@ -123,6 +156,7 @@ modeSeg.querySelectorAll('button').forEach((b) =>
 )
 discover.onModeChanged = paintMode
 discover.onOpenFilters = () => go('taste')
+discover.onCuisineCleared = paintCuisinePill
 
 // --- Location pill ---
 function updateLocPill() {
@@ -141,6 +175,7 @@ document.addEventListener('keydown', (e) => {
     else if (e.key === 'ArrowRight') activeDuo.controller.fling(1)
     return
   }
+  if (searchView.isOpen || cuisineFilter.isOpen) return // dialogs own the keys
   if (current !== 'discover' || sheet.isOpen) {
     if (e.key === 'Escape') sheet.close()
     return
