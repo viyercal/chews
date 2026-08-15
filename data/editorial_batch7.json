@@ -1,0 +1,971 @@
+[
+ {
+  "placeId": "ChIJFXPBsGqtw4kRTSaNZG-c5AE",
+  "skip": false,
+  "cuisine": "Peruvian",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍛",
+  "why": "A new Peruvian spot whose lomo saltado is already \"to die for,\" backed by juicy rotisserie chicken and a full spread of starters.",
+  "tags": [
+   "comfort",
+   "meat-heavy",
+   "casual",
+   "family-style",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Lomo Saltado",
+   "description": "Stir-fried beef and veggies in the classic Peruvian style, reviewers call it soft, tender, and irresistible.",
+   "basis": "Their Lomo Saltado is to die for. It’s so soft and tender."
+  },
+  "menu": [
+   {
+    "name": "Pollo a la Brasa (Rotisserie Chicken)",
+    "description": "Juicy, flavorful rotisserie chicken served with generous sides.",
+    "basis": "Their rotisserie chicken is juicy and flavorful."
+   },
+   {
+    "name": "Arroz Chaufa",
+    "description": "Peruvian-style fried rice reviewers name among their favorite orders.",
+    "basis": "The food was so good! I tried the Chaufa and Pollo a la Brasa, it’s definitely the best restaurant in my neighborhood."
+   },
+   {
+    "name": "Yucca Fries",
+    "description": "Crispy fried yucca reviewers call simply yummy.",
+    "basis": "Yucca fries were so yummy."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJY9uGn-Ctw4kRYvhie11bYhY",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "South Orange Village",
+  "emoji": "☕",
+  "why": "A bright new café by Spiotta Park pouring inventive espresso drinks and baking fresh chicken pies to match.",
+  "tags": [
+   "casual",
+   "coffee",
+   "brunch",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Home-Made Chicken Pie",
+   "description": "A home-made chicken pie reviewers call out alongside the espresso menu as a standout.",
+   "basis": "Great coffee and home  made chicken pies!!"
+  },
+  "menu": [
+   {
+    "name": "OHC Signature Drink",
+    "description": "Espresso topped with orange juice — a fun, unique house specialty.",
+    "basis": "espresso topped with orange juice. Fun and unique twist, would recommend trying once at least for those with an adventurous palate"
+   },
+   {
+    "name": "Prosciutto Arugula Sandwich",
+    "description": "A crusty French baguette sandwich piled with prosciutto and a thick slab of cheese.",
+    "basis": "French baguette was crunchy and great, nice slices of prosciutto, thick slab of cheese. Solid"
+   },
+   {
+    "name": "Hummus Toast",
+    "description": "A hummus toast praised as unique and fresh among the café's brunch offerings.",
+    "basis": "a hummus toast that was really unique and fresh"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvUqHMoSsw4kRPmYOvESSjJc",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍝",
+  "why": "A cozy converted-home dining room serving traditional Italian favorites with white-tablecloth service guests call impeccable for graduations, anniversaries, and milestone parties.",
+  "tags": [
+   "upscale",
+   "date-night",
+   "family-style",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Traditional Italian Favorites",
+   "description": "The kitchen's classic Italian entrées, served in a white-tablecloth, fine-dining setting inside a converted home.",
+   "basis": "Traditional Italian food favorites served in a white-tablecloth setting in a cozy, converted home."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJa1lzA4asw4kR4XrJKbWSFzg",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍸",
+  "why": "Live jazz, craft martinis, and a New American menu make Papillon 25 South Orange's go-to for a dressed-up night out.",
+  "tags": [
+   "date-night",
+   "upscale",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Chef's New American Fare",
+   "description": "Modern New American plates from the kitchen behind Papillon 25's martini bar.",
+   "basis": "Sophisticated restaurant & martini bar serving New American fare in a modern space with live jazz."
+  },
+  "menu": [
+   {
+    "name": "Coconut Martini",
+    "description": "The bar's favorite martini, made with coconut.",
+    "basis": "My favorite martini is the coconut."
+   },
+   {
+    "name": "Sangria",
+    "description": "A sangria reviewers call perfectly balanced, delicious, and refreshing.",
+    "basis": "My sangria was delicious, perfectly balanced and refreshing."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJuR4GkQ6tw4kRmjf4j0P-l0s",
+  "skip": false,
+  "cuisine": "Chicken",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍗",
+  "why": "ATL Wing Spot's hot honey lemon pepper wings have regulars proclaiming them better than Wingstop and Buffalo Wild Wings.",
+  "tags": [
+   "fried",
+   "spicy",
+   "meat-heavy",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Hot Honey Lemon Pepper Wings",
+   "description": "Wings that one regular ranks above Wingstop and Buffalo Wild Wings.",
+   "basis": "the hot honey lemon pepper wings we’re some of the best i’ve ever had, better than wing stop or even buffalo wild wings"
+  },
+  "menu": [
+   {
+    "name": "Fried Oreos with Nutella",
+    "description": "Fried Oreos served with a side packet of Nutella for dipping.",
+    "basis": "the fried oreos and it came with a side packet of nutella which was really good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJe-psaMWtw4kRnfqLQXKp7kA",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "South Orange Village",
+  "emoji": "🌮",
+  "why": "A South Orange fixture for over two decades, Toro Loco pairs festive margaritas with Mexican classics families keep coming back to.",
+  "tags": [
+   "casual",
+   "family-style",
+   "vegetarian-friendly",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Mexican Dinner Classics",
+   "description": "Traditional Mexican entrées served in Toro Loco's casual, festive dining room with an outdoor patio.",
+   "basis": "Restaurant serving up Mexican meals & margaritas in casual, festive quarters with an outdoor patio."
+  },
+  "menu": [
+   {
+    "name": "Skinny Margarita",
+    "description": "The skinny margarita is a customer favorite at this festive Mexican spot.",
+    "basis": "I love the skinny margaritas."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJjQ5AlVytw4kRcYiEw6LbBrQ",
+  "skip": false,
+  "cuisine": "Chicken",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍗",
+  "why": "Fast, perfectly fried garlic wings and a lineup of house sauces have made this South Orange counter a wing-lover's go-to.",
+  "tags": [
+   "fried",
+   "spicy",
+   "meat-heavy",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Hard Garlic Wings",
+   "description": "Bone-in wings tossed in hard garlic sauce, fried and seasoned to order.",
+   "basis": "Asked for fried hard garlic wings and they delivered the 10 piece bone in. Perfectly fried and seasoned."
+  },
+  "menu": [
+   {
+    "name": "Stingy Honey Garlic Wings & Waffle Fries",
+    "description": "New stingy honey garlic wings with waffle fries on the side, called hot, tasty, and flavorful.",
+    "basis": "I tried the new stingy honey garlic wings. very good. I will be back waffle fries was hot a tasty and flavorful"
+   },
+   {
+    "name": "Hot BBQ & Buffalo Wings",
+    "description": "Hot BBQ and medium buffalo wings reviewers praise as perfect, with a pleasant lingering burn.",
+    "basis": "i dot hot bbq and medium buffalo. they were both great and my mouth had a very pleasant burn for quite some time after."
+   },
+   {
+    "name": "Tenders",
+    "description": "Boneless tenders that are a go-to order for wing-averse diners.",
+    "basis": "my girlfriend is all about the tenders."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJm1oIWo-sw4kRuZ63JhlQ82M",
+  "skip": false,
+  "cuisine": "Sushi",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍣",
+  "why": "Harusame's shareable sushi boats consistently wow first-timers and keep catering customers coming back for parties big and small.",
+  "tags": [
+   "raw",
+   "seafood",
+   "casual",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Sushi Boat (Academy Boat)",
+   "description": "A build-your-own sushi and sashimi boat that catering customers say is always a crowd pleaser.",
+   "basis": "I ordered the Academy boat for 5 and GE Bridge for 2, added some additional sushi, sashimi & rolls to help fill in."
+  },
+  "menu": [
+   {
+    "name": "Lobster Tempura Roll",
+    "description": "A lobster tempura roll finished with sweet eel sauce that reviewers enjoy most.",
+    "basis": "Loved the sweet eel sauce, and enjoyed the Lobster roll the most."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHxirb4asw4kRVt0d3IOXqj8",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥞",
+  "why": "Right by the train station, Village Diner turns out large, home-cooked breakfast plates and diner classics locals rely on.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Salmon Bagel",
+   "description": "A perfectly portioned salmon bagel that comes with fresh, delicious sides.",
+   "basis": "Got the salmon bagel, portion size was perfect. The sides it came with are fresh, delicious and pair perfectly."
+  },
+  "menu": [
+   {
+    "name": "Turkey Bacon",
+    "description": "Turkey bacon reviewers specifically praise as great, a breakfast staple here.",
+    "basis": "They have great Turkey bacon."
+   },
+   {
+    "name": "Steak",
+    "description": "A well-portioned steak reviewers call amazing.",
+    "basis": "The steak was amazing."
+   },
+   {
+    "name": "Broccoli",
+    "description": "A perfectly seasoned, firm broccoli side that stands out on the diner's classic plates.",
+    "basis": "The broccoli was amazing. Seasoned well and nice and firm as they should be."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJwyjKQoasw4kR8_7M_ic4VX8",
+  "skip": false,
+  "cuisine": "Burgers",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍔",
+  "why": "BGR grills up gourmet burgers loaded with toppings in a casual setup reviewers compare favorably to Five Guys.",
+  "tags": [
+   "casual",
+   "comfort",
+   "quick-bite",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Flame-Grilled Burger",
+   "description": "Gourmet flame-grilled burgers with a broad range of creative toppings, reviewers say the quality holds up well against Five Guys.",
+   "basis": "This is very similar to a 5 Guys, but has a lot more variety in both Burger options and non-burger options."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJaSVaTgCtw4kRE8MmaoAkJvI",
+  "skip": false,
+  "cuisine": "Deli",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥪",
+  "why": "NYC Style Deli brought real corner-store energy to South Orange, with a chopped cheese and Reuben locals rave about.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "meat-heavy",
+   "cheese",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "New York Chopped Cheese",
+   "description": "The New York Chopped Cheese — flavorful beef built like a classic corner-store sandwich — is what regulars order for lunch.",
+   "basis": "I ordered their New York Chopped Cheese for lunch"
+  },
+  "menu": [
+   {
+    "name": "Reuben",
+    "description": "A Reuben stacked with pastrami, corned beef, coleslaw, and melted Swiss under Russian dressing.",
+    "basis": "excellent pastrami and corned beef, good coleslaw, flavorful Russian dressing, and melted swiss"
+   },
+   {
+    "name": "Curly Fries",
+    "description": "Curly fries served piping hot and nicely seasoned — no ketchup required.",
+    "basis": "Curly fries were piping hot, nicely seasoned, and didn't even need ketchup."
+   },
+   {
+    "name": "\"Fake Cuban\" Sandwich",
+    "description": "A pork-free take on a Cuban sandwich that's a go-to for diners avoiding pork.",
+    "basis": "My top picks? The “fake Cuban” sandwich and their take on a chopped cheese; the flavor is on point"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJXe-wGZKtw4kRW4wl0mv0Yhk",
+  "skip": false,
+  "cuisine": "Caribbean",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥟",
+  "why": "Y.U.P.P.'s flaky, generously filled oxtail patties have college tour groups and regulars alike hooked, spicy version included.",
+  "tags": [
+   "meat-heavy",
+   "spicy",
+   "casual",
+   "quick-bite",
+   "street-food"
+  ],
+  "signatureDish": {
+   "name": "Oxtail Patty",
+   "description": "A flaky beef-pastry patty stuffed generously with tender, flavorful oxtail.",
+   "basis": "I bought the oxtail patty and was not disappointed.  The crust is light and flaky, the oxtail filling was generous, flavorful and tender."
+  },
+  "menu": [
+   {
+    "name": "Spicy Oxtail Patty",
+    "description": "The spicy version of the oxtail patty brings serious heat, a favorite for those who like it hot.",
+    "basis": "The Spicy Oxtail is NO JOKE. If you love heat get the spicy version of every patty they have."
+   },
+   {
+    "name": "Curry Chicken Patty",
+    "description": "Curry chicken filling that first-time visitors snap photos of on a college-area stop.",
+    "basis": "We had oxtail, jerk chicken and curry chicken. Only snapped a pic of the curry chicken."
+   },
+   {
+    "name": "Hearty Beef Patty",
+    "description": "The classic beef patty, a personal favorite alongside the oxtail.",
+    "basis": "My personal favorite is the Hearty Beef and Oxtails. They are worth every penny!!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ0QfYtymtw4kROAd_tXTZTmY",
+  "skip": false,
+  "cuisine": "Ramen",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍜",
+  "why": "Chipoba's spicy miso ramen with chashu and a 6-minute egg has diners obsessing over the broth, alongside poke bowls and bubble tea.",
+  "tags": [
+   "noodles",
+   "soup",
+   "spicy",
+   "rice",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Spicy Miso Ramen w/ Chashu & 6 Minute Egg",
+   "description": "Spicy miso ramen loaded with chashu and a 6-minute egg, in a broth reviewers call extremely fresh and flavorful.",
+   "basis": "I absolutely LOVED the Ramen Bowl. It was fantastic! The broth tasted extremely fresh and flavorful"
+  },
+  "menu": [
+   {
+    "name": "Aburi Chashu Rice Bowl",
+    "description": "A rice bowl topped with aburi chashu and a 6-minute egg, the other lunch order regulars rotate in.",
+    "basis": "on another occasion I ordered their, Aburi Chashu Rice Bowl w/ 6 Minute Egg."
+   },
+   {
+    "name": "Poke Bowl",
+    "description": "A build-your-own poke bowl loaded with toppings, generous enough to share with leftovers.",
+    "basis": "The portion was really nice,  enough to share a few bites and still have leftovers. I will definitely return, the amount of food for the cost was well worth it!"
+   },
+   {
+    "name": "Mango Bubble Milk Tea",
+    "description": "Mango Bubble Milk Tea and Passion Fruit Tea with Mango Bubbles both come recommended as sweet, refreshing choices.",
+    "basis": "We also ordered their large Mango Bubble Milk Tea and Passion Fruit Tea with Mango Bubbles....it was sooo good!!!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJA3DnzgGtw4kRH3UT7qLsg60",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "South Orange Village",
+  "emoji": "🌮",
+  "why": "Jus' Tacos hand-presses its own tortillas and turns out authentic al pastor and a 30-ingredient mole that regulars call unmissable.",
+  "tags": [
+   "street-food",
+   "casual",
+   "vegetarian-friendly",
+   "vegan-friendly",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "El Pastor Tacos",
+   "description": "Al pastor tacos praised as absolutely delicious and authentically made, bursting with flavor.",
+   "basis": "The El pastor and chicken pineapple tacos were absolutely delicious and authentically made. Each bite was bursting with flavor, clearly showing the attention to quality ingredients and detail in preparation."
+  },
+  "menu": [
+   {
+    "name": "Chicken Mole",
+    "description": "Chicken mole made with a reported 30 different ingredients, giving it serious depth of flavor.",
+    "basis": "We ordered the veggie tacos and the chicken mole, and both were fantastic. The staff told us the mole is made with 30 different ingredients, and you can really taste the depth of flavor."
+   },
+   {
+    "name": "Vegan Mexican Options",
+    "description": "A vegan Mexican menu reviewers call the best they've had, with staff going out of their way to accommodate dietary needs.",
+    "basis": "The best vegan Mexican food and options I’ve had!"
+   },
+   {
+    "name": "House-Made Tortillas",
+    "description": "Housemade tortillas — never prepackaged — that reviewers say elevate every taco.",
+    "basis": "The freshness of the tortillas really ups the flavor of the tacos. They don't use prepackaged tortillas"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJYQ1wDoqsw4kR85kMpEF6-Fg",
+  "skip": false,
+  "cuisine": "Caribbean",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍖",
+  "why": "J & J's fall-off-the-bone oxtails and $4 beef-cheese-coco patties have kept this Jamaican spot a neighborhood staple for nearly three decades.",
+  "tags": [
+   "meat-heavy",
+   "comfort",
+   "casual",
+   "family-style",
+   "street-food"
+  ],
+  "signatureDish": {
+   "name": "Oxtail Platter",
+   "description": "Oxtails so tender they fall off the bone, served with rice and beans, cabbage, and sweet plantains.",
+   "basis": "Had got the Oxtails w/ rice & beans, cabbage, and plantains. It was absolutely delicious. The Oxtail Gravy was amazing. The meat was very tender. Excellent flavor."
+  },
+  "menu": [
+   {
+    "name": "Beef-Cheese-Coco",
+    "description": "A beef, cheese, and coco patty combo — a $4 classic that's hard to beat for the price.",
+    "basis": "beef cheese coco was $4 , cant get hot food cheaper."
+   },
+   {
+    "name": "Beef Patty",
+    "description": "A delicious beef patty that's been a local go-to for decades.",
+    "basis": "classic local spot. delicious beef patty and other dishes ."
+   },
+   {
+    "name": "Plantains",
+    "description": "Sweet, crispy-edged plantains that round out the oxtail platter.",
+    "basis": "the plantain’s are sweet and crispy on the edges."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJibwPi46tw4kRJPOFTu7RBJY",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥡",
+  "why": "Tung Tin's shrimp and broccoli over white rice keeps regulars calling it the best Chinese food in town.",
+  "tags": [
+   "rice",
+   "seafood",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Shrimp & Broccoli",
+   "description": "Shrimp and broccoli over white rice that's the go-to order for regulars who call it delicious.",
+   "basis": "I love Tung tin!! I always get the Shrimp & Broccoli with white rice. So delicious"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJGy5yvYWsw4kRF-kZym2V9eA",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥡",
+  "why": "New Great Wall's shrimp with broccoli — loaded with giant shrimp — gets called the best in the area, and its spring rolls are a proven crowd-pleaser.",
+  "tags": [
+   "noodles",
+   "rice",
+   "seafood",
+   "family-style",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Shrimp with Broccoli",
+   "description": "Shrimp with broccoli loaded with giant shrimp and broccoli cooked to just the right crispiness — reviewers call it the best in the area.",
+   "basis": "The Shrimp with Broccoli is probably the best in the area, with lots of giant Shrimps and the right crispiness of the Broccoli."
+  },
+  "menu": [
+   {
+    "name": "Spring Rolls",
+    "description": "Spring rolls that were the runaway crowd favorite at a 300-person catered school event.",
+    "basis": "The spring rolls were absolutely amazing — definitely a crowd favorite."
+   },
+   {
+    "name": "Fried Noodles",
+    "description": "Fried noodles that also drew plenty of compliments at the same catered event.",
+    "basis": "The fried noodles also received so many"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2fr7WJqsw4kR70rQ7hUHJfI",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Seton Hall area",
+  "emoji": "🍕",
+  "why": "Village Pizzeria's chicken parm — whether piled on a sub or a slice — draws praise as some of the best in the area, even from reviewers unimpressed with the plain pie lately.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Chicken Parm Slice",
+   "description": "A chicken parm slice reviewers call the best pizza they've had in a long time — tender, juicy chicken on top.",
+   "basis": "I have only ordered their chicken parm slice and its by far the best pizza I have had in a very long time. I expected the chicken to be a little dry and hard but it was the opposite. Tender, juicy and fresh."
+  },
+  "menu": [
+   {
+    "name": "Meatball Sub",
+    "description": "A meatball sub so huge it easily feeds two, at an unbeatable price.",
+    "basis": "Had a meatball sub, it was huge, more than enough for two people. Food was really good and unbelievably priced."
+   },
+   {
+    "name": "Chicken Parm Sub",
+    "description": "An excellent chicken parm sub, a favorite quick lunch near Seton Hall.",
+    "basis": "Today, I had an excellent chicken parm sub, amazing!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJbXk7Ntatw4kRFXygPA-wvPA",
+  "skip": false,
+  "cuisine": "Honduran",
+  "neighborhood": "South Orange Village",
+  "emoji": "🫓",
+  "why": "SAZON CATRACHO's Pollo con Tajadas and 10-out-of-10 baleadas bring bold Honduran flavor to a corner spot regulars call unbeatable.",
+  "tags": [
+   "meat-heavy",
+   "casual",
+   "street-food",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Pollo con Tajadas",
+   "description": "Grilled chicken served with tajadas (fried plantain chips), called incredible by reviewers who say nothing on the menu misses.",
+   "basis": "I had Pollo con Tajadas (shown in the photo) and it was incredible. I've yet to find a bad thing on the menu!"
+  },
+  "menu": [
+   {
+    "name": "Baleadas",
+    "description": "Honduran baleadas that reviewers rate a perfect 10 out of 10.",
+    "basis": "Food is super delicious and the baleadas are 10 out of 10"
+   },
+   {
+    "name": "Tacos",
+    "description": "Tacos reviewers count among their all-time favorites.",
+    "basis": "hands down, one of my favorite tacos of all time!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ29kb2ZGsw4kRcA5lOLnBuPI",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥡",
+  "why": "Blue Ocean's spicy beef Thai rice has become a regular's all-time favorite, with Thai chicken fried rice and cheese wontons close behind.",
+  "tags": [
+   "rice",
+   "spicy",
+   "noodles",
+   "fried",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Spicy Beef Thai Rice",
+   "description": "Spicy beef Thai rice that one loyal customer calls one of their all-time favorite dishes.",
+   "basis": "The spicy beef thai rice was recently discovered and I highly recommend it!! One of my favorites of all time!"
+  },
+  "menu": [
+   {
+    "name": "Thai Chicken Fried Rice",
+    "description": "Thai chicken fried rice that's become a customer's new absolute favorite order.",
+    "basis": "My new absolute favorite would have to be the Thai chicken fried rice"
+   },
+   {
+    "name": "Cheese Wonton",
+    "description": "Cheese wontons served as a sweet dessert option alongside the entrées.",
+    "basis": "the cheese wonton as dessert."
+   },
+   {
+    "name": "Chicken Wings & Lo Mein",
+    "description": "Chicken wings and lo mein reviewers call flavorful and savory.",
+    "basis": "I ordered chicken wings and lo mein, it was so flavorful and savory."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2fr7WJqsw4kRevHqgo4MP3Y",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥡",
+  "why": "No. 1 Chinese Restaurant's sesame chicken and yellow vegetable fried rice keep loyal take-out customers coming back despite ups and downs elsewhere on the menu.",
+  "tags": [
+   "rice",
+   "fried",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Sesame Chicken",
+   "description": "Sesame chicken that one longtime customer calls proof this is one of the better take-out Chinese spots around.",
+   "basis": "Excellent restaurant shrimp made to taste and sesame chicken."
+  },
+  "menu": [
+   {
+    "name": "Yellow Vegetable Fried Rice",
+    "description": "Yellow vegetable fried rice that's a regular favorite side.",
+    "basis": "I also enjoy their yellow vegetable fried rice."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJqZ1D4JGsw4kRJ95HY2bSQWw",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍕",
+  "why": "El Greco's crust-to-cheese ratio wins over regulars who admit the dining room isn't much to look at.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Classic Pizza",
+   "description": "A classic pie with a crust, sauce, and cheese ratio reviewers call absolutely perfect.",
+   "basis": "this place may not have the best ambiance but the Pizza is so freaking yummy!! The crust, sauce, cheese ratio is absolutely perfect and the price is right!!!"
+  },
+  "menu": [
+   {
+    "name": "Calzone",
+    "description": "A calzone reviewers call great, alongside the manicotti.",
+    "basis": "got a Calzone and manicotti and both were great!!!"
+   },
+   {
+    "name": "Subs",
+    "description": "Subs that keep regulars coming back to chat with the owner while they order.",
+    "basis": "Love coming here to pick up subs and talking to the owner. Lovely man"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJIbquWY-sw4kRvrAV6T2DGKE",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍕",
+  "why": "This Domino's location gets singled out by regulars for fresh pizza and a brownie cookie dessert that keeps them coming back.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Pizza",
+   "description": "Domino's pizza that regulars at this location call always fresh, without skimping on ingredients.",
+   "basis": "The pizza  🍕 is always fresh and so are the other dishes like the bowls , they don't skimp on ingredients"
+  },
+  "menu": [
+   {
+    "name": "Brownie Cookie",
+    "description": "A brownie cookie dessert one regular calls amazing and eats regularly.",
+    "basis": "the brownie cookie is on point."
+   },
+   {
+    "name": "Bowls",
+    "description": "Domino's bowls, mentioned by regulars as another consistently good, ingredient-forward option.",
+    "basis": "so are the other dishes like the bowls , they don't skimp on ingredients"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJAQyVAYasw4kRIzdTY1GCJ3E",
+  "skip": false,
+  "cuisine": "Deli",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥪",
+  "why": "Town Hall Deli invented the New Jersey sloppy joe in 1927 and is still turning out the state's most legendary sandwich lineup.",
+  "tags": [
+   "meat-heavy",
+   "comfort",
+   "casual",
+   "bread",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Sloppy Joe",
+   "description": "The original New Jersey sloppy joe, layered with turkey and roast beef, perfectly made since 1927.",
+   "basis": "My husband and I ordered the sloppy joe with turkey and roast beef. I understand why it is the original! Perfectly made, with fresh ingredients and friendly service."
+  },
+  "menu": [
+   {
+    "name": "Reuben",
+    "description": "A Reuben whose bread reviewers call the best texture and flavor of any bread they've ever had.",
+    "basis": "The bread in the Reuben was amazing and the bread stole the show, best texture and flavor of any bread I’ve ever had."
+   },
+   {
+    "name": "Grilled Chicken Sub",
+    "description": "A grilled chicken sub with well-seasoned chicken, white onions, and balsamic that one reviewer calls the best they've had all year.",
+    "basis": "My husband brought me a grilled chicken sub. It’s the best I’ve had this year. The sliced chicken is well seasoned, love the white onions and the balsamic is so good."
+   },
+   {
+    "name": "Godfather Sandwich",
+    "description": "The Godfather sandwich, so good one reviewer never made it out of the parking spot before digging in.",
+    "basis": "I got the godfather sandwich. This thing was great. I was going to take a bite in the car before driving off and let's just say I never left the parking spot."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ3T_PCvWtw4kRQM7GLBuNfU4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "South Orange Village",
+  "emoji": "☕",
+  "why": "The Player Agency pairs a free-to-play board game library with café fries, snacks, and coffee, plus catering that's handled parties from baptisms to Super Bowls.",
+  "tags": [
+   "casual",
+   "coffee",
+   "family-style",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Fries",
+   "description": "Café fries that reviewers single out as great, best enjoyed during a free board game session.",
+   "basis": "The only cost is any food you choose to buy (the fries were great)."
+  },
+  "menu": [
+   {
+    "name": "Catering Trays",
+    "description": "Catering trays covering every craving and dietary preference, used for everything from baptisms to Super Bowl parties.",
+    "basis": "We were able to find delicious meal options that satisfied every craving and dietary preference at a budget we could manage."
+   },
+   {
+    "name": "Coffee",
+    "description": "A decent cup of coffee for anyone stopping by the rec center or library, even outside game time.",
+    "basis": "it’s still a decent place to grab a cup of coffee if you are at the rec center/library"
+   },
+   {
+    "name": "Snacks",
+    "description": "Tasty snacks alongside the games, part of what makes this niche café a hit for its crowd.",
+    "basis": "good selection of games available, tasty snacks available, plenty of table space, organized events and friendly gaming crowd."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJtfW9wIetw4kRH191L9f-hFc",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍵",
+  "why": "Tira's carrot cake matcha has customers calling themselves locked in for life, alongside a heavenly avocado toast and a rotating specialty drink menu.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "dessert",
+   "casual",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "Carrot Cake Matcha",
+   "description": "A carrot cake matcha blending earthy matcha with warm, spiced carrot cake notes — not too sweet, not too heavy, just perfect.",
+   "basis": "Just tried the carrot cake matcha and WOW… I’m blown away 🤯💚. The balance of flavors is next level smooth, earthy matcha blended with warm, spiced carrot cake notes that taste like comfort in a cup. Not too sweet, not too heavy just perfect."
+  },
+  "menu": [
+   {
+    "name": "Garden State Punch",
+    "description": "The Garden State Punch, a drink regulars say they're locked in for life.",
+    "basis": "Me and “Garden State Punch” are locked in for life, and the “Carrot Cake Matcha” is one of a kind!"
+   },
+   {
+    "name": "Avocado Toast - Tira's Style",
+    "description": "Avocado toast done Tira's style, called heavenly by reviewers.",
+    "basis": "Avocado toast - Tira's Style is heavenly."
+   },
+   {
+    "name": "Iced Latte",
+    "description": "Perfect iced lattes for warm days, and toasty cinnamon drinks when it's cool out.",
+    "basis": "Perfect iced lattes for warm days."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJu5V_bIasw4kR8cdeArJwuEQ",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥐",
+  "why": "Despite mixed service reviews, Cait & Abby's danishes, coffee cake, and almond croissants keep bakery regulars coming back.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual",
+   "bread",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Danishes",
+   "description": "Danishes regulars say they get delicious, on repeat.",
+   "basis": "Regularly get delicious danishes here."
+  },
+  "menu": [
+   {
+    "name": "Coffee Cake",
+    "description": "Coffee cake that makes a fitting finish to breakfast here.",
+    "basis": "Finished breakfast with the coffee cake"
+   },
+   {
+    "name": "Bagels",
+    "description": "Bagels that aren't made in house but still come out yummy.",
+    "basis": "Said bagels are not made in house - they were yummy!"
+   },
+   {
+    "name": "Sweet Almond Croissant",
+    "description": "A sweet almond croissant that stood out as one of the good things about a visit.",
+    "basis": "The only good things were my coffee and sweet almond croissant."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJeyxEaFGtw4kRAqRgU8laXMk",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥯",
+  "why": "Hot Bagels Abroad's bacon-egg-and-cheese comes recommended with a dash of hot sauce, and regulars call the bagels themselves their favorite in town.",
+  "tags": [
+   "breakfast",
+   "bread",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Hot Bagel with Bacon, Egg, and Cheese",
+   "description": "A hot bagel piled with bacon, egg, and cheese, reviewers say is even better with a dash of hot sauce.",
+   "basis": "I ordered the hot bagel with bacon, egg, and cheese; and my husband ordered the plain bagel with chives and cream cheese.  Our first time coming here, and I must say that it was really good, and even better when I added a dash of Louisiana hot sauce.  Pretty good!"
+  },
+  "menu": [
+   {
+    "name": "Plain Bagel with Chives Cream Cheese",
+    "description": "A plain bagel with chives and cream cheese, the other half of a solid first order.",
+    "basis": "my husband ordered the plain bagel with chives and cream cheese."
+   },
+   {
+    "name": "Bagels",
+    "description": "Bagels reviewers call their favorite in town.",
+    "basis": "Their bagels are delicious- my favorite in town."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJudWMIDWtw4kRU-8Vy0piEYM",
+  "skip": false,
+  "cuisine": "Acai",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥣",
+  "why": "Juice Hub's mango smoothie bowl and Tropical Blast smoothie are made with fruit fresh enough that reviewers say you can taste the difference.",
+  "tags": [
+   "healthy",
+   "vegan-friendly",
+   "sweet",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mango Smoothie Bowl",
+   "description": "A mango smoothie bowl packed with fresh fruit that's filling enough to be a full meal.",
+   "basis": "I ordered the mango smoothie bowl and it was sooo delicious! The fruit was very fresh and it was soo filling."
+  },
+  "menu": [
+   {
+    "name": "Tropical Blast",
+    "description": "The Tropical Blast smoothie, made with real fruit that reviewers say you can actually taste.",
+    "basis": "the Tropical Blast at The Juice Hub is a must-try."
+   },
+   {
+    "name": "Build-Your-Own Bowl",
+    "description": "A build-your-own bowl loaded generously with toppings — reviewers say it's worth every penny.",
+    "basis": "The bowl was over loaded which I again appreciate, makes it so much more worth it !! Would 10/10 recommend!!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvyZJNoasw4kR7pS5lRcqYEs",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍩",
+  "why": "Even amid rocky service reviews, this Dunkin' keeps at least one family coming back for hash browns their toddler loves.",
+  "tags": [
+   "breakfast",
+   "coffee",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Hash Browns",
+   "description": "Hash browns loyal enough that one parent kept bringing her toddler back just for them.",
+   "basis": "i used to come here with my toddler because she likes their hash browns."
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJAyh75Zmsw4kRFHBwrOYs-_o",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Seton Hall area",
+  "emoji": "🍩",
+  "why": "This campus-adjacent Dunkin' is a daily ritual for Seton Hall students, who show up as much for the beloved staff as for their coffee and breakfast fix.",
+  "tags": [
+   "breakfast",
+   "coffee",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Breakfast & Coffee",
+   "description": "Dunkin's classic breakfast sandwiches and coffee drinks, grabbed daily by students heading to class.",
+   "basis": "Long-running chain serving signature breakfast items & a variety of coffee drinks."
+  },
+  "menu": []
+ }
+]
