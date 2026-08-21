@@ -1,0 +1,3381 @@
+[
+ {
+  "placeId": "ChIJURIlh51bwokRLp97dN8_E0U",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍳",
+  "why": "Steak and eggs that reviewers call 'out of this world' anchors this brunch-and-bites Fort Greene favorite.",
+  "tags": [
+   "brunch",
+   "breakfast",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Steak and Eggs",
+   "description": "Juiced-up, flawless steak with fluffy cheddar eggs and crispy home fries.",
+   "basis": "I really wanted steak and eggs and this was out of the world. The steak was juiced up and flawless."
+  },
+  "menu": [
+   {
+    "name": "French Toast",
+    "description": "Owner-recommended french toast, a favorite alongside the beignets.",
+    "basis": "I got the french toast (recommended by Sam, the owner) and shared the beignets with my group, both were incredible."
+   },
+   {
+    "name": "Banana Bread Pudding",
+    "description": "The dessert one reviewer called the best thing on the table.",
+    "basis": "Banana bread pudding - 10/10 - honestly the best thing we had. Do yourself a favor and get this."
+   },
+   {
+    "name": "Home Fries",
+    "description": "Crispy home fries loaded with peppers.",
+    "basis": "The home fries were crispy and loaded with peppers."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHdU65Z5bwokRSOKahsjTfqw",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍝",
+  "why": "Neighbors call it their new favorite spot, and the Cacio Pepe explains why.",
+  "tags": [
+   "comfort",
+   "cheese",
+   "noodles",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Cacio Pepe",
+   "description": "Classic cheese-and-pepper pasta reviewers call 'to die for.'",
+   "basis": "The Cacio Pepe and the Osteria fettuccine, fried cauliflower and beet salad were to die for!"
+  },
+  "menu": [
+   {
+    "name": "Crème Brûlée",
+    "description": "A silky crème brûlée served with strong coffee to close the meal.",
+    "basis": "The crème brûlée with strong coffee perfect!!"
+   },
+   {
+    "name": "Lasagna",
+    "description": "A dish regulars keep returning to try alongside the branzino.",
+    "basis": "We have visited several times and most recently tried the lasagna and branzino. Both were excellent as were the cocktails."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJrXze-rlbwokRl3G4x1txJgk",
+  "skip": false,
+  "cuisine": "Latin",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥩",
+  "why": "Ribeye, bone marrow, and a trout ceviche fans say is always '12/10' make this Cómodo-team spot a Clinton Hill favorite.",
+  "tags": [
+   "meat-heavy",
+   "casual",
+   "date-night",
+   "grilled"
+  ],
+  "signatureDish": {
+   "name": "Ribeye",
+   "description": "A table order that reviewers say came packed with flavor alongside bone marrow and potatoes.",
+   "basis": "We ordered the ribeye, potatoes, salad and bone marrow and everything had so much flavor"
+  },
+  "menu": [
+   {
+    "name": "Chicken Achiote",
+    "description": "A simple standout one regular calls out by name.",
+    "basis": "The chicken achiote is great btw."
+   },
+   {
+    "name": "Trout & Shrimp Ceviche",
+    "description": "Two ceviches a longtime regular calls must-try favorites.",
+    "basis": "Trout ceviche\nShrimp ceviche"
+   },
+   {
+    "name": "Arepas",
+    "description": "Perfectly prepared and full of flavor.",
+    "basis": "the arepas were flavorful and perfectly prepared"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ_xjfmLtbwokRRJzBUGDhJI8",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍝",
+  "why": "Oxtail ravioli built enough of a following for delivery that regulars now book a table just to eat it fresh.",
+  "tags": [
+   "comfort",
+   "noodles",
+   "meat-heavy",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Oxtail Ravioli",
+   "description": "A delivery favorite so good in person that reviewers say it's worth the trip.",
+   "basis": "We used to order the oxtail ravioli for delivery and finally came to the actual restaurant- so worth it!!"
+  },
+  "menu": [
+   {
+    "name": "Pesto Mushroom Asparagus Pasta",
+    "description": "A recommended pasta alongside the beet leek pea pasta.",
+    "basis": "Highly recommend the pesto mushroom asparagus pasta & the beet leek pea pasta."
+   },
+   {
+    "name": "Bread Basket with Olives",
+    "description": "A chewy, yummy sourdough bread basket that starts the meal off right.",
+    "basis": "The bread basket with olives was so good- a super chewy and yummy sourdough"
+   },
+   {
+    "name": "Potato Hash",
+    "description": "A side that outshone the steak it came with, per one reviewer.",
+    "basis": "loved the potato’s hash it was served with"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJm3pogb5bwokRd-Uxh4j7qQk",
+  "skip": false,
+  "cuisine": "Soul Food",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🐟",
+  "why": "Fire catfish -- reviewers' favorite, 'SO GOOD' -- anchors this Southern-cocktail spot under old Western reruns.",
+  "tags": [
+   "fried",
+   "seafood",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Fire Catfish",
+   "description": "Fried catfish one reviewer called their favorite, 'SO GOOD.'",
+   "basis": "The fire catfish was my favorite. IT WAS SO GOOD !!!!"
+  },
+  "menu": [
+   {
+    "name": "Grab Spaghetti",
+    "description": "A regular's go-to order on quick weeknight visits.",
+    "basis": "Love the grab spaghetti."
+   },
+   {
+    "name": "Octopus",
+    "description": "A shared plate alongside the catfish and grits.",
+    "basis": "we also shared the octopus"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJt0CfzNRbwokR3KwxGGcWXCM",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍱",
+  "why": "A salmon rice bowl loyal regulars call their go-to, at prices a fraction of fancier sushi counters.",
+  "tags": [
+   "rice",
+   "fried",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Salmon Rice Bowl",
+   "description": "High-quality salmon over rice that regulars order every time.",
+   "basis": "I always get a salmon rice bowl and it never disappoints."
+  },
+  "menu": [
+   {
+    "name": "Shrimp Katsu Burger",
+    "description": "The daily special with a perfect bite and fluffy bread.",
+    "basis": "ordered the special katsu of the day- the shrimp katsu burger! it had the perfect bite and the bread was nice and fluffy."
+   },
+   {
+    "name": "Pork Katsu Curry",
+    "description": "A go-to order alongside the salmon ikura rice bowl.",
+    "basis": "My go-to orders are the salmon ikura rice bowl or the pork katsu curry."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJtx7ymGVbwokRzDZBJ8NVJz0",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥖",
+  "why": "The swordfish and a rotating mushroom special make regulars overlook the small portions at this natural wine bar.",
+  "tags": [
+   "seafood",
+   "date-night",
+   "upscale"
+  ],
+  "signatureDish": {
+   "name": "Swordfish",
+   "description": "Called out as very memorable alongside the pasta and daily mushroom special.",
+   "basis": "The swordfish, the pasta and the daily special mushrooms were very memorable, although really everything was good."
+  },
+  "menu": [
+   {
+    "name": "Sardine Toast",
+    "description": "A standout favorite alongside the sparkling chilled reds.",
+    "basis": "my favorites were one of the sparkling chilled reds and the sardine toast!"
+   },
+   {
+    "name": "Mussels",
+    "description": "Pretty good, per one reviewer's rundown of the menu.",
+    "basis": "the mussels were also pretty good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJd9qVa5VbwokRJ7q_7M3XbIQ",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🌭",
+  "why": "'Skip the burgers, skip the fries' -- reviewers say the bangers and mash, real-deal sausages on creamy mash, is the dish that matters here.",
+  "tags": [
+   "comfort",
+   "bbq",
+   "spicy",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "BBQ Chicken",
+   "description": "Ten out of ten with, per one reviewer, the perfect spicy level.",
+   "basis": "Let me tell you this bbq chicken is DELICIOUS! 10 out of 10, perfect spicy level"
+  },
+  "menu": [
+   {
+    "name": "Mac & Cheese",
+    "description": "One of the best versions a reviewer says they've tried.",
+    "basis": "the Mac&cheese literally one of the best that I have tried!"
+   },
+   {
+    "name": "Fudge Brownie",
+    "description": "A dessert that redeemed an otherwise inconsistent meal for one reviewer.",
+    "basis": "The fudge brownie was delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJOTob_r1bwokRtUoNNbcmw_g",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍕",
+  "why": "The Dangerfield -- ricotta, basil, and pork-beef meatballs on a white pie -- is what reviewers call the best pizza they've had.",
+  "tags": [
+   "cheese",
+   "meat-heavy",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Dangerfield Pizza",
+   "description": "A white-sauce pizza loaded with ricotta, basil, and pork-beef meatballs.",
+   "basis": "Their Dangerfield pizza is a white sauce pizza well coated with ricotta and basil, with enough pork-beef meatballs scattered with garlic chips to give that out of this world flavour!"
+  },
+  "menu": [
+   {
+    "name": "King Salami Pizza",
+    "description": "A salty, meaty pie balanced out by the tomato base.",
+    "basis": "We ordered the King Salami, and the meat was a little salty, but it was balanced out by the tomato base."
+   },
+   {
+    "name": "Branzino",
+    "description": "Spectacular, per a longtime regular's return visit.",
+    "basis": "The branzino was spectacular, the pizza remains top-notch."
+   },
+   {
+    "name": "Caesar Salad",
+    "description": "Top notch, per multiple regulars.",
+    "basis": "Their Caesar salad is top notch."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJBYFUublbwokROz7e4jYbvNI",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍕",
+  "why": "Mike's hot honey pizza -- loaded with pepperoni and a sesame crust -- has fans warning you not to order it for delivery, it's best fresh from the wood oven.",
+  "tags": [
+   "cheese",
+   "sweet",
+   "meat-heavy",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mike's Hot Honey Pizza",
+   "description": "Pepperoni-loaded pie finished with hot honey and a sesame seed crust.",
+   "basis": "We had the Mike’s hot honey pizza which came with a whole lot of pepperoni & a sesame seed crust."
+  },
+  "menu": [
+   {
+    "name": "Baked Clams",
+    "description": "So good reviewers wish they'd ordered the bigger portion.",
+    "basis": "The baked clams were really good, we should’ve gotten the 12 pieces instead of 6."
+   },
+   {
+    "name": "Margherita Pizza",
+    "description": "Part of a spread the reviewer called one of the best things eaten all year.",
+    "basis": "I ordered the Margherita pizza with pepperoni, small fried calamari and the spaghetti with meatballs and sausage."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ0Wca-7xbwokRFg1cpaHFp2c",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍝",
+  "why": "Hand-rolled pici that's 'so hard to find' done well elsewhere is served inside a 140-year-old former apothecary.",
+  "tags": [
+   "cheese",
+   "comfort",
+   "upscale",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Pici",
+   "description": "A hand-rolled Tuscan pasta this reviewer calls hard to find done well anywhere else.",
+   "basis": "It is so hard to find good Pici and it was phenomenal."
+  },
+  "menu": [
+   {
+    "name": "Truffle Pasta",
+    "description": "Equally impressive, per the same visit.",
+    "basis": "The truffle pasta was equally impressive"
+   },
+   {
+    "name": "Arancini",
+    "description": "A starter reviewers call cheesy goodness all the way through.",
+    "basis": "We had the arancini for a starter and it was cheesy goodness all the way through"
+   },
+   {
+    "name": "Duck",
+    "description": "Delicious and perfect, per a longtime regular.",
+    "basis": "The duck was delicious and perfect."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJYeJEs6RbwokRI9OjBP6hYG8",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍕",
+  "why": "The Emmy Burger -- 'one of the best burgers in the country,' reviewers say -- headlines a wood-fired pizza menu that still delivers on the pies.",
+  "tags": [
+   "meat-heavy",
+   "cheese",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Emmy Burger",
+   "description": "A juicy, flavor-loaded burger reviewers call one of the best in the country.",
+   "basis": "the Emmy Burger is as good as I remember from 5 or 6 years ago. One of the best burgers in the country."
+  },
+  "menu": [
+   {
+    "name": "Big Ang Pizza",
+    "description": "Perfect crust with tasty toppings.",
+    "basis": "I got to try the Big Ang pizza which was great! Perfect crust and tasty toppings."
+   },
+   {
+    "name": "Brussels Sprouts",
+    "description": "Just as good the next day, with green apple and bacon.",
+    "basis": "I enjoyed the Brussels sprouts later at home and they were perfect cold as they had green apple and bacon."
+   },
+   {
+    "name": "\"For the Nguyen\" Pizza",
+    "description": "Unique and flavorful, unlike anything reviewers had tried before.",
+    "basis": "the pizza was unique, flavorful, and unlike anything we've had before."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJB3kJkkBbwokRfgJAX1_7ahM",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍝",
+  "why": "Ricotta pancakes reviewers call 'way more filling than they look' anchor brunch at this Milanese-inspired dining room with grand chandeliers.",
+  "tags": [
+   "brunch",
+   "casual",
+   "comfort",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Ricotta Pancakes",
+   "description": "Delicious and much more filling than they appear.",
+   "basis": "The Ricotta pancakes are delicious and way more filling than they look."
+  },
+  "menu": [
+   {
+    "name": "Omelette & Crispy Potatoes",
+    "description": "A great choice alongside the pancakes.",
+    "basis": "The omelette and crispy potatoes were also a great choice."
+   },
+   {
+    "name": "Pasta",
+    "description": "Part of a delicious spread with eggs and salad.",
+    "basis": "Ended up getting eggs been, salad, and pasta. All was delicious and recommend"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFWiC8blbwokRDzOGQVtbEm4",
+  "skip": false,
+  "cuisine": "Middle Eastern",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥙",
+  "why": "Chicken souvlaki was one reviewer's 'fav,' and the lentil soup gets called 'absolutely divine' at this beaded-curtain corner spot.",
+  "tags": [
+   "grilled",
+   "soup",
+   "vegetarian-friendly",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Chicken Souvlaki",
+   "description": "Large, juicy chunks of chicken that wasn't too dry, a reviewer's favorite.",
+   "basis": "The chicken souvlaki (4/5) was my fav - nice large chunks of ulxube chicken that wasn't too dry."
+  },
+  "menu": [
+   {
+    "name": "Lentil Soup",
+    "description": "A must-try reviewers call absolutely divine.",
+    "basis": "you must try the lentil soup! It is absolutely divine!"
+   },
+   {
+    "name": "Chickpeas",
+    "description": "Seasoned and soft, the tastiest part of the mezze plate for one reviewer.",
+    "basis": "The chickpeas were seasoned, soft, and the tastiest highlight of my meal!"
+   },
+   {
+    "name": "Chicken Gyro",
+    "description": "Good flavor and a generous amount of chicken.",
+    "basis": "Had the chicken gyro (3.5/5) which tastes good and had lots of chicken."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJrYK5Zd9bwokRsOPttcjWkMo",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJT2yDkblbwokRF8WHI6PUQ3M",
+  "skip": false,
+  "cuisine": "Irish",
+  "neighborhood": "Fort Greene",
+  "emoji": "🌭",
+  "why": "'Skip the burgers, skip the fries' -- go straight for the bangers and mash, real-deal sausages on creamy mash with light, flavorful gravy.",
+  "tags": [
+   "comfort",
+   "casual",
+   "fried",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Bangers and Mash",
+   "description": "Real-deal sausages on creamy mash with light, flavorful gravy.",
+   "basis": "Go straight for the bangers and mash, real-deal sausages (from Myers of Keswick if you’ve got a palate) on creamy mash with light, flavorful gravy."
+  },
+  "menu": [
+   {
+    "name": "Fish and Chips",
+    "description": "Delivered quickly and tasted good even on a packed shift.",
+    "basis": "We ordered the fish and chips, chicken club and a side of curry sauce."
+   },
+   {
+    "name": "Wings",
+    "description": "Fast out of the kitchen even during a Knicks watch party.",
+    "basis": "we still got our wings and drinks FAST"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJWaDdP4BbwokRd3qliZ31ECI",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍝",
+  "why": "A balsamic-glazed lamb chop special one diner rated '10/10, no notes' headlines this rustic Fort Greene trattoria.",
+  "tags": [
+   "meat-heavy",
+   "comfort",
+   "date-night",
+   "upscale"
+  ],
+  "signatureDish": {
+   "name": "Lamb Chop Special",
+   "description": "Balsamic reduction over spinach and mashed potatoes, rated 10/10 with no notes.",
+   "basis": "For my main I had the lamb chop special in a balsamic reduction over spinach and mash potatoes, 10/10, no notes."
+  },
+  "menu": [
+   {
+    "name": "Eggplant Crostini",
+    "description": "The favorite among a table's full crostini order.",
+    "basis": "We tried all the crostini, the eggplant was our favorite."
+   },
+   {
+    "name": "Polenta Bites & Calamari",
+    "description": "Both delicious starters at a birthday dinner.",
+    "basis": "We also had the polenta bites and calamari, all were delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJeXCwerhbwokRtUOhu4zzZzs",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍟",
+  "why": "Steak frites, veggie burgers, and Brussels sprouts round out an 'upscale pub grub' menu at a gastropub that comfortably seats groups of 45.",
+  "tags": [
+   "comfort",
+   "casual",
+   "meat-heavy",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Steak Frites",
+   "description": "Called out as part of a great meal alongside the veggie burger.",
+   "basis": "The food was great as well - I tried the veggie burger, steak frites"
+  },
+  "menu": [
+   {
+    "name": "Veggie Burger",
+    "description": "Ordered alongside the steak frites and Brussels sprouts.",
+    "basis": "the veggie burger, steak frites and Brussels spro"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ0-dXHT1awokRJheRlO0dyjc",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Wallabout",
+  "emoji": "🍕",
+  "why": "Red snapper 'cooked to perfection' shares the spotlight with the Grandma Slice at this bright, wood-fired Italian spot.",
+  "tags": [
+   "seafood",
+   "comfort",
+   "casual",
+   "soup"
+  ],
+  "signatureDish": {
+   "name": "Red Snapper",
+   "description": "Tender, flavorful, and cooked to perfection -- a standout dish.",
+   "basis": "One of the standout dishes is the red snapper, which is simply divine. Cooked to perfection, the fish is incredibly tender and flavorful,"
+  },
+  "menu": [
+   {
+    "name": "Grandma Slice",
+    "description": "A favorite alongside the Penne Il Porto.",
+    "basis": "Loved the Grandma Slice, the Penne IL Porto is delicious, dessert is tasty and homemade."
+   },
+   {
+    "name": "Tortellini Soup",
+    "description": "The one dish one disappointed diner still genuinely enjoyed.",
+    "basis": "The tortellini soup was delicious, unfortunately that’s the only part of the entire experience that I enjoyed."
+   },
+   {
+    "name": "Chicken and Sausage Pizza Roll",
+    "description": "Prepared just right and filling.",
+    "basis": "Had a quick chicken and sausage pizza roll. It was prepared just right and filling."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJld_OGNRbwokRupOz-WLAW4E",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJ6dTbB5BbwokRQyM4pOUH76I",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍝",
+  "why": "Steak and eggs is one brunch regular's hands-down favorite, while dinner brings burrata ravioli and a purgatorio-sauced octopus starter.",
+  "tags": [
+   "comfort",
+   "brunch",
+   "sweet",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Steak and Eggs",
+   "description": "A brunch order one regular calls their favorite, twice over.",
+   "basis": "The steak and eggs was my favorite!"
+  },
+  "menu": [
+   {
+    "name": "Burrata Ravioli",
+    "description": "Part of a dinner spread everyone at the table loved.",
+    "basis": "We then had the broccoli rabe pizza, lasagna, funghi pizza and the burrata ravioli. Everyone loved their dishes."
+   },
+   {
+    "name": "Tiramisu",
+    "description": "An amazing way to close out dinner.",
+    "basis": "The tiramisu was amazing for dessert."
+   },
+   {
+    "name": "Polipetti in Purgatorio",
+    "description": "Tender petit octopus in a spicy, deeply savory tomato sauce with fresh parsley.",
+    "basis": "We started strong with the Polipetti in Purgatorio—tender petit octopus swimming in a spicy, deeply savory tomato sauce al purgatorio, finished with fresh parsley"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJszWINqNbwokRMNSMRt0MOJk",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥐",
+  "why": "A cardamom bun gets '6 stars for the bread' from one reviewer, while the in-house butchery turns out a burger just as praised.",
+  "tags": [
+   "brunch",
+   "bread",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Burger",
+   "description": "Juicy, with a gnocchi side in a fresh, tasty Paris sauce.",
+   "basis": "The burger was juicy, the Paris sauce with the gnocchi was fresh and tasty."
+  },
+  "menu": [
+   {
+    "name": "Cardamom Bun",
+    "description": "A highly recommended, delicious breakfast pastry.",
+    "basis": "HIGHLY recommend the cardamom bun, delish."
+   },
+   {
+    "name": "Gnocchi with Paris Sauce",
+    "description": "Fresh and tasty, served alongside the burger.",
+    "basis": "the Paris sauce with the gnocchi was fresh and tasty"
+   },
+   {
+    "name": "Bread",
+    "description": "Next level, per one reviewer's rundown -- '6 stars for the bread.'",
+    "basis": "First; the bread is next level. 6 stars for the bread."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJtysilntbwokRpBeSzmAQgVk",
+  "skip": false,
+  "cuisine": "Burgers",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍔",
+  "why": "'The best burger I've had in New York City,' by one reviewer's account -- plus a pastrami smash burger nobody else in town is doing.",
+  "tags": [
+   "meat-heavy",
+   "fried",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Smash Burger",
+   "description": "Fresh, juicy, and full of flavor -- called the best burger in NYC.",
+   "basis": "This is, without a doubt, the best burger I’ve had in New York City!"
+  },
+  "menu": [
+   {
+    "name": "Pastrami Smash Burger",
+    "description": "Smoked pastrami on a smash burger, a combination reviewers say hasn't been done before.",
+    "basis": "Hard to beat smoked Pastrami on a smash burger, and even crazier this hasn't been done until now."
+   },
+   {
+    "name": "Cajun Fries",
+    "description": "Seasoned and 'ragin',' a favorite side.",
+    "basis": "Cajun fries be ragin'"
+   },
+   {
+    "name": "Nutella Milkshake",
+    "description": "The dessert drink that got one reviewer hooked.",
+    "basis": "the Nutella Milkshake got me hooked."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJnf_8xaRbwokRN3PJjLF565w",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍝",
+  "why": "Ten years of loyal visits later, one regular calls this hands-down their favorite place for pasta -- 'they make the best bolognese.'",
+  "tags": [
+   "comfort",
+   "cheese",
+   "date-night",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Bolognese",
+   "description": "Consistent, high-quality pasta a decade-long regular calls the best.",
+   "basis": "The food is great, the taste is consistent and the customer service is wonderful. They make the best bolognese!"
+  },
+  "menu": [
+   {
+    "name": "Burgers",
+    "description": "Comfort food regulars say is to die for.",
+    "basis": "Burgers to die for."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJSZ__agBbwokRFqNZkOBfbsk",
+  "skip": false,
+  "cuisine": "Seafood",
+  "neighborhood": "Fort Greene",
+  "emoji": "🦪",
+  "why": "Charbroiled oysters brought one reviewer back after a decade-long NYC search for the dish done right.",
+  "tags": [
+   "seafood",
+   "fried",
+   "spicy",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Charbroiled Oysters",
+   "description": "A specialty this reviewer says they'd been searching NYC for over a decade.",
+   "basis": "I have been searching NYC for charbroiled oysters for the last 10 years. I think I’ve been to every Nola spot tbh."
+  },
+  "menu": [
+   {
+    "name": "Blackened Catfish",
+    "description": "Served with collard greens, red beans, and rice.",
+    "basis": "My husband ordered the blackened catfish with collard greens, red beans and rice, and wine."
+   },
+   {
+    "name": "Fried Basket",
+    "description": "Fried green tomato, shrimp, and catfish nuggets, all well seasoned.",
+    "basis": "I ordered the fried basket and a daiquiri plus cornbread."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJaYcllU0N7ocR4lWiLngfEYg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Clinton Hill",
+  "emoji": "☕",
+  "why": "A lamb burger reviewers call 'easily one of the best we've ever had' anchors the brunch menu at this bakery-cafe favorite.",
+  "tags": [
+   "brunch",
+   "comfort",
+   "casual",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Lamb Burger",
+   "description": "Outstanding, per reviewers -- one of the best they've ever had.",
+   "basis": "The lamb burger was outstanding, easily one of the best we’ve ever had."
+  },
+  "menu": [
+   {
+    "name": "Garlic Fries",
+    "description": "A must-order side, per regulars.",
+    "basis": "and garlic fries (the fries are a must order)."
+   },
+   {
+    "name": "Pancakes & Waffles",
+    "description": "Incredibly soft and flavorful.",
+    "basis": "The pancakes and waffles were incredibly soft and flavorful."
+   },
+   {
+    "name": "Chicken Panini",
+    "description": "Juicy and delicious, eaten too fast for a photo.",
+    "basis": "The chicken panini was juicy and delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJb66wS7FbwokRMP1hjOmk31o",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥐",
+  "why": "The croque madame and monsieur come out 'unbelievably delicious,' and the pomme frites are one regular's favorite thing on the menu.",
+  "tags": [
+   "brunch",
+   "comfort",
+   "casual",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Croque Madame & Monsieur",
+   "description": "Unbelievably delicious, per a brunch regular's high recommendation.",
+   "basis": "The croque madame and monseur was unbelievably delicious! Highly recommend."
+  },
+  "menu": [
+   {
+    "name": "Pomme Frites",
+    "description": "By far one regular's favorite thing on the menu.",
+    "basis": "I will say the pomme frites are by far my favorite"
+   },
+   {
+    "name": "Steak",
+    "description": "Cooked to perfection, best ordered medium.",
+    "basis": "The steak was cooked to perfection, I recommend ordering it medium for the best texture."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJEdfDyr5bwokRV7yHSUveCJE",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍳",
+  "why": "A newly added breakfast burrito is already 'amazing,' but the classic corned beef hash keeps Pratt students coming back for years.",
+  "tags": [
+   "breakfast",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Burrito",
+   "description": "A new menu addition that came out amazing, loaded with eggs, bacon, avocado and cheese.",
+   "basis": "The breakfast burrito is a new addition to the menu and it was amazing!"
+  },
+  "menu": [
+   {
+    "name": "Corned Beef Hash and Eggs",
+    "description": "A classic diner order with potatoes on the side.",
+    "basis": "Had eggs and corned beef hash with potatoes."
+   },
+   {
+    "name": "Cinnamon Roll",
+    "description": "Taken to go and called the best.",
+    "basis": "took a cinnamon roll with me (the best)"
+   },
+   {
+    "name": "Gyro on Pita",
+    "description": "A good amount of meat with tomatoes, onions, lettuce, and tzatziki on soft pita.",
+    "basis": "ordered a Gyro on Pita for $7.25. It has a good amount of meat, tomatoes, onions, lettuce, and tzatziki on soft pita."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJi9R8lVJbwokRtKjPyX4YvnU",
+  "skip": false,
+  "cuisine": "Cambodian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍲",
+  "why": "Somlar kari, a Cambodian chicken soup one first-timer called 'so delicious,' anchors a menu the reviews call a hidden gem.",
+  "tags": [
+   "soup",
+   "date-night",
+   "family-style",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Somlar Kari",
+   "description": "A filling Cambodian chicken soup called so delicious on a first visit.",
+   "basis": "somlar kari was so delicious! only one chicken leg but very filling."
+  },
+  "menu": [
+   {
+    "name": "Oysters",
+    "description": "Delicious, though pricey for the portion.",
+    "basis": "our meals were delicious especially the oysters but it was pricey for petite sized amount,"
+   },
+   {
+    "name": "Fried Rice and Chicken",
+    "description": "A kid-approved favorite.",
+    "basis": "my kids loved their fried rice and chicken."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJAywos7FbwokRmApnRqaSa9Q",
+  "skip": false,
+  "cuisine": "Cuban",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥪",
+  "why": "'Easily the best Cuban sandwich I've had in NYC,' reviewers say, at this order-at-the-counter outdoor spot that closes for winter.",
+  "tags": [
+   "casual",
+   "street-food",
+   "meat-heavy",
+   "fried"
+  ],
+  "signatureDish": {
+   "name": "Cuban Sandwich",
+   "description": "Juicy, flavorful, and messy in all the right ways -- reviewers' pick for best in NYC.",
+   "basis": "Easily the best Cuban sandwich I’ve had in NYC — juicy, flavorful, and messy in all the right ways."
+  },
+  "menu": [
+   {
+    "name": "Tostones with Guacamole",
+    "description": "Ordered alongside the famous Cuban sandwich.",
+    "basis": "The Tostones with Guacamole were also"
+   },
+   {
+    "name": "Fries",
+    "description": "Golden, crisp, and actually seasoned.",
+    "basis": "The fries? Golden, crisp, and actually seasoned (bless)."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZXYSkrlbwokRpzfP73Xu0Bw",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍝",
+  "why": "Lamb cavatelli and olive oil cake are both called 'a revelation' by regulars of this vintage-chic small-plates spot.",
+  "tags": [
+   "date-night",
+   "upscale",
+   "meat-heavy",
+   "seafood"
+  ],
+  "signatureDish": {
+   "name": "Lamb Cavatelli",
+   "description": "A pasta reviewers call a revelation alongside the olive oil cake.",
+   "basis": "The lamb cavatelli and the olive oil cake were both a revelation"
+  },
+  "menu": [
+   {
+    "name": "Olive Oil Cake",
+    "description": "Just as much a revelation as the lamb cavatelli.",
+    "basis": "The lamb cavatelli and the olive oil cake were both a revelation"
+   },
+   {
+    "name": "Pan-Crusted Swordfish",
+    "description": "Part of a meal reviewers called entirely perfect.",
+    "basis": "Everything is was perfect: the cocktails, the antipasti plate, the fava bean purée, the pan-crusted swordfish, the pasta, the pannacotta."
+   },
+   {
+    "name": "Fava Bean Purée",
+    "description": "Another course in a perfect small-plates spread.",
+    "basis": "the fava bean purée, the pan-crusted swordfish"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJfyZVjrlbwokR9bwl0gKz8c4",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJpRxNnLhbwokRPxtb8sFUgEw",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥪",
+  "why": "Portuguese bun breakfast sandwiches come out 'hot, fresh, and delicious' at this specialty shop with a laid-back back patio.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "breakfast",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Portuguese Bun Breakfast Sandwich",
+   "description": "Hot, fresh, and delicious -- a reviewer's standout order.",
+   "basis": "The Portuguese bun breakfast sandwiches are incredible! Hot, fresh, and delicious."
+  },
+  "menu": [
+   {
+    "name": "Pastries",
+    "description": "Wonderful-looking baked goods worth trying next visit.",
+    "basis": "The pastries look wonderful as well."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ43dNliVbwokR-PyxKlkJOXc",
+  "skip": false,
+  "cuisine": "Caribbean",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍖",
+  "why": "Braised oxtail comes up review after review -- 'tender,' 'flavorful,' and part of what one regular calls a stylish, upscale Caribbean night out.",
+  "tags": [
+   "meat-heavy",
+   "upscale",
+   "date-night",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Braised Oxtail",
+   "description": "Rich seasoning and tender meat that reviewers consistently praise.",
+   "basis": "Guests consistently praise the rich seasoning, tender braised oxtail, flavorful curry dishes, and creative appetizers like the ackee and saltfish eggrolls."
+  },
+  "menu": [
+   {
+    "name": "Mussels",
+    "description": "The top-rated dish in one reviewer's full order breakdown.",
+    "basis": "mussels appetizer (10 out of 10) and Caesar salad (9 out of 10)."
+   },
+   {
+    "name": "Ackee and Saltfish Eggrolls",
+    "description": "A creative appetizer reviewers call out by name.",
+    "basis": "creative appetizers like the ackee and saltfish eggrolls."
+   },
+   {
+    "name": "Truffle Burger",
+    "description": "Part of a well-rated spread across the table.",
+    "basis": "We had a truffle burger (8 out of 10)"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5YcD4PBbwokRE_6rqZgVsyc",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥩",
+  "why": "Cheesy Bolivian bites called 'divine,' a salad unlike anything one reviewer's tasted, and steak called simply 'incredible' -- all inside what looks like an ordinary sports bar.",
+  "tags": [
+   "casual",
+   "cheese",
+   "date-night",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Steak",
+   "description": "Called simply 'incredible' by a first-time visitor.",
+   "basis": "The cheesy Bolivian bites were divine, the salad was genuinely something I’ve never tasted before, steak- incredible."
+  },
+  "menu": [
+   {
+    "name": "Cheesy Bolivian Bites",
+    "description": "Divine, per a first visit full of new flavors.",
+    "basis": "The cheesy Bolivian bites were divine"
+   },
+   {
+    "name": "Salad",
+    "description": "Genuinely something one reviewer had never tasted before.",
+    "basis": "the salad was genuinely something I’ve never tasted before"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJoSnFpMBbwokRoXVgba5qPsQ",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🌯",
+  "why": "Burritos 'perfectly wrapped and packed with flavor' have kept regulars coming back for 15 years at this no-frills neighborhood Mexican spot.",
+  "tags": [
+   "comfort",
+   "casual",
+   "meat-heavy",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Burrito",
+   "description": "Perfectly wrapped, with tender well-seasoned meat and fresh toppings.",
+   "basis": "The burrito was perfectly wrapped and packed with flavor in every bite. The meat was tender and well-seasoned, the rice and beans were cooked just right, and the fresh toppings added the perfect balance of texture and brightness."
+  },
+  "menu": [
+   {
+    "name": "Nachos con Barbacoa",
+    "description": "Fun to share or filling enough as a meal on its own.",
+    "basis": "My favorite appetizer is the nachos con barbacoa with everything. This dish can be fun to share or a meal if you’re looking for something small but filling."
+   },
+   {
+    "name": "Quesadilla Grande and Enchiladas",
+    "description": "Main dishes that never miss, per a longtime regular.",
+    "basis": "If we’re talking about main dishes, the quesadilla grande and enchiladas never miss."
+   },
+   {
+    "name": "Tilapia",
+    "description": "Perfectly cooked on a first visit.",
+    "basis": "my perfectly cooked tilapia!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ8cB2yp1bwokRnE_9H_lE4CI",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Downtown Brooklyn",
+  "emoji": "🍴",
+  "why": "A Downtown Brooklyn favorite near BAM where a perfectly cooked branzino and an ever-thoughtful menu keep regulars coming back season after season.",
+  "tags": [
+   "date-night",
+   "upscale",
+   "seafood",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Branzino",
+   "description": "A whole roasted branzino that reviewers call delicious and perfectly cooked.",
+   "basis": "the branzino which was so delicious and well cooked"
+  },
+  "menu": [
+   {
+    "name": "Roasted Artichoke",
+    "description": "A hands-down favorite starter among regulars.",
+    "basis": "The roasted artichoke was hands-down my favorite thing we ordered."
+   },
+   {
+    "name": "Salad Verte",
+    "description": "A green salad with crunchy breadcrumbs and a fresh, flavorful dressing.",
+    "basis": "The verte salad was also really yummy, the added crunch from the breadcrumbs was nice and the dressing was fresh and flavorful."
+   },
+   {
+    "name": "Burger",
+    "description": "A recent favorite on the ever-changing menu.",
+    "basis": "I’ve been loving the burger and the new pea and pesto dish."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ7whBiGZbwokR4yecPcudSY4",
+  "skip": false,
+  "cuisine": "Turkish",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥙",
+  "why": "Char-grilled kebabs, warm pita, and a lively garden make this Clinton Hill Turkish grill a neighborhood favorite for generous, flavorful plates.",
+  "tags": [
+   "grilled",
+   "meat-heavy",
+   "casual",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Chicken Kebab",
+   "description": "Perfectly grilled chicken kebab with a light char that reviewers call addictive.",
+   "basis": "The chicken kebab was perfectly grilled — juicy, flavorful, and tender with that light char that makes it addictive."
+  },
+  "menu": [
+   {
+    "name": "Lamb Adana",
+    "description": "A melt-in-your-mouth spiced lamb skewer.",
+    "basis": "Got the lamb adana and chicken adana. Melts right into your mouth!"
+   },
+   {
+    "name": "Salmon Skewers",
+    "description": "A standout alongside the falafel among regulars' favorites.",
+    "basis": "my favorites are the salmon skewers and falafels"
+   },
+   {
+    "name": "Pita with Hummus & Yogurt Dip",
+    "description": "Warm pita served with rich hummus and a creamy yogurt dip.",
+    "basis": "the pita came warm with rich hummus and creamy yogurt dip that tied everything together"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFQazzOxbwokRQhqW7x9QGYk",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJI_90zKJbwokRL91_OBv5PWo",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJR_L-5EpbwokR3U5nngcuVPw",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥪",
+  "why": "Behind Fort Greene's counter is one of the borough's best delis — the signature Cold Italian is stacked, quality-driven, and big enough for two meals.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "meat-heavy",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Cold Italian on Hero",
+   "description": "The shop's signature Italian hero, loaded with quality deli meats.",
+   "basis": "one of their signature sandwiches: Cold Italian on Hero, and it did deliver."
+  },
+  "menu": [
+   {
+    "name": "Philly Hero",
+    "description": "A generous hero, big enough to split between lunch and dinner.",
+    "basis": "I ate half of the Philly hero for lunch and saved half for dinner."
+   },
+   {
+    "name": "Turkey and Avocado",
+    "description": "A filling sandwich without the mess.",
+    "basis": "My boyfriend ate half of the Turkey and Avocado. Delicious and filling without the mess."
+   },
+   {
+    "name": "Desserts",
+    "description": "House desserts and Italian grocery items round out the shop.",
+    "basis": "they have killer deserts and general grocery items that are true Italian."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJGfjeLdFbwokREeE6PHj_rlI",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Fort Greene",
+  "emoji": "🐟",
+  "why": "A scrappy live-music bar in Fort Greene where the surprise move is the fish and chips — reviewers call it soooo delicious.",
+  "tags": [
+   "casual",
+   "late-night",
+   "fried",
+   "seafood"
+  ],
+  "signatureDish": {
+   "name": "Fish and Chips",
+   "description": "Crispy fish and chips served with tartar sauce, a fan favorite at this live-music bar.",
+   "basis": "the fish was soooo delicious! Especially with the tartar sauce"
+  },
+  "menu": [
+   {
+    "name": "Wings",
+    "description": "Bar-menu wings ordered alongside cocktails and fried shrimp.",
+    "basis": "I ordered the wings & my friend ordered beer 🍺- battered shrimp 🦐 and fries."
+   },
+   {
+    "name": "Battered Shrimp",
+    "description": "Beer-battered shrimp is one of the bar's fried appetizer options.",
+    "basis": "I ordered the wings & my friend ordered beer 🍺- battered shrimp 🦐 and fries."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJr0EwabhbwokR-0FVsMLLPiw",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍜",
+  "why": "A beloved Clinton Hill Thai spot where regulars build their own custom-spicy drunken noodles order night after night.",
+  "tags": [
+   "spicy",
+   "noodles",
+   "casual",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Drunken Noodles",
+   "description": "Drunken noodles that regulars order custom-made and spicy every time.",
+   "basis": "I always get the drunken noodles which I get custom made and spicy wings."
+  },
+  "menu": [
+   {
+    "name": "Beef Pad See Ew",
+    "description": "A favorite noodle dish among regulars.",
+    "basis": "Definitely one of my favorite Thai spots —I reccommend the beef pad see ew"
+   },
+   {
+    "name": "Mango Sticky Rice",
+    "description": "A generously portioned dessert that draws people in.",
+    "basis": "Came here because I was craving mango sticky rice, which is amazing and a big portion!"
+   },
+   {
+    "name": "Thai Sausage Fried Rice",
+    "description": "Part of a spread that left diners with nothing but praise.",
+    "basis": "We got the Thai sausage fried rice, vegetable dumplings, crab ragoons and chicken satay. All delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJqw817blbwokRcIoXi_PEYqQ",
+  "skip": false,
+  "cuisine": "Vegan",
+  "neighborhood": "Fort Greene",
+  "emoji": "🌱",
+  "why": "Fort Greene's all-vegan kitchen turns out a soy fried cutlet with mock-meat texture reviewers say is the best they've ever had.",
+  "tags": [
+   "vegan-friendly",
+   "spicy",
+   "upscale",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Soy Fried Cutlet",
+   "description": "A mildly spicy fried cutlet with a sauce reviewers loved.",
+   "basis": "Soy fried cutlet was delicious and mildly spicy. The sauce was not too sweet and I loved it. Very filling."
+  },
+  "menu": [
+   {
+    "name": "Vegan Bibimbap Bowl",
+    "description": "A generous, well-composed macrobiotic vegan bibimbap.",
+    "basis": "Macrobiotic absolute yum of a vegan bi bim bop bowl."
+   },
+   {
+    "name": "Malaysian Curry",
+    "description": "A fiery, flavorful curry when ordered spicy.",
+    "basis": "I asked for the veg stir fry and malaysian curry to be spicy and THEY DID NOT DISAPPOINT! It was fiery and flavorful."
+   },
+   {
+    "name": "Fried Mushrooms",
+    "description": "A lunch favorite for many diners.",
+    "basis": "Loved the fried mushrooms, these were my favorites from the lunch!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJW0ld1exbwokRXAF3F9eHShA",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🌮",
+  "why": "Al Pastor tacos reviewers call 'fire' anchor this Clinton Hill Mexican spot that regulars say finally gets Mexican food right in New York.",
+  "tags": [
+   "spicy",
+   "casual",
+   "meat-heavy",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Al Pastor Tacos",
+   "description": "Al pastor tacos that live up to the neighborhood hype.",
+   "basis": "Fresh off eating 3 Al Pastor tacos!! They were fire."
+  },
+  "menu": [
+   {
+    "name": "Fried Fish Tacos",
+    "description": "Fried fish called one of the best reviewers have ever had.",
+    "basis": "the tacos are amazing. The fried fish is one of the best I've ever had!"
+   },
+   {
+    "name": "Vegetable Enchiladas",
+    "description": "A satisfying vegetarian takeout order.",
+    "basis": "I finally decided upon the vegetable enchiladas."
+   },
+   {
+    "name": "Burritos",
+    "description": "Called perfect by regulars.",
+    "basis": "Burritos? PERFECT."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJkbfyAwVbwokRtI5qQrEPyS8",
+  "skip": false,
+  "cuisine": "Seafood",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🦀",
+  "why": "Boil-your-own Cajun seafood feast on Myrtle Ave — reviewers say the 4 lb combo comes out fresh, juicy, and perfectly seasoned every time.",
+  "tags": [
+   "seafood",
+   "spicy",
+   "casual",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Seafood Boil Combo",
+   "description": "A 4-lb Cajun seafood boil packed with bold, well-seasoned flavor.",
+   "basis": "Ordered the 4 lbs seafood boil combo packed with bold flavors."
+  },
+  "menu": [
+   {
+    "name": "Lobster Roll",
+    "description": "Served with a side of crispy fries.",
+    "basis": "Also tried the lobster roll with crispy fries on the side."
+   },
+   {
+    "name": "Garlic Noodles",
+    "description": "Delicious on their own or dipped in the house sauce.",
+    "basis": "The garlic noodles were so delicious (both by themselves and dipped in the captain loui sauce)."
+   },
+   {
+    "name": "Snow Crab Legs",
+    "description": "A shareable order alongside shrimp and Cajun fries.",
+    "basis": "We got 1 pound of shrimp + 1 pound of snow crab legs + Cajun fries + garlic noodles + lemonade between two people."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJzXcOobhbwokRKEp8_36OKYc",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍣",
+  "why": "Yamashiro's shrimp tempura and top-tier omakase have quietly made this unassuming Myrtle Ave spot a Clinton Hill sushi secret for over a decade.",
+  "tags": [
+   "raw",
+   "seafood",
+   "upscale",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Shrimp Tempura",
+   "description": "Big, filling rolls with tempura reviewers call the best they've ever had.",
+   "basis": "I go the shrimp tempura and shrimp shumai. The best shrimp tempura I ever had."
+  },
+  "menu": [
+   {
+    "name": "Chawanmushi",
+    "description": "A standout savory egg custard course in the omakase.",
+    "basis": "Their standout Chawanmushi deserves its own recognition for its depth and breadth."
+   },
+   {
+    "name": "Sushi Rolls",
+    "description": "Five rolls plus seaweed salad and miso soup at a great price.",
+    "basis": "We got 5 rolls, seaweed salad, and miso soup for only 50 dollars!"
+   },
+   {
+    "name": "Teriyaki",
+    "description": "Called the best teriyaki a reviewer has ever had.",
+    "basis": "The best teriyaki anything I’ve ever had."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJDyXcTupbwokRQtYLqQrV3ZI",
+  "skip": false,
+  "cuisine": "Nigerian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍲",
+  "why": "Chef Ayo Balogun's weeknight Nigerian spot in Clinton Hill turns out a gingery Fish Pepper Soup so bold, groups order the entire menu just to taste everything.",
+  "tags": [
+   "spicy",
+   "soup",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Fish Pepper Soup",
+   "description": "A gingery, properly spicy pepper soup reviewers call an instant favorite.",
+   "basis": "Fish Pepper Soup is super gingery, strong, and properly spicy in the best way."
+  },
+  "menu": [
+   {
+    "name": "Beef Short Rib",
+    "description": "One of the personal favorites from a group that ordered the whole menu.",
+    "basis": "some personal favorites were the goat pepper soup, the toast with mushrooms, the cabbage and the beef short rib."
+   },
+   {
+    "name": "Mushroom Toast",
+    "description": "A flavorful bread and mushroom dish recommended as a first course.",
+    "basis": "The bread and mushroom has so much flavor and should be your first stop to start your palette."
+   },
+   {
+    "name": "Puff Puffs",
+    "description": "Light, guava-topped fried dough that diners can't stop eating.",
+    "basis": "The puff puffs are lighter than they seem and the guava will have you digging at the bowl for every drop."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJdzRNGuNbwokRbUMXBSNPvec",
+  "skip": false,
+  "cuisine": "Sichuan",
+  "neighborhood": "Fort Greene",
+  "emoji": "🌶️",
+  "why": "A family-run Fort Greene noodle shop where the beef noodle soup and homemade soup dumplings have reviewers calling it the best in the neighborhood.",
+  "tags": [
+   "spicy",
+   "noodles",
+   "soup",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Beef Noodle Soup",
+   "description": "A rich, clean broth with tender beef, called the best in the area.",
+   "basis": "This family ran joint serves the best beef noodle soup and homemade soup dumplings!"
+  },
+  "menu": [
+   {
+    "name": "Marinated Fried Chicken",
+    "description": "A shareable starter alongside dumplings.",
+    "basis": "We opted to share the Marinated Fried Chicken and the Shrimp and Corn Dumplings"
+   },
+   {
+    "name": "Shrimp and Corn Dumplings",
+    "description": "Shared alongside the fried chicken as a starter.",
+    "basis": "We opted to share the Marinated Fried Chicken and the Shrimp and Corn Dumplings"
+   },
+   {
+    "name": "Spicy Wontons in Chili Oil",
+    "description": "A standout dish diners could eat multiple portions of.",
+    "basis": "Some other standout dishes included the shanghai shumai and spicy wontons in chili oil, which I could easily eat multiple portions of."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2Rhr-qJbwokRSpPmL031lSk",
+  "skip": false,
+  "cuisine": "Indian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍛",
+  "why": "Chargrilled chicken tikka kebab and comfort-food momo dumplings make this Clinton Hill Indian-Nepali spot a neighborhood go-to.",
+  "tags": [
+   "spicy",
+   "vegetarian-friendly",
+   "grilled",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Chicken Tikka Kebab",
+   "description": "Chargrilled chicken breast served on a bed of fresh salad.",
+   "basis": "The chicken tikka kebab came served on a bed of salad with lettuce, onion. carrot, and cabbage."
+  },
+  "menu": [
+   {
+    "name": "Chicken Momo",
+    "description": "Steamed dumplings called an all-time favorite comfort food.",
+    "basis": "The steamed chicken dumplings (momo) are my all-time favorite comfort food, and these were hot, juicy, and filling — nothing extraordinary, but definitely satisfying."
+   },
+   {
+    "name": "Mango Lassi",
+    "description": "A delicately sweet, not overpowering mango lassi.",
+    "basis": "The mango lassi is not overpowered but delicate."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJQRDysMdbwokRO-teYvnLeRc",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Clinton Hill",
+  "emoji": "☕",
+  "why": "Calyer's Chicken Fry sandwich has reviewers calling it the best chicken sandwich of their lives — plus lattes worth lingering over.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Chicken Fry Sandwich",
+   "description": "A crunchy, savory fried chicken sandwich reviewers call the best of their life.",
+   "basis": "Best damn chicken sandwich I ever had in my life."
+  },
+  "menu": [
+   {
+    "name": "Chicken Katsu Sandwich",
+    "description": "A rich, flavorful sandwich with a Japanese-inspired twist.",
+    "basis": "On my first visit, I had the Chicken Katsu. It was delicious, rich in flavor, and had a nice Japanese vibe."
+   },
+   {
+    "name": "Iced Vanilla Latte",
+    "description": "A go-to order with just the right amount of sweetness.",
+    "basis": "Their iced vanilla latte is the perfect amount of sweetness a coffee should have."
+   },
+   {
+    "name": "Egg and Cheese Sandwich",
+    "description": "Paired with a chocolate croissant for a solid cafe breakfast.",
+    "basis": "We got the egg and cheese sandwich and chocolate croissant which were good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJG4WAoLhbwokRyn0RE1BW2Mg",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥡",
+  "why": "A Myrtle Ave Chinese-takeout fixture since the Pratt days, where the chicken and broccoli has diners swearing off every other Chinese spot in town.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "comfort",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Chicken and Broccoli",
+   "description": "A delicious classic in white sauce that ended one reviewer's search for great Chinese food.",
+   "basis": "I had the chicken & broccoli with white sauce & white rice. It was so delicious."
+  },
+  "menu": [
+   {
+    "name": "Orange Chicken",
+    "description": "Flavorful orange chicken and pepper steak in generous portions.",
+    "basis": "We ordered Orange chicken with white meat and Pepper  Steak with extra steak and extra sauce. Very flavorful and large portions."
+   },
+   {
+    "name": "Chicken Lo Mein",
+    "description": "Part of a family lunch-special order everyone loved.",
+    "basis": "I ordered the chicken lo mein for myself, the shrimp and broccoli in brown sauce spicy for my son, and the chicken and broccoli in white sauce for my husband."
+   },
+   {
+    "name": "Roast Pork Bun",
+    "description": "A longtime favorite appetizer still on the menu, big and tasty.",
+    "basis": "my favorite appetizer, roast pork bun, is still on the menu. They're still big and incredibly tasty.."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJU6MaJLxbwokRoB_rd_6_DD0",
+  "skip": false,
+  "cuisine": "Californian",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥗",
+  "why": "OverGreens turns Myrtle Ave produce into perfect juices and satisfying brunch plates that regulars call some of the freshest in the neighborhood.",
+  "tags": [
+   "healthy",
+   "breakfast",
+   "brunch",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Open-Faced Sandwich & Omelette",
+   "description": "A satisfying, beautifully prepared brunch plate.",
+   "basis": "we had omelettes and open-faced sandwiches that were absolutely delicious and very satisfying."
+  },
+  "menu": [
+   {
+    "name": "Acai Bowl",
+    "description": "Fresh ingredients and great flavors in every bite.",
+    "basis": "Delicious acai bowl! 🫐✨ Fresh ingredients great flavors!!"
+   },
+   {
+    "name": "Fresh Juice",
+    "description": "Made from insanely fresh produce.",
+    "basis": "And the juice? Absolutely perfect."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJGQfym7hbwokRCPtkeUPDllk",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍛",
+  "why": "Thai 101's Chicken Rama curry gets kicked up with green chilies, while regulars swear by the Thai wings and lychee martinis on the side.",
+  "tags": [
+   "spicy",
+   "casual",
+   "comfort",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Chicken Rama",
+   "description": "A curry given extra kick with added green chilies.",
+   "basis": "I really liked that they added Green Chillies in my Chicken Rama, made the curry taste better with a lil kick."
+  },
+  "menu": [
+   {
+    "name": "Thai Wings",
+    "description": "A regular's favorite order, always rated 10/10.",
+    "basis": "My favorite order is the Thai wings my favorite food order is the Thai wings , chicken satay and the pineapple fried rice!  Always 10/10"
+   },
+   {
+    "name": "Chicken Satay",
+    "description": "Ordered alongside the Thai wings as a can't-miss combo.",
+    "basis": "My favorite order is the Thai wings my favorite food order is the Thai wings , chicken satay and the pineapple fried rice!  Always 10/10"
+   },
+   {
+    "name": "Pineapple Fried Rice",
+    "description": "Part of the favorite order that's always rated top marks.",
+    "basis": "My favorite order is the Thai wings my favorite food order is the Thai wings , chicken satay and the pineapple fried rice!  Always 10/10"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5Vg2buxbwokR4lYR1LbF7S4",
+  "skip": false,
+  "cuisine": "Japanese",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍱",
+  "why": "This Japanese grocery-diner hybrid on Myrtle Ave is a hidden gem where regulars swing by every few weeks just for the karaage.",
+  "tags": [
+   "comfort",
+   "casual",
+   "rice",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Karaage",
+   "description": "Fresh, cheap Japanese fried chicken that keeps regulars coming back every few weeks.",
+   "basis": "Come here every few weeks for Karaage and some other Japanese snacks. Hidden gem in the neighborhood and really all of Brooklyn."
+  },
+  "menu": [
+   {
+    "name": "Ramen",
+    "description": "An affordable go-to Japanese comfort dish.",
+    "basis": "The ramen is my go to! Very affordable Japanese food!"
+   },
+   {
+    "name": "Beets and Broccoli Rabe",
+    "description": "A loved side dish pairing for a date-night dinner.",
+    "basis": "We loved two dishes we ordered, the beets and beans and broccoli rabe."
+   },
+   {
+    "name": "Onigiri",
+    "description": "Rice balls among the many prepared Japanese grab-and-go items.",
+    "basis": "onigiri (rice balls), ramen kit, beef don, curry, bento boxes, bread, marinated egg"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJL_Hxm7hbwokRPmFfXQi5YfU",
+  "skip": false,
+  "cuisine": "Caribbean",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍗",
+  "why": "El Cofre's roasted chicken with yellow rice and pinto beans has regulars saying they could eat it every single day.",
+  "tags": [
+   "casual",
+   "comfort",
+   "rice",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Roasted Chicken with Yellow Rice",
+   "description": "Juicy chicken with roasted skin over fluffy yellow rice and pinto beans.",
+   "basis": "The food is EXCELLENT! Juicy chicken with roasted skin (perfect!) fluffy yellow rice and savory pinto beans. I could eat this every day."
+  },
+  "menu": [
+   {
+    "name": "Empanadas",
+    "description": "A favorite ordered every chance a regular gets.",
+    "basis": "Really enjoy the empanadas; rice and chicken; I go there every chance I get."
+   },
+   {
+    "name": "Tres Leches",
+    "description": "A classic sweet dessert to cap off the meal.",
+    "basis": "I got the tres leches and a beer as well"
+   },
+   {
+    "name": "Calamari & Salmon Tartar",
+    "description": "Both called out as standout starters by a happy first-timer.",
+    "basis": "Calamari Insane, Salmon Tartar Delicious 🍣"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJuQCsbrhbwokRR_UqqjPt7u0",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥯",
+  "why": "This pigeon-mural bagel shop draws lines up and down Myrtle Ave for build-your-own BEC bagels and endless cream cheese combos.",
+  "tags": [
+   "breakfast",
+   "casual",
+   "quick-bite",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "BEC Bagel Sandwich",
+   "description": "A custom bacon, egg, and cheese bagel sandwich made just how you want it.",
+   "basis": "I enjoyed my version of BEC- Turkey bacon, egg white and cheese  on a scooped out bagel."
+  },
+  "menu": [
+   {
+    "name": "Sesame Bagel with Ham and Eggs",
+    "description": "A toasted classic breakfast bagel.",
+    "basis": "I had a Sesame Bagel toasted with ham and eggs"
+   },
+   {
+    "name": "Bagels & Cream Cheese Varieties",
+    "description": "So many combinations that you truly can't go wrong.",
+    "basis": "there are so many varieties of both bagels and cream cheeses—the combinations are endless! You truly cannot go wrong; they’re all fantastic."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJk2jlk8BbwokRUmgH7GEAmbg",
+  "skip": false,
+  "cuisine": "Sichuan",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🌶️",
+  "why": "Across from Pratt, DunHuang Miss Noodles turns out a flavorful Sichuan fish in broth alongside a four season beans dish regulars call a must-order every visit.",
+  "tags": [
+   "spicy",
+   "noodles",
+   "soup",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Sichuan Fish in Broth",
+   "description": "A flavorful, nicely done fish soup.",
+   "basis": "The sichuan fish in broth was flavorful and nicely done."
+  },
+  "menu": [
+   {
+    "name": "Spicy Peppercorn Chicken",
+    "description": "A really nicely flavored spicy dish.",
+    "basis": "Spicey Peppercorn Chicken - really nice flavor"
+   },
+   {
+    "name": "Crisp Pork",
+    "description": "A tasty option at a good price.",
+    "basis": "Crisp Pork - also really nice and good price"
+   },
+   {
+    "name": "Four Season Beans",
+    "description": "A must-order vegetable dish on every visit.",
+    "basis": "Strongly recommend the four season beans, it’s a must order every time I go."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJm3h0jMBbwokRvvwglVp_ukQ",
+  "skip": false,
+  "cuisine": "Sushi",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍣",
+  "why": "Regulars say U-Gu quietly serves some of the best, freshest sushi near Clinton Hill and Fort Greene — the buttery fatty cuts are the move.",
+  "tags": [
+   "raw",
+   "seafood",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Scallop Roll",
+   "description": "A delicious roll alongside the fresh, clean-tasting yellowtail.",
+   "basis": "The scallop roll was delicious! And the yellow tail roll tasted very fresh and clean"
+  },
+  "menu": [
+   {
+    "name": "Omakase",
+    "description": "Worth ordering, with wasabi customizable to taste.",
+    "basis": "Omakase is worth it. When you order, specify less or no wasabi if you don't like it."
+   },
+   {
+    "name": "Fatty Fish Cuts",
+    "description": "Buttery, fresh fatty cuts among the best fish on the menu.",
+    "basis": "Mostly fresh fishes, especially the fatty ones. The fatty ones are very buttery in texture."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJpTMaVMdbwokRemBmOAo6K5A",
+  "skip": false,
+  "cuisine": "Ramen",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍜",
+  "why": "Waza's crispy Salmon Teriyaki is the regulars' go-to, backed by rich ramen and fully customizable poke bowls.",
+  "tags": [
+   "noodles",
+   "soup",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Salmon Teriyaki",
+   "description": "A go-to dish, especially loved cooked crispy.",
+   "basis": "The Salmon Teriyaki is always my go-to dish—I especially love it when it's cooked crispy."
+  },
+  "menu": [
+   {
+    "name": "Poke Bowl",
+    "description": "Easy to customize with a great variety of toppings, proteins, and sauces.",
+    "basis": "so it’s easy to customize your poke bowl"
+   },
+   {
+    "name": "Ramen",
+    "description": "Rich and flavorful alongside fresh sushi.",
+    "basis": "the ramen was rich and flavorful"
+   },
+   {
+    "name": "Sushi Pizza",
+    "description": "A distinctive menu item alongside the fried fish.",
+    "basis": "They have a wide variety of food such as the sushi pizza and fried fish"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJpTps8bdbwokRJlV1kHCSWPQ",
+  "skip": false,
+  "cuisine": "Deli",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥪",
+  "why": "Farmer in the Deli's viral chopped sandwich lives up to the hype — reviewers call it far better than expected, especially loaded with flaming hot Ruffles.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "late-night",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Chopped Sandwich",
+   "description": "The viral chopped sandwich with chips, better than expected.",
+   "basis": "honestly the chopped sandwich with chips was absolutely fantastic. Far better than I excepted."
+  },
+  "menu": [
+   {
+    "name": "Salsalito Turkey Sandwich",
+    "description": "A fully loaded turkey sandwich built to order.",
+    "basis": "My order was salsalito turkey with pepper jack cheese, lettuce, tomatoes, onions, mayo, oil, vinegar, salt & pepper, and the flaming hot ruffles. Overall the sandwich was great"
+   },
+   {
+    "name": "Flaming Hot Ruffles Add-On",
+    "description": "The viral chip add-in recommended by content creators.",
+    "basis": "I went with the flaming hot ruffles."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJbflYIQBbwokR8OKtgIFrnjo",
+  "skip": false,
+  "cuisine": "Mexican",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🌮",
+  "why": "Mariscos El Submarino's fish and shrimp tacos taste like a trip to Mexico City, and reviewers call it the best Mexican food they've ever had.",
+  "tags": [
+   "seafood",
+   "spicy",
+   "casual",
+   "raw"
+  ],
+  "signatureDish": {
+   "name": "Fish and Shrimp Tacos",
+   "description": "Delicious tacos that reviewers call the best Mexican food they've had.",
+   "basis": "This is the best Mexican food I ever had. Fish and shrimp tacos are delicious."
+  },
+  "menu": [
+   {
+    "name": "Aguachile",
+    "description": "Fresh shrimp and oysters in a flavorful aguachile.",
+    "basis": "The aguachile had a really good flavor, the camarones were delicious and the Oysters fresh"
+   },
+   {
+    "name": "Grilled Shrimp",
+    "description": "A recommended order alongside the aguachile tower.",
+    "basis": "Def recommend the grilled shrimp, aquachiles and the tower ❤️"
+   },
+   {
+    "name": "Shrimp Ceviche",
+    "description": "Shared alongside aguachile and caldo mixto.",
+    "basis": "We shared the aguachile mixto verde, shrimp ceviche and caldo mixto."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJqRCAF7hbwokRSOXqtotDWRw",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJz6mi8-pbwokRQdxePCgAn9A",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍕",
+  "why": "GANNI'S has been slinging the same quality cheese pizza for two decades, and reviewers call the Buffalo chicken slice the best they've ever had.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Buffalo Chicken Slice",
+   "description": "A slice reviewers call the best they've ever had, alongside a top-tier Hawaiian slice.",
+   "basis": "The Hawaiian slice is one of the best I’ve had and the Buffalo chicken IS THE BEST I’ve ever had!"
+  },
+  "menu": [
+   {
+    "name": "Baked Ziti",
+    "description": "Made with the right amount of ingredients for a delicious result.",
+    "basis": "I highly recommend their slices of pizza and their Baked Ziti. They used the right amount of ingredients making it perfectly delicious."
+   },
+   {
+    "name": "Cheese Slice",
+    "description": "A fair-priced classic slice.",
+    "basis": "I ordered a slice of pizza and a Coca-Cola for about $5, which I thought was a fair price."
+   },
+   {
+    "name": "Quality Cheese Pizza",
+    "description": "The same reliable quality cheese for two decades.",
+    "basis": "The exact same, as far as I can tell for 2 decades- quality cheese, friendly, best in the area as far as I know."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJGT4kGGVbwokRB2WAXHKgTvg",
+  "skip": false,
+  "cuisine": "Middle Eastern",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥙",
+  "why": "Halal Munchies keeps the lamb over rice platters flavorful and the fries genuinely crispy — reviewers call it one of the best halal spots in Brooklyn.",
+  "tags": [
+   "meat-heavy",
+   "casual",
+   "quick-bite",
+   "fried"
+  ],
+  "signatureDish": {
+   "name": "Lamb Over Rice",
+   "description": "A flavorful lamb platter reviewers say is full of flavor.",
+   "basis": "I had the lamb over rice, it was full of flavor"
+  },
+  "menu": [
+   {
+    "name": "Chicken Over Rice",
+    "description": "One of several dishes reviewers say all hit the spot.",
+    "basis": "I’ve tried the chicken over rice, lamb gyro, and their wings—and every single dish hits the spot."
+   },
+   {
+    "name": "Chicken Burger",
+    "description": "A delicious burger enjoyed in a clean, welcoming spot.",
+    "basis": "The chicken burger was delicious, and the atmosphere was great clean and welcoming."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5cuku29bwokR2YvqGyNqWh4",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍕",
+  "why": "Joe and Sal's nails the classic Fort Greene pizzeria formula — a crispy-chewy crust, a sauce that tastes homemade, and a lasagna reviewers call pretty darn good.",
+  "tags": [
+   "cheese",
+   "casual",
+   "quick-bite",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Pizza Slice",
+   "description": "A consistently fresh slice with a crispy-chewy crust and a sauce that tastes homemade.",
+   "basis": "The slices are consistently fresh, the crust has that perfect balance of crispy and chewy, and the sauce tastes like it’s made by someone who actually cares."
+  },
+  "menu": [
+   {
+    "name": "Lasagna",
+    "description": "A pretty darn good first-time order.",
+    "basis": "first time trying their lasagna and it was pretty darn good."
+   },
+   {
+    "name": "Fettuccine Alfredo",
+    "description": "A well-liked pasta option beyond the pizza menu.",
+    "basis": "The fettuccine alfredo is also 👌"
+   },
+   {
+    "name": "Second Slice",
+    "description": "Good enough that one slice was never quite enough.",
+    "basis": "I ended up ordering a second slice it was really good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJzbXRDpFbwokRpcfjIz0OtJg",
+  "skip": false,
+  "cuisine": "Caribbean",
+  "neighborhood": "Downtown Brooklyn",
+  "emoji": "🍗",
+  "why": "Chef Shorne Benjamin's legendary oxtail grilled cheese is the reason DeKalb Market Hall regulars beeline for Fat Fowl.",
+  "tags": [
+   "cheese",
+   "comfort",
+   "sweet",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Oxtail Grilled Cheese",
+   "description": "A legendary sandwich from Chef Shorne Benjamin, tender with perfect cheese flavor.",
+   "basis": "The one known for the legendary oxtail grilled cheese, lavender rotisserie chicken, and sides that always understand the assignment."
+  },
+  "menu": [
+   {
+    "name": "Lavender Rotisserie Chicken",
+    "description": "Another dish from the chef known for understanding the assignment.",
+    "basis": "The one known for the legendary oxtail grilled cheese, lavender rotisserie chicken, and sides that always understand the assignment."
+   },
+   {
+    "name": "Oxtail Mac and Cheese",
+    "description": "A hearty side served alongside the signature sandwich.",
+    "basis": "Oxtail Mac and Cheese"
+   },
+   {
+    "name": "Rose Lemonade",
+    "description": "A refreshing drink rated a perfect 10 out of 10.",
+    "basis": "The Rose lemonade was refreshing 10 out of 10"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ1U-nemFbwokRLVb7ULwu3B0",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Downtown Brooklyn",
+  "emoji": "🍝",
+  "why": "Botte's Fettuccine Bolognese and gnocchi ripieni cacio e pepe turn a cozy Gold Street corner into one of Downtown Brooklyn's best Italian nights out.",
+  "tags": [
+   "noodles",
+   "upscale",
+   "date-night",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Fettuccine Bolognese",
+   "description": "An outstanding Bolognese reviewers call the best they've had in a long time.",
+   "basis": "The Fettuccine Bolognese was outstanding ... easily the best I’ve had in a long time"
+  },
+  "menu": [
+   {
+    "name": "Pizza Fra Diavolo",
+    "description": "Just the right amount of heat without being overpowering.",
+    "basis": "the pizza Fra Diavolo was amazing; it had just the right amount of heat to get your attention without being overpowering."
+   },
+   {
+    "name": "Seafood Pasta",
+    "description": "Fresh and flavorful, cooked just right.",
+    "basis": "The seafood pasta was fresh, flavorful, and cooked just right, with a nice balance of olive oil, tomatoes, herbs, and spice."
+   },
+   {
+    "name": "Gnocchi Ripieni Cacio e Pepe",
+    "description": "A dish that makes you pause after the first bite.",
+    "basis": "The gnocchi ripieni cacio e pepe was the kind of dish that makes you pause after the first bite."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJx6POq9lbwokR2Fm47S6DojQ",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJ1xNe4cxbwokRnDw-6Rvhxng",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Vinegar Hill",
+  "emoji": "🍽️",
+  "why": "Tucked into hidden Vinegar Hill, this cozy New American spot turns out an apple sourdough pancake reviewers call heavenly, split perfectly for two.",
+  "tags": [
+   "brunch",
+   "comfort",
+   "upscale",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Apple Sourdough Pancake",
+   "description": "A heavenly brunch pancake, perfectly sized to split for two.",
+   "basis": "The apple sourdough pancake was HEAVENLY. I think they actually did cook it up in heaven and bring it down to Brooklyn."
+  },
+  "menu": [
+   {
+    "name": "Chicken Liver Mousse",
+    "description": "Served with beets, called one of the best a reviewer has had.",
+    "basis": "Chicken liver mouse and beets were one of the best I’ve ever had."
+   },
+   {
+    "name": "Omelette",
+    "description": "A simple, soft, and creamy omelette.",
+    "basis": "And the omelette?? So simple, no frills tbh but so soft and creamy"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJA_l-oTBbwokRBtUNR6ulyj0",
+  "skip": false,
+  "cuisine": "Pizza",
+  "neighborhood": "Navy Yard",
+  "emoji": "🍕",
+  "why": "Steps from the Brooklyn Navy Yard, Pizzeria Fantastica's wood-fired Margherita has reviewers calling it simply the best pizza they've found in the city.",
+  "tags": [
+   "cheese",
+   "quick-bite",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Margherita Pizza",
+   "description": "A wood-fired pie with a soft, chewy crust, fresh mozzarella, and tomatoes.",
+   "basis": "The Margarita had a soft, chewy crust which was unusual for a wood fired pizza. The mozzarella was fresh and so was the tomatoes used in the sauce. The basil was a nice finishing touch."
+  },
+  "menu": [
+   {
+    "name": "Lunch Special Slice & Drink",
+    "description": "A great-value lunch combo.",
+    "basis": "I got the lunch special and thought it was great value."
+   },
+   {
+    "name": "Classic Pizza",
+    "description": "Unfussy, unpretentious, and simply the best pizza around.",
+    "basis": "Simply the best pizza I’ve come across living in the city. Unfussy, unpretentious, inexpensive, just plain good."
+   },
+   {
+    "name": "Build-Your-Own Toppings Pizza",
+    "description": "Amazing and fresh with your favorite toppings.",
+    "basis": "The pizza 🍕 is amazing and fresh, choose your favorite toppings, and the customer service is great 👍🏾"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ9adCl5ZbwokRvADevJkf_78",
+  "skip": false,
+  "cuisine": "Deli",
+  "neighborhood": "Navy Yard",
+  "emoji": "🥯",
+  "why": "A century-old Lower East Side legend now inside the Navy Yard food hall, serving bagels loaded with top-tier smoked salmon and cream cheese.",
+  "tags": [
+   "breakfast",
+   "seafood",
+   "upscale",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Bagel with Salmon",
+   "description": "A quality bagel loaded with a variety of salmon options and cream cheese.",
+   "basis": "First time having nyc bagel and loved the quality of bread, cream cheese and variety of salmon options."
+  },
+  "menu": [
+   {
+    "name": "Classic Bagel",
+    "description": "Called one of the best bagels in New York.",
+    "basis": "One of the best bagels I’ve had in New York."
+   },
+   {
+    "name": "Bagels and Pastries",
+    "description": "Varied toppings and options, freshly prepped.",
+    "basis": "great portion sizes, varied toppings, lots of options, fresh bagels and pastries, able to see food being prepped."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHf11RTtZwokRUrBzv0lvNso",
+  "skip": true
+ },
+ {
+  "placeId": "ChIJ3_aKBdlbwokRB4MzhiifcfE",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Williamsburg",
+  "emoji": "🍝",
+  "why": "Date-night Italian where the chicken parm and rainbow cookie sundae are non-negotiable orders.",
+  "tags": [
+   "date-night",
+   "comfort",
+   "cheese",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Chicken Parm",
+   "description": "A classic red-sauce parm reviewers rank among the best they've had, even measured against meals in Italy.",
+   "basis": "the chicken parm and mushroom linguine were some of the best we’d had since coming back from Italy!"
+  },
+  "menu": [
+   {
+    "name": "Meatballs",
+    "description": "A hearty, highly recommended plate that regulars call so good alongside the brussel sprouts.",
+    "basis": "highly recommend the brussel sprouts and meatballs, just so good!"
+   },
+   {
+    "name": "Rainbow Cookie Sundae",
+    "description": "A playful dessert diners call nonnegotiable, right alongside the burrata garlic bread.",
+    "basis": "the rainbow cookie sundae are nonnegotiable - do not skip those!!"
+   },
+   {
+    "name": "Nonna's Rainbow Pie",
+    "description": "A house specialty pie named a top favorite for a magical anniversary dinner.",
+    "basis": "Our favorites were Nonna’s Rainbow Pie, the meatballs, and of course the rainbow cookie sundae."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJPynGWUFbwokRDyYQF6YjDiM",
+  "skip": false,
+  "cuisine": "Fusion",
+  "neighborhood": "Bedford-Stuyvesant",
+  "emoji": "🍤",
+  "why": "A Bed-Stuy fusion staple where spicy crab fried rice and a can't-miss bottomless brunch keep regulars loyal.",
+  "tags": [
+   "casual",
+   "spicy",
+   "brunch",
+   "rice"
+  ],
+  "signatureDish": {
+   "name": "Crab Fried Rice",
+   "description": "A spicy, flavorful fried rice reviewers call just as tasty as the rest of the fusion menu.",
+   "basis": "The crab fried rice had a nice spicy kick and was just as tasty."
+  },
+  "menu": [
+   {
+    "name": "Dumplings",
+    "description": "A salty-sweet dumpling with a flavor reviewers say they'd never tasted before.",
+    "basis": "The dumplings were a bit salty, but they were absolutely delicious. The flavor was incredibly unique"
+   },
+   {
+    "name": "Shrimp and Grits",
+    "description": "A soulful brunch order fans single out alongside fish and grits and lomo saltado.",
+    "basis": "Food is incredible. We ordered the shrimp and grits, fish and grits, and lomo saltado."
+   },
+   {
+    "name": "Bokchoy",
+    "description": "A server-recommended vegetable dish diners call the best food on the table.",
+    "basis": "she recommended the best food (Bokchoy) and kept our cups full"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFSPlcvlbwokRlwfYEFTR6AM",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Downtown Brooklyn",
+  "emoji": "🥟",
+  "why": "Downtown Brooklyn's go-to for soup-filled dumplings and a fast, satisfying lunch combo.",
+  "tags": [
+   "soup",
+   "noodles",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Soup Dumplings",
+   "description": "The signature xiao long bao, with a soft thin skin and a broth-filled center diners call solid.",
+   "basis": "The soup dumpling is solid. Skin is very soft and thin ( can break easily, pick up carefully) lots of soup inside."
+  },
+  "menu": [
+   {
+    "name": "Pork Pot Stickers",
+    "description": "Perfectly cooked pot stickers reviewers call absolutely delicious and packed with flavor.",
+    "basis": "the pork pot stickers which were absolutely delicious, perfectly cooked, and packed with flavor"
+   },
+   {
+    "name": "Scallion Pancakes",
+    "description": "A crisp starter that's part of a great quick-bite combo.",
+    "basis": "I got the scallion pancakes and the crispy bottom pork buns. Both were delicious!"
+   },
+   {
+    "name": "Beef Rice Bowl",
+    "description": "A comforting rice bowl reviewers really enjoyed alongside the hot and sour soup.",
+    "basis": "really enjoyed the beef rice bowl and the hot and sour soup"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFyj02-NbwokRNSLdkuCe98A",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍨",
+  "why": "Clinton Hill's ice cream sandwich pioneer, now a full-on cookie-and-cake shrine.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "coffee",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Goodwich Ice Cream Sandwich",
+   "description": "A pricey but instantly mind-changing ice cream cookie sandwich.",
+   "basis": "Purchased the Goodwich. At first I thought the Ice Cream Cookie sandwich was outrageously expensive ($8) but as soon as I bit into, I immediately changed my mind!"
+  },
+  "menu": [
+   {
+    "name": "Mango Sticky Rice Ice Cream Sandwich",
+    "description": "A creative flavor mashup reviewers call full of good flavor and texture.",
+    "basis": "They were selling the mango sticky rice ice cream sandwich and I was truly amazed by it. So tasty and delicious, full of good flavor and textures."
+   },
+   {
+    "name": "Cheese & Chive Savory Scone",
+    "description": "A structurally sound scone with prominent cheddar and chive flavor.",
+    "basis": "You could taste the cheddar and chives prominently and it was structurally sound"
+   },
+   {
+    "name": "Cookies",
+    "description": "Dangerously good cookies that make you rethink every dessert decision.",
+    "basis": "Their cookies are dangerously good - the kind where you tell yourself you’ll save half for later"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJbfrpKHlbwokR8xvD60Fx0Sg",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥐",
+  "why": "A justified-line Clinton Hill bakery where the croissants are some of the best around.",
+  "tags": [
+   "bread",
+   "coffee",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Croissant",
+   "description": "One of the most delicious croissants reviewers say they've ever had.",
+   "basis": "The croissants are one of the most delicious that I was ever had."
+  },
+  "menu": [
+   {
+    "name": "Peach Danish",
+    "description": "A standout sweet pick alongside the savory kimchi bun.",
+    "basis": "from the savory offering kimchi bun and from the sweets is peach Danish."
+   },
+   {
+    "name": "Chocolate Babka",
+    "description": "A stunning babka that stuck with visitors long after their stop.",
+    "basis": "chocolate babka that were stunning! Still thunking about the danish"
+   },
+   {
+    "name": "Morning Bun & Sticky Bun",
+    "description": "Fresh, moist buns worth braving the neighborhood's weekend line.",
+    "basis": "I got the morning and sticky bun and they were both so fresh, still moist"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZShmEcRbwokR5l_flWfUIso",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍮",
+  "why": "A cozy corner French bakery where the pastries earn their steep price tags.",
+  "tags": [
+   "sweet",
+   "coffee",
+   "dessert"
+  ],
+  "signatureDish": {
+   "name": "Apricot Pistachio Pie",
+   "description": "A not-too-sweet pie reviewers call really good alongside the cappuccino.",
+   "basis": "I ordered a cappuccino and an apricot pistachio pie. Both were really good."
+  },
+  "menu": [
+   {
+    "name": "Apple Tart",
+    "description": "A great-value tart praised for its reasonable price and flavor.",
+    "basis": "Lots of options at a pretty reasonable (for NY) price. The apple tart was great!"
+   },
+   {
+    "name": "Chocolate Croissant",
+    "description": "The pastry reviewers call amazing despite the steep price tag.",
+    "basis": "The chocolate one was amazing. No wonder they charged."
+   },
+   {
+    "name": "Macarons",
+    "description": "Authentic, well-made macarons served by a hardworking, friendly crew.",
+    "basis": "Love the authenticity, macaron quality was good too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJPQwKC-RbwokR13i0Pu2coqU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Clinton Hill",
+  "emoji": "☕",
+  "why": "A dog-friendly Clinton Hill coffee bar built around the beloved Magick coffee.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Magick Coffee",
+   "description": "The house specialty drink reviewers say is a must-try.",
+   "basis": "I recommend that you try the Magick coffee."
+  },
+  "menu": [
+   {
+    "name": "Cappuccino",
+    "description": "A well-loved cappuccino served by a friendly, efficient staff.",
+    "basis": "Great cappuccino, super friendly and helpful staff, its nice to find a place like this"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJr9aXkbtbwokRyPa21sdNtNY",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Clinton Hill",
+  "emoji": "☕",
+  "why": "A brownstone-patio cafe where good coffee and a laptop-free hour make the perfect break.",
+  "tags": [
+   "coffee",
+   "casual",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "Latte",
+   "description": "A really good latte served in a charming brownstone setting.",
+   "basis": "but the coffee itself is really good. I got a hot latte with almond milk."
+  },
+  "menu": [
+   {
+    "name": "Quiche",
+    "description": "A good quiche, if a pricier order than expected.",
+    "basis": "The food is good and the service is great but the prices are wild ($19 for a quiche and coffee?!)"
+   },
+   {
+    "name": "Americano & Pastry",
+    "description": "A dependable americano and pastry combo loved by neighborhood regulars.",
+    "basis": "good wifi. good americano and pastry!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5xkWwfdbwokR-W7O5xNBL9I",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥧",
+  "why": "A pie-obsessed Clinton Hill cafe turning out some of the best crusts in the borough.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Classic Apple Pie",
+   "description": "One of the best pies reviewers say they've ever tasted.",
+   "basis": "I had the classic apple pie. I’m a huge pie fan and let me tell you this has probably been one of the best pies I’ve tasted."
+  },
+  "menu": [
+   {
+    "name": "Brown Butter Pecan Honey Pie",
+    "description": "A rich, buttery pie that lives up to the hype without being overly sweet.",
+    "basis": "I went with the brown butter pecan honey pie and it completely lived up to the hype"
+   },
+   {
+    "name": "Salty Chocolate Chess Pie",
+    "description": "A decadent, creamy pie best paired with housemade maple whipped cream.",
+    "basis": "had the Salty Chocolate Chess pie and it was insanely good! Like if my stomach had no limit I would eat the whole pie! Super decadent and creamy!!!"
+   },
+   {
+    "name": "Cherry Crumble Pie",
+    "description": "A tart, buttery crumble pie that's a Mother's Day favorite.",
+    "basis": "I bought the cherry crumble pie on mother's Day and it was SOOOO good!!!!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJe1O4wpRbwokRu8RmeM2Xji4",
+  "skip": false,
+  "cuisine": "Czech",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥐",
+  "why": "A Czech-pastry hideaway where sweet and savory kolaches earn cross-borough pilgrimages.",
+  "tags": [
+   "sweet",
+   "comfort",
+   "quick-bite",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Kolaches",
+   "description": "A delicious sweet-and-savory kolache lineup with a flavor for every preference.",
+   "basis": "the real reason we come back, is the delicious assortment of savory and sweet kolaches, there's a flavor to meet everyone's preferences."
+  },
+  "menu": [
+   {
+    "name": "Savory Kolache",
+    "description": "Unique savory kolaches worth trying beyond the classic sweet versions.",
+    "basis": "Next time I visit I'll definitely have to try their savory kolaches!"
+   },
+   {
+    "name": "Ube Matcha Latte",
+    "description": "A fresh, tasty oat-milk latte customers keep returning for.",
+    "basis": "I tried the Ube Matcha Latte with Oat-milk. Loved it."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJy4UaG1bwokRRnpJjk-ozac",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Prospect Heights",
+  "emoji": "🥪",
+  "why": "A Prospect Heights sandwich shop whose vegetarian Paolo is worth coming back for on its own.",
+  "tags": [
+   "vegetarian-friendly",
+   "casual",
+   "bread",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "The Paolo",
+   "description": "A vegetarian sandwich worth coming back for, built on sweet potato, arugula and parmesan.",
+   "basis": "A vegetarian sandwich to come back for.\n\nIt hits all the right notes - savory sweet potato cooked to a perfect texture"
+  },
+  "menu": [
+   {
+    "name": "Avocado and Egg Burger",
+    "description": "A hearty breakfast sandwich reviewers enjoyed on repeat visits.",
+    "basis": "my friend had avocado and egg burger, she enjoyed!"
+   },
+   {
+    "name": "Autumn Salad",
+    "description": "A big, generous seasonal salad that's a lunchtime favorite.",
+    "basis": "I got autumn salad and it was big and delicious!"
+   },
+   {
+    "name": "Prosciutto Sandwich",
+    "description": "Soft, freshly baked bread holding a classic prosciutto sandwich.",
+    "basis": "The bread on this sandwich was super soft and delicious, made fresh as ordered."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ71bZyqtbwokRdcdFj8pbLh4",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Bedford-Stuyvesant",
+  "emoji": "🍞",
+  "why": "A Bed-Stuy bread shop that turns skeptics into sourdough evangelists, one tasting table at a time.",
+  "tags": [
+   "bread",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Sourdough Loaf",
+   "description": "A fresh, flavorful sourdough reviewers call absolutely delicious.",
+   "basis": "The sourdough is fresh, flavorful, and absolutely delicious."
+  },
+  "menu": [
+   {
+    "name": "Bread Tasting Table",
+    "description": "A build-your-own tasting pairing fresh-cut sourdough with house spreads.",
+    "basis": "they had a tasting table with cut up fresh sourdough and different spreads to dip it into."
+   },
+   {
+    "name": "Signature Sourdough",
+    "description": "A game-changing loaf regulars call legit next to every famous NYC sourdough spot.",
+    "basis": "It’s a total game changer. I’ve tried almost every famous sourdough spot in NYC, and this place is legit."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFxQERvlbwokRWOqS1SHMGJE",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Clinton Hill",
+  "emoji": "☕",
+  "why": "A tiny Clinton Hill espresso bar where the iced soymilk cortado is to die for.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Iced Soymilk Cortado",
+   "description": "A cortado reviewers call absolutely to die for.",
+   "basis": "My iced soymilk Cortado was absolutely to die for, along with my ham and cheese croissant"
+  },
+  "menu": [
+   {
+    "name": "Cappuccino with Almond Milk",
+    "description": "An exquisite almond milk cappuccino from artisan baristas.",
+    "basis": "I tried the cappuccino with almond milk and it was absolutely exquisite."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJNRMU5iNbwokRdDs43iHItsA",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Clinton Hill",
+  "emoji": "☕",
+  "why": "A Clinton Hill coffee stop loved for its healthy smoothies and reliable espresso lineup.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Avo Queen Smoothie",
+   "description": "A healthy favorite smoothie diners say they're loving.",
+   "basis": "I’m loving their Avo Queen smoothie and dark chocolate gluten-free macaron."
+  },
+  "menu": [
+   {
+    "name": "Cold Cappuccino",
+    "description": "A very good cold cappuccino with oat milk.",
+    "basis": "I got a cold cappuccino with oat milk. It is very very good!"
+   },
+   {
+    "name": "ABC Bagel",
+    "description": "A well-loved bagel paired with reliably good regular coffee drinks.",
+    "basis": "Super nice staff, really good coffee, and ABC bagel."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJU9PweqZbwokRKNVRvloctiI",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Prospect Heights",
+  "emoji": "🧁",
+  "why": "A Prospect Heights sweets spot where the 10/10 banana pudding steals the show.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Banana Pudding",
+   "description": "A 10/10 banana pudding reviewers call a standout.",
+   "basis": "Also their Banana Pudding is 10/10."
+  },
+  "menu": [
+   {
+    "name": "Layer Cakes",
+    "description": "A lineup of standout cake flavors from Coconut Cloud to Southern Red Velvet.",
+    "basis": "The cakes are amazing. Such as Coconut Cloud, Brooklyn Blackout, Good Humor Strawberry, Southern Red Velvet and Confetti."
+   },
+   {
+    "name": "Chai Latte & Carrot Cake",
+    "description": "A cozy chai and carrot cake combo regulars keep ordering.",
+    "basis": "I love chai latte and carrot cake here. They were so good."
+   },
+   {
+    "name": "Strawberry Cake",
+    "description": "An underrated cake that outshines the more hyped blackout cake.",
+    "basis": "the strawberry cake was pretty good. Their other options are better."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ-eBifR5bwokRgXeVyNhDBFg",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🍩",
+  "why": "Small-batch Clinton Hill doughnuts with rotating flavors reviewers call the best of their lives.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Calamansi Bun",
+   "description": "A toffee-crisp-topped bun reviewers rank in the top 5 doughnuts of their life.",
+   "basis": "The special Calamansi bun with toffee crisps on top instantly enters into the top 5 best donuts of my life."
+  },
+  "menu": [
+   {
+    "name": "Mango Lassi Donut",
+    "description": "A tangy standout with mango-cardamom glaze and yogurt drizzle.",
+    "basis": "The Mango Lassi is the standout: mango and cardamom glaze with a yogurt drizzle that keeps it tangy instead of cloying."
+   },
+   {
+    "name": "Danny Boy & Chocolate Churro",
+    "description": "Fan-favorite flavors among regulars' top picks.",
+    "basis": "The Danny Boy, chocolate churro, and mango lassi are absolutely delicious"
+   },
+   {
+    "name": "Raspberry Lemongrass Donut",
+    "description": "A tart, floral doughnut rarely matched elsewhere.",
+    "basis": "The Raspberry Lemongrass was a close second, tart and floral in a way you rarely find in a doughnut."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJWfvB9LdbwokRZ6YNGpVlyf8",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍰",
+  "why": "A Fort Greene bakery whose moist carrot cake reduces grown adults to tears.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Carrot Cake",
+   "description": "A moist carrot cake reviewers say brought them to tears.",
+   "basis": "When I say I cried taking the 3rd bite of that carrot cake, I’m not joking."
+  },
+  "menu": [
+   {
+    "name": "Cinnamon Bun",
+    "description": "A heavenly cinnamon bun devoured mid-review.",
+    "basis": "I just ate half of my cinnamon bun. I am in HEAVEN."
+   },
+   {
+    "name": "Sweet Potato Pie",
+    "description": "A mini pie with a giant taste.",
+    "basis": "I ordered a mini sweet potato pie with a GIANT taste!"
+   },
+   {
+    "name": "S'more Cookies",
+    "description": "Fantastic cookies rounding out a can't-miss dessert spread.",
+    "basis": "The s’more cookies were fantastic."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJyaXpOpRbwokRxT_0dyBEgjA",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥐",
+  "why": "A Fort Greene French bakery staple for well-layered butter croissants and a jovial crew.",
+  "tags": [
+   "bread",
+   "coffee",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Butter Croissant",
+   "description": "A well-layered classic butter croissant paired with coffee.",
+   "basis": "I ordered the classic butter croissant and a coffee. The croissant was well layered"
+  },
+  "menu": [
+   {
+    "name": "Financiers",
+    "description": "Beloved blueberry and plain financiers that keep regulars coming back.",
+    "basis": "I LOVE their Financiers blueberry & plain"
+   },
+   {
+    "name": "Raspberry Danish",
+    "description": "A great danish, though raspberry lovers wish for more filling.",
+    "basis": "the raspberry danish was great but as a raspberry lover i wish there were a few more."
+   },
+   {
+    "name": "Pate Sandwich",
+    "description": "A pleasantly surprising sandwich where mustard and cornichon tie the flavors together.",
+    "basis": "Pleasantly surprised as the mustard and cornichon tied the flavors well."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJgy96iitbwokReJBLqh-os7k",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Bedford-Stuyvesant",
+  "emoji": "🧁",
+  "why": "A Bed-Stuy cupcake studio whose strawberry cheesecake cupcake tastes as phenomenal as it looks.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Strawberry Cheesecake & Banana Pudding Cupcakes",
+   "description": "Phenomenal cupcakes that taste exactly like their namesake desserts.",
+   "basis": "These cupcakes are PHENOMENAL. Strawberry cheese cake is so moist and creamy and the banana pudding cupcake legit tastes like banana pudding."
+  },
+  "menu": [
+   {
+    "name": "Biscoff Wedding Cake & Cupcakes",
+    "description": "A custom wedding order praised as wonderful.",
+    "basis": "We chose the Biscoff cupcakes and cake. It was wonderful thank you you definitely support this business."
+   },
+   {
+    "name": "Coconut Mango Matcha",
+    "description": "A carefully hand-crafted specialty drink worth the wait.",
+    "basis": "So it did take a little while but the drink was absolutely delicious. I had the coconut mango matcha"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ69-RqrRbwokRz0tg212yZRk",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "Downtown Brooklyn",
+  "emoji": "🥖",
+  "why": "A Dekalb Market Hall stall slinging France-worthy baguette sandwiches and warm service.",
+  "tags": [
+   "bread",
+   "coffee",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Salami Baguette Sandwich",
+   "description": "A sandwich that goes beyond expectations, crispy and reminiscent of French baguettes.",
+   "basis": "Had the salami baguette sandwich which went beyond expectations. A little too salty, but deliciously crispy and reminds me of baguettes I’ve eaten in France."
+  },
+  "menu": [
+   {
+    "name": "Ham Croissant",
+    "description": "A delicious croissant paired with the shop's excellent coffee.",
+    "basis": "The coffee is amazing, and the ham croissant is absolutely delicious."
+   },
+   {
+    "name": "French Baguette Bread",
+    "description": "Delicious, authentic French bread that keeps customers coming back.",
+    "basis": "French baguette breads and other products looked good. The bread I bought was really delicious."
+   },
+   {
+    "name": "Honey Cornmeal Olive Oil Cake",
+    "description": "An appealing specialty cake spotted alongside the chai latte.",
+    "basis": "Specifically Honey cornmeal olive oil cake looks so nice."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJD6bwE4NbwokRYza3fSUXZCg",
+  "skip": false,
+  "cuisine": "Mediterranean",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🥙",
+  "why": "A Clinton Hill bakery-cafe mashing up banh mi and falafel into a genuinely good sandwich.",
+  "tags": [
+   "vegetarian-friendly",
+   "bread",
+   "casual",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Banh Mi Falafel",
+   "description": "A fresh, soft-inside falafel sandwich reviewers were pretty happy with.",
+   "basis": "i wanted to try bahn mi falafel for a while now and it was pretty good! falafel was fresh and soft inside and crunchy on the outside"
+  },
+  "menu": [
+   {
+    "name": "Lamb Kofta Sandwich",
+    "description": "A well-liked sandwich standout among Thea's savory options.",
+    "basis": "liked their sandwiches, especially the lamb kofta."
+   },
+   {
+    "name": "Sweet Potato Hummus",
+    "description": "A tasty starter served with seeded sourdough.",
+    "basis": "Really enjoyed the sweet potato hummus and seeded sourdough here"
+   },
+   {
+    "name": "Kouign Amann",
+    "description": "A mind-blowing pastry that's a must-try.",
+    "basis": "kouign amann is mindblowing!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJnetYyxlawokR981q31LnAzU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fort Greene",
+  "emoji": "☕",
+  "why": "A minimalist Fort Greene coffee bar known for its impossibly creamy vanilla almond latte.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Vanilla Almond Latte",
+   "description": "An unusually creamy and frothy almond-milk latte.",
+   "basis": "Love how creamy and frothy the vanilla almond latte is because usually with almond milk it doesn’t get so creamy, but it is here."
+  },
+  "menu": [
+   {
+    "name": "Cappuccino",
+    "description": "A foamy, tasty cappuccino served with a smile.",
+    "basis": "Ordered a cappuccino was so foamy and tasty."
+   },
+   {
+    "name": "Iced Vanilla Latte",
+    "description": "A reliably good iced vanilla latte.",
+    "basis": "Service was fast and the space was cute. Iced vanilla latte was good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ6y3t_uhbwokR92jH_tFPwRY",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Wallabout",
+  "emoji": "🍞",
+  "why": "A Wallabout bakery-deli where the whole grain challah and salad bar keep neighbors coming back.",
+  "tags": [
+   "bread",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Whole Grain Challah",
+   "description": "A delicious, tasty and crispy traditional challah loaf.",
+   "basis": "I would recommend to try their whole grain challos (Jewish traditional bread) it's delicious tasty and crispy."
+  },
+  "menu": [
+   {
+    "name": "Salad Bar",
+    "description": "The best salad bar in town, according to regulars.",
+    "basis": "Best salad bar in town."
+   },
+   {
+    "name": "Sandwiches, Paninis & Wraps",
+    "description": "A full lineup of fresh sandwiches, paninis and wraps.",
+    "basis": "All kind of sandwiches paninis and wraps."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJWZJ2165bwokRHvtRWm0d_fI",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fort Greene",
+  "emoji": "☕",
+  "why": "A sunny Fort Greene cafe famous for the best raspberry croissants around.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Raspberry Croissant",
+   "description": "Reviewers say these are hands down the best raspberry croissants ever.",
+   "basis": "Hands down the best raspberry croissants ever!"
+  },
+  "menu": [
+   {
+    "name": "Nutty Latte",
+    "description": "A latte with a distinctive, enjoyable nutty flavor profile.",
+    "basis": "Loved the latte"
+   },
+   {
+    "name": "Matcha",
+    "description": "A delicious matcha served by sweet staff.",
+    "basis": "Matcha is delicious too, staff is so sweet."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJY5u7Vk1awokRdvxG8EKMr-8",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍰",
+  "why": "A retro Fort Greene bakery where the staff-recommended carrot cake truly bangs.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Carrot Cake",
+   "description": "The counter staff's own favorite, and reviewers agree it's banging.",
+   "basis": "boy was AJ right! Carrot cake is banging man! Great recommendation it hit the spot for sure"
+  },
+  "menu": [
+   {
+    "name": "Valrhona Chocolate Cake",
+    "description": "A rich, moist chocolate cake worth buying a whole one for.",
+    "basis": "I was pleasantly surprised with how rich and moist this Valrhona chocolate cake was."
+   },
+   {
+    "name": "Cumin Lamb Savory Pie",
+    "description": "A hearty savory pie option for those craving something meatier.",
+    "basis": "They had a bunch of savory pie options and I opted for the cumin lamb for $10.50"
+   },
+   {
+    "name": "Lemon Bundt Cake",
+    "description": "A beautifully decorated bundt slice among the shop's many sweet options.",
+    "basis": "the slice of lemon Bundt cake. beautifully decorated & sooo many options of delicious cookies, cheesecake, etc."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJKaYntiZbwokR9wKaOYcRyEw",
+  "skip": false,
+  "cuisine": "Persian",
+  "neighborhood": "Downtown Brooklyn",
+  "emoji": "🍨",
+  "why": "A Persian cafe serving rose-and-saffron sweets that deserve far more hype.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "coffee",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Saffron & Golab Frozen Yogurt",
+   "description": "A cooling summer treat alongside the Ab Havij Bastani.",
+   "basis": "Their new addition, the saffron and golab frozen yogurt, and the Ab Havij Bastani will surely cool you down in this summer heat."
+  },
+  "menu": [
+   {
+    "name": "Latifeh",
+    "description": "A nice pastry that goes well with chai.",
+    "basis": "The Latifeh was a nice pastery and went well with the chai."
+   },
+   {
+    "name": "Ash and Halim",
+    "description": "Warming winter soups regulars return for each cold morning.",
+    "basis": "We go here in winter mornings for Ash and Halim, and in summer for all the other deliciousness."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJP4kB4aNbwokRB0Ah8EkHyTs",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Clinton Hill",
+  "emoji": "🧁",
+  "why": "A Clinton Hill bakery whose famous cookies and custom cakes never miss for a celebration.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Famous Cookies",
+   "description": "The owner's famous cookies, handed out as free samples and loved instantly.",
+   "basis": "The owner Akim gave us a free sample of her famous cookies and they were amazing."
+  },
+  "menu": [
+   {
+    "name": "Custom Cupcakes",
+    "description": "Fresh, beautifully decorated cupcakes delivered flawlessly even for a 200-order rush.",
+    "basis": "every cupcake was fresh, beautifully decorated, and delicious."
+   },
+   {
+    "name": "Custom Chocolate Cake",
+    "description": "A rich chocolate custom cake with perfect icing devoured by everyone.",
+    "basis": "The chocolate is delicious. The icing was perfect."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJwXUoA99bwokRU2bF-gdB25I",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Williamsburg",
+  "emoji": "🍽️",
+  "why": "A Williamsburg date-night favorite where the spiced duck breast is the dish not to miss.",
+  "tags": [
+   "upscale",
+   "date-night",
+   "brunch",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Spiced Duck Breast",
+   "description": "A dish not to miss, served with escarole, sweet potato and oaxacan mole.",
+   "basis": "One dish not to miss was the spiced duck breast with escarole, sweet potato, oaxacan mole, peanut-almond dukkai & sesame."
+  },
+  "menu": [
+   {
+    "name": "Burger",
+    "description": "A yummy burger, if a bit small for the price.",
+    "basis": "The burger was yummy, tho a little small for the dollar amount."
+   },
+   {
+    "name": "Chicken Roulade",
+    "description": "A juicy roulade that's great for gluten-free diners.",
+    "basis": "The chicken roulade was juicy and the burger slapped."
+   },
+   {
+    "name": "Empanadas",
+    "description": "Crispy-edged empanadas with a soft, delicious filling.",
+    "basis": "the empanadas - crispy but the filling was soft and delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJEWXdJ2JbwokRmKNA-mJx7QE",
+  "skip": false,
+  "cuisine": "Korean",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍲",
+  "why": "A Fort Greene Korean spot where the LA galbi short ribs are the clear favorite order.",
+  "tags": [
+   "soup",
+   "spicy",
+   "comfort",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "LA Galbi Short Ribs",
+   "description": "The personal favorite order alongside the kimchi.",
+   "basis": "My personal favorite was the LA Galbi beef Short ribs and the Kimchi."
+  },
+  "menu": [
+   {
+    "name": "Yukgaejang",
+    "description": "A deeply flavorful beef and chicken broth soup with nostalgic richness.",
+    "basis": "The Yukgae-jang was outstanding"
+   },
+   {
+    "name": "Dolsot Bibimbap",
+    "description": "A sizzling stone-pot bibimbap loaded with vegetables, rice, egg and chicken.",
+    "basis": "The bibimbap served was served on a sizzling pan and was full of vegetables, rice, egg and chicken."
+   },
+   {
+    "name": "Kimchi Pajeon",
+    "description": "A savory kimchi pancake enjoyed alongside other shareable starters.",
+    "basis": "kimchi  pa jeon ( kimchi pancake)"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJGfdZtJdbwokREUPcjASYSr4",
+  "skip": false,
+  "cuisine": "Thai",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍛",
+  "why": "A Michelin-recognized Fort Greene Thai kitchen where the Flying Tiger Steak is absolutely top tier.",
+  "tags": [
+   "spicy",
+   "upscale",
+   "date-night",
+   "noodles"
+  ],
+  "signatureDish": {
+   "name": "Flying Tiger Steak",
+   "description": "A steak with sticky rice reviewers call absolutely top tier.",
+   "basis": "The Flying Tiger Steak with sticky rice is absolutely top tier"
+  },
+  "menu": [
+   {
+    "name": "Branzino in Lime Sauce",
+    "description": "One of the best fish dishes around, cooked in a bright lime sauce.",
+    "basis": "the branzino in lime sauce is one of the best fish dishes I’ve had."
+   },
+   {
+    "name": "Pad See Ew",
+    "description": "A reliable classic with perfectly balanced medium spice.",
+    "basis": "I went with my usual pad see ew with chicken and medium spicy. It was solid and the spice level was perfect."
+   },
+   {
+    "name": "Chive Pancake (Gui Chai)",
+    "description": "An excellent starter that sometimes sells out fast.",
+    "basis": "We started with the Taro Rolls and Gui Chai (Chive Pancake). Both were excellent."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ8WoPpbFbwokRIzqmB9MYQm4",
+  "skip": false,
+  "cuisine": "German",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥨",
+  "why": "A Fort Greene beer hall where the wursts, unsurprisingly, are the stars of the show.",
+  "tags": [
+   "meat-heavy",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Wursts",
+   "description": "The star of the menu, according to regulars.",
+   "basis": "The wursts are the stars of the show."
+  },
+  "menu": [
+   {
+    "name": "Pretzel Bun",
+    "description": "A well-made pretzel bun, even amid mixed reviews on other items.",
+    "basis": "The pretzel bun was good though."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJM_8k-PpbwokRHosHIiSEajY",
+  "skip": false,
+  "cuisine": "Yemeni",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍖",
+  "why": "A Fort Greene Yemeni kitchen where the manager's mixed grill recommendation never disappoints.",
+  "tags": [
+   "meat-heavy",
+   "comfort",
+   "casual",
+   "grilled"
+  ],
+  "signatureDish": {
+   "name": "Kemo's Mixed Grill",
+   "description": "The manager's own recommendation for first-time visitors.",
+   "basis": "he recommended that we get Kemo's Mixed Grill."
+  },
+  "menu": [
+   {
+    "name": "Lamb Stew",
+    "description": "The best lamb stew, fans say, every time.",
+    "basis": "Lamb Stew is the best!"
+   },
+   {
+    "name": "Salmon",
+    "description": "A flavorful salmon dish that surprised a random menu pick.",
+    "basis": "I chose to select at random and this was my meal"
+   },
+   {
+    "name": "Beef Wrap & Lentil",
+    "description": "A hearty beef wrap and lentil combo among regular orders.",
+    "basis": "We ordered lentil, beef wrap & some veg stew"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ_cMjv51bwokRT_bpXRS98sk",
+  "skip": false,
+  "cuisine": "Greek",
+  "neighborhood": "Williamsburg",
+  "emoji": "🐟",
+  "why": "A Williamsburg waterfront Greek seafood spot built around whole branzino and a sunset view.",
+  "tags": [
+   "seafood",
+   "upscale",
+   "date-night",
+   "grilled"
+  ],
+  "signatureDish": {
+   "name": "Whole Branzino",
+   "description": "The recommended branzino, part of a must-try seafood spread.",
+   "basis": "Recommend the branzino, fries  and tuna tartare."
+  },
+  "menu": [
+   {
+    "name": "Grilled Octopus",
+    "description": "A must-try octopus dish alongside fresh oysters.",
+    "basis": "Oysters and grilled Octopus a must try."
+   },
+   {
+    "name": "Lamb Dishes",
+    "description": "Tender, well-cooked lamb that converts even lamb skeptics.",
+    "basis": "I highly recommend their lamb dishes. The meat is very tender and although I usually don't like lamb meat because of its distinct smell, this place cooked it so well."
+   },
+   {
+    "name": "Lobster Bisque",
+    "description": "A delicious starter that opens the meal on a high note.",
+    "basis": "They started us off with some lobster bisque and it was delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJlylvKq9bwokRkslMvmbAJ7Q",
+  "skip": false,
+  "cuisine": "BBQ",
+  "neighborhood": "Fort Greene",
+  "emoji": "🍖",
+  "why": "A Fort Greene BBQ hall where the brisket is the reason regulars keep coming back.",
+  "tags": [
+   "bbq",
+   "meat-heavy",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Brisket",
+   "description": "The cut regulars say is better with fat.",
+   "basis": "The brisket is better with fat"
+  },
+  "menu": [
+   {
+    "name": "Cornbread",
+    "description": "A solid starter that's a great way to kick off the meal.",
+    "basis": "the cornbread was solid and a great way to kick things off."
+   },
+   {
+    "name": "Greens",
+    "description": "Well-done greens rounding out the classic Southern sides.",
+    "basis": "The greens were also well done"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHVBBvbFbwokRxNU75d6G7YE",
+  "skip": false,
+  "cuisine": "Turkish",
+  "neighborhood": "Fort Greene",
+  "emoji": "🥙",
+  "why": "A Fort Greene Turkish institution where the lamb shank keeps loyalists coming back for years.",
+  "tags": [
+   "meat-heavy",
+   "seafood",
+   "upscale",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Lamb Shank",
+   "description": "A tender, delicious first-time order.",
+   "basis": "Followed by my first lamb shank, tender and delicious."
+  },
+  "menu": [
+   {
+    "name": "Sigara Boregi",
+    "description": "A starter reviewers rate a perfect 10/10.",
+    "basis": "sigara boregi 10/10."
+   },
+   {
+    "name": "Fillet Snapper",
+    "description": "An amazing snapper fillet served with salad and mashed potatoes.",
+    "basis": "I ordered the fillet snapper, which was amazing, and it came with a salad and mashed potatoes."
+   },
+   {
+    "name": "Stuffed Cabbage",
+    "description": "A highly recommended stuffed cabbage dish.",
+    "basis": "Stuffed cabbage I highly recommend."
+   }
+  ]
+ }
+]
