@@ -140,7 +140,7 @@ export class DiscoverView {
         <h2>${hiddenByFilters ? 'Your filters ate the deck' : `That's everything within ${radiusMi} mi`}</h2>
         <p>${
           hiddenByFilters
-            ? 'There are spots in range, but they’re hidden by open-now, price, veg, or cuisine filters right now.'
+            ? 'There are spots in range, but they’re hidden by open-now, price, veg, rating, review, or cuisine filters right now.'
             : (mode === 'new' ? 'You’ve explored every new spot in range.' : 'You’ve swiped the whole neighborhood.') +
               ` Widen the radius or check back — passes quietly return after ${CONFIG.resurfaceDays} days.`
         }</p>

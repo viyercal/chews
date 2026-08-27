@@ -9,6 +9,8 @@ const DEFAULTS = () => ({
     openNowOnly: true,        // hide places known to be closed right now
     maxPrice: 0,              // 0 = any; 1-4 caps the price level
     vegOnly: false,           // only vegetarian/vegan-friendly tagged places
+    minRating: 0,             // 0 = any; else minimum star rating (e.g. 4.5)
+    minReviews: 0,            // 0 = any; else minimum Google review count
     byokKey: '',              // user's own Places API key for live search (device-only)
   },
   swipes: {},                 // { [id]: { dir: 1|-1, at: epochMs } }

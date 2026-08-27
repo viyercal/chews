@@ -83,7 +83,7 @@ class Cdp {
 async function connect(url) {
   const port = 9222 + Math.floor(Math.random() * 900)
   const flags = [
-    '--headless=new', '--disable-gpu', '--hide-scrollbars', '--mute-audio',
+    '--headless=new', '--disable-gpu', '--use-mock-keychain', '--hide-scrollbars', '--mute-audio',
     '--no-first-run', '--disable-renderer-backgrounding', '--disable-background-timer-throttling',
     '--disable-backgrounding-occluded-windows', '--window-size=390,844',
     `--remote-debugging-port=${port}`,

@@ -191,10 +191,21 @@ export class ProfileView {
           <button class="chip chip-btn ${!s.maxPrice ? 'on' : ''}" data-price="0">Any</button>
           ${[1, 2, 3, 4].map((n) => `<button class="chip chip-btn ${s.maxPrice === n ? 'on' : ''}" data-price="${n}">${'$'.repeat(n)}</button>`).join('')}
         </div>
+        <div class="filter-caption">Rating at least</div>
+        <div class="chip-row">
+          <button class="chip chip-btn ${!s.minRating ? 'on' : ''}" data-rating="0">Any</button>
+          ${[4.0, 4.3, 4.5, 4.7].map((n) => `<button class="chip chip-btn ${s.minRating === n ? 'on' : ''}" data-rating="${n}">★ ${n.toFixed(1)}+</button>`).join('')}
+        </div>
+        <div class="filter-caption">Reviews at least</div>
+        <div class="chip-row">
+          <button class="chip chip-btn ${!s.minReviews ? 'on' : ''}" data-reviews="0">Any</button>
+          ${[100, 500, 1000, 2000].map((n) => `<button class="chip chip-btn ${s.minReviews === n ? 'on' : ''}" data-reviews="${n}">${n >= 1000 ? n / 1000 + 'k' : n}+</button>`).join('')}
+        </div>
         <div class="chip-row">
           <button class="chip chip-btn ${s.openNowOnly ? 'on' : ''}" data-toggle="openNowOnly">● Open now only</button>
           <button class="chip chip-btn ${s.vegOnly ? 'on' : ''}" data-toggle="vegOnly">🌿 Places with veg options</button>
         </div>
+        <p class="panel-note dim filter-hits"></p>
       </section>
     `)
     const slider = card.querySelector('input')
@@ -221,6 +232,25 @@ export class ProfileView {
         this.render()
       })
     )
+    card.querySelectorAll('[data-rating]').forEach((b) =>
+      b.addEventListener('click', () => {
+        this.store.setSetting('minRating', Number(b.dataset.rating))
+        this.onSettingsChanged?.()
+        this.render()
+      })
+    )
+    card.querySelectorAll('[data-reviews]').forEach((b) =>
+      b.addEventListener('click', () => {
+        this.store.setSetting('minReviews', Number(b.dataset.reviews))
+        this.onSettingsChanged?.()
+        this.render()
+      })
+    )
+    // Live feedback: how much deck survives ALL current filters (any is set).
+    const anyFilter = s.maxPrice || s.minRating || s.minReviews || s.vegOnly || s.openNowOnly || (s.cuisines || []).length
+    card.querySelector('.filter-hits').textContent = anyFilter
+      ? `${this.deck.filteredCount()} of ${count} in-range spots match your filters`
+      : ''
     card.querySelectorAll('[data-toggle]').forEach((b) =>
       b.addEventListener('click', () => {
         const k = b.dataset.toggle

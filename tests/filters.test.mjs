@@ -120,3 +120,32 @@ test('settings deep-merge picks up new defaults for old profiles', () => {
   assert.equal(store.settings.openNowOnly, true)
   assert.equal(store.settings.maxPrice, 0)
 })
+
+test('minRating gates the deck; Any (0) lets everything through', () => {
+  const good = resto({ id: 'good', rating: 4.8 })
+  const meh = resto({ id: 'meh', rating: 4.1 })
+  const { deck, store } = mkDeck([good, meh], { minRating: 4.5, openNowOnly: false })
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id), ['good'])
+  store.setSetting('minRating', 0)
+  assert.equal(deck.candidates('forYou', WED_NOON).length, 2)
+})
+
+test('minReviews gates the deck by review count', () => {
+  const proven = resto({ id: 'proven', ratingCount: 2400 })
+  const newish = resto({ id: 'newish', ratingCount: 85 })
+  const { deck, store } = mkDeck([proven, newish], { minReviews: 500, openNowOnly: false })
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id), ['proven'])
+  store.setSetting('minReviews', 5000)
+  assert.equal(deck.candidates('forYou', WED_NOON).length, 0) // too strict → empty, empty-state explains
+})
+
+test('filteredCount counts filter survivors regardless of swipe status', () => {
+  const a = resto({ id: 'a', rating: 4.8 })
+  const b = resto({ id: 'b', rating: 4.1 })
+  const { deck, store } = mkDeck([a, b], { minRating: 4.5, openNowOnly: false })
+  deck.swipe(a, -1, WED_NOON) // swiped away, but still matches the filters
+  assert.equal(deck.filteredCount(WED_NOON), 1)
+  assert.equal(deck.candidates('forYou', WED_NOON).length, 0) // pass hides it from the deck
+  store.setSetting('minRating', 0)
+  assert.equal(deck.filteredCount(WED_NOON), 2)
+})

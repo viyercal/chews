@@ -38,21 +38,37 @@ export class Deck {
     }))
   }
 
+  // The user-set filter chain, shared by the deck builder and the live
+  // "N match your filters" note (which ignores swipe status).
+  passesFilters(resto, distanceMi, date) {
+    const { radiusMi, openNowOnly, maxPrice, vegOnly, cuisines, minRating, minReviews } = this.store.settings
+    if (distanceMi > radiusMi) return false
+    if (cuisines?.length && !cuisines.includes(resto.cuisine)) return false
+    if (maxPrice && resto.price > maxPrice) return false
+    if (minRating && resto.rating < minRating) return false
+    if (minReviews && (resto.ratingCount || 0) < minReviews) return false
+    if (vegOnly && !(resto.tags || []).some((t) => VEG_TAGS.includes(t))) return false
+    if (openNowOnly && hoursStatus(resto, date).status === 'closed') return false
+    return true
+  }
+
   candidates(mode, now = Date.now(), { includeAvoided = false } = {}) {
-    const { location, radiusMi, openNowOnly, maxPrice, vegOnly, cuisines } = this.store.settings
+    const { location } = this.store.settings
     const date = new Date(now)
     return this.withDistance(location).filter(({ resto, distanceMi }) => {
-      if (distanceMi > radiusMi) return false
+      if (!this.passesFilters(resto, distanceMi, date)) return false
       if (this.status(resto, now) !== 'fresh') return false
-      if (cuisines?.length && !cuisines.includes(resto.cuisine)) return false
       const visit = this.store.visits[resto.id]
       if (mode === 'new' && visit && !visit.hidden) return false
-      if (maxPrice && resto.price > maxPrice) return false
-      if (vegOnly && !(resto.tags || []).some((t) => VEG_TAGS.includes(t))) return false
-      if (openNowOnly && hoursStatus(resto, date).status === 'closed') return false
       if (!includeAvoided && this.engine.avoids(resto.cuisine)) return false
       return true
     })
+  }
+
+  filteredCount(now = Date.now()) {
+    const { location } = this.store.settings
+    const date = new Date(now)
+    return this.withDistance(location).filter(({ resto, distanceMi }) => this.passesFilters(resto, distanceMi, date)).length
   }
 
   // Candidates ignoring the user-set filters — used to explain empty decks.
