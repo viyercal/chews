@@ -1,0 +1,128 @@
+[
+ {
+  "placeId": "ChIJlVB87oOsw4kRS9xbJtmT6eM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "South Orange Village",
+  "emoji": "☕",
+  "why": "A no-cover board game cafe at the Baird Center — dozens of games, friendly owners, and Paper Plane coffee to fuel the table.",
+  "tags": ["casual", "coffee", "family-style", "comfort"],
+  "signatureDish": {
+   "name": "Paper Plane Coffee",
+   "description": "The local roast reviewers tell you to order while you play.",
+   "basis": "getting food or the Paper Plane coffee from the cafe"
+  },
+  "menu": [
+   { "name": "Fries", "description": "A simple crowd-pleaser alongside the games.", "basis": "I enjoyed their fries" }
+  ]
+ },
+ {
+  "placeId": "ChIJHSGyZwurw4kRYRsnJ9L34hQ",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "South Orange Village",
+  "emoji": "🎂",
+  "why": "Small-batch custom cakes with a perfect 5-star record — soft cookie cakes and buttercream that families reorder for years.",
+  "tags": ["sweet", "dessert", "family-style"],
+  "signatureDish": {
+   "name": "Chocolate Chip Cookie Cake",
+   "description": "Soft, delicious rounds that arrive beautiful before the decorations even go on.",
+   "basis": "chocolate chip cookie cakes and they were soft and delicious"
+  },
+  "menu": [
+   { "name": "Funfetti Cake", "description": "Turned around in 48 hours and still the best reviewers have had.", "basis": "the funfetti cake was the best" },
+   { "name": "Vanilla Bean Buttercream Cake", "description": "The frosting that's always a hit at family occasions.", "basis": "vanilla bean buttercream frosting is always a hit" }
+  ]
+ },
+ {
+  "placeId": "ChIJmUCoqoesw4kRERCFrf6zJCg",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍦",
+  "why": "The circa-1934 soft-serve institution, run family-style — custom cakes confirmed by phone and seasonal Dasher flavors.",
+  "tags": ["sweet", "dessert", "quick-bite", "family-style"],
+  "signatureDish": {
+   "name": "Soft-Serve Ice Cream",
+   "description": "The classic Carvel soft-serve, super sweet, with rotating seasonal flavors.",
+   "basis": "soft-serve ice cream & custom cakes"
+  },
+  "menu": [
+   { "name": "Custom Ice Cream Cakes", "description": "Ordered, confirmed by phone, and ready right on time.", "basis": "We ordered two custom cakes and LOVED them" },
+   { "name": "Limited Dashers", "description": "Seasonal limited flavors regulars watch for.", "basis": "my favorites are the limited dashers" }
+  ]
+ },
+ {
+  "placeId": "ChIJe-huS_Ctw4kRi1CLNfl5CgU",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍨",
+  "why": "The town's 5-star sweet shop — rotating specialty scoops, a candy wall, and a party room that hosts half the neighborhood's birthdays.",
+  "tags": ["sweet", "dessert", "family-style", "casual"],
+  "signatureDish": {
+   "name": "Rotating Specialty Flavors",
+   "description": "Classic scoops plus an ever-changing specialty list at fair prices.",
+   "basis": "a rotating list of speciality flavors"
+  },
+  "menu": [
+   { "name": "Dairy-Free Ice Cream", "description": "A good selection for the dairy-averse.", "basis": "a good selection of Dairy free icecream" }
+  ]
+ },
+ {
+  "placeId": "ChIJFxAPHP-tw4kRNT4eofUTok4",
+  "skip": false,
+  "cuisine": "Chicken",
+  "neighborhood": "South Orange Village",
+  "emoji": "🍗",
+  "why": "The counter-serve wing chain's South Orange outpost — regulars say ranch with the garlic parm tenders is the move.",
+  "tags": ["fried", "quick-bite", "casual", "meat-heavy"],
+  "signatureDish": {
+   "name": "Garlic Parm Tenders",
+   "description": "The first-timer's order, with ranch on the side.",
+   "basis": "the ranch with the garlic parm tenders"
+  },
+  "menu": [
+   { "name": "Hawaiian Chicken Sandwich", "description": "The other first-visit recommendation.", "basis": "or the Hawaiian chicken sandwich" }
+  ]
+ },
+ {
+  "placeId": "ChIJ6X184oWsw4kRRvVwSg0IfBs",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "South Orange Village",
+  "emoji": "🥡",
+  "why": "A solid hole-in-the-wall Chinese takeout — quick, decently priced, with fried scallops fans call the best they've had.",
+  "tags": ["casual", "quick-bite", "rice", "comfort", "fried"],
+  "signatureDish": {
+   "name": "Fried Scallops",
+   "description": "Huge, with a very crunchy breading — a longtime favorite off this menu.",
+   "basis": "The scallops were huge and had a very crunchy breading"
+  },
+  "menu": [
+   { "name": "Shrimp Dishes", "description": "Always done perfectly, with fresh vegetables and large portions.", "basis": "The shrimp are always done perfectly" }
+  ]
+ },
+ {
+  "placeId": "ChIJZSLCbYasw4kRW_tkuHZ6rfM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "South Orange Village",
+  "emoji": "☕",
+  "why": "The station-side Starbucks in an old building by the NJ Transit rail — handcrafted espresso and pastries, packed with studying students.",
+  "tags": ["coffee", "breakfast", "quick-bite", "sweet"],
+  "signatureDish": {
+   "name": "Oat Milk Cappuccino",
+   "description": "A grande favorite, handcrafted and delicious.",
+   "basis": "cappuccino with oat milk was delicious"
+  },
+  "menu": [
+   { "name": "Ham & Swiss Croissant", "description": "Delicious and soft — the grab-and-go move.", "basis": "the croissant was delicious and soft" },
+   { "name": "Rice Krispies Treat", "description": "Amazing and chewy.", "basis": "the rice krispies were amazing and chewy" }
+  ]
+ },
+ {
+  "placeId": "ChIJmZ7GbJKtw4kRV_F7tPtt-WE",
+  "skip": true
+ }
+]
