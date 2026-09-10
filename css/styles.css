@@ -867,3 +867,42 @@ em { font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- When are you going? (time frame) ---------- */
+
+.topbar-pills { display: flex; gap: 6px; min-width: 0; align-items: center; }
+#loc-pill { max-width: 44vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#when-pill { white-space: nowrap; }
+#when-pill.on { color: var(--accent); border-color: var(--accent-deep); }
+
+.when-seg { margin: 14px 0 6px; width: 100%; }
+.when-seg button { flex: 1; padding-left: 8px; padding-right: 8px; }
+.when-at .filter-caption { margin: 12px 0 6px; }
+.when-custom { display: inline-flex; align-items: center; gap: 6px; }
+.when-custom input[type='time'] {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  font-size: 12px;
+  padding: 0;
+  color-scheme: dark;
+}
+.when-count { margin-top: 12px; color: var(--text); }
+.when-chips .chip-btn { white-space: nowrap; }
+
+.search-when { margin-top: 10px; }
+.result-hours { font-size: 12px; font-weight: 600; }
+.result-hours.open { color: var(--yum); }
+.result-hours.soon { color: var(--gold); }
+.result-hours.closed { color: #ff8fa5; }
+.result-hours.unknown { color: var(--text-faint); font-weight: 500; }
+.match-row.closed-then { opacity: 0.62; }
+.search-closed { text-align: center; padding: 6px 0 2px; }
+
+.sheet-hours summary { cursor: pointer; list-style: none; }
+.sheet-hours summary::-webkit-details-marker { display: none; }
+.sheet-hours summary em { color: var(--text-faint); font-style: normal; font-size: 12px; margin-left: 6px; }
+.sheet-week { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--text-dim); }
+.sheet-week li { display: flex; justify-content: space-between; gap: 12px; }
+.sheet-week li.on { color: var(--text); font-weight: 600; }

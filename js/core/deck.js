@@ -1,6 +1,7 @@
 import { CONFIG } from '../config.js'
 import { milesBetween } from './geo.js'
 import { hoursStatus } from './hours.js'
+import { resolveWhen } from './when.js'
 
 const DAY_MS = 86400000
 const VEG_TAGS = ['vegetarian-friendly', 'vegan-friendly']
@@ -38,25 +39,31 @@ export class Deck {
     }))
   }
 
+  // The time frame hours are judged against: now, a planned day + time, or
+  // none ("any time") — see core/when.js.
+  when(now = Date.now()) {
+    return resolveWhen(this.store.settings, new Date(now))
+  }
+
   // The user-set filter chain, shared by the deck builder and the live
   // "N match your filters" note (which ignores swipe status).
-  passesFilters(resto, distanceMi, date) {
-    const { radiusMi, openNowOnly, maxPrice, vegOnly, cuisines, minRating, minReviews } = this.store.settings
+  passesFilters(resto, distanceMi, when) {
+    const { radiusMi, maxPrice, vegOnly, cuisines, minRating, minReviews } = this.store.settings
     if (distanceMi > radiusMi) return false
     if (cuisines?.length && !cuisines.includes(resto.cuisine)) return false
     if (maxPrice && resto.price > maxPrice) return false
     if (minRating && resto.rating < minRating) return false
     if (minReviews && (resto.ratingCount || 0) < minReviews) return false
     if (vegOnly && !(resto.tags || []).some((t) => VEG_TAGS.includes(t))) return false
-    if (openNowOnly && hoursStatus(resto, date).status === 'closed') return false
+    if (when.filtering && hoursStatus(resto, when.date).status === 'closed') return false
     return true
   }
 
   candidates(mode, now = Date.now(), { includeAvoided = false } = {}) {
     const { location } = this.store.settings
-    const date = new Date(now)
+    const when = this.when(now)
     return this.withDistance(location).filter(({ resto, distanceMi }) => {
-      if (!this.passesFilters(resto, distanceMi, date)) return false
+      if (!this.passesFilters(resto, distanceMi, when)) return false
       if (this.status(resto, now) !== 'fresh') return false
       const visit = this.store.visits[resto.id]
       if (mode === 'new' && visit && !visit.hidden) return false
@@ -67,8 +74,18 @@ export class Deck {
 
   filteredCount(now = Date.now()) {
     const { location } = this.store.settings
-    const date = new Date(now)
-    return this.withDistance(location).filter(({ resto, distanceMi }) => this.passesFilters(resto, distanceMi, date)).length
+    const when = this.when(now)
+    return this.withDistance(location).filter(({ resto, distanceMi }) => this.passesFilters(resto, distanceMi, when)).length
+  }
+
+  // In-range spots not known to be closed at `when` — the picker's live
+  // preview ("42 of 88 in range are open Sat 9 AM"), independent of the
+  // other filters and of swipe status.
+  openCount(when) {
+    const { location, radiusMi } = this.store.settings
+    return this.withDistance(location).filter(
+      ({ resto, distanceMi }) => distanceMi <= radiusMi && (!when.filtering || hoursStatus(resto, when.date).status !== 'closed')
+    ).length
   }
 
   // Candidates ignoring the user-set filters — used to explain empty decks.

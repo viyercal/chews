@@ -2,17 +2,19 @@ import { el, esc } from './cards.js'
 import { locate, locateFailureCopy, nearestSpot, FALLBACK_SPOTS } from '../core/geo.js'
 import { geocodeAddress, liveSearch } from '../core/live.js'
 import { CONFIG } from '../config.js'
+import { whenChips } from './when.js'
 import { toast } from './toast.js'
 
 // Taste tab: who the app thinks you are (confidence meter + cuisine affinity
 // bars + top tags), plus location, radius, stats, and reset.
 export class ProfileView {
-  constructor({ root, store, engine, deck, dataMeta, onSettingsChanged, onReset }) {
+  constructor({ root, store, engine, deck, dataMeta, whenPicker, onSettingsChanged, onReset }) {
     this.root = root
     this.store = store
     this.engine = engine
     this.deck = deck
     this.dataMeta = dataMeta
+    this.whenPicker = whenPicker
     this.onSettingsChanged = onSettingsChanged
     this.onReset = onReset
     this.resetArmed = false
@@ -201,13 +203,15 @@ export class ProfileView {
           <button class="chip chip-btn ${!s.minReviews ? 'on' : ''}" data-reviews="0">Any</button>
           ${[100, 500, 1000, 2000].map((n) => `<button class="chip chip-btn ${s.minReviews === n ? 'on' : ''}" data-reviews="${n}">${n >= 1000 ? n / 1000 + 'k' : n}+</button>`).join('')}
         </div>
+        <div class="filter-caption">Open when</div>
+        <div class="when-slot"></div>
         <div class="chip-row">
-          <button class="chip chip-btn ${s.openNowOnly ? 'on' : ''}" data-toggle="openNowOnly">● Open now only</button>
           <button class="chip chip-btn ${s.vegOnly ? 'on' : ''}" data-toggle="vegOnly">🌿 Places with veg options</button>
         </div>
         <p class="panel-note dim filter-hits"></p>
       </section>
     `)
+    card.querySelector('.when-slot').appendChild(whenChips({ store: this.store, picker: this.whenPicker }))
     const slider = card.querySelector('input')
     const value = card.querySelector('.radius-value')
     const note = card.querySelector('.radius-count')
@@ -247,7 +251,7 @@ export class ProfileView {
       })
     )
     // Live feedback: how much deck survives ALL current filters (any is set).
-    const anyFilter = s.maxPrice || s.minRating || s.minReviews || s.vegOnly || s.openNowOnly || (s.cuisines || []).length
+    const anyFilter = s.maxPrice || s.minRating || s.minReviews || s.vegOnly || this.deck.when().filtering || (s.cuisines || []).length
     card.querySelector('.filter-hits').textContent = anyFilter
       ? `${this.deck.filteredCount()} of ${count} in-range spots match your filters`
       : ''

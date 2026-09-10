@@ -13,6 +13,7 @@ import { DuoView } from './ui/duo.js'
 import { duoTokenFromHash, decodeDuo } from './core/duo.js'
 import { SearchView } from './ui/search.js'
 import { CuisineFilter } from './ui/cuisines.js'
+import { WhenPicker, whenPillText } from './ui/when.js'
 import { liveRescue, findFreshRescue } from './core/live.js'
 import { milesBetween } from './core/geo.js'
 import { CONFIG } from './config.js'
@@ -62,11 +63,32 @@ const discover = new DiscoverView({
   onSwiped: () => updateBadge(),
 })
 
+// "When are you going?" — open now (default) / a picked day + time (session
+// only) / any time. One state shared by the deck, search, and Taste filters.
+const paintWhenPill = () => {
+  const b = $('#when-pill')
+  b.textContent = whenPillText(store)
+  b.classList.toggle('on', deck.when().mode !== 'now')
+}
+const whenPicker = new WhenPicker({
+  root: $('#overlay-root'),
+  store,
+  deck,
+  onChanged: () => {
+    paintWhenPill()
+    discover.refresh()
+    searchView.refreshWhen()
+    if (current === 'taste') profile.render()
+  },
+})
+$('#when-pill').addEventListener('click', () => whenPicker.open())
+
 const searchView = new SearchView({
   root: $('#overlay-root'),
   deck,
   store,
   sheet,
+  whenPicker,
   onSwiped: () => {
     updateBadge()
     discover.refresh()
@@ -153,6 +175,7 @@ const profile = new ProfileView({
   engine,
   deck,
   dataMeta: DATA_META,
+  whenPicker,
   onSettingsChanged: () => {
     discover.refresh()
     updateLocPill()
@@ -203,6 +226,7 @@ modeSeg.querySelectorAll('button').forEach((b) =>
 discover.onModeChanged = paintMode
 discover.onOpenFilters = () => go('taste')
 discover.onCuisineCleared = paintCuisinePill
+discover.onAnyTime = () => whenPicker.setAny()
 
 // --- Location pill ---
 function updateLocPill() {
@@ -221,7 +245,7 @@ document.addEventListener('keydown', (e) => {
     else if (e.key === 'ArrowRight') activeDuo.controller.fling(1)
     return
   }
-  if (searchView.isOpen || cuisineFilter.isOpen) return // dialogs own the keys
+  if (searchView.isOpen || cuisineFilter.isOpen || whenPicker.isOpen) return // dialogs own the keys
   if (current !== 'discover' || sheet.isOpen) {
     if (e.key === 'Escape') sheet.close()
     return
@@ -236,6 +260,7 @@ document.addEventListener('keydown', (e) => {
 paintMode()
 updateBadge()
 updateLocPill()
+paintWhenPill()
 go('discover')
 
 // Top cuisines by dataset coverage — the onboarding taste-seed choices.

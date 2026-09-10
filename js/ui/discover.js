@@ -23,6 +23,7 @@ export class DiscoverView {
   }
 
   refresh() {
+    this.when = this.deck.when()
     this.queue = this.deck.build(this.store.settings.mode)
     this.render()
   }
@@ -65,7 +66,7 @@ export class DiscoverView {
     const visible = this.queue.slice(0, 3)
     for (let i = visible.length - 1; i >= 0; i--) {
       const { resto, distanceMi } = visible[i]
-      const card = renderCard(resto, distanceMi)
+      const card = renderCard(resto, distanceMi, { when: this.when })
       card.classList.add(`depth-${i}`)
       this.stackEl.appendChild(card)
       if (i === 0) {
@@ -89,6 +90,7 @@ export class DiscoverView {
     if (!top) return
     this.sheet.open(top.resto, {
       distanceMi: top.distanceMi,
+      when: this.when,
       actions: [
         { label: '✕ Pass', className: 'btn-pass', onClick: () => this.controller?.fling(-1) },
         { label: '♥ Yum', className: 'btn-yum', onClick: () => this.controller?.fling(1) },
@@ -134,13 +136,15 @@ export class DiscoverView {
     const { radiusMi, mode } = this.store.settings
     const canWiden = radiusMi < CONFIG.radius.max
     const hiddenByFilters = this.deck.unfilteredCount() > 0
+    const when = this.when || this.deck.when()
+    const hoursNote = when.mode === 'at' ? `the “${when.label}” time frame` : 'open-now'
     const panel = el(`
       <div class="empty-panel">
         <div class="empty-emoji" aria-hidden="true">${hiddenByFilters ? '🌙' : '🥡'}</div>
         <h2>${hiddenByFilters ? 'Your filters ate the deck' : `That's everything within ${radiusMi} mi`}</h2>
         <p>${
           hiddenByFilters
-            ? 'There are spots in range, but they’re hidden by open-now, price, veg, rating, review, or cuisine filters right now.'
+            ? `There are spots in range, but they’re hidden by ${hoursNote}, price, veg, rating, review, or cuisine filters right now.`
             : (mode === 'new' ? 'You’ve explored every new spot in range.' : 'You’ve swiped the whole neighborhood.') +
               ` Widen the radius or check back — passes quietly return after ${CONFIG.resurfaceDays} days.`
         }</p>
@@ -156,6 +160,11 @@ export class DiscoverView {
         this.refresh()
       })
       actions.appendChild(clear)
+    }
+    if (hiddenByFilters && when.filtering) {
+      const anyTime = el('<button class="btn btn-accent">Show any time</button>')
+      anyTime.addEventListener('click', () => this.onAnyTime?.())
+      actions.appendChild(anyTime)
     }
     if (hiddenByFilters) {
       const loosen = el('<button class="btn btn-accent">Adjust filters</button>')

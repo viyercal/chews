@@ -1,17 +1,29 @@
 import { fmtMiles } from '../core/geo.js'
-import { hoursStatus } from '../core/hours.js'
+import { hoursStatus, DAYS } from '../core/hours.js'
 
 const VEG_TAGS = ['vegetarian-friendly', 'vegan-friendly']
 
-export function openChip(resto, now = new Date()) {
-  const s = hoursStatus(resto, now)
+// Open/closed wording for a time frame (see core/when.js). `when` null =
+// right now. A planned time names its day so a card can never be misread as
+// "open right now" while the deck is in Saturday-morning mode.
+export function openStatus(resto, when = null) {
+  const at = when?.date || new Date()
+  const isNow = when ? when.isNow : true
+  const s = hoursStatus(resto, at, { relative: isNow })
+  const day = isNow ? '' : `${DAYS[at.getDay()]} `
   if (s.status === 'open') {
-    return `<span class="chip chip-status ${s.closingSoon ? 'soon' : 'open'}">● ${s.closingSoon ? `closes ${esc(s.closesAt)}` : `open til ${esc(s.closesAt)}`}</span>`
+    const soon = isNow && s.closingSoon
+    return { cls: soon ? 'soon' : 'open', text: `● ${day}${soon ? `closes ${s.closesAt}` : `open til ${s.closesAt}`}` }
   }
-  if (s.status === 'closed') return `<span class="chip chip-status closed">● closed · opens ${esc(s.opensAt)}</span>`
+  if (s.status === 'closed') return { cls: 'closed', text: `● ${day}closed · opens ${s.opensAt}` }
   // Unknown must be explicit — silence would read as "open" next to cards
   // that carry real status chips.
-  return '<span class="chip chip-status unknown">hours unknown</span>'
+  return { cls: 'unknown', text: 'hours unknown' }
+}
+
+export function openChip(resto, when = null) {
+  const { cls, text } = openStatus(resto, when)
+  return `<span class="chip chip-status ${cls}">${esc(text)}</span>`
 }
 
 // Restaurant-level attribute — worded and placed so it can never read as a
@@ -113,7 +125,7 @@ export function mapsUrl(resto) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${resto.name} ${resto.address} ${resto.city || ''}`.trim())}`
 }
 
-export function renderCard(resto, distanceMi) {
+export function renderCard(resto, distanceMi, { when = null } = {}) {
   const [g1, g2] = cuisineGradient(resto.cuisine)
   return el(`
     <article class="card" style="--g1:${g1};--g2:${g2}" data-id="${esc(resto.id)}">
@@ -125,7 +137,7 @@ export function renderCard(resto, distanceMi) {
           <span class="chip chip-cuisine">${esc(resto.cuisine)}</span>
           <span class="chip chip-price">${priceHtml(resto.price)}</span>
           ${distanceMi != null ? `<span class="chip">${esc(fmtMiles(distanceMi))}</span>` : ''}
-          ${openChip(resto)}${resto.live ? '<span class="chip chip-live">🔎 live</span>' : ''}
+          ${openChip(resto, when)}${resto.live ? '<span class="chip chip-live">🔎 live</span>' : ''}
         </div>
         <h2 class="card-dish">${esc(resto.signatureDish?.name || resto.name)}</h2>
         <p class="card-desc">${esc(resto.signatureDish?.description || '')}</p>

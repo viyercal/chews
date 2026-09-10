@@ -6,7 +6,7 @@ const DEFAULTS = () => ({
     mode: 'forYou',           // 'forYou' | 'new'
     location: null,           // { lat, lng, source: 'gps' | 'manual', label? }
     onboarded: false,
-    openNowOnly: true,        // hide places known to be closed right now
+    openNowOnly: true,        // hide places known to be closed right now (session `openAt` overrides — see core/when.js)
     maxPrice: 0,              // 0 = any; 1-4 caps the price level
     vegOnly: false,           // only vegetarian/vegan-friendly tagged places
     minRating: 0,             // 0 = any; else minimum star rating (e.g. 4.5)
@@ -150,8 +150,9 @@ export class Store {
     this.save()
   }
 
-  // Tonight-only overrides (e.g. a cuisine craving): live in `session`, never
-  // persisted — a reload clears them, and the saved profile never sees them.
+  // Tonight-only overrides (a cuisine craving, a planned day + time): live in
+  // `session`, never persisted — a reload clears them, and the saved profile
+  // never sees them.
   setSessionSetting(k, v) {
     this.session[k] = v
   }

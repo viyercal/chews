@@ -1,4 +1,5 @@
 import { el, esc, renderMiniCard, mapsUrl } from './cards.js'
+import { resolveWhen } from '../core/when.js'
 import { milesBetween } from '../core/geo.js'
 import { clearToasts } from './toast.js'
 
@@ -73,9 +74,11 @@ export class Faceoff {
 
   renderChampion(resto) {
     this.root.innerHTML = ''
-    const h = new Date().getHours()
-    // Open-now off = the user is planning ahead, not eating right now.
-    const meal = !this.store.settings.openNowOnly
+    // Name the meal from the time frame: a planned Saturday 9 AM is
+    // breakfast; "any time" means they're planning ahead, not eating now.
+    const when = resolveWhen(this.store.settings)
+    const h = when.date.getHours()
+    const meal = !when.filtering
       ? 'Your next meal'
       : h < 5 ? 'Late-night craving' : h < 11 ? 'Breakfast' : h < 15 ? 'Lunch' : 'Dinner'
     const wrap = el(`

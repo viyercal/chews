@@ -50,6 +50,13 @@ user is outside the Bay Area, the app falls back to exploring a chosen Bay Area 
   bracket (tap the winner) until one restaurant remains → champion card + directions.
   Group-dinner indecision, solved in ~30 seconds.
 
+**Time frame ("When are you going?").** Hours are evaluated against one shared frame:
+open now (default, persisted), a picked day + time (session-only — a Saturday-brunch plan
+must not haunt Tuesday's deck), or any time. `core/when.js` resolves the frame to an
+instant; deck filtering, card/search status chips, and the sheet's hours line all take it.
+Search holds closed-then results behind a "show N closed" reveal rather than dropping
+them, so a name search can never come up empty just because the place is shut.
+
 **Persistence.** Everything local: `localStorage`, versioned, no accounts, no server.
 
 ## Architecture
@@ -61,6 +68,8 @@ js/config.js            tunables (radius, weights, cold-start threshold)
 js/core/geo.js          haversine, geolocation, fallback spots
 js/core/engine.js       TasteEngine — pure, DOM-free, unit-tested
 js/core/deck.js         candidate filter + rank + diversify, undo history
+js/core/hours.js        weekly-schedule status at any instant; day/week hour strings
+js/core/when.js         time frame: open now / picked day + time (session) / any time
 js/core/store.js        localStorage persistence (dumb; engine owns the math)
 js/ui/*.js              cards, swipe physics, sheet, matches, faceoff, profile, nav, toast, onboarding
 js/data/restaurants.gen.js  generated from data/restaurants.json

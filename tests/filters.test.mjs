@@ -149,3 +149,50 @@ test('filteredCount counts filter survivors regardless of swipe status', () => {
   store.setSetting('minRating', 0)
   assert.equal(deck.filteredCount(WED_NOON), 2)
 })
+
+test('session openAt filters by the picked day + time, ignoring the clock', () => {
+  const satBrunch = resto({ id: 'satBrunch', hours: [[6, '08:00', '15:00']] })
+  const weekdayOnly = resto({ id: 'weekday', hours: [[3, '11:00', '22:00']] })
+  const unknown = resto({ id: 'unknown' })
+  const { deck, store } = mkDeck([satBrunch, weekdayOnly, unknown], { openNowOnly: true })
+  // Wednesday noon, open-now: the weekday spot is open, the brunch spot is not.
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id).sort(), ['unknown', 'weekday'])
+  store.setSessionSetting('openAt', { day: 6, time: '10:00' })
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id).sort(), ['satBrunch', 'unknown'])
+  assert.equal(deck.when(WED_NOON).label, 'Sat 10 AM')
+  // Late Saturday: brunch spot closed too.
+  store.setSessionSetting('openAt', { day: 6, time: '20:00' })
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id), ['unknown'])
+  // openAt wins even when the saved preference is "any time".
+  store.setSetting('openNowOnly', false)
+  assert.deepEqual(deck.candidates('forYou', WED_NOON).map((c) => c.resto.id), ['unknown'])
+  store.clearSessionSetting('openAt')
+  assert.equal(deck.candidates('forYou', WED_NOON).length, 3)
+})
+
+test('openAt is never persisted — a reload is back to the saved preference', () => {
+  const storage = memStorage()
+  const store = new Store(storage)
+  store.load()
+  store.setSessionSetting('openAt', { day: 6, time: '10:00' })
+  store.setSetting('radiusMi', 5) // triggers a save
+  store.flush()
+  const reloaded = new Store(storage)
+  reloaded.load()
+  assert.equal(reloaded.settings.openAt, undefined)
+  assert.equal(reloaded.settings.openNowOnly, true)
+})
+
+test('openCount previews how many in-range spots are open at a frame', () => {
+  const sat = resto({ id: 'sat', hours: [[6, '08:00', '15:00']] })
+  const wed = resto({ id: 'wed', hours: [[3, '11:00', '22:00']] })
+  const far = resto({ id: 'far', lat: 39.5, hours: [[6, '08:00', '15:00']] })
+  const { deck, store } = mkDeck([sat, wed, far, resto({ id: 'unknown' })])
+  store.setSessionSetting('openAt', { day: 6, time: '10:00' })
+  assert.equal(deck.openCount(deck.when(WED_NOON)), 2) // sat + unknown; far is out of range
+  store.setSessionSetting('openAt', { day: 3, time: '12:00' })
+  assert.equal(deck.openCount(deck.when(WED_NOON)), 2) // wed + unknown
+  store.clearSessionSetting('openAt')
+  store.setSetting('openNowOnly', false)
+  assert.equal(deck.openCount(deck.when(WED_NOON)), 3) // any time: everything in range
+})

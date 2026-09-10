@@ -199,7 +199,7 @@ try {
       transcript.actions.push({ act: 'toggle-veg', ok })
     }
     if (persona.appOpenNowOff) {
-      const ok = await cdp.eval(click('[data-toggle="openNowOnly"]'))
+      const ok = await cdp.eval(click('#view-taste [data-when="any"]')) // time frame → any time
       transcript.actions.push({ act: 'toggle-open-now-off', ok })
     }
     await cdp.eval(click('#tab-discover'))

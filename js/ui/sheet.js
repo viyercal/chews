@@ -1,6 +1,6 @@
 import { el, esc, fmtCount, priceHtml, mapsUrl, cuisineGradient, openChip, vegChip } from './cards.js'
 import { fmtMiles } from '../core/geo.js'
-import { todayHours } from '../core/hours.js'
+import { dayHours, weekHours, DAYS_LONG } from '../core/hours.js'
 import { DATA_META } from '../data/restaurants.gen.js'
 
 // Bottom sheet with the full menu card. `actions` customizes the button row so
@@ -11,10 +11,16 @@ export class Sheet {
     this.openEl = null
   }
 
-  open(resto, { distanceMi = null, actions = [] } = {}) {
+  // `when` (core/when.js) shifts the status chip and hours line to a planned
+  // day + time; the full week is a tap away for anyone planning further out.
+  open(resto, { distanceMi = null, actions = [], when = null } = {}) {
     this.close()
     const [g1, g2] = cuisineGradient(resto.cuisine)
-    const th = todayHours(resto)
+    const at = when?.date || new Date()
+    const isNow = when ? when.isNow : true
+    const th = dayHours(resto, at.getDay())
+    const dayLabel = isNow ? 'Today' : DAYS_LONG[at.getDay()]
+    const week = weekHours(resto)
     const menu = (resto.menu || [])
       .map(
         (m) => `
@@ -36,8 +42,10 @@ export class Sheet {
               <p class="sheet-meta">${esc(resto.cuisine)} · ${priceHtml(resto.price)}${resto.priceRange ? ` <em>(${esc(resto.priceRange)}/person)</em>` : ''} · ★ ${Number(resto.rating).toFixed(1)} <em>(${fmtCount(resto.ratingCount)} reviews)</em>${distanceMi != null ? ` · ${esc(fmtMiles(distanceMi))}` : ''}</p>
             </div>
           </div>
-          <div class="chip-row sheet-chips">${openChip(resto)}${vegChip(resto)}</div>
-          ${th ? `<p class="sheet-hours">Today: ${esc(th)}</p>` : ''}
+          <div class="chip-row sheet-chips">${openChip(resto, when)}${vegChip(resto)}</div>
+          ${th ? `<details class="sheet-hours"><summary>${esc(dayLabel)}: ${esc(th === 'Closed' && isNow ? 'Closed today' : th)} <em>all hours ▾</em></summary>
+            <ul class="sheet-week">${week.map((w) => `<li class="${w.day === at.getDay() ? 'on' : ''}"><span>${esc(w.name)}</span><span>${esc(w.text)}</span></li>`).join('')}</ul>
+          </details>` : ''}
           ${resto.why ? `<p class="sheet-why">“${esc(resto.why)}”</p>` : ''}
           ${resto.live
             ? `<div class="sheet-section-label">🔎 Live Google result</div>

@@ -38,6 +38,21 @@ QA override: `?loc=37.7599,-122.4148` sets a fake location and skips onboarding.
   taste (spicy, noodles, …) transfers across cuisines.
 - Left-swipes resurface after 14 days. Never more than 2 same-cuisine cards in a row.
 
+## When are you going?
+
+The top-bar **● now** pill sets the time frame every hours check uses — the
+deck, search, and the Taste filters share it:
+
+- **Open now** (default) — places known to be closed right now are hidden.
+- **Pick a time** — a day + time (Breakfast/Lunch/Dinner/Late presets or a
+  custom clock). Cards, search rows, and the menu sheet then show *that*
+  day's status ("● Sat open til 3 PM"), the sheet lists the full week, and
+  search holds closed-then spots behind a "Show N closed Sat 9 AM" line.
+  Session-only: reopening the app is back to open now.
+- **Any time** — nothing is hidden for hours.
+
+Weekly hours come from the index, so this costs zero API calls.
+
 ## Data
 
 **Indexed areas: SF Bay Area** (SF, San Jose, Oakland/Berkeley, Peninsula,
