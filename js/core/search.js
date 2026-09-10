@@ -5,7 +5,35 @@
 const fold = (s) =>
   String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
 
-const tokenize = (s) => fold(s).split(/[^a-z0-9]+/).filter(Boolean)
+const APOS = /['’‘`]/g
+const split = (s) => s.split(/[^a-z0-9]+/).filter(Boolean)
+
+// Apostrophes are collapsed so "Sana’a" is one token ("sanaa") and a query
+// typed as sanaa / sana'a / sana all land on it. The index also keeps the
+// split form ("sana", "a") so "farrell" still finds O'Farrell.
+const tokenizeQuery = (s) => split(fold(s).replace(APOS, ''))
+const tokenizeIndex = (s) => { const f = fold(s); return [...new Set([...split(f.replace(APOS, '')), ...split(f)])] }
+
+// One-edit tolerance (substitution, insertion, or deletion) — the typo
+// fallback for tokens with no exact or prefix hit.
+function within1(a, b) {
+  if (a === b) return true
+  const la = a.length, lb = b.length
+  if (Math.abs(la - lb) > 1) return false
+  let i = 0, j = 0, edits = 0
+  while (i < la && j < lb) {
+    if (a[i] === b[j]) { i++; j++; continue }
+    if (++edits > 1) return false
+    if (la > lb) i++
+    else if (lb > la) j++
+    else { i++; j++ }
+  }
+  return edits + (la - i) + (lb - j) <= 1
+}
+const FUZZY_MIN = 4 // shorter tokens have too many one-edit neighbours
+// A name-aimed query lands on a handful of places (a chain's locations at
+// most); "coffee" landing on sixty names is a category word, not a name.
+const NAME_HIT_MAX = 8
 
 // Naive singular so "burgers" finds "burger" (and vice versa via query side).
 const sing = (t) => (t.length > 3 && t.endsWith('s') ? t.slice(0, -1) : t)
@@ -27,33 +55,47 @@ const FIELDS = [
 export function buildSearchIndex(restaurants) {
   return restaurants.map((resto) => ({
     resto,
-    nameText: fold(resto.name),
+    nameText: fold(resto.name).replace(APOS, ''),
+    nameTokens: tokenizeIndex(resto.name).map(sing),
     fields: FIELDS.map((f) => ({
       weight: f.weight,
       label: f.label,
-      tokens: tokenize(f.get(resto) || '').map(sing),
+      tokens: tokenizeIndex(f.get(resto) || '').map(sing),
     })),
   }))
 }
 
-// Best score one query token earns in one entry: exact token match at full
-// field weight, prefix match at 70%.
-function tokenScore(entry, qt) {
+// How well one query token fits a token list: exact 1, prefix 0.7, one
+// typo away 0.5 (only as a fallback when nothing exact/prefix hits).
+function fit(tokens, qt) {
   let best = 0
-  for (const f of entry.fields) {
-    if (f.weight <= best) continue
-    for (const t of f.tokens) {
-      if (t === qt) { best = Math.max(best, f.weight); break }
-      if (t.startsWith(qt)) best = Math.max(best, f.weight * 0.7)
-    }
+  for (const t of tokens) {
+    if (t === qt) return 1
+    if (t.startsWith(qt)) best = Math.max(best, 0.7)
+  }
+  if (!best && qt.length >= FUZZY_MIN) {
+    for (const t of tokens) if (t.length >= FUZZY_MIN && within1(t, qt)) return 0.5
   }
   return best
 }
 
+// Best score one query token earns in one entry across the weighted fields.
+function tokenScore(entry, qt) {
+  let best = 0
+  for (const f of entry.fields) {
+    if (f.weight <= best) continue
+    best = Math.max(best, f.weight * fit(f.tokens, qt))
+  }
+  return best
+}
+
+// `nameHit`: the query is aimed at this place by name (every token lands in
+// the name, or the whole phrase does) — the UI keeps such hits visible even
+// when the time frame would hide them as closed.
 export function search(index, query, { limit = 20 } = {}) {
-  const qts = [...new Set(tokenize(query).map(sing))]
+  const qts = [...new Set(tokenizeQuery(query).map(sing))]
   if (!qts.length) return []
-  const qFull = fold(query).trim()
+  const qFull = fold(query).replace(APOS, '').trim()
 
   const scored = []
   for (const entry of index) {
@@ -64,10 +106,13 @@ export function search(index, query, { limit = 20 } = {}) {
     // noodles" should beat a plain "noodles" place) — but partial matches
     // still surface when nothing matches fully.
     let score = per.reduce((a, b) => a + b, 0) * (matched === qts.length ? 1 : 0.25 * (matched / qts.length))
-    if (qFull.length >= 3 && entry.nameText.includes(qFull)) score += 6 // whole-phrase name hit
+    const phrase = qFull.length >= 3 && entry.nameText.includes(qFull)
+    if (phrase) score += 6 // whole-phrase name hit
     score += Math.min(1, (entry.resto.rating - 4) || 0) // faint quality tiebreak
-    scored.push({ resto: entry.resto, score, full: matched === qts.length })
+    const nameHit = phrase || qts.every((qt) => fit(entry.nameTokens, qt) > 0)
+    scored.push({ resto: entry.resto, score, full: matched === qts.length, nameHit })
   }
+  if (scored.filter((s) => s.nameHit).length > NAME_HIT_MAX) for (const s of scored) s.nameHit = false
   scored.sort((a, b) => b.score - a.score)
   // If anything matches every token, partial matches are noise — drop them.
   const cut = scored.some((s) => s.full) ? scored.filter((s) => s.full) : scored

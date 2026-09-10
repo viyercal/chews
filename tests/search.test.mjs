@@ -55,3 +55,43 @@ test('empty and garbage queries return nothing', () => {
   assert.deepEqual(search(idx, '   '), [])
   assert.deepEqual(search(idx, 'zzzqqq'), [])
 })
+
+const APOS_POOL = [
+  ...POOL,
+  resto({ id: 'sanaa', name: 'Sana’a cafe', cuisine: 'Cafe', tags: ['coffee'], signatureDish: { name: 'Adeni Chai', description: 'Spiced Yemeni tea.' } }),
+  resto({ id: 'ofarrell', name: "O'Farrell Grill", signatureDish: { name: 'Ribeye', description: 'Char-grilled.' } }),
+  resto({ id: 'plain', name: 'Corner Cafe', cuisine: 'Cafe', tags: ['coffee'], signatureDish: { name: 'Latte', description: 'Smooth.' } }),
+]
+
+test('apostrophes: sanaa / sana\'a / sana all find Sana’a', () => {
+  const idx = buildSearchIndex(APOS_POOL)
+  for (const q of ['sanaa', "sana'a", 'sana', 'sana’a cafe']) assert.equal(search(idx, q)[0].resto.id, 'sanaa', q)
+  assert.equal(search(idx, 'farrell')[0].resto.id, 'ofarrell') // split form kept
+})
+
+test('one-letter typo still lands on the place', () => {
+  const idx = buildSearchIndex(APOS_POOL)
+  assert.equal(search(idx, "sara'a cafe")[0].resto.id, 'sanaa')
+  assert.equal(search(idx, 'ramin koji')[0].resto.id, 'ramen')
+  assert.deepEqual(search(idx, 'zzzqqq'), []) // garbage still empty
+})
+
+test('nameHit flags name-aimed queries, not dish queries', () => {
+  const idx = buildSearchIndex(APOS_POOL)
+  assert.equal(search(idx, 'sanaa cafe')[0].nameHit, true)
+  assert.equal(search(idx, 'patty')[0].nameHit, true)
+  const chai = search(idx, 'adeni chai')[0]
+  assert.equal(chai.resto.id, 'sanaa')
+  assert.equal(chai.nameHit, false)
+})
+
+test('category words that appear in many names are not name hits', () => {
+  const pool = [...APOS_POOL]
+  for (let i = 0; i < 10; i++) pool.push(resto({ id: `c${i}`, name: `Brand ${i} Coffee`, cuisine: 'Cafe', tags: ['coffee'] }))
+  for (let i = 0; i < 3; i++) pool.push(resto({ id: `p${i}`, name: 'Philz Coffee', cuisine: 'Cafe', tags: ['coffee'] }))
+  const idx = buildSearchIndex(pool)
+  assert.ok(search(idx, 'coffee', { limit: 50 }).every((h) => !h.nameHit)) // 13 names → category
+  const philz = search(idx, 'philz')
+  assert.equal(philz.length, 3)
+  assert.ok(philz.every((h) => h.nameHit)) // chain locations stay name hits
+})

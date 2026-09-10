@@ -80,9 +80,12 @@ export class SearchView {
     const all = search(this.index, query, { limit: MAX_RESULTS * 3 })
     const when = this.deck.when()
     const isClosed = (r) => when.filtering && hoursStatus(r, when.date).status === 'closed'
-    const open = all.filter((h) => !isClosed(h.resto)).slice(0, MAX_RESULTS)
-    const closed = all.filter((h) => isClosed(h.resto)).slice(0, MAX_RESULTS)
-    const hits = this.showClosed ? [...open, ...closed] : open
+    // A place searched for BY NAME is never hidden for being closed — it
+    // shows dimmed with its status; only dish/cuisine hits get held back.
+    const held = (h) => isClosed(h.resto) && !h.nameHit
+    const shown = all.filter((h) => !held(h)).slice(0, MAX_RESULTS)
+    const closed = all.filter(held).slice(0, MAX_RESULTS)
+    const hits = this.showClosed ? [...shown, ...closed] : shown
     hint.classList.toggle('hidden', !!hits.length)
     if (!hits.length && query.trim()) {
       hint.textContent = closed.length
@@ -90,12 +93,13 @@ export class SearchView {
         : 'Nothing matches that — try a dish, cuisine, or spot name.'
     }
     const loc = this.store.settings.location
-    const rows = hits.map((h) => ({ ...h, d: loc ? milesBetween(loc, h.resto) : null, closed: isClosed(h.resto) }))
-    // Relevance decides in ~1-point bands; within a band, distance breaks the
-    // tie so the Dublin sushi bar outranks an equally-matched one 30 mi away.
-    // Closed-then spots (when revealed) always trail the open ones.
+    const toRow = (h) => ({ ...h, d: loc ? milesBetween(loc, h.resto) : null, closed: isClosed(h.resto) })
+    // Relevance decides in ~1-point bands; within a band, open beats closed
+    // and distance breaks the tie so the Dublin sushi bar outranks an
+    // equally-matched one 30 mi away. Revealed closed-then spots trail.
     const band = (s) => Math.round(s)
-    rows.sort((a, b) => a.closed - b.closed || band(b.score) - band(a.score) || (a.d ?? 1e9) - (b.d ?? 1e9))
+    const order = (a, b) => band(b.score) - band(a.score) || a.closed - b.closed || (a.d ?? 1e9) - (b.d ?? 1e9)
+    const rows = [...shown.map(toRow).sort(order), ...(this.showClosed ? closed.map(toRow).sort(order) : [])]
     for (const { resto, d, closed: c } of rows) list.appendChild(this.row(resto, d, when, c))
     if (closed.length) {
       const label = when.mode === 'at' ? when.label : 'right now'
