@@ -184,6 +184,7 @@ export class MatchesView {
   openSheet(resto) {
     this.sheet.open(resto, {
       distanceMi: this.distanceTo(resto),
+      when: this.deck.when(), // the top-bar frame applies here too
       // Sheet closes on action; the verdict ask appears on the row beneath.
       actions: [{ label: '🍽️ Ate here', className: 'btn-yum', onClick: () => this.markAte(resto) }],
     })
