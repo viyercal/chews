@@ -72,9 +72,10 @@ test('dayHours / weekHours for the sheet planning view', () => {
   assert.equal(weekHours({}), null)
 })
 
-test('fmtMiles: same block, feet under ~0.2 mi, then miles', async () => {
+test('fmtMiles: always a distance — feet under ~0.2 mi, then miles', async () => {
   const { fmtMiles } = await import('../js/core/geo.js')
-  assert.equal(fmtMiles(0.01), 'right here')
+  assert.equal(fmtMiles(0), '50 ft')
+  assert.equal(fmtMiles(0.01), '50 ft')
   assert.equal(fmtMiles(0.05), '250 ft')
   assert.equal(fmtMiles(0.14), '750 ft')
   assert.equal(fmtMiles(0.19), '0.2 mi')
