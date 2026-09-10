@@ -24,8 +24,11 @@ for (const r of raw.restaurants) {
     (inBay || inNyc) &&
     Number.isFinite(r.rating)
   if (!ok) { dropped++; console.warn('drop (invalid):', r.name); continue }
+  // Existing ids never change (users' swipes key on them); a chain's extra
+  // locations get a city, then a street, suffix.
   let id = slug(r.name)
   if (seen.has(id)) id = `${id}-${slug(r.city || r.neighborhood || 'x')}`
+  if (seen.has(id)) id = `${slug(r.name)}-${slug(String(r.address).split(',')[0])}`
   if (seen.has(id)) { dropped++; console.warn('drop (dupe):', r.name); continue }
   seen.add(id)
   const hours = Array.isArray(r.hours)

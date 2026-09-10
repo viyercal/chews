@@ -1,0 +1,5208 @@
+[
+ {
+  "placeId": "ChIJBUqVw0qBhYARsZQy7oS9fn4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "🍵",
+  "why": "A new FiDi matcha spot locals call smooth, vibrant, and some of the best they've had.",
+  "tags": [
+   "coffee",
+   "tea",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Citrus Matcha Cloud",
+   "description": "A bright citrus matcha drink that stood out as a top pick for reviewers",
+   "basis": "citrus matcha cloud"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJrcoKeYqBhYAReNsG0XWfYZs",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Russian Hill",
+  "emoji": "☕",
+  "why": "Deceptively named coffee shop with an espresso-shining Isfahan latte and a stellar surprise brunch.",
+  "tags": [
+   "coffee",
+   "brunch",
+   "upscale",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Isfahan Syrup Latte",
+   "description": "Espresso latte laced with rose, raspberry and vanilla notes from house Isfahan syrup",
+   "basis": "signature drink made with the Isfahan syrup"
+  },
+  "menu": [
+   {
+    "name": "Single-Origin Cortado",
+    "price": "",
+    "description": "Single-origin espresso cortado, choose your own bean",
+    "basis": "single origin cortado"
+   },
+   {
+    "name": "Hen of the Woods",
+    "price": "",
+    "description": "Rich, deeply savory mushroom dish topped with poached and fried egg",
+    "basis": "hen of the woods dish"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJoTMb3PKAhYARsXkQt469sBw",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Nob Hill",
+  "emoji": "☕",
+  "why": "Tiny cable-car-view cafe with a line that moves fast and coffee locals call the best in SF.",
+  "tags": [
+   "coffee",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Coffee Flight",
+   "description": "A multi-cup tasting flight of their coffee, called out alongside the mocha",
+   "basis": "coffee flight is great"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJh10OvJGAhYAR3PXa3UKPE5A",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "🍳",
+  "why": "Petite Nob Hill-area cafe turning out pesto egg toast and creative lattes like burnt caramel.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "casual",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Pesto Egg Toast",
+   "description": "Buttery multigrain toast topped with a nicely cooked pesto egg",
+   "basis": "pesto egg toast was absolutely delicious"
+  },
+  "menu": [
+   {
+    "name": "Burnt Caramel Latte",
+    "price": "",
+    "description": "Mild caramel flavor over strong coffee, exactly as reviewers like it",
+    "basis": "Mild caramel flavor but strong coffee"
+   },
+   {
+    "name": "Spicy PB&J",
+    "price": "",
+    "description": "Wheat toast with warm peanut butter, strawberry jelly, and a spicy kick",
+    "basis": "spicy PB&J"
+   },
+   {
+    "name": "Avocado Toast",
+    "price": "",
+    "description": "Beautifully presented avocado toast",
+    "basis": "avocado toast which was beautifully presented"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJmfgIQ-iAhYARq5osc-JybBo",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Polk Gulch",
+  "emoji": "☕",
+  "why": "Airy Polk Gulch coffeehouse known for one of the best pour-overs around, plus a superb muffin.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Pour-over Coffee",
+   "description": "Beautifully balanced pour-over with a clean, bright flavor and incredible aroma",
+   "basis": "One of the best pour-over coffees, we enjoyed in a long time"
+  },
+  "menu": [
+   {
+    "name": "Blueberry Lemon Muffin",
+    "price": "",
+    "description": "A superb, bright muffin bursting with blueberry and lemon",
+    "basis": "blueberry lemon muffin. It was superb"
+   },
+   {
+    "name": "Coffee Flight",
+    "price": "",
+    "description": "A flight of coffees worth settling in for an hour",
+    "basis": "got the coffee flight and spent almost an hour here"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJgXTImZOAhYARzX4bhO9a8ao",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "🥯",
+  "why": "Cozy corner cafe serving a hot, drippy ultimate breakfast sandwich alongside lavender lattes.",
+  "tags": [
+   "breakfast",
+   "coffee",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Ultimate Breakfast Sandwich",
+   "description": "Hot ham breakfast sandwich, immaculate first bites, more croissant flavor as it cools",
+   "basis": "ultimate breakfast sandwich with ham"
+  },
+  "menu": [
+   {
+    "name": "Lavender Latte",
+    "price": "",
+    "description": "Latte with a noticeable lavender aroma and flavor",
+    "basis": "Very good lavender latte"
+   },
+   {
+    "name": "The Works Bagel",
+    "price": "",
+    "description": "Loaded bagel with perfectly crunchy, not oily bacon",
+    "basis": "works bagel had perfect combination of flavors"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJTTq11ZmBhYARmN1Y-YkucFs",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Nob Hill",
+  "emoji": "🥐",
+  "why": "Nob Hill bakery whose banana chocolate croissant reviewers call the best in the city.",
+  "tags": [
+   "bread",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Banana Chocolate Croissant",
+   "description": "Rich, natural banana flavor paired perfectly with chocolate in a flaky croissant",
+   "basis": "banana chocolate croissant is one of the most unique pastries"
+  },
+  "menu": [
+   {
+    "name": "Pain au Chocolat",
+    "price": "",
+    "description": "Classic chocolate pastry, part of a can't-miss trio here",
+    "basis": "pain au chocolat, banana chocolate croissant, and the raspberry almond and all of them were so good"
+   },
+   {
+    "name": "Gluten-Free Carrot Cake Muffin",
+    "price": "",
+    "description": "Gluten-free muffin with perfect texture, everything delicious",
+    "basis": "gluten-free carrot cake muffin. Everything was delicious and the texture was perfect"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJC2jb8DWBhYARo4AAX78U50c",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Cow Hollow",
+  "emoji": "🥐",
+  "why": "Cow Hollow coffee stop famous for its unique, delicious ube croissant and Swedish fika buns.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Ube Croissant",
+   "description": "Unique, delicious croissant reviewers specifically call out as a must-try",
+   "basis": "especially recommend the ube croissant"
+  },
+  "menu": [
+   {
+    "name": "Pistachio Latte",
+    "price": "",
+    "description": "Pistachio-flavored latte reviewers call well worth it",
+    "basis": "pistachio latte and theyre so worth it"
+   },
+   {
+    "name": "Cinnamon Fika Bun",
+    "price": "",
+    "description": "Traditional Swedish fika bun, served Thursday through Sunday",
+    "basis": "tried the cinnamon fika bun"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ3tIspSAhYAR-Uzxpdu0DQk",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Nob Hill",
+  "emoji": "🍳",
+  "why": "Buzzy Nob Hill brunch spot; the Baja Benedict piled with dungeness crab blew reviewers away.",
+  "tags": [
+   "brunch",
+   "breakfast",
+   "seafood",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Baja California Benedict",
+   "description": "Eggs Benedict piled with a generous portion of dungeness crab and balanced hollandaise",
+   "basis": "Baja California Benedict and it blew me away"
+  },
+  "menu": [
+   {
+    "name": "Harvest Time Scramble",
+    "price": "",
+    "description": "Veggie-packed scramble where pesto carries a lot of the flavor",
+    "basis": "Harvest Time Scramble with eggs, eggplant, asparagus, tomato, olives, pine nuts, and pesto"
+   },
+   {
+    "name": "Lemon Ricotta Pancakes",
+    "price": "",
+    "description": "Often ordered with poached eggs and bacon on the side",
+    "basis": "lemon ricotta pancakes, poached eggs and beacon"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJsZFC6oOBhYAR62ecBiO_5DE",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "Cozy lower Nob Hill coffee shop where the oat milk cappuccino comes out perfect.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Oat Milk Cappuccino",
+   "description": "Oat milk cappuccino a regular calls simply perfect",
+   "basis": "oatmilk capuchino was perfect"
+  },
+  "menu": [
+   {
+    "name": "Decaf Espresso",
+    "price": "",
+    "description": "High-quality decaf espresso option",
+    "basis": "Decaf espresso was high quality"
+   },
+   {
+    "name": "Chia and Oats Bowl",
+    "price": "",
+    "description": "A great midday snack bowl of chia and oats",
+    "basis": "chia and oats bowl was a great midday snack too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJkXXugh2BhYAR2nQNOhnYDmA",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Chinatown",
+  "emoji": "☕",
+  "why": "Chinatown coffee stop known for an amazing coconut vanilla latte and a banana tea loaf.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Coconut Vanilla Latte",
+   "description": "Amazing latte with coconut and vanilla flavor",
+   "basis": "coconut vanilla latte was amazing"
+  },
+  "menu": [
+   {
+    "name": "Banana Tea Loaf",
+    "price": "",
+    "description": "Rich banana loaf reviewers say they'll miss when it's gone",
+    "basis": "banana tea loaf is actually to die for"
+   },
+   {
+    "name": "Mocha",
+    "price": "",
+    "description": "Espresso mocha topped with a custom barista-drawn design",
+    "basis": "mocha with barista choice design and it was to delicious and cute"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJcyHa9fOAhYAR7reGSUvtLe4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "☕",
+  "why": "Historic North Beach institution known for rich, bold, old-school Italian espresso.",
+  "tags": [
+   "coffee",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Espresso",
+   "description": "Classic espresso, rich and bold, just how it should be",
+   "basis": "espresso was rich and bold, just how it should be"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJd9gqk42AhYARDYc6gRcfCms",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "Cheap, tasty Vietnamese-American breakfast sandwiches and banh mi from a friendly family-run spot.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Vietnamese Iced Coffee",
+   "description": "Vietnamese iced coffee that reviewers call really good.",
+   "basis": "Vietnamese iced coffee and it was also really good"
+  },
+  "menu": [
+   {
+    "name": "Chicken BBQ Banh Mi",
+    "price": "",
+    "description": "Fresh, crispy bread with crunchy veggies — a customer favorite banh mi.",
+    "basis": "Super fresh and delicious chicken bbq banh mi"
+   },
+   {
+    "name": "Breakfast Sandwich",
+    "price": "",
+    "description": "Simple yet tasty and comforting — a popular quick breakfast pick.",
+    "basis": "simple yet so tasty and comforting"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJsU3K7vSAhYARv8bNtVUBHYo",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Jackson Square",
+  "emoji": "☕",
+  "why": "Loftlike cafe praised for its toast, sandwiches, and hearty breakfast platters.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Platter",
+   "description": "Potatoes, eggs, bacon, and sourdough toast — reviewers call it the perfect amount.",
+   "basis": "platter potatoes, eggs, bacon and sourdough toast"
+  },
+  "menu": [
+   {
+    "name": "Toast & Sandwiches",
+    "price": "",
+    "description": "Reviewers say both the toast and sandwiches are really good.",
+    "basis": "The toast and sandwiches were really good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJDbUarumAhYAR9azGX34nQzc",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Polk Gulch",
+  "emoji": "☕",
+  "why": "Cozy Polk Street coffee shop loved for its balanced Lavender Latte and warm, welcoming vibe.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Lavender Latte",
+   "description": "Beautifully balanced and floral without being overpowering, say reviewers.",
+   "basis": "The Lavender Latte is beautifully balanced—floral without being overpowering"
+  },
+  "menu": [
+   {
+    "name": "Matcha Latte",
+    "price": "",
+    "description": "Smooth, rich, and perfectly balanced — reviewers call it the best.",
+    "basis": "the best matcha latte here—smooth, rich, and perfectly balanced"
+   },
+   {
+    "name": "Breakfast Sandwich",
+    "price": "",
+    "description": "Solid and satisfying — a good pairing with their coffee drinks.",
+    "basis": "The breakfast sandwich is solid and satisfying"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJmZa_nCWBhYAR-gWlk5ZX0r0",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "Lively Yemeni coffee house known for fragrant Harazi Mufawar and late-night hospitality.",
+  "tags": [
+   "coffee",
+   "tea",
+   "late-night",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Harazi Mufawar",
+   "description": "Fragrant and bold Yemeni coffee, best sipped slow while people-watching.",
+   "basis": "Harazi Mufawar was quite fragrant &  bold"
+  },
+  "menu": [
+   {
+    "name": "Pistachio Latte",
+    "price": "",
+    "description": "A go-to favorite — reviewers call the coffee really good, especially this one.",
+    "basis": "really good coffee, especially the Pistachio Latte"
+   },
+   {
+    "name": "Shaken Espresso",
+    "price": "",
+    "description": "Reviewers say it's really good, alongside the stronger hot Yemeni coffees.",
+    "basis": "The shaken espresso is really good"
+   },
+   {
+    "name": "Samosa",
+    "price": "",
+    "description": "A savory bite reviewers enjoyed alongside their Iced Mufawar.",
+    "basis": "The samosa was really good, too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ74kEx4-AhYAR4fCWv7CI6h4",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Tenderloin",
+  "emoji": "🍳",
+  "why": "Tiny, bustling breakfast spot famous for Billionaire Bacon and the Million Dollar Pancake.",
+  "tags": [
+   "breakfast",
+   "comfort",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Billionaire Bacon",
+   "description": "A longtime favorite — one reviewer calls this version the best in 20 years.",
+   "basis": "I’ve had a Billionaire Bacon many times"
+  },
+  "menu": [
+   {
+    "name": "Million Dollar Pancake",
+    "price": "",
+    "description": "A regulars' tip: reviewers say it's 100% worth ordering.",
+    "basis": "order the million dollar pancake, it’s 100% worth it"
+   },
+   {
+    "name": "Eggs Benedict",
+    "price": "",
+    "description": "Exceptional and packed with flavor, paired with crispy bacon.",
+    "basis": "The eggs Benedict was very good & packed with tons of flavor"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ-xR_pKAhYARNAvzaJs_lt0",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "Laid-back two-story cafe loved for its pumpkin spice bread and reliably good wifi.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Pumpkin Spice Bread",
+   "description": "Tasted like it was made with love, says one happy regular.",
+   "basis": "pumpkin spice bread I got tasted like it was made with love"
+  },
+  "menu": [
+   {
+    "name": "Iced Coffee",
+    "price": "",
+    "description": "Called 'super bomb' and reasonably priced by regulars.",
+    "basis": "The iced coffee was super bomb and not expensive"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJPYugVJGAhYARLGnvHUwQkqs",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "Neighborhood favorite for flawless coffee, great pastries, and a tasty granola bowl.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Granola",
+   "description": "Called tasty by a self-described pastry addict taking a lighter break.",
+   "basis": "went this tasty granola"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJedo_MIyAhYAR42oW_99m1fg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Nob Hill",
+  "emoji": "🥯",
+  "why": "Quaint hilltop cafe known for its asiago bagel sandwiches and warm, name-remembering service.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Egg, Sausage & Cheese Bagel Sandwich",
+   "description": "Egg, sausage, and cheese piled on a toasted asiago bagel.",
+   "basis": "the egg, sausage, and cheese one on an asiago bagel"
+  },
+  "menu": [
+   {
+    "name": "Hungarian Coffee Cake",
+    "price": "",
+    "description": "A specialty slice diners love pairing with their latte.",
+    "basis": "a piece of the Hungarian coffee cake"
+   },
+   {
+    "name": "Beef Sandwich",
+    "price": "",
+    "description": "Paired with a flat white — both called very good.",
+    "basis": "flat white and beef sandwich"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ35ARbwCBhYARsucbsvzu0ZQ",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Cow Hollow",
+  "emoji": "☕",
+  "why": "Car-themed Cow Hollow cafe with a friendly barista pouring genuinely excellent coffee.",
+  "tags": [
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "House Coffee",
+   "description": "Called excellent by a welcoming barista — no specific drink named in reviews.",
+   "basis": "The barista made excellent coffee and was super welcoming"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJmbdcO7qBhYARNWxibi3Npro",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Russian Hill",
+  "emoji": "🥯",
+  "why": "Plant-filled brunch spot loved for its fresh salmon bagel and smooth macadamia latte.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "coffee",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Salmon Bagel",
+   "description": "Fresh and generously topped, paired well with a smooth macadamia latte.",
+   "basis": "The bagel was fresh, and generously topped"
+  },
+  "menu": [
+   {
+    "name": "Macadamia Latte",
+    "price": "",
+    "description": "Smooth and perfectly balanced, say reviewers who pair it with brunch.",
+    "basis": "the macadamia latte was smooth, and perfectly balanced"
+   },
+   {
+    "name": "Acai Bowl",
+    "price": "",
+    "description": "Called fabulous by visitors, alongside an equally good yogurt bowl.",
+    "basis": "Acai bowl fabulous"
+   },
+   {
+    "name": "Breakfast Burrito",
+    "price": "",
+    "description": "A parent's pick — 'really liked' by one reviewer with kids in tow.",
+    "basis": "I really liked the breakfast burrito"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ3da1WXCBhYAR7ye5adJwtqk",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "☕",
+  "why": "Australian-style coffee shop in the Theatre District praised for its perfect flat white.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Flat White",
+   "description": "Called perfect by regulars — authentically Australian in quality and taste.",
+   "basis": "Flat white perfect"
+  },
+  "menu": [
+   {
+    "name": "Poached Eggs",
+    "price": "",
+    "description": "Also called perfect by the same reviewer raving about the coffee.",
+    "basis": "Poached eggs were perfect too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJW7_g---AhYARAYOeLDDR16E",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "☕",
+  "why": "Reviewers call it the best cold brew in the US, with a skillfully pulled espresso too.",
+  "tags": [
+   "coffee",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Cold Brew",
+   "description": "Called the best cold brew in the US, with amazing flavor at a low price.",
+   "basis": "the best cold brew in the US"
+  },
+  "menu": [
+   {
+    "name": "Avocado Sandwich",
+    "price": "",
+    "description": "A creamy, tasty avocado sandwich fans keep coming back for.",
+    "basis": "Avocado sandwich was tasty and creamy"
+   },
+   {
+    "name": "Banana Nut Loaf",
+    "price": "",
+    "description": "A comforting slice enjoyed on a family morning stop.",
+    "basis": "I enjoyed my banana nut loaf"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZbiTsj6BhYARIq_J1zorxxA",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "☕",
+  "why": "A North Beach favorite for cortados and a pretzel croissant reviewers say is to die for.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Pretzel Croissant",
+   "description": "A can't-miss pastry reviewers call 'to die for.'",
+   "basis": "The pretzel croissant 🥨🥐 is to die for"
+  },
+  "menu": [
+   {
+    "name": "Cortado",
+    "price": "",
+    "description": "A window-seat favorite, ordered more than once.",
+    "basis": "Enjoyed a couple cortados here"
+   },
+   {
+    "name": "Espresso Tonic",
+    "price": "",
+    "description": "A surprise standout among the drinks tried that day.",
+    "basis": "an espresso tonic which was actually pretty good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJa7zkYvGAhYARzwwMM77l_qQ",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "☕",
+  "why": "A cozy Italian-style cafe with a cannoli reviewers call the best they've ever had.",
+  "tags": [
+   "coffee",
+   "dessert",
+   "date-night",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Cannoli",
+   "description": "Piped to order for a fresh finish, called the best cannoli around.",
+   "basis": "one of the best cannoli I have had in my life"
+  },
+  "menu": [
+   {
+    "name": "Chai Hot Tea",
+    "price": "",
+    "description": "A milky, sweet chai latte for a cozy afternoon.",
+    "basis": "a chai hot tea which is basically milk latte with sugar"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJcIb2vSBhYARUldMHQdtuwg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "A welcoming spot known for honey lavender shiratoka coffee and a pink lemonade fans rave about.",
+  "tags": [
+   "coffee",
+   "tea",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Honey Lavender Shiratoka Coffee",
+   "description": "A honey-lavender specialty coffee reviewers call 'ultra yummy.'",
+   "basis": "Ultra yummy honey lavender shiratoka coffee"
+  },
+  "menu": [
+   {
+    "name": "Pink Lemonade",
+    "price": "",
+    "description": "So good a reviewer ran back in just to rave about it.",
+    "basis": "The pink lemonade was so good"
+   },
+   {
+    "name": "Chai",
+    "price": "",
+    "description": "A well-loved chai, called 'very good' by returning regulars.",
+    "basis": "The Chai was also very good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ9Ud2gu2AhYARS6wD_qMZ5rE",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Nob Hill",
+  "emoji": "🍳",
+  "why": "A neighborhood gem for 'one of the best breakfast burritos' with fluffy eggs and spicy aioli.",
+  "tags": [
+   "breakfast",
+   "quick-bite",
+   "casual",
+   "spicy"
+  ],
+  "signatureDish": {
+   "name": "Mexican Breakfast Burrito",
+   "description": "Perfectly cooked with fluffy eggs, called one of the best around.",
+   "basis": "One of the best breakfast burritos I’ve ever had"
+  },
+  "menu": [
+   {
+    "name": "Kimchi Toast",
+    "price": "",
+    "description": "A creative kimchi toast worth ordering with fresh juice.",
+    "basis": "getting the Kimchi toast along with some juices"
+   },
+   {
+    "name": "Pizza Bagel",
+    "price": "",
+    "description": "Loaded with extra cheese and salami for a hearty bite.",
+    "basis": "A pizza bagel with extra cheese and salami"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJix5-GpKAhYARIpvDZTDXl70",
+  "skip": true,
+  "reason": "Reviews praise the owner, vibe, and service, with only generic 'best coffee' mentions and no specific drink or food item named.",
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "tags": [
+   "coffee",
+   "casual"
+  ]
+ },
+ {
+  "placeId": "ChIJbyl6womAhYARGbxBtbBkfPY",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "One of FiDi's best coffee bars, known for a creamy matcha latte and scratch-made syrups.",
+  "tags": [
+   "coffee",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Matcha Latte",
+   "description": "Creamy, smooth matcha latte made with almond milk, a must-try.",
+   "basis": "The Matcha Latte with almond milk is so creamy smooth"
+  },
+  "menu": [
+   {
+    "name": "Espresso",
+    "price": "",
+    "description": "Old-school espresso served in a real ceramic cup and saucer.",
+    "basis": "an espresso in a real ceramic cup and saucer"
+   },
+   {
+    "name": "Iced Latte",
+    "price": "",
+    "description": "A rotating iced latte with house-made caramel or vanilla syrup.",
+    "basis": "I’ve been getting the iced latte"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJP4XqxHaBhYARyv4l-nqkDIo",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Union Square",
+  "emoji": "🥯",
+  "why": "A rare NYC-style bagel in the city, and reviewers say it's simply the best sandwiches around.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "NYC-Style Bagel",
+   "description": "A rare NYC-style bagel in the city; reviewers say 'this is it.'",
+   "basis": "if you are looking for NYC style bagel, this is it"
+  },
+  "menu": [
+   {
+    "name": "Drip Coffee",
+    "price": "",
+    "description": "Strong, flavorful drip coffee served quickly by friendly staff.",
+    "basis": "a drip coffee, which was strong, flavorful, and served quickly"
+   },
+   {
+    "name": "Sandwich",
+    "price": "",
+    "description": "Called one of the best sandwiches a reviewer has ever had.",
+    "basis": "one of THE BEST sandwiches I've ever had"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJx0SD4-2BhYARSnPaf9RPtzY",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Polk Gulch",
+  "emoji": "🍳",
+  "why": "Loved for amazing pistachio pancakes and a pistachio latte that's everything you'd hope for.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pistachio Pancakes",
+   "description": "Fluffy pancakes layered with pistachio sauce, called amazing by fans.",
+   "basis": "The pistachio pancakes were amazing"
+  },
+  "menu": [
+   {
+    "name": "Pistachio Latte",
+    "price": "",
+    "description": "Creamy, nutty pistachio latte, everything hoped for.",
+    "basis": "the Pistachio Latte and it was creamy, nutty and everything we hoped for"
+   },
+   {
+    "name": "Avocado Toast",
+    "price": "",
+    "description": "Avocado toast with a scrambled egg and a bright dressing.",
+    "basis": "the avocado toast with a scrambled egg and the avocado was plentiful"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ3zUpx3OBhYARU-5HbvBWOlw",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "A Financial District cafe famous for its cinnamon date latte, 'the best I've had all week.'",
+  "tags": [
+   "coffee",
+   "dessert",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Cinnamon Date Latte",
+   "description": "An iced cinnamon date latte called 'the best I've had all week.'",
+   "basis": "an iced decaf cinnamon date iced latte. Best that I've had all week"
+  },
+  "menu": [
+   {
+    "name": "Pistachio Milk Cake",
+    "price": "",
+    "description": "Moist, flavorful pistachio milk cake made with care.",
+    "basis": "the pistachio milk cake, which was excellent"
+   },
+   {
+    "name": "Hummus & Falafel Croissant",
+    "price": "",
+    "description": "A savory croissant basket packed with hummus and falafel.",
+    "basis": "hummus and falafel croissant basket and the bee bite"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJO4z2So-AhYARIJ9Y5RRTcQ0",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Union Square",
+  "emoji": "🍳",
+  "why": "A bustling breakfast spot loved for a salmon bagel, a quinoa bowl, and a berry Belgian waffle.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "healthy",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Salmon Breakfast Bagel",
+   "description": "A hearty salmon bagel called delicious alongside a smooth latte.",
+   "basis": "the salmon breakfast bagel and a latte, and everything was delicious"
+  },
+  "menu": [
+   {
+    "name": "Quinoa Bowl",
+    "price": "",
+    "description": "A satisfying quinoa bowl topped with eggs and avocado.",
+    "basis": "the quinoa bowl with eggs and avocado for breakfast, so good and satisfying"
+   },
+   {
+    "name": "Berry Belgian Waffle",
+    "price": "",
+    "description": "A berry Belgian waffle reviewers say looks amazing.",
+    "basis": "sandwiches and berry Belgian waffle looked amazing"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJpc5CI_CAhYARtsthF0j0r3k",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "☕",
+  "why": "A North Beach institution roasting a dark roast coffee that drinkers unquestionably love.",
+  "tags": [
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Dark Roast Coffee",
+   "description": "A beloved dark roast reviewers say they unquestionably love.",
+   "basis": "I unquestionably love their dark roast"
+  },
+  "menu": [
+   {
+    "name": "Decaf Espresso",
+    "price": "",
+    "description": "Swiss Water decaf espresso praised for amazing flavor, no bitterness.",
+    "basis": "high quality Decaf Espresso. Amazing flavor. No Bitterness"
+   },
+   {
+    "name": "Pourover / Espresso",
+    "price": "",
+    "description": "Light-to-medium roast options across pourover and espresso.",
+    "basis": "Light to medium options for both pourovers and espressos"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJH6woNuWAhYARs9r_wd98_yg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "☕",
+  "why": "A little piece of Italy loved for its LOX bagel, quality Italian coffee, and a welcoming owner.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "LOX Bagel",
+   "description": "House bagel loaded with lox, ordered on repeat by one regular visitor.",
+   "basis": "I ordered the LOX bagel each time"
+  },
+  "menu": [
+   {
+    "name": "Pistachio Macchiato",
+    "price": "",
+    "description": "Nutty pistachio-flavored macchiato among the wonderful drink orders.",
+    "basis": "pistachio macchiato"
+   },
+   {
+    "name": "Sausage Egg and Cheese Bagel",
+    "price": "",
+    "description": "Hearty bagel stacked with sausage, egg, and cheese.",
+    "basis": "croissant, sausage egg and cheese bagel"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJE1uwh5CAhYAR_dOKYatnfR8",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Tenderloin",
+  "emoji": "🍳",
+  "why": "No-frills Tenderloin diner loved for heaping comfort-food specials like meatloaf, prime rib, and all-day breakfast.",
+  "tags": [
+   "comfort",
+   "casual",
+   "breakfast",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Meatloaf",
+   "description": "Meatloaf heaping with gravy, served alongside mashed potatoes.",
+   "basis": "the meatloaf and it was HEAPING with gravy and mash potatoes"
+  },
+  "menu": [
+   {
+    "name": "Pancakes",
+    "price": "",
+    "description": "Fluffy pancakes as part of the all-day breakfast menu.",
+    "basis": "The pancakes were nice and fluffy"
+   },
+   {
+    "name": "Prime Rib",
+    "price": "",
+    "description": "Prime rib daily special called excellent, with generous portions.",
+    "basis": "the prime rib and it was excellent"
+   },
+   {
+    "name": "Rice Pudding",
+    "price": "",
+    "description": "House-made rice pudding, sweetened just right, served with the dinner special.",
+    "basis": "the owner made rice pudding that was just the right amount of sweet"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ3UFdD2KAhYARYOHf4j7DshM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Calm, minimalist FiDi café known for smooth roasts, avocado toast, and hot chocolate reviewers call divine.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Hot Chocolate",
+   "description": "Rich hot chocolate reviewers call divine, especially as an afternoon treat.",
+   "basis": "The hot chocolate is divine"
+  },
+  "menu": [
+   {
+    "name": "Avocado Toast",
+    "price": "",
+    "description": "Avocado toast paired with ham & cheese bread, a favorite pairing.",
+    "basis": "the avocado toast together with the ham & cheese bread"
+   },
+   {
+    "name": "Nola Spiced Coffee",
+    "price": "",
+    "description": "Specialty pour recommended by a longtime fan of the chain.",
+    "basis": "try Nola spiced coffee"
+   },
+   {
+    "name": "Almond Butter Toast",
+    "price": "",
+    "description": "Almond butter toast enjoyed alongside the coffee order.",
+    "basis": "a almond butter toast"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJkxMMC8mBhYARuaj_g3b0840",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Jackson Square",
+  "emoji": "☕",
+  "why": "In-house-roasted espresso is the standout at this aesthetic grab-and-go café with breakfast burritos and snacks.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite",
+   "soup"
+  ],
+  "signatureDish": {
+   "name": "Espresso",
+   "description": "Espresso from the in-house roasting equipment, called top notch by visitors.",
+   "basis": "The espresso here is top notch"
+  },
+  "menu": [
+   {
+    "name": "Grilled Cheese and Soup",
+    "price": "",
+    "description": "Grilled cheese and soup combo — tasty, though portions run small.",
+    "basis": "It was tasty but tiny"
+   },
+   {
+    "name": "Breakfast Burrito",
+    "price": "",
+    "description": "Breakfast burrito served all day, a popular grab-and-go pick.",
+    "basis": "Breakfast burritos served all day"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJj59sltB_j4ARhSZ6rQ4tKKU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Beloved FiDi coffee counter famous for its oat cappuccino, dirty chai, and a latte fans fly back for.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Moto Mochi",
+   "description": "Mochi-style bakery item named as one regular's favorite treat.",
+   "basis": "my favorite is definitely their \"Moto Mochi\""
+  },
+  "menu": [
+   {
+    "name": "Oat Cappuccino (Flat White)",
+    "price": "",
+    "description": "Oat cappuccino, ordered as a flat white, is a customer go-to.",
+    "basis": "Oat cappuccino (flat white) is my go-to"
+   },
+   {
+    "name": "Dirty Chai",
+    "price": "",
+    "description": "Full-bodied dirty chai made right with whole milk.",
+    "basis": "a full bodied dirty chai with whole milk"
+   },
+   {
+    "name": "Latte",
+    "price": "",
+    "description": "Latte so good one visitor says it's worth flying back for.",
+    "basis": "the latte i had was so dang good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ64lL-pSAhYARzyfWiH0QLZg",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "🍞",
+  "why": "Cute hole-in-the-wall loved for its turkey avocado sandwich, fresh bagels, and handmade baklava.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "breakfast",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Turkey Avocado Sandwich",
+   "description": "Turkey avocado sandwich on sourdough, called the best by name.",
+   "basis": "Best turkey avocado 🥑sandwich 🥪"
+  },
+  "menu": [
+   {
+    "name": "Baklava",
+    "price": "",
+    "description": "Handmade fresh baklava one reviewer calls heaven.",
+    "basis": "They also sell handmade fresh BAKLAVA"
+   },
+   {
+    "name": "Sausage Burrito",
+    "price": "",
+    "description": "Sausage burrito called the best burrito a diner has ever had.",
+    "basis": "the best burrito she’s ever had"
+   },
+   {
+    "name": "Egg Bagel",
+    "price": "",
+    "description": "Egg bagel, toasted and delicious, a breakfast favorite.",
+    "basis": "an egg bagel and it was so delicious and toasted"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJAetNP-GBhYAR-igMM1d3DUU",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Union Square",
+  "emoji": "🍳",
+  "why": "Snug Union Square breakfast spot loved for huevos rancheros, churrasco, and the lomo saltado sandwich.",
+  "tags": [
+   "breakfast",
+   "casual",
+   "coffee",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "Huevos Rancheros",
+   "description": "Huevos rancheros praised as an awesome way to start breakfast.",
+   "basis": "Awesome breakfast ! - - huevos rancheros"
+  },
+  "menu": [
+   {
+    "name": "Churrasco",
+    "price": "",
+    "description": "Churrasco named the top pick after trying most of the menu.",
+    "basis": "my favorite is the churrasco"
+   },
+   {
+    "name": "Lomo Saltado Sandwich",
+    "price": "",
+    "description": "Lomo saltado sandwich, a close second favorite on the menu.",
+    "basis": "The lomo saltado sandwich is my second fave"
+   },
+   {
+    "name": "Breve Espresso",
+    "price": "",
+    "description": "Breve espresso called so delicious it needs no added sugar.",
+    "basis": "The breve espresso was so delicious I didn’t even need sugar"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJCX-kBnqBhYAR4EA8CUGWzH8",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "North Beach",
+  "emoji": "🥯",
+  "why": "North Beach bagel gem known for Detroit-style bagels, everything bagels with lox, and rosemary salt bread.",
+  "tags": [
+   "bread",
+   "breakfast",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Detroit Style Bagel",
+   "description": "Detroit-style bagel called the reviewer's favorite pick here.",
+   "basis": "my favorite was the Detroit style bagel"
+  },
+  "menu": [
+   {
+    "name": "Everything Bagel with Smoked Salmon",
+    "price": "",
+    "description": "Everything bagel topped with smoked salmon and cream cheese.",
+    "basis": "I like the everything with smoked salmon/CC"
+   },
+   {
+    "name": "Rosemary Salt Bread",
+    "price": "",
+    "description": "Fougasse-style rosemary and salt bread, described as really yummy.",
+    "basis": "fougasse-like rosemary and salt bread"
+   },
+   {
+    "name": "House Cream Cheese",
+    "price": "",
+    "description": "House cream cheeses praised as great alongside the bagels.",
+    "basis": "their cream cheeses are great too"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJi6iXceiAhYARL18mA3K20FE",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Polk Gulch",
+  "emoji": "🍞",
+  "why": "Welcoming Polk Gulch café praised for its egg and avocado sandwich, Friday focaccia, and vegan-friendly options.",
+  "tags": [
+   "casual",
+   "breakfast",
+   "brunch",
+   "vegan-friendly"
+  ],
+  "signatureDish": {
+   "name": "Egg and Avocado Sandwich",
+   "description": "Egg and avocado sandwich called the best, hearty and filling.",
+   "basis": "The egg and avocado sandwich is the best"
+  },
+  "menu": [
+   {
+    "name": "Waffle",
+    "price": "",
+    "description": "Waffle described as delicious, topped with soft whipped cream.",
+    "basis": "I tried the waffle and it was delicious"
+   },
+   {
+    "name": "Focaccia Bread (Fridays)",
+    "price": "",
+    "description": "Friday-only focaccia bread called phenomenal by regulars.",
+    "basis": "The Focaccia bread on Fridays is phenomenal"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZ0iRXZmBhYARPOow6nmvh0U",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "☕",
+  "why": "Cozy Lower Nob Hill coffee spot famous for its out-of-this-world peanut butter latte and playful drinks.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Peanut Butter Latte",
+   "description": "Peanut butter latte called out of this world by fans.",
+   "basis": "The peanut butter latte is out of this world"
+  },
+  "menu": [
+   {
+    "name": "Cinnamon Caramel Cappuccino",
+    "price": "",
+    "description": "Cinnamon caramel cappuccino, tried alongside the cloud latte, both a hit.",
+    "basis": "the cinnamon caramel cappuccino and cloud latte"
+   },
+   {
+    "name": "Strawberry Matcha Latte",
+    "price": "",
+    "description": "Strawberry matcha latte, surprisingly good says one visitor.",
+    "basis": "the strawberry matcha latte and it was surprisingly good"
+   },
+   {
+    "name": "Granita",
+    "price": "",
+    "description": "Granita called exceptional on a warm, sunny afternoon.",
+    "basis": "The granita(?) was exceptional on a warm sunny day"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJH-sNWkWBhYARKLggcXxtAzQ",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "☕",
+  "why": "Fisherman's Wharf-area roaster loved for its iced oat milk black sesame latte and hearty breakfast sandwich.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "breakfast",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Iced Oat Milk Black Sesame Latte",
+   "description": "Iced oat milk black sesame latte, called out as a standout drink.",
+   "basis": "the iced oat milk black sesame latte"
+  },
+  "menu": [
+   {
+    "name": "Mexican Mocha",
+    "price": "",
+    "description": "Mexican mocha praised alongside the specialty latte.",
+    "basis": "the Mexican mocha"
+   },
+   {
+    "name": "Signal Breakfast Sandwich",
+    "price": "",
+    "description": "House breakfast sandwich called filling and tasty.",
+    "basis": "The Signal breakfast sandwich was filling and tasty"
+   },
+   {
+    "name": "Carrot Cake Muffin",
+    "price": "",
+    "description": "Carrot cake muffin called so good by a repeat visitor.",
+    "basis": "The carrot cake muffin was so good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJDbCSio6AhYARnhfyf6t5rus",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "🥯",
+  "why": "Cozy Union Square café loved for its loaded salmon bagel, outstanding coffee, and perfectly brewed green tea.",
+  "tags": [
+   "breakfast",
+   "bread",
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Salmon Bagel",
+   "description": "Salmon bagel loaded with onions, capers, cucumbers, and cream cheese.",
+   "basis": "the salmon bagel with onions, capers, cucumbers, and cream cheese"
+  },
+  "menu": [
+   {
+    "name": "Green Tea",
+    "price": "",
+    "description": "Green tea reviewers say comes out perfect every time.",
+    "basis": "there green tea came out perfect"
+   },
+   {
+    "name": "Breakfast Bagels",
+    "price": "",
+    "description": "Breakfast bagels called fantastic — fresh, flavorful, and well made.",
+    "basis": "for breakfast bagels, and they were fantastic"
+   },
+   {
+    "name": "House Coffee",
+    "price": "",
+    "description": "House coffee described as rich, smooth, and perfectly brewed.",
+    "basis": "rich, smooth, and perfectly brewed every single time"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJz3x2x8mBhYARLWezcHMmSYI",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "☕",
+  "why": "Fast, friendly counter serving breakfast bagels, Belgian waffles, and Turkish baklava sweets.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Baklava",
+   "price": "",
+   "description": "Turkish baklava sold as a souvenir treat, praised right alongside the coffee.",
+   "basis": "Great baklava and coffee!"
+  },
+  "menu": [
+   {
+    "name": "Bacon Egg and Cheese Bagel",
+    "price": "",
+    "description": "Breakfast bagel with bacon, egg and cheese, served fast and with a smile.",
+    "basis": "Had the bacon egg and cheese"
+   },
+   {
+    "name": "Gluten-Free Avocado Toast",
+    "price": "",
+    "description": "Gluten-free toast with avocado and eggs, called the best gluten-free toast around.",
+    "basis": "a gluten free toast with avocado and eggs"
+   },
+   {
+    "name": "Pastrami Sandwich",
+    "price": "",
+    "description": "Toasted pastrami sandwich, flavored and toasted perfectly.",
+    "basis": "the pastrami sandwich"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJy7X4C72BhYARe6YfRIdai3Y",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Polk Gulch",
+  "emoji": "☕",
+  "why": "Neighborhood coffee shop loved for its Mocha Tesora + Mint and warm, dog-and-kid-friendly vibe.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Mocha Tesora + Mint",
+   "price": "",
+   "description": "A custom mocha and Tesora blend with mint, called heavenly and a good size for sharing.",
+   "basis": "Mocha Tesora + Mint is heavenly here"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJIdgy6X-BhYARTaJ_t83IlmE",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Beloved for barista Ariana's warmth, the salted maple latte, and empanadas every morning.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Salted Maple Latte",
+   "price": "",
+   "description": "Recommended by a fellow patron and called absolutely delicious, with spectacular coffee.",
+   "basis": "the salted maple latte"
+  },
+  "menu": [
+   {
+    "name": "Cheese-and-Spinach Empanada",
+    "price": "",
+    "description": "Savory empanada ordered alongside the coffee, called absolutely delicious.",
+    "basis": "a cheese-and-spinach empanada"
+   },
+   {
+    "name": "Saladito Latte",
+    "price": "",
+    "description": "A regular's go-to order, one of the favorites among daily customers.",
+    "basis": "the Saladito latte"
+   },
+   {
+    "name": "Mushroom and Cheese Empanada",
+    "price": "",
+    "description": "Savory mushroom and cheese empanada, a repeat customer's favorite.",
+    "basis": "mushroom and cheese empanada"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJOdKFz1KHj4ARQsEMlp5bInU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Embarcadero",
+  "emoji": "☕",
+  "why": "Financial District favorite for a well-rated 12oz americano, fast service, and empanadas.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Hot Americano (12oz)",
+   "price": "",
+   "description": "A 12oz hot americano rated 4.8/5 by a self-described cafe crawler as light, bitter, smooth.",
+   "basis": "hot americano 12oz  (4.8/5)"
+  },
+  "menu": [
+   {
+    "name": "Empanadas",
+    "price": "",
+    "description": "Empanadas locals insist you try alongside your morning coffee.",
+    "basis": "You gotta try the empanadas!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvRqG4oqAhYARX6hAcvw1Me0",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Minimalist espresso bar known for quality shots and surprisingly excellent duck sandwiches.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Duck Sandwich",
+   "price": "",
+   "description": "One of three excellent sandwiches offered, made on bread with caraway seeds.",
+   "basis": "All the sandwiches were excellent: duck, roast beef, salmon"
+  },
+  "menu": [
+   {
+    "name": "Espresso",
+    "price": "",
+    "description": "No-frills espresso and coffee, called quick, high quality, and the perfect stop.",
+    "basis": "just espresso and coffee"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJH7w1a5qAhYARSHYy_wjbPr4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Civic Center",
+  "emoji": "☕",
+  "why": "Philz outpost loved for creative pours like rose coffee and strawberry mint matcha.",
+  "tags": [
+   "coffee",
+   "tea",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Rose Coffee",
+   "price": "",
+   "description": "A floral rose-flavored coffee so strong and good reviewers wished they'd sized up.",
+   "basis": "the rose coffee and wow"
+  },
+  "menu": [
+   {
+    "name": "Strawberry Mint Matcha",
+    "price": "",
+    "description": "Strawberry mint matcha with a flavor reviewers call nice.",
+    "basis": "Strawberry 🍓 mint matcha! Nice taste!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJKyGeO8uBhYARGBl0pZptD8c",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "Upscale Blue Bottle spot known for a fluffy matcha latte, bold ginger shots, and yuzu cookies.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "healthy"
+  ],
+  "signatureDish": {
+   "name": "Matcha Latte",
+   "price": "",
+   "description": "Fluffy, rich-textured matcha latte reviewers say beats versions they've had in London.",
+   "basis": "I really love the matcha latte here!"
+  },
+  "menu": [
+   {
+    "name": "Ginger Shot",
+    "price": "",
+    "description": "An intensely spicy ginger shot, VERY strong but VERY good.",
+    "basis": "Their ginger shot is VERY strong but VERY good."
+   },
+   {
+    "name": "Yuzu Cookie",
+    "price": "",
+    "description": "A yuzu cookie that surprisingly tastes great.",
+    "basis": "Yuzu cookie surprisingly taste great."
+   },
+   {
+    "name": "Avocado Toast",
+    "price": "",
+    "description": "Avocado toast reviewers call yummm, though prep can run slow.",
+    "basis": "Their avocado toast is yummm!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJydaFKRSBhYARqyhfCAH8A1c",
+  "skip": false,
+  "cuisine": "Mediterranean",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "🥙",
+  "why": "Mediterranean favorite for lamb gyro plates, homemade-style chicken soup, and late-night shawarma.",
+  "tags": [
+   "meat-heavy",
+   "soup",
+   "late-night",
+   "grilled",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Lamb Gyro Plate",
+   "price": "",
+   "description": "Lamb and beef gyro with sliced onion and tzatziki, a regular's declared favorite.",
+   "basis": "I loved the lamb gyro plate!"
+  },
+  "menu": [
+   {
+    "name": "Chicken Soup",
+    "price": "",
+    "description": "Chicken soup diners compare to real homemade chicken soup.",
+    "basis": "one of the closest I've had in the San Francisco Bay Area to real homemade chicken soup"
+   },
+   {
+    "name": "Shawarma",
+    "price": "",
+    "description": "A late-night shawarma bowl or plate, good for mellowing out after a night out.",
+    "basis": "you can mellow out over a nice bowl or plate of shawarma"
+   },
+   {
+    "name": "Turkish Coffee",
+    "price": "",
+    "description": "Turkish coffee served alongside the gyro plate as a traditional finish.",
+    "basis": "a side of Turkish coffee"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJW1E1tHKBhYARsxMfncR9-kw",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "🥪",
+  "why": "Union Square lunch counter loved for its marinated chicken sandwich and fantastic fresh lemonade.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "breakfast",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Marinated Chicken Sandwich",
+   "price": "",
+   "description": "Built from a staff sample so good reviewers say they 'highly recommend' it.",
+   "basis": "their marinated chicken, naturally had to get it in my sandwich and I highly recommend"
+  },
+  "menu": [
+   {
+    "name": "Roast Beef Sandwich",
+    "price": "",
+    "description": "A really good roast beef sandwich, with lots of other options too.",
+    "basis": "Really good roast beef sandwich and lots of other options."
+   },
+   {
+    "name": "Fresh Lemonade",
+    "price": "",
+    "description": "Fresh lemonade reviewers call fantastic.",
+    "basis": "The fresh lemonade is FANTASTIC."
+   },
+   {
+    "name": "Spinach Breakfast Pastry",
+    "price": "",
+    "description": "Savory spinach pastry paired with Turkish baklava for a can't-go-wrong combo.",
+    "basis": "Spinach breakfast pastry and Turkish baklava, cant go wrong!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ5FAFI6AhYARWc6pWHaIZZE",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Union Square",
+  "emoji": "🩾",
+  "why": "Counter-service crepery famous for its Crab Cake Florentine, Honey Cake, and creative smoothies.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Crab Cake Florentine",
+   "price": "",
+   "description": "Crab cake crepe dish called perfect, served with well-seasoned potatoes on the side.",
+   "basis": "the Crab Cake Florentine and it was perfect"
+  },
+  "menu": [
+   {
+    "name": "Honey Cake",
+    "price": "",
+    "description": "Honey cake topped with real whipped cream, delicious enough to top a cappuccino too.",
+    "basis": "I also got a Honey Cake and it was delicious"
+   },
+   {
+    "name": "Coconut Cake",
+    "price": "",
+    "description": "Coconut cake called delightful by regulars.",
+    "basis": "The coconut cake is delightful."
+   },
+   {
+    "name": "OJ & Kiwi Smoothie",
+    "price": "",
+    "description": "An unusual-sounding OJ and kiwi combo that reviewers highly recommend.",
+    "basis": "OJ & Kiwi smoothie seemed like an unusual combo, but I highly recommend it."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJt4S8_XuBhYARzDbXXYAiuno",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Union Square",
+  "emoji": "🍳",
+  "why": "Hidden-gem brunch spot loved for perfectly cooked steak and eggs and genuinely warm service.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "comfort",
+   "meat-heavy"
+  ],
+  "signatureDish": {
+   "name": "Steak and Eggs",
+   "price": "",
+   "description": "Tender, flavorful steak with perfectly cooked eggs, called absolutely delicious.",
+   "basis": "I ordered the steak and eggs, and it was absolutely delicious."
+  },
+  "menu": [
+   {
+    "name": "French Toast Delight",
+    "price": "",
+    "description": "French Toast Delight, ordered alongside the steak and eggs for breakfast.",
+    "basis": "my partner had the French Toast Delight"
+   },
+   {
+    "name": "Veggie Omelet",
+    "price": "",
+    "description": "Veggie omelet stuffed full of fresh veggies and bursting with flavor.",
+    "basis": "My veggie omelet had lots of flavor and was stuffed full of fresh veggies"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJL73LQQCBhYARQEwD-1oshk4",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Union Square",
+  "emoji": "🍝",
+  "why": "Family-run Italian cafe famous for the insanely good La Traviata sandwich and to-die-for espresso.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "family-style",
+   "dessert"
+  ],
+  "signatureDish": {
+   "name": "La Traviata Sandwich",
+   "price": "",
+   "description": "Fresh ingredients and tons of flavor make this the hidden-gem sandwich regulars rave about.",
+   "basis": "The La Traviata sandwich is insanely good"
+  },
+  "menu": [
+   {
+    "name": "Cappuccino and Croissant",
+    "price": "",
+    "description": "A cappuccino and croissant pairing that exceeded expectations.",
+    "basis": "I ordered a cappuccino and a croissant, and both exceeded my expectations"
+   },
+   {
+    "name": "Espresso",
+    "price": "",
+    "description": "Espresso reviewers say is to die for.",
+    "basis": "Espresso is to die for."
+   },
+   {
+    "name": "Pizza and Pasta",
+    "price": "",
+    "description": "Delicious pizzas and pastas made from original northern Italy recipes.",
+    "basis": "Pizzas are so delicious and pastas are original northern Italy recipes."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJeHer46AhYAR9LikMlCe1ug",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "🥪",
+  "why": "Quaint deli-cafe with enormous sandwiches and a new chocolate chai latte worth trying.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Chocolate Chai Latte",
+   "description": "New spiced chai latte with chocolate, called out as a must-try by regulars",
+   "basis": "Try the new chocolate chai latte!"
+  },
+  "menu": [
+   {
+    "name": "Deli Sandwiches",
+    "price": "",
+    "description": "Oversized sandwiches that justify the higher price tag",
+    "basis": "the sandwiches we got were enormous"
+   },
+   {
+    "name": "House Coffee",
+    "price": "",
+    "description": "Strong, satisfying cup of coffee",
+    "basis": "coffee was strong!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJg7cNIYyAhYAR8D4ml1oItTg",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Union Square",
+  "emoji": "🍳",
+  "why": "Neighborly breakfast diner by Union Square known for its own Roxanne French Toast twist.",
+  "tags": [
+   "breakfast",
+   "comfort",
+   "casual",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "Roxanne French Toast",
+   "description": "House French toast with a filling twist that reviewers single out",
+   "basis": "The ‘Roxanne French Toast’ had a taste filling that created a nice twist."
+  },
+  "menu": [
+   {
+    "name": "Avocado Toast",
+    "price": "",
+    "description": "Avocado toast reviewers call outstanding alongside the California omelet",
+    "basis": "We ordered the avocado toast and the California omelet, and both were outstanding."
+   },
+   {
+    "name": "Chicken Apple Sausage",
+    "price": "",
+    "description": "Simple chicken apple sausage side, called good",
+    "basis": "Chicken apple sausage was good."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJd_o4vZGAhYARXi5ujtrUc5c",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Tenderloin",
+  "emoji": "☕",
+  "why": "Cute counter-service deli famous for its playful iced lucky charms latte.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "breakfast",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Iced Lucky Charms Latte",
+   "description": "Iced latte flavored to taste like sweet marshmallow cereal",
+   "basis": "iced lucky charms latte was good !!!"
+  },
+  "menu": [
+   {
+    "name": "Bacon, Egg & Cheese Bagel",
+    "price": "",
+    "description": "Fresh bagel with crispy bacon and perfectly cooked egg",
+    "basis": "Best bacon, egg, and cheese bagel that I’ve had in a while"
+   },
+   {
+    "name": "Breakfast Croissant Sandwich",
+    "price": "",
+    "description": "A regular's favorite breakfast croissant sandwich",
+    "basis": "My favorite is the breakfast croissant sandwich"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJW-PUjPSAhYARHfkJMe6zzJ0",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "North Beach",
+  "emoji": "🥐",
+  "why": "Airy French bistro-bakery where the Kouign-Amann and eggs Benedict both win raves.",
+  "tags": [
+   "bread",
+   "sweet",
+   "breakfast",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "Kouign-Amann",
+   "description": "Caramelized, buttery French pastry reviewers liked more than the croissant",
+   "basis": "we really liked their Kouign-Amann"
+  },
+  "menu": [
+   {
+    "name": "Eggs Benedict",
+    "price": "",
+    "description": "The staff's no-hesitation recommendation for breakfast",
+    "basis": "without hesitation was told to get the eggs Benedict"
+   },
+   {
+    "name": "Croque Monsieur",
+    "price": "",
+    "description": "Classic French ham and cheese sandwich, called very good",
+    "basis": "I had a croque Monsieur which was very good"
+   },
+   {
+    "name": "Lemon Meringue Pie",
+    "price": "",
+    "description": "Tart, sweet slice a self-described non-dessert-eater called exceptional",
+    "basis": "had to have the lemon meringue pie. Exceptional!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJXXxDVY2AhYARdCEREpkRDKg",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Nob Hill",
+  "emoji": "🍝",
+  "why": "Old-school Nob Hill Tuscan spot that happily veganized its pasta alla cecca to great effect.",
+  "tags": [
+   "casual",
+   "comfort",
+   "vegetarian-friendly",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Pasta alla Checca",
+   "description": "Tuscan tomato pasta, made vegan with extra veggies on request and praised for it",
+   "basis": "made the pasta alla cecca vegan with a bunch of added veggies which was really good!"
+  },
+  "menu": []
+ },
+ {
+  "placeId": "ChIJOYG2HACBhYAR51qH-8IsnFM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Civic Center",
+  "emoji": "☕",
+  "why": "Civic Center's hidden-gem cafe with beautiful pastries and a hot chocolate unlike any other.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Hot Chocolate",
+   "description": "Rich hot chocolate reviewers say tastes unlike any other, though pricier than average",
+   "basis": "it was nice, tasted unlike any other hot chocolate"
+  },
+  "menu": [
+   {
+    "name": "House Coffee",
+    "price": "",
+    "description": "Coffee with a great, robust flavor",
+    "basis": "The coffee has a great robust flavor."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJR3tg04uAhYARKvoPCCGPg3I",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "🍳",
+  "why": "Light-filled Financial District cafe loved for its crispy-tater breakfast burrito and Sightglass coffee.",
+  "tags": [
+   "breakfast",
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Burrito",
+   "description": "Crispy taters with just the right bacon, egg and cheese combo",
+   "basis": "Breakfast burrito has crispy taters and just the right combo of bacon, eggs and cheese."
+  },
+  "menu": [
+   {
+    "name": "Chicken Adobowl",
+    "price": "",
+    "description": "Filipino-style chicken adobo bowl among the lunch specialties",
+    "basis": "I bought thr chicken Adobowl"
+   },
+   {
+    "name": "Sightglass Coffee",
+    "price": "",
+    "description": "Coffee brewed from local roaster Sightglass",
+    "basis": "Sight glass coffee."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJxfPUxJSAhYARg1jPZ8AMKQc",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Polk Gulch",
+  "emoji": "🧇",
+  "why": "Cute Nob Hill-area diner famous for its novel pancake tacos in sweet and savory styles.",
+  "tags": [
+   "breakfast",
+   "sweet",
+   "brunch",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pancake Tacos",
+   "description": "Sweet or savory pancake-shell tacos, the novel dish everyone comes to try",
+   "basis": "The pancake tacos were a novel breakfast food for me"
+  },
+  "menu": [
+   {
+    "name": "Oreo Pancake Taco",
+    "price": "",
+    "description": "Dessert-style pancake taco stuffed with Oreo, a reviewer favorite",
+    "basis": "bryce got a oreo pancake taco and loved it"
+   },
+   {
+    "name": "Passionfruit Mimosa Pitcher",
+    "price": "",
+    "description": "Shareable pitcher of passionfruit mimosas",
+    "basis": "We also order the passionfruit mimosa pitcher"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJqR0GkJWAhYAR8I3vVtR8lKs",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Polk Gulch",
+  "emoji": "🥪",
+  "why": "Friendly neighborhood cafe where the generous short rib bento box is a lunchtime steal.",
+  "tags": [
+   "rice",
+   "casual",
+   "comfort",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Short Rib Bento Box",
+   "description": "Tasty, flavorful pork short rib bento with a generous portion for the price",
+   "basis": "Ordered the short rib (pork) bento box. Tasty, flavorful bento."
+  },
+  "menu": [
+   {
+    "name": "Chicken Salad Sandwich",
+    "price": "",
+    "description": "Chicken salad sandwich reviewers call delish",
+    "basis": "the chicken salad sandwich was delish"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJR_oL2oWAhYARqrsHml_days",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "SoMa",
+  "emoji": "🍳",
+  "why": "Small, welcoming SoMa breakfast spot where the salmon scramble delivers an amazing pop of flavor.",
+  "tags": [
+   "breakfast",
+   "seafood",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Salmon Scramble",
+   "description": "Scrambled eggs with salmon, hollandaise, hash browns and sourdough",
+   "basis": "Had split the salmon scramble with hollandaise sauce with hash browns and a slice of sourdough."
+  },
+  "menu": [
+   {
+    "name": "Crab Cake Eggs Benedict",
+    "price": "",
+    "description": "Eggs benedict topped with crab cake, called delicious",
+    "basis": "Delicious crab cake eggs benedict"
+   },
+   {
+    "name": "Corned Beef Hash & Poached Eggs",
+    "price": "",
+    "description": "Corned beef hash with poached eggs and hollandaise, called tasty",
+    "basis": "Corned beef hash w poached eggs and hollandaise sauce was tasty."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJPVPQ2vqAhYARUABMhT-GiB8",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Russian Hill",
+  "emoji": "🥯",
+  "why": "One of the neighborhood's oldest cafes, still turning out a fantastic Francisco bagel with lox.",
+  "tags": [
+   "coffee",
+   "casual",
+   "breakfast",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Francisco Bagel with Lox",
+   "description": "House bagel loaded with lox, called fantastic by visitors",
+   "basis": "I had the Francisco bagel with lox and an iced coffee, and both were fantastic!"
+  },
+  "menu": [
+   {
+    "name": "Iced Coffee",
+    "price": "",
+    "description": "Iced coffee paired with the bagel, also called fantastic",
+    "basis": "an iced coffee, and both were fantastic!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJieJtgomAhYARFQ4sYhDcNTI",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Financial District",
+  "emoji": "🥪",
+  "why": "Counter-service sandwich shop where the melty California melt is the standout order.",
+  "tags": [
+   "casual",
+   "quick-bite",
+   "coffee",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "California Melt",
+   "description": "Melty turkey and vegetable sandwich, a top pick over the other sandwiches",
+   "basis": "I had the California melt, which was certainly melty and was filled with turkey and vegetables."
+  },
+  "menu": [
+   {
+    "name": "Pesto Grilled Chicken Sandwich",
+    "price": "",
+    "description": "Grilled chicken sandwich with pesto, called pretty good",
+    "basis": "The pesto grilled chicken sandwich was also pretty good"
+   },
+   {
+    "name": "Bacon, Tomato & Avocado Toast",
+    "price": "",
+    "description": "Fresh bacon, tomato and avocado on toast, called fantastic",
+    "basis": "The bacon, tomato and avocado on toast is fantastic and very fresh."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5YnUxWGAhYAR8vacC6u0YTY",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "🥙",
+  "why": "FiDi favorite for a hearty breakfast burrito loaded with egg, cheese and chipotle sauce.",
+  "tags": [
+   "breakfast",
+   "casual",
+   "quick-bite",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Burrito",
+   "description": "Packed with egg, cheese, avocado and potatoes, tied together by rich chipotle sauce",
+   "basis": "one of the best I’ve had in the city"
+  },
+  "menu": [
+   {
+    "name": "Shrimp Breakfast Burrito",
+    "price": "",
+    "description": "Stuffed full of shrimp with evenly spread fillings, no bad bite",
+    "basis": "I got a shrimp one and it was stuffed FULL"
+   },
+   {
+    "name": "Veggie Breakfast Burrito",
+    "price": "",
+    "description": "Standout veggie version some reviewers preferred over the meat option",
+    "basis": "I personally preferred the veggie burrito — the flavors really stood out"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJdyXmBo-AhYARlZWFRMVlUYw",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Union Square",
+  "emoji": "🧇",
+  "why": "Round-the-clock retro diner loved for incredible banana-pecan pancakes and eggs benedict.",
+  "tags": [
+   "breakfast",
+   "comfort",
+   "brunch",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Banana Pecan Pancakes",
+   "description": "Called incredible, served alongside fresh-squeezed orange juice",
+   "basis": "The banana and pecan pancakes were INCREDIBLE"
+  },
+  "menu": [
+   {
+    "name": "Eggs Benedict",
+    "price": "",
+    "description": "Among the most flavorful eggs benedict a reviewer has had",
+    "basis": "My eggs Benedict were some of the most flavorful I’ve ever had"
+   },
+   {
+    "name": "Breakfast Sando",
+    "price": "",
+    "description": "Diner classic sandwich, a repeat-trip favorite for regulars",
+    "basis": "Highly recommend the breakfast sando"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJhwSxnH6AhYAR6_sYQNRHt2U",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "SoMa",
+  "emoji": "🥖",
+  "why": "Cozy French cafe with a chef-recommended Tarragon Chicken Sandwich on excellent bread.",
+  "tags": [
+   "casual",
+   "bread",
+   "comfort",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Tarragon Chicken Sandwich",
+   "description": "Chef-recommended sandwich on standout bread, made to order",
+   "basis": "Had the Tarragon Chicken Sandwich as recommended by the chef"
+  },
+  "menu": [
+   {
+    "name": "Caprese Sandwich",
+    "price": "",
+    "description": "Fresh caprese sandwich paired with broccoli cheddar soup",
+    "basis": "I got the caprese sandwich + broccoli cheddar soup"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJR4LRGuWAhYARLI3HG5dgGVk",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Russian Hill",
+  "emoji": "🍳",
+  "why": "Under-the-radar breakfast gem with huge portions, a piano player, and biscuits and gravy.",
+  "tags": [
+   "breakfast",
+   "family-style",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Biscuits and Sausage Gravy",
+   "description": "Hearty diner classic ordered as part of a birthday breakfast spread",
+   "basis": "I got the biscuits and sausage gravy"
+  },
+  "menu": [
+   {
+    "name": "Mexican Omelette",
+    "price": "",
+    "description": "Omelette with a Mexican twist, part of a big family order",
+    "basis": "My brother got the Mexican omelette"
+   },
+   {
+    "name": "Mexican Chilaquiles",
+    "price": "",
+    "description": "Classic chilaquiles ordered alongside the omelette and biscuits",
+    "basis": "my mom the Mexican chilaquiles"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJXaBNpIqAhYAROdZWPaMN_Qo",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "🥪",
+  "why": "Hidden FiDi counter loved for its giant corned beef sandwich and friendly owners.",
+  "tags": [
+   "coffee",
+   "quick-bite",
+   "casual",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Corned Beef Sandwich",
+   "description": "Giant corned beef sandwich so filling reviewers say skip lunch after",
+   "basis": "Highly recommend the giant corned beef sandwich, then skip lunch"
+  },
+  "menu": [
+   {
+    "name": "Me Bagel",
+    "price": "",
+    "description": "House bagel with a Diet Coke, scrumptious and easy to grab on the go",
+    "basis": "I just got a “me bagel” and a Diet Coke"
+   },
+   {
+    "name": "Breakfast Sandwich",
+    "price": "",
+    "description": "Called the best breakfast sandwich in SF, always fresh and hot",
+    "basis": "hands down the best breakfast sandwich I've had in SF"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ1-6lw_SAhYARompFFvy2OA0",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "North Beach",
+  "emoji": "🍝",
+  "why": "Coppola's historic North Beach cafe, known for linguine with clams and veal meatballs.",
+  "tags": [
+   "date-night",
+   "comfort",
+   "upscale",
+   "cheese"
+  ],
+  "signatureDish": {
+   "name": "Linguine with Clams",
+   "description": "Clam-studded linguine, a highlight of the historic film-decor dining room",
+   "basis": "the linguine with clams was delicious"
+  },
+  "menu": [
+   {
+    "name": "Veal Meatballs",
+    "price": "",
+    "description": "Tender meatballs made from veal, called delicious",
+    "basis": "the meatballs made from veal were delicious as well"
+   },
+   {
+    "name": "Affogato",
+    "price": "",
+    "description": "Affogato and espresso martini, made specially by an accommodating staff",
+    "basis": "an affogato + espresso martini"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJr6IFZPGAhYAR5e3y0GGJp8w",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "North Beach",
+  "emoji": "🥪",
+  "why": "Old-school North Beach institution famous for pastrami on focaccia and cappuccino.",
+  "tags": [
+   "casual",
+   "comfort",
+   "coffee",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Pastrami on Focaccia",
+   "description": "Called unreal, one of the best sandwiches a longtime regular has had",
+   "basis": "the pastrami on focaccia bread was unreal"
+  },
+  "menu": [
+   {
+    "name": "Fried Eggplant Sandwich",
+    "price": "",
+    "description": "Fried eggplant sandwich called delicious alongside the meatball sandwich",
+    "basis": "the fried eggplant sandwich and a cheese pizza. Both sandwiches were delicious"
+   },
+   {
+    "name": "Cafe Mocha",
+    "price": "",
+    "description": "Warming cafe mocha paired with a focaccia sandwich",
+    "basis": "warmed up with a cafe mocha and a focaccia sandwich"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJF7AFf-SAhYARJPDwj0CBm14",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "🍳",
+  "why": "Busy Fisherman's Wharf brunch spot known for a perfectly cooked chicken cutlet sandwich.",
+  "tags": [
+   "brunch",
+   "casual",
+   "quick-bite",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Chicken Cutlet Sandwich",
+   "description": "Chicken cutlet sandwich cut to perfect thickness and tasty, with lightly salted fries",
+   "basis": "The chicken break cutlet for the sandwich was perfect thickness and tasty"
+  },
+  "menu": [
+   {
+    "name": "House Salad with Grilled Chicken",
+    "price": "",
+    "description": "Generous grilled chicken salad, filling enough for a full meal",
+    "basis": "I ordered a house salad with grilled chicken"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJsSBdDfGBhYARZXaYvJ6oW0M",
+  "skip": false,
+  "cuisine": "Turkish",
+  "neighborhood": "SoMa",
+  "emoji": "🥙",
+  "why": "Family-owned Turkish/American spot with mantı, crisp cheese pide, and warm hummus.",
+  "tags": [
+   "casual",
+   "comfort",
+   "family-style",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Mantı",
+   "description": "Turkish dumplings with a perfect balance of spices and sauce",
+   "basis": "The mantı had the perfect balance of spices and sauce"
+  },
+  "menu": [
+   {
+    "name": "Cheese Pide",
+    "price": "",
+    "description": "Cheese pide, crisp on the outside and soft inside",
+    "basis": "the cheese pide was crisp on the outside and soft inside"
+   },
+   {
+    "name": "Kibbeh over Yogurt and Tomato",
+    "price": "",
+    "description": "Called honestly one of the best kibbeh a reviewer has tried",
+    "basis": "the kibbeh over yogurt and tomato was honestly one of the best I’ve tried"
+   },
+   {
+    "name": "Hummus and Warm Bread",
+    "price": "",
+    "description": "Warm bread and hummus, outstanding sides that round out the meal",
+    "basis": "The hummus and warm bread were also outstanding"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2bcjWIWAhYARL_EWt8RhyB4",
+  "skip": false,
+  "cuisine": "Sudanese",
+  "neighborhood": "Tenderloin",
+  "emoji": "🥙",
+  "why": "Family-run Sudanese cafe with a flavorful namesake emperor plate and shawarma-kofta entrees.",
+  "tags": [
+   "casual",
+   "comfort",
+   "family-style",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Zzoul Emperor Plate",
+   "description": "The restaurant's namesake combo plate, every item called very flavorful",
+   "basis": "I tried the Zzoul emperor plate; every item was very flavorful"
+  },
+  "menu": [
+   {
+    "name": "Chicken Shawarma & Beef Kofta Plates",
+    "price": "",
+    "description": "Reasonably priced shawarma and kofta entree plates",
+    "basis": "we had chicken shawarma and beef kofta plates as entrees"
+   },
+   {
+    "name": "Shai bi Laban",
+    "price": "",
+    "description": "Sudanese milk tea, called a lovely pick-me-up",
+    "basis": "and shai bi laban and everything was lovely"
+   },
+   {
+    "name": "Hummus",
+    "price": "",
+    "description": "Delicious hummus, a standout starter",
+    "basis": "Delicious humus"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJBVQen-OAhYARKRodqoPXKds",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "🍜",
+  "why": "Rare Fisherman's Wharf breakfast spot famous for authentic pho with amazing broth.",
+  "tags": [
+   "breakfast",
+   "comfort",
+   "soup",
+   "family-style"
+  ],
+  "signatureDish": {
+   "name": "Pho",
+   "description": "Authentic pho with amazing broth, a standout among the breakfast classics",
+   "basis": "I would highly recommend the pho!  The broth was amazing"
+  },
+  "menu": [
+   {
+    "name": "Blueberry Pancakes",
+    "price": "",
+    "description": "Part of an excellent and delicious spread with fried rice and crab benedict",
+    "basis": "blueberry pancakes,crab Benedict, and more!   Everything was absolutely excellent and delicious"
+   },
+   {
+    "name": "Berry Waffles",
+    "price": "",
+    "description": "Berry waffles reviewers called great, part of a generous portion",
+    "basis": "The berry waffles were great"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ9frIkIaAhYARmxqqO27LnVg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "Hidden Chronicle Building coffee counter known for Spam Musubi and reasonably priced lattes.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Spam Musubi",
+   "description": "Best paired with an iced latte or iced coffee for breakfast",
+   "basis": "Love their Spam Musubi, best for breakfast with iced latte or iced coffee"
+  },
+  "menu": [
+   {
+    "name": "Iced Latte",
+    "price": "",
+    "description": "Espresso latte, called insanely reasonable at $8 for two",
+    "basis": "it was $8 for two lattes which is insanely reasonable"
+   },
+   {
+    "name": "Milano Panini",
+    "price": "$7.82",
+    "description": "Panini option on the menu at this Chronicle Building coffee spot",
+    "basis": "Milano panini ($7.82)"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJGReneWKAhYARNkAEgHooSus",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Old-school FiDi cafe loved for its breakfast burrito, hearty sandwiches, and warm staff.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Avocado Toast",
+   "description": "Avocado toast with eggs and fried capers for a briny crunch, good and flavorful.",
+   "basis": "an avo toast with eggs"
+  },
+  "menu": [
+   {
+    "name": "Breakfast Burrito",
+    "price": "",
+    "description": "Warm breakfast burrito with breakfast sausage, a lunch-crowd favorite.",
+    "basis": "the breakfast burrito + breakfast sausage"
+   },
+   {
+    "name": "Turkey Wrap",
+    "price": "",
+    "description": "Made-to-order turkey wrap that keeps regulars coming back weekly.",
+    "basis": "the turkey wrap is mouthwatering"
+   },
+   {
+    "name": "Oatmeal",
+    "price": "",
+    "description": "Cinnamon-forward oatmeal that stands out even though the base is plain.",
+    "basis": "Loved their oat meal"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJU00uDM6BhYAR_ZOluZ0m4qA",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Embarcadero",
+  "emoji": "🍝",
+  "why": "Italian spot known for its duck ragu bigoli, fresh housemade pasta, and a lively cocktail bar.",
+  "tags": [
+   "date-night",
+   "upscale",
+   "meat-heavy",
+   "noodles"
+  ],
+  "signatureDish": {
+   "name": "Fresh Bigoli Liberty Duck Ragu",
+   "description": "Fresh bigoli pasta in duck ragu, a birthday-dinner order that joined the clean plate club.",
+   "basis": "the Fresh Bigoli Liberty Duck Ragù"
+  },
+  "menu": [
+   {
+    "name": "Avocado & Ricotta Focaccia",
+    "price": "",
+    "description": "A reviewer's favorite bite of the meal, hearty and flavorful.",
+    "basis": "The avocado and ricotta focaccia was probably my favorite"
+   },
+   {
+    "name": "Pizza",
+    "price": "",
+    "description": "Light, airy pizza that's full of flavor.",
+    "basis": "the pizza was light, airy, and full of flavor"
+   },
+   {
+    "name": "Sprezz Reviver Cocktail",
+    "price": "",
+    "description": "A dinner cocktail regulars enjoy before finishing with espresso.",
+    "basis": "the Sprezz Reviver cocktail with dinner"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJTwGlPrmfj4ARiMYDPMT9DeI",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Lower Nob Hill",
+  "emoji": "🥐",
+  "why": "Beloved pastry shop for buttery ube mochi croissants and inventive bakes from a true artist.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "bread",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Ube Mochi Croissant",
+   "description": "A regular favorite; fans keep coming back just for this ube mochi croissant.",
+   "basis": "the ube mochi croissant"
+  },
+  "menu": [
+   {
+    "name": "Guava Danish",
+    "price": "",
+    "description": "One of three pastries a visiting couple called otherworldly.",
+    "basis": "Guava danish, kouign amann, and ube mochi were otherworldly"
+   },
+   {
+    "name": "Chocolate Earl Grey Cake",
+    "price": "",
+    "description": "Custom chocolate cake with earl grey cream cheese filling, moist throughout.",
+    "basis": "a chocolate cake with earl grey cream cheese filling"
+   },
+   {
+    "name": "Blueberry Streusel Muffin",
+    "price": "",
+    "description": "A favorite pick from the case alongside the ube mochicro.",
+    "basis": "blueberry streusel muffin"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJFYH6EeOAhYARVpFEUAxXxtg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "☕",
+  "why": "Peet's outpost inside Boudin's; reviewers love the breakfast bun and aromatic dark roast.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Breakfast Bun",
+   "description": "Mouth-watering breakfast bun one visitor ordered three times in a day.",
+   "basis": "Mouth watering, delicious. Service was great."
+  },
+  "menu": [
+   {
+    "name": "Dark Roast Coffee",
+    "price": "",
+    "description": "Dark roast with an aroma reviewers compare to a warm hug.",
+    "basis": "the aroma of their dark roast"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZTx2MVOBhYARcUzH3cTQN7I",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "Rooftop coffee shop in Salesforce Park known for a perfectly balanced cortado and stellar cookies.",
+  "tags": [
+   "coffee",
+   "casual",
+   "dessert",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Cortado",
+   "description": "A perfectly balanced, beautifully made cortado, the espresso drink reviewers highlight most.",
+   "basis": "The cortado was excellent—perfectly balanced and beautifully made"
+  },
+  "menu": [
+   {
+    "name": "Chocolate Chip Cookie",
+    "price": "",
+    "description": "A pastry-case standout one reviewer calls their favorite cookie spot.",
+    "basis": "You have to get the chocolate chip cookie"
+   },
+   {
+    "name": "Iced Mocha",
+    "price": "",
+    "description": "Iced mocha topped with good whipped cream, though light on chocolate.",
+    "basis": "the whip cream was very good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJmRBAGYh_j4ARuOFprBGKIxI",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "Cozy SoMa coffee spot praised for its naturally sweet honeycomb latte and amazing ginger cookie.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Honeycomb Latte",
+   "description": "Naturally sweet honeycomb latte, delicious without any added syrup.",
+   "basis": "Got the honeycomb latte and it was delicious"
+  },
+  "menu": [
+   {
+    "name": "Ginger Cookie",
+    "price": "",
+    "description": "An amazing ginger cookie enjoyed alongside their fantastic coffee.",
+    "basis": "an amazing ginger cookie"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJL86gDJmBhYARjQPJ6NsYQZQ",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "SoMa gem known for its distinctive Yemeni Latte and saffron milk cake in a warm, inviting space.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Yemeni Latte",
+   "description": "Distinctive Yemeni Latte made with almond milk; visitors call the coffee here amazing.",
+   "basis": "I hade the Yemeni Latte with almond milk"
+  },
+  "menu": [
+   {
+    "name": "Saffron Milk Cake",
+    "price": "",
+    "description": "Chilled cake with light whipped topping and a yummy saffron flavor.",
+    "basis": "light whipped topping, and that yummy saffron flavor in the cake"
+   },
+   {
+    "name": "Biscoff Cake",
+    "price": "",
+    "description": "Tres leches-style cake topped with powdered Biscoff; rich, best shared.",
+    "basis": "a tres leches topped with powdered Biscoff and the biscuit"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJATrloWeBhYAR6r3igucFryg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Civic Center",
+  "emoji": "☕",
+  "why": "Cozy hole-in-the-wall loved for its iced orange vanilla latte, pour-overs, and owner Leo.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Iced Orange Vanilla Latte",
+   "description": "Bright iced orange vanilla latte, the drink regulars highly recommend.",
+   "basis": "Highly recommend the iced orange vanilla latte"
+  },
+  "menu": [
+   {
+    "name": "Raspberry Turnover",
+    "price": "",
+    "description": "Flaky raspberry turnover recommended by staff, paired with hot chocolate.",
+    "basis": "recommended the raspberry turnovers"
+   },
+   {
+    "name": "Hot Chocolate",
+    "price": "",
+    "description": "Hot chocolate that's chocolatey, creamy, and not over-sweetened.",
+    "basis": "chocolatey, not over-sweetened, and creamy"
+   },
+   {
+    "name": "Blueberry Loaf",
+    "price": "",
+    "description": "Blueberry loaf grabbed alongside a latte for the road.",
+    "basis": "ordered a latte and a blueberry loaf"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ88EItqWBhYAR6oOhmbmOjgs",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Civic Center",
+  "emoji": "☕",
+  "why": "Specialty coffee shop famous for its rich red velvet latte and inventive drinks like the Gibby.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Red Velvet Latte",
+   "description": "Rich red velvet latte with velvety chocolate undertones; reviewers call it an absolute delight.",
+   "basis": "The red velvet latte, with its rich and velvety chocolate undertones, is an absolute delight"
+  },
+  "menu": [
+   {
+    "name": "Lemongrass Banh Mi",
+    "price": "",
+    "description": "Called out by name as \"too good\" alongside the duck burrito.",
+    "basis": "The lemongrass banh mi and duck burrito omgggg too good"
+   },
+   {
+    "name": "Duck Burrito",
+    "price": "",
+    "description": "Praised together with the lemongrass banh mi as \"too good.\"",
+    "basis": "duck burrito omgggg too good"
+   },
+   {
+    "name": "The Gibby",
+    "price": "",
+    "description": "One of several specialty lattes a regular called a favorite drink.",
+    "basis": "Some of my favorite drinks are the classic gibby"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ4eE7VwCBhYARVjFULZ2kbTU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Chinatown",
+  "emoji": "🍵",
+  "why": "Hidden Chinatown matcha gem loved for its creamy Matcha Cream Strawberry Latte and blueberry matcha.",
+  "tags": [
+   "tea",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Matcha Cream Strawberry Latte",
+   "description": "Creamy matcha strawberry latte with a fluffier texture; reviewers say it's amazing.",
+   "basis": "loved the Match Cream Strawberry Latte"
+  },
+  "menu": [
+   {
+    "name": "Blueberry Matcha",
+    "price": "",
+    "description": "Blueberry matcha praised as very nice and enjoyable by tasters.",
+    "basis": "the blueberry matcha which was very nice and enjoyable"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJoXhqG4uAhYAROPJvT0tbNc8",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Chinatown",
+  "emoji": "🥪",
+  "why": "Popular Vietnamese sandwich shop known for its barbecue chicken banh mi and classic banh mi.",
+  "tags": [
+   "bread",
+   "casual",
+   "quick-bite",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Barbecue Chicken Sandwich",
+   "description": "Barbecue chicken banh mi with cilantro, carrots, and pickled radish on a crunchy roll.",
+   "basis": "The barbecue chicken sandwich is great"
+  },
+  "menu": [
+   {
+    "name": "Banh Mi (Baguette Vietnamien)",
+    "price": "",
+    "description": "Classic Vietnamese banh mi, a top-notch neighborhood lunch favorite.",
+    "basis": "a popular lunch spot for top-notch Bánh mì"
+   },
+   {
+    "name": "Ham, Egg & Cheese Croissant",
+    "price": "",
+    "description": "Warm ham, egg and cheese croissant sandwich, a great breakfast pick.",
+    "basis": "ham egg cheese croissants"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJR8xbYlyBhYARRV6XgTsFEbY",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Union Square",
+  "emoji": "🥐",
+  "why": "French patisserie loved for its superb, buttery classic croissant and expertly laminated pastries.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "bread",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Classic Croissant",
+   "description": "Superb, buttery classic croissant, the pastry one reviewer returns just to have again.",
+   "basis": "The classic croissant was superb. The butter taste was very delightful"
+  },
+  "menu": [
+   {
+    "name": "Kouign Amann",
+    "price": "",
+    "description": "Part of an all-delish pastry sampling alongside chocolate croissants.",
+    "basis": "kouign aman"
+   },
+   {
+    "name": "Chocolate Chip Cookies",
+    "price": "",
+    "description": "One of the many sweet bites here, called delish and well made.",
+    "basis": "chocolate chip cookies. All were delish and well made"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJAZjYkOOAhYAR8zpHbIVBez4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "☕",
+  "why": "A no-nonsense coffee stop with an amazing mocha and a surprisingly good Bahn Mi sandwich.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Mocha",
+   "description": "A simple mocha reviewers say tasted amazing at this affordable, uncrowded stop.",
+   "basis": "I ordered the mocha, and it tasted amazing!"
+  },
+  "menu": [
+   {
+    "name": "Bahn Mi Sandwich",
+    "price": "",
+    "description": "A surprisingly good Bahn Mi that saved the day during a slow SF holiday.",
+    "basis": "I was impressed with how good my Bahn Mi sandwich was"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ3aKMWoiAhYARmNLc2TR11L0",
+  "skip": false,
+  "cuisine": "Tea",
+  "neighborhood": "Union Square",
+  "emoji": "🍵",
+  "why": "Cute matcha cafe pouring a blood orange matcha latte reviewers call interesting in a good way.",
+  "tags": [
+   "tea",
+   "casual",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Blood Orange Matcha Latte",
+   "description": "Orange and matcha balanced together in an iced latte reviewers found interesting.",
+   "basis": "the blood orange matcha latte was interesting in a good way!"
+  },
+  "menu": [
+   {
+    "name": "Plain Matcha Latte",
+    "price": "",
+    "description": "A creamy matcha latte that left two friends floored and delighted.",
+    "basis": "My friend and I both got the plain matcha latte, and we were floored."
+   },
+   {
+    "name": "HK Iced Tea",
+    "price": "",
+    "description": "Hong Kong-style iced tea reviewers call excellent, with a solid caffeine kick.",
+    "basis": "Also excellent HK iced tea with great caffeination."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJyZOV136AhYARCzb6eClpr-A",
+  "skip": false,
+  "cuisine": "Tea",
+  "neighborhood": "SoMa",
+  "emoji": "🍵",
+  "why": "Whimsical afternoon tea spot famous for a black sesame scone reviewers call the best ever.",
+  "tags": [
+   "tea",
+   "sweet",
+   "upscale",
+   "date-night"
+  ],
+  "signatureDish": {
+   "name": "Black Sesame Scone",
+   "description": "A black sesame scone one reviewer calls the best scone they've ever had.",
+   "basis": "The black sesame scone was the best scone I ever had in my life."
+  },
+  "menu": [
+   {
+    "name": "Savory Finger Sandwiches",
+    "price": "",
+    "description": "Part of a tea tray reviewers call absolutely bursting with delicious food.",
+    "basis": "absolutely bursting with delicious food; savory finger sandwiches"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJmYAjeQCBhYARG6RLwdLYZvM",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Yerba Buena",
+  "emoji": "🧋",
+  "why": "A cutesy hidden-alley boba stop known for its tasty Jasmine Apple Green Tea.",
+  "tags": [
+   "tea",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Jasmine Apple Green Tea",
+   "description": "Jasmine green tea studded with diced apple that one reviewer calls tasty.",
+   "basis": "I had the Jasmine Apple Green Tea and I thought it was tasty."
+  },
+  "menu": [
+   {
+    "name": "Four Seasons Milk Tea",
+    "price": "",
+    "description": "A milk tea classic ordered at 75% sugar, with taste and sweetness on point.",
+    "basis": "Ordered the Four Seasons Milk Tea at 75% sugar."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJGyFWNfKAhYARyeBNL_4tgEo",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Chinatown",
+  "emoji": "🧋",
+  "why": "Chinatown's favorite boba shop, loved for its Black Tiger Latte topped with puff cream.",
+  "tags": [
+   "tea",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Black Tiger Latte with Puff Cream",
+   "description": "A tiger-striped latte with puff cream and boba, a regular order for fans here.",
+   "basis": "We ordered the Black Tiger Latte and Matcha Tiger Latte with Puff Cream and Boba."
+  },
+  "menu": [
+   {
+    "name": "Puff Cream Boba",
+    "price": "",
+    "description": "The puff cream topping reviewers beg you to try - it's that good.",
+    "basis": "Please try their puff cream!!!"
+   },
+   {
+    "name": "Passion Fruit Tea",
+    "price": "",
+    "description": "One of several house teas highly recommended, alongside oolong and kumquat lemon.",
+    "basis": "Highly recommend their Passion Fruit, White Peach Oolong, or Kumquat Lemon teas."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJwepe04uAhYARnU2zWIw7TzM",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Financial District",
+  "emoji": "🧋",
+  "why": "A sustainable boba spot beloved for a blissful Nutella Milk Tea with sea salt sprinkles.",
+  "tags": [
+   "tea",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Nutella Milk Tea with Sea Salt Sprinkles",
+   "description": "Nutella milk tea topped with sea salt sprinkles - reviewers call it pure bliss.",
+   "basis": "I got the Nutella Milk Tea with sea salt sprinkles and… my soul left my body for a few minutes of bliss."
+  },
+  "menu": [
+   {
+    "name": "Grapefruit Tea with Sea Salt Crema",
+    "price": "",
+    "description": "Grapefruit tea with a sea salt crema top - a highly recommended favorite.",
+    "basis": "Highly recommend their grape fruit tea with sea salt crema (blueberry is my second choice)!"
+   },
+   {
+    "name": "Passion Fruit Tea",
+    "price": "",
+    "description": "Called a reviewer's favorite drink on the menu, perfectly balanced in sweetness.",
+    "basis": "The Passion Fruit Tea was my favorite though!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJr9aEvemAhYAR3gqEm5ApaBI",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Polk Gulch",
+  "emoji": "🧋",
+  "why": "Small chill-vibe boba shop where reviewers really enjoy the taro bubble tea.",
+  "tags": [
+   "tea",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Taro Bubble Tea",
+   "description": "A taro bubble tea reviewers say they really enjoy at this small, chill shop.",
+   "basis": "Really enjoyed the taro bubble tea!"
+  },
+  "menu": [
+   {
+    "name": "Mango Funtime Smoothie",
+    "price": "",
+    "description": "A mango smoothie that one reviewer says tastes exactly like real mango.",
+    "basis": "This tastes EXACTLY like a mango!"
+   },
+   {
+    "name": "Vietnamese Coffee with Coffee Jelly",
+    "price": "",
+    "description": "Vietnamese coffee topped with coffee jelly - reviewers say the combo tastes great.",
+    "basis": "With coffee jelly, this tastes great!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJa-Zy1EmBhYARcXeBRKYzArE",
+  "skip": false,
+  "cuisine": "Tea",
+  "neighborhood": "SoMa",
+  "emoji": "🍵",
+  "why": "Cozy Indian chai house whose kadak chai reviewers call the highlight of the visit.",
+  "tags": [
+   "tea",
+   "spicy",
+   "vegetarian-friendly",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Kadak Chai",
+   "description": "Real Indian-style milk tea reviewers call the highlight of a visit here.",
+   "basis": "All three of us ordered their kadak chai, and it was definitely the highlight of the visit."
+  },
+  "menu": [
+   {
+    "name": "Karak Chai",
+    "price": "",
+    "description": "A cardamom-sweet karak chai one regular calls their favorite order.",
+    "basis": "My favorite is the karak chai -s weet cardamom bliss."
+   },
+   {
+    "name": "Paratha Quiche",
+    "price": "",
+    "description": "A spicy paratha quiche reviewers love, recommended as a brunch side.",
+    "basis": "I also love the paratha quiche."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJCYel8VuBhYARkEn3zKeF9Gk",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Chinatown",
+  "emoji": "🧋",
+  "why": "A cute Chinatown boba spot known for its delicious strawberry fruit tea and popcorn chicken.",
+  "tags": [
+   "tea",
+   "fried",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Strawberry Fruit Tea",
+   "description": "Strawberry fruit tea reviewers call delicious, alongside a well-loved coffee milk tea.",
+   "basis": "The Strawberry fruit tea and coffee milk tea were delicious!"
+  },
+  "menu": [
+   {
+    "name": "Popcorn Chicken",
+    "price": "",
+    "description": "Crispy popcorn chicken with a generous portion size, a recurring favorite.",
+    "basis": "The popcorn chicken was super good, and they didn't skimp on portion size."
+   },
+   {
+    "name": "Mango Fresh Milk",
+    "price": "",
+    "description": "Mango fresh milk, the one drink a visitor tried and called delicious.",
+    "basis": "We only get to try one drink - mango fresh milk."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJj8RYm6yBhYARr1YHGPzZxsQ",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Chinatown",
+  "emoji": "🧋",
+  "why": "Authentic Chinese dessert drinks spot loved for its thick, creamy mango double skin milk.",
+  "tags": [
+   "dessert",
+   "sweet",
+   "tea",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mango Double Skin Milk",
+   "description": "Thick, creamy mango double skin milk curd - a reviewer favorite they love.",
+   "basis": "I love the mango double skin milk curd!"
+  },
+  "menu": [
+   {
+    "name": "Peach Gum Fresh Milk",
+    "price": "",
+    "description": "Peach gum fresh milk - a traditional flavor combo reviewers call authentic.",
+    "basis": "I got the peach gum fresh milk drink, which was a great combo and a very traditional flavour."
+   },
+   {
+    "name": "Pineapple & Passion Fruit Green Tea",
+    "price": "",
+    "description": "Smashed pineapple-passionfruit green tea with tapioca, the drink you come back for.",
+    "basis": "We first got the smashed pineapple & passion fruit green tea with tapioca boba - that’s the kind of drink you come back for again and again."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJwRoTbYeAhYARRVVpbPgZvdw",
+  "skip": false,
+  "cuisine": "Italian",
+  "neighborhood": "Yerba Buena",
+  "emoji": "🍝",
+  "why": "Reborn from the old Samovar space into a Detroit-style pizza joint loved for its fig pizza.",
+  "tags": [
+   "cheese",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Fig Pizza",
+   "description": "A fig pizza reviewers loved, paired with a well-liked artichoke salad.",
+   "basis": "I loved their fig pizza and artichoke salad."
+  },
+  "menu": [
+   {
+    "name": "Mochi Platter",
+    "price": "",
+    "description": "Ordered alongside iron goddess of mercy tea and a scone platter to share.",
+    "basis": "We got the iron goddess of mercy and the mochi platter and the scone platter."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJvzh7o6iBhYARlykOlY7KP3E",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Civic Center",
+  "emoji": "🍳",
+  "why": "Whimsical New American spot where reviewers rave about a bibimbap bursting with flavor.",
+  "tags": [
+   "brunch",
+   "sweet",
+   "upscale"
+  ],
+  "signatureDish": {
+   "name": "Bibimbap",
+   "description": "Bibimbap that one reviewer says came out BURSTING with flavor.",
+   "basis": "I had the bibimbap and it was BURSTING with flavor!!"
+  },
+  "menu": [
+   {
+    "name": "Breakfast Egg",
+    "price": "",
+    "description": "Comes with fresh fruit, seasoned potatoes, and a delicious blueberry scone.",
+    "basis": "I ordered the breakfast egg, which was served with fresh fruit, seasoned potatoes, and a delicious blueberry scone."
+   },
+   {
+    "name": "Deep Fried French Toast",
+    "price": "",
+    "description": "A deep-fried French toast one reviewer calls a specialty other places lack.",
+    "basis": "Deep fried French toast - 3/5 - Definitely a specialty that most places do not have."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2QAWz4iAhYARhwcyOa3aaoQ",
+  "skip": false,
+  "cuisine": "New American",
+  "neighborhood": "Union Square",
+  "emoji": "🍵",
+  "why": "Elegant Neiman Marcus dome-ceiling dining room, loved for its afternoon tea and Union Square views.",
+  "tags": [
+   "upscale",
+   "tea",
+   "brunch",
+   "sweet"
+  ],
+  "signatureDish": {
+   "name": "Afternoon Tea",
+   "description": "A tray of delectable treats, the perfect way to spend a sunny afternoon in Union Square.",
+   "basis": "The afternoon tea was the perfect way to spend a sunny day"
+  },
+  "menu": [
+   {
+    "name": "Truffle Fries",
+    "price": "$14",
+    "description": "A $14 starter mentioned by a Neiman Marcus shopper's lunch order.",
+    "basis": "Truffle Fries $14.00"
+   },
+   {
+    "name": "Green Tea Blend",
+    "price": "",
+    "description": "A favorite among the afternoon tea selections, well loved by guests.",
+    "basis": "particularly the green tea blend"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJwQhUWIuAhYARbjviNUYcjS0",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Chinatown",
+  "emoji": "🧋",
+  "why": "Lively Chinatown boba spot with adjustable sweetness and a standout grass jelly milk tea.",
+  "tags": [
+   "tea",
+   "sweet",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Grass Jelly Milk Tea",
+   "description": "Milk tea with grass jelly, best ordered at 25% sweetness for a smooth balance.",
+   "basis": "Grass jelly milk tea is the way to go"
+  },
+  "menu": [
+   {
+    "name": "Kumquat Lemon Green Tea",
+    "price": "",
+    "description": "Tart and refreshing, with adjustable sweetness levels.",
+    "basis": "I ordered kumquat lemon green tea"
+   },
+   {
+    "name": "Mango 101",
+    "price": "",
+    "description": "A mango drink with no bad aftertaste, per one happy regular.",
+    "basis": "mango 101 drink"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2xMNyUKBhYAR8Q2HJJTnOYU",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Chinatown",
+  "emoji": "🧋",
+  "why": "Cute Ross Alley boba stop famous for its signature mango latte and quick service.",
+  "tags": [
+   "tea",
+   "sweet",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Mango Latte",
+   "description": "The house's signature tea, called amazing alongside quick, friendly service.",
+   "basis": "The signature tea, the mango latte were amazing"
+  },
+  "menu": [
+   {
+    "name": "Hong Kong-style Bubble Tea",
+    "price": "",
+    "description": "Strong, bold tea made with condensed milk for a rich flavor.",
+    "basis": "the Hong Kong–style bubble tea here, and it was good"
+   },
+   {
+    "name": "Passion Fruit Tea",
+    "price": "",
+    "description": "A refreshing, slightly sweet pick for a hot day.",
+    "basis": "Bought the passion fruit tea. A good drink for a hot day"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJL7Goh8OBhYAR4ldT4kuPbng",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Russian Hill",
+  "emoji": "🥐",
+  "why": "Worth the early-morning line for flaky, insanely good pastries like the raspberry passionfruit pain suisse.",
+  "tags": [
+   "bread",
+   "sweet",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Raspberry Passionfruit Pain Suisse",
+   "description": "The standout of the month's menu, a super flaky croissant with an insane crunch.",
+   "basis": "the raspberry passionfruit pain suisse"
+  },
+  "menu": [
+   {
+    "name": "Lamb Pasteur",
+    "price": "",
+    "description": "A savory pastry reviewers say actually tastes good, worth the wait.",
+    "basis": "their famous lamb Pasteur and it actually tastes good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJl9mEY9-BhYARYtyXmTf30tQ",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Polk Gulch",
+  "emoji": "🥐",
+  "why": "Authentic French bakery with flaky croissants, a perfect apple turnover, and fresh eggs benedict.",
+  "tags": [
+   "bread",
+   "sweet",
+   "breakfast",
+   "brunch"
+  ],
+  "signatureDish": {
+   "name": "Apple Turnover",
+   "description": "Filling evenly distributed throughout, never too sweet, and never gets soggy.",
+   "basis": "Their apple turnover is perfection with the filling evenly distributed"
+  },
+  "menu": [
+   {
+    "name": "Kouign Amann",
+    "price": "",
+    "description": "A reviewer's favorite pastry on the menu.",
+    "basis": "my favorite kouign amann"
+   },
+   {
+    "name": "Eggs Benedict",
+    "price": "",
+    "description": "Absolutely delicious and perfectly prepared, made with care.",
+    "basis": "The Eggs Benedict were absolutely delicious, perfectly prepared"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJI1KlFgCBhYARrzp4bCeapfE",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Financial District",
+  "emoji": "🥐",
+  "why": "Authentic Italian cafe by Montgomery BART, famous for its cream-filled maritozzo brioche.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "bread",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Maritozzo (Cream-filled Brioche)",
+   "description": "The cream-filled brioche reviewers call the absolute star of the menu.",
+   "basis": "Get the maritozzo / cream-filled brioche. THAT’S the star and absolutely worth it."
+  },
+  "menu": [
+   {
+    "name": "Lemon Cake",
+    "price": "",
+    "description": "Not overly sweet, balanced with citrus, one of the best desserts around.",
+    "basis": "The lemon cake is one of the best desserts I’ve had all year"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2VhSxvSAhYARxn-BM9ied9Y",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Chinatown",
+  "emoji": "🥐",
+  "why": "Chinatown hole-in-the-wall famous for its to-die-for pineapple butter bun and fresh egg tarts.",
+  "tags": [
+   "bread",
+   "sweet",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pineapple Butter Bun",
+   "description": "Warmed bun stuffed with a slice of butter, crispy outside and chewy inside.",
+   "basis": "Their pineapple butter bun/菠萝油 is TO DIE FOR."
+  },
+  "menu": [
+   {
+    "name": "Egg White Tart",
+    "price": "",
+    "description": "A flaky, rich fresh-baked tart, better than a more famous rival's.",
+    "basis": "the fresh milk egg white tarts here are much better"
+   },
+   {
+    "name": "Cantonese Sponge Cupcakes",
+    "price": "",
+    "description": "A soft, fluffy sponge cake reviewers say they absolutely love.",
+    "basis": "I absolutely love Cantonese sponge cupcakes!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ90JImRKBhYARXrwUAyZIhqw",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Tenderloin",
+  "emoji": "🥐",
+  "why": "Tenderloin bakery reviewers call home to the best croissants in the country.",
+  "tags": [
+   "bread",
+   "sweet",
+   "breakfast",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Cinnamon Croissant",
+   "description": "Insanely good and shatteringly flaky, part of pastries reviewers call the country's best.",
+   "basis": "The cinnamon croissant and all our pastries were insanely good"
+  },
+  "menu": [
+   {
+    "name": "Ham and Cheese Croissant",
+    "price": "",
+    "description": "A croissant take on the classic French jambon-beurre.",
+    "basis": "The ham and cheese is reminiscent of the classic French jambon-beurre"
+   },
+   {
+    "name": "Morning Bun",
+    "price": "",
+    "description": "Called simply wonderful by regulars.",
+    "basis": "The morning buns are wonderful."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJVeBYo_OAhYARtri0I4_3NMA",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Chinatown",
+  "emoji": "🍰",
+  "why": "Chinatown bakery loved for fairly priced, fan-favorite pineapple buns and fresh cakes.",
+  "tags": [
+   "bread",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pineapple Buns",
+   "description": "Fairly priced and a customer favorite at this central Chinatown bakery.",
+   "basis": "Fair prices for our favorite pineapple buns."
+  },
+  "menu": [
+   {
+    "name": "Matcha Baked Goods",
+    "price": "",
+    "description": "Nice matcha-flavored treats at a very good price.",
+    "basis": "some nice matcha flavored baked goods at a very good price"
+   },
+   {
+    "name": "Birthday Cake",
+    "price": "",
+    "description": "Comes out looking just like the ordered picture.",
+    "basis": "I ordered a birthday cake here and it came out just as what was shown on the picture"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJdQxBzpiBhYARz-Gw5FmHn-4",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Union Square",
+  "emoji": "🥧",
+  "why": "Polished Union Square patisserie whose pistachio tart is reviewers' absolute favorite.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "coffee",
+   "upscale"
+  ],
+  "signatureDish": {
+   "name": "Pistachio Tart",
+   "description": "Ultra-light whipped pistachio cream on a crisp base, called an absolute favorite.",
+   "basis": "My absolute favorite is the pistachio tart."
+  },
+  "menu": [
+   {
+    "name": "Mango Passion Exotic",
+    "price": "",
+    "description": "Wonderfully creamy with fresh, natural mango flavor.",
+    "basis": "I ordered the Mango Passion Exotic, and it was wonderfully creamy."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ8YgsQvOAhYAR_JVBv7g_aCE",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Chinatown",
+  "emoji": "🍪",
+  "why": "Chinatown bakery cafe famous for its walnut cookie, egg tarts, and red bean buns.",
+  "tags": [
+   "bread",
+   "sweet",
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Walnut Cookie",
+   "description": "A rich cookie best broken up and dipped into warm coffee or matcha.",
+   "basis": "you are totally missing out if you leave without a walnut cookie"
+  },
+  "menu": [
+   {
+    "name": "Red Bean Bun",
+    "price": "",
+    "description": "Delicious and mouthwatering, a must-order recommendation.",
+    "basis": "the red bean bun, since it was so delicious and mouthwatering"
+   },
+   {
+    "name": "Egg Tart",
+    "price": "",
+    "description": "Highly recommended and called amazing by visitors.",
+    "basis": "The egg tart was amazing."
+   },
+   {
+    "name": "Japanese Cheesecake",
+    "price": "",
+    "description": "Outstanding, soft and fresh alongside the coconut cream bun.",
+    "basis": "The Japanese cheesecake and coconut cream bun were outstanding"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJkfsKVouAhYARbhCX3rve-DI",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Chinatown",
+  "emoji": "🥟",
+  "why": "Chinatown bakery known for the city's best BBQ pork buns and soft mango mochi.",
+  "tags": [
+   "bread",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "BBQ Pork Bun",
+   "description": "Soft with a perfectly crunchy top crust, called the city's best.",
+   "basis": "Best BBQ pork bun and pineapple buns in the city!"
+  },
+  "menu": [
+   {
+    "name": "Mango Mochi",
+    "price": "",
+    "description": "Homemade with mango juice, the skin is really good and soft.",
+    "basis": "We had the mango mochi, the skin was really good and soft."
+   },
+   {
+    "name": "Coconut Crème Bao",
+    "price": "",
+    "description": "A treat that makes regulars so happy to have again.",
+    "basis": "get to have a coconut crème bao again after months"
+   },
+   {
+    "name": "Lo Bak Go (Turnip Cake)",
+    "price": "",
+    "description": "A classic Cantonese pastry pick that never disappoints.",
+    "basis": "lo bak go (turnip cake), which never disappoint"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJA7HrAOGBhYAR3n8oxtwI4Ys",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Financial District",
+  "emoji": "🥐",
+  "why": "Korean-run French bakery loved for fresh pastries, good iced lattes, and friendly regulars.",
+  "tags": [
+   "bread",
+   "sweet",
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Strawberry & Lemon Croissant",
+   "description": "The best tasting pastry in a mixed order, though pricey for a three-inch croissant.",
+   "basis": "The strawberry & lemon croissant was the best tasting item I got"
+  },
+  "menu": [
+   {
+    "name": "Chocolate Croissant",
+    "price": "",
+    "description": "Named a regular's favorite alongside cheesecake and fruit tart.",
+    "basis": "chocolate croissant"
+   },
+   {
+    "name": "NY Cheesecake",
+    "price": "",
+    "description": "A go-to favorite for regulars on their usual order.",
+    "basis": "NY cheesecake"
+   },
+   {
+    "name": "Ham and Cheese Baguette Sandwich",
+    "price": "",
+    "description": "A favorite sandwich order alongside fresh pastries and coffee.",
+    "basis": "ham and cheese baguette sandwich"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ5BEyYqAhYAR2Xim_Tv4XhE",
+  "skip": false,
+  "cuisine": "French",
+  "neighborhood": "Jackson Square",
+  "emoji": "🥐",
+  "why": "Modern French bakery-cafe drawing lines for its custardy quiche and buttery croissants.",
+  "tags": [
+   "bread",
+   "brunch",
+   "upscale",
+   "coffee"
+  ],
+  "signatureDish": {
+   "name": "Quiche",
+   "description": "Flaky crust with burnt crispy edges and a custardy egg filling, filling but not heavy.",
+   "basis": "Loved the burnt crispy edges of flaky crust paired with the custardy egg."
+  },
+  "menu": [
+   {
+    "name": "Plain Croissant",
+    "price": "",
+    "description": "A buttery classic reviewers had read rave reviews about beforehand.",
+    "basis": "I snagged one plain croissant, which I read rave reviews about"
+   },
+   {
+    "name": "Pate a Choux Pastries",
+    "price": "",
+    "description": "A favorite pastry style here, called fantastic by regulars.",
+    "basis": "They make items with my favorite pâte à choux and the items are fantastic"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJiXQ9w_OAhYARro38KJf8_48",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Chinatown",
+  "emoji": "🥧",
+  "why": "Chinatown bakery loved for warm egg tarts, chestnut cake, and classic Chinese buns.",
+  "tags": [
+   "bread",
+   "sweet",
+   "dessert",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Egg Tarts",
+   "description": "Warm egg custard in a lightly fluffy pastry, best fresh out of the oven.",
+   "basis": "The warm egg custard and the lightly fluffy pastry are a perfect combination."
+  },
+  "menu": [
+   {
+    "name": "Chestnut Cake",
+    "price": "",
+    "description": "Rich cake with real chestnut paste and slices, called the best ever had.",
+    "basis": "the best chestnut cake I have ever had"
+   },
+   {
+    "name": "Chinese Style Cheesecake",
+    "price": "",
+    "description": "A Chinatown twist on cheesecake that reviewers call delicious.",
+    "basis": "the Chinese style Cheese.cake it's delicious"
+   },
+   {
+    "name": "Ham & Egg / Pork Rolls",
+    "price": "",
+    "description": "Classic bakery buns, named a longtime regular's favorite.",
+    "basis": "My favorites here are the ham & egg and pork rolls."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJU7cbw_OAhYARwCWkwaDtR6M",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "North Beach",
+  "emoji": "🍰",
+  "why": "North Beach Italian bakery famous for its princess cake, tiramisu, and fresh croissants.",
+  "tags": [
+   "dessert",
+   "sweet",
+   "bread",
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Princess Cake",
+   "description": "A rich celebration cake that stayed fresh in the fridge for days.",
+   "basis": "The princess cake was bought on a Sunday for a birthday"
+  },
+  "menu": [
+   {
+    "name": "Tiramisu",
+    "price": "",
+    "description": "Smooth and rich, called one of the best tiramisus around.",
+    "basis": "The tiramisu was amazing."
+   },
+   {
+    "name": "Croissant",
+    "price": "",
+    "description": "Fresh croissants reviewers call delicious, best paired with a mocha.",
+    "basis": "fresh croissants. They were delicious."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJXVRIc9aBhYARDuJoNx2IVAg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "Known for clean pour-overs, a beautiful guava-foam coffee soda, and fresh-baked pastries.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "bread",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Focaccia Sandwich",
+   "description": "Soft, airy focaccia with a crisp savory top, layered with pesto, tomato, and egg.",
+   "basis": "Incredibly soft and airy inside, with a slightly crisp, savory top."
+  },
+  "menu": [
+   {
+    "name": "Guava Pillow",
+    "price": "",
+    "description": "A coffee soda topped with light, bubbly guava foam, subtly tart and tropical.",
+    "basis": "a coffee soda topped with guava foam (light, bubbly, slightly tart, and subtly tropical)"
+   },
+   {
+    "name": "Pour-over Coffee (Banko Taratu)",
+    "price": "",
+    "description": "A clean, fruity pour-over with notes of honeysuckle, mandarin, and peach.",
+    "basis": "one of the cleanest pour-overs I’ve had in SF"
+   },
+   {
+    "name": "Morning Bun",
+    "price": "",
+    "description": "A well-loved pastry, praised alongside the blue corn cookies.",
+    "basis": "We did try their morning bun and the blue corn cookies and those were all great."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ-1EfVACBhYARWm3CpZAzRkg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "🍵",
+  "why": "Playful matcha bar loved for its strawberry cold matcha and customizable, caffeine-free drinks.",
+  "tags": [
+   "tea",
+   "sweet",
+   "healthy",
+   "vegan-friendly",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Strawberry Cold Matcha",
+   "description": "Iced strawberry matcha, even better with a strawberry cold foam on top.",
+   "basis": "I love their strawberry cold matcha, and even more now that I can add a strawberry cold foam on top."
+  },
+  "menu": [
+   {
+    "name": "Guava Matcha Latte",
+    "price": "",
+    "description": "A fruity matcha latte that turned out better than expected.",
+    "basis": "I ordered Guava matcha latte and my friend ordered Blueberry matcha cold foam with boba"
+   },
+   {
+    "name": "Pistachio Foam Matcha",
+    "price": "",
+    "description": "Matcha latte topped with pistachio foam, called refreshing and much needed.",
+    "basis": "the matcha with the pistachio foam up top"
+   },
+   {
+    "name": "Blueberry Matcha Cold Foam",
+    "price": "",
+    "description": "A blueberry matcha topped with cold foam and boba.",
+    "basis": "my friend ordered Blueberry matcha cold foam with boba"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJQeLNPsmBhYAR3DfsmDa7K7A",
+  "skip": false,
+  "cuisine": "Dessert",
+  "neighborhood": "Chinatown",
+  "emoji": "🍦",
+  "why": "Chinatown matcha dessert spot famous for creamy soft serve, sundaes, and boba floats.",
+  "tags": [
+   "dessert",
+   "sweet",
+   "tea",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Matcha Soft Serve",
+   "description": "Creamy matcha soft serve in a light, crispy waffle cone, generous enough to share.",
+   "basis": "Matcha soft serve was delicious."
+  },
+  "menu": [
+   {
+    "name": "Strawberry Sundae",
+    "price": "",
+    "description": "Matcha and strawberry sundae; mix well early to balance the sweetness.",
+    "basis": "I loved the strawberry sundae!"
+   },
+   {
+    "name": "Matcha Latte Float with Boba",
+    "price": "",
+    "description": "Creamy matcha latte float with boba, customizable to your sweetness.",
+    "basis": "We absolutely love the Matcha latte float with boba!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2bXjjnqBhYARs4Lu5amjlBE",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "🧋",
+  "why": "Fisherman's Wharf boba kiosk famous for its perfectly balanced Strawberry and Ube matcha.",
+  "tags": [
+   "tea",
+   "sweet",
+   "dessert",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Strawberry and Ube Matcha",
+   "description": "A perfectly balanced, earthy-creamy matcha fusion called the best in town.",
+   "basis": "We treated ourselves to the Strawberry and Ube, and I am genuinely blown away"
+  },
+  "menu": [
+   {
+    "name": "Iced Coconut Matcha",
+    "price": "",
+    "description": "Smooth, earthy iced matcha, tried alongside the iced strawberry version.",
+    "basis": "Both were very delicious!"
+   },
+   {
+    "name": "Passion Fruit + Lychee Fruit Tea with Boba",
+    "price": "",
+    "description": "A fruit tea blend with boba, called a perfect balance of flavors.",
+    "basis": "The passion fruit + lychee tea was a perfect blend of flavors."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJf0pWWp6BhYARntL6rvq1-S0",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "🍵",
+  "why": "Japanese coffee-and-matcha spot known for hojicha cake, fresh salmon onigiri, and matcha drinks.",
+  "tags": [
+   "coffee",
+   "tea",
+   "sweet",
+   "breakfast",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Hojicha Cake",
+   "description": "Roasted green tea cake reviewers call ridiculous, rich but not too sweet.",
+   "basis": "The hojicha cake is ridiculous, not too sweet"
+  },
+  "menu": [
+   {
+    "name": "Sakura Kuromitsu",
+    "price": "",
+    "description": "A standout drink on the menu, outstanding according to regulars.",
+    "basis": "The Sakura Kuromitsu is outstanding"
+   },
+   {
+    "name": "Salmon Onigiri",
+    "price": "",
+    "description": "Fresh salmon onigiri, sizable and just the right amount of salty.",
+    "basis": "the salmon tastes so fresh and is just the right amount of salty"
+   },
+   {
+    "name": "Iced Mango Matcha",
+    "price": "",
+    "description": "A fan-favorite matcha drink, loaded with matcha and called super tasty.",
+    "basis": "my iced mango matcha drink. It was super tasty"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ0zcEYYKBhYARWg72Np6rz14",
+  "skip": false,
+  "cuisine": "Boba",
+  "neighborhood": "Union Square",
+  "emoji": "🧋",
+  "why": "Boba bar loved for its perfectly sweetened taro milk boba and inventive mango sago.",
+  "tags": [
+   "tea",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Taro Milk Boba",
+   "description": "Called the best taro milk boba around, super flavorful and perfectly sweetened.",
+   "basis": "There's no better Taro Milk Boba out there"
+  },
+  "menu": [
+   {
+    "name": "Black Sugar House Milk",
+    "price": "",
+    "description": "Sweet house milk drink, likened to the milk left after Frosted Flakes.",
+    "basis": "trust me that you don't want to change it if you like drinking the milk of cereal after Frosted Flakes"
+   },
+   {
+    "name": "Mango Sago",
+    "price": "",
+    "description": "Mango puree with grapefruit bits and coconut milk, with a soft chewy bounce.",
+    "basis": "a mango puree with grapefruit bits and coconut milk"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJx37an4WBhYARYxkGLmsMk9U",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Chinatown",
+  "emoji": "☕",
+  "why": "Chinatown cafe known for its Matcha Strawberry drink and creative boba lattes.",
+  "tags": [
+   "coffee",
+   "tea",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Matcha Strawberry",
+   "description": "A customer favorite drink, called one of the best they've ever had.",
+   "basis": "Matcha Strawberry is soooo good."
+  },
+  "menu": [
+   {
+    "name": "Matcha Latte with Crystal Boba",
+    "price": "",
+    "description": "Matcha latte with crystal boba, described as so, so yummy.",
+    "basis": "matcha latte with crystal boba which was so so yummy"
+   },
+   {
+    "name": "Coconut Latte with Boba",
+    "price": "",
+    "description": "A bold, strong coconut latte served with boba.",
+    "basis": "coconut latte with boba which was really strong"
+   },
+   {
+    "name": "Small Latte",
+    "price": "",
+    "description": "A simple, well-made latte in a cozy Chinatown cafe.",
+    "basis": "I ordered a small latte, which was well-made"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJQY5OU4iAhYAR0V7nsQ6k_Mw",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "☕",
+  "why": "Spacious bank-affiliated cafe known for cherry-flavored matcha and mocha drinks, plus card perks.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Cherry Tonic Matcha",
+   "description": "A cherry-infused matcha, part of a trio of cherry drinks called so good.",
+   "basis": "the cherry tonic matcha, the cherry matcha latte & the cherry cappuccino and they were all so so good!"
+  },
+  "menu": [
+   {
+    "name": "Iced Chocolate Covered Cherry Mocha",
+    "price": "",
+    "description": "A chocolate-cherry mocha reviewers call decent and not too sweet.",
+    "basis": "iced chocolate covered cherry mocha"
+   },
+   {
+    "name": "Coffee & Sandwich",
+    "price": "",
+    "description": "A simple coffee-and-sandwich combo, called really good by visitors.",
+    "basis": "The coffee and sandwich I had were both really good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ-4IyM2OBhYARv5mXa1iLa8U",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "FiDi gem for latte art, a full pot of rich Adeni chai, and golden, Vienna-cafe decor.",
+  "tags": [
+   "coffee",
+   "tea",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Adeni Chai",
+   "description": "A full pot of rich, perfectly spiced chai, comforting for settling in with friends.",
+   "basis": "Adeni chai and it was rich, perfectly spiced, and comforting"
+  },
+  "menu": [
+   {
+    "name": "Pistachio Cream Layered Pie",
+    "price": "",
+    "description": "A layered pistachio cream pie ordered alongside espresso and cappuccino.",
+    "basis": "Pistachio cream layered pie"
+   },
+   {
+    "name": "Spinach-Feta Spanakopeta",
+    "price": "",
+    "description": "A flaky spinach and feta pastry reviewers found absolutely delicious.",
+    "basis": "The spinach pastry was absolutely delicious"
+   },
+   {
+    "name": "Pistachio Latte",
+    "price": "",
+    "description": "A pistachio-flavored latte reviewers call excellent alongside the cappuccino.",
+    "basis": "pistachios latte were both excellent"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ6bJGyv6BhYARCQTG_q4urWw",
+  "skip": true,
+  "reason": "Reviews only praise 'coffee' and 'food' generically with no specific drink, pastry, or dish named.",
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Cute conference-district coffee shop with friendly baristas and reliably good coffee.",
+  "tags": [
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "menu": []
+ },
+ {
+  "placeId": "ChIJZwyy48iBhYARkQwavM7I9pU",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "SoMa",
+  "emoji": "☕",
+  "why": "SoMa cafe loved for its energizing superfood latte and fresh avocado toast by the window pillows.",
+  "tags": [
+   "coffee",
+   "brunch",
+   "breakfast",
+   "healthy",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Superfood Latte",
+   "description": "An energizing, good-flavored latte reviewers keep ordering for their morning catchups.",
+   "basis": "superfood latte, it was quite good and kept me energized"
+  },
+  "menu": [
+   {
+    "name": "Avocado Toast",
+    "price": "",
+    "description": "Healthy-tasting avocado toast made with fresh ingredients.",
+    "basis": "avocado toast was very healthy tasting and the ingredients tasted very fresh"
+   },
+   {
+    "name": "Blueberry Matcha",
+    "price": "",
+    "description": "A hot blueberry matcha reviewers call pretty good.",
+    "basis": "blueberry matcha hot, was pretty good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5at2BZGBhYARGPzfm7jUiZ8",
+  "skip": false,
+  "cuisine": "Turkish",
+  "neighborhood": "Financial District",
+  "emoji": "🥙",
+  "why": "Turkish-Mediterranean spot where the meat doner rates a perfect 10/10 alongside a hearty steak burger.",
+  "tags": [
+   "meat-heavy",
+   "seafood",
+   "comfort",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Meat Doner",
+   "description": "Tender meat doner reviewers rate a perfect 10/10, served with Turkish hospitality.",
+   "basis": "meat doner, both are 10/10 and I recommend"
+  },
+  "menu": [
+   {
+    "name": "Steak Burger",
+    "price": "",
+    "description": "A steak burger reviewers call amazing and delicious.",
+    "basis": "burger was amazing! So delicious"
+   },
+   {
+    "name": "Salmon Bowl",
+    "price": "$18.99",
+    "description": "A massive, fresh salmon bowl recommended by the owner.",
+    "basis": "recommended the salmon bowl ($18.99 before tax and tip)"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJzbJSSH2AhYAROGCpM1aa_sU",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Financial District",
+  "emoji": "🥪",
+  "why": "Downtown counter-service favorite for the popular, super juicy blackened red snapper sandwich.",
+  "tags": [
+   "quick-bite",
+   "casual",
+   "spicy",
+   "seafood"
+  ],
+  "signatureDish": {
+   "name": "Blackened Red Snapper Sandwich",
+   "description": "Their popular blackened red snapper sandwich, super juicy with a spicy side.",
+   "basis": "popular blackened red snapper is super juicy but on a spicy side"
+  },
+  "menu": [
+   {
+    "name": "California Melt",
+    "price": "",
+    "description": "The go-to sandwich order when visiting with a group.",
+    "basis": "California melt seemed to be the go-to order"
+   },
+   {
+    "name": "Bagel Sandwich",
+    "price": "",
+    "description": "A perfect bagel sandwich paired with fresh bakery treats.",
+    "basis": "perfect bagel sandwiches and delicious bakery treats"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJZX_ij1iAhYARD_4FwphAcN0",
+  "skip": false,
+  "cuisine": "Seafood",
+  "neighborhood": "Embarcadero",
+  "emoji": "🍤",
+  "why": "Waterfront Embarcadero seafood spot where the fried fish tacos are seasoned beautifully and packed with avocado.",
+  "tags": [
+   "seafood",
+   "casual",
+   "family-style",
+   "fried"
+  ],
+  "signatureDish": {
+   "name": "Fried Fish Tacos",
+   "description": "Two large tacos seasoned beautifully, packed with avocado and crispy fried fish.",
+   "basis": "Fish tacos were seasoned beautifully and filled with avocado"
+  },
+  "menu": [
+   {
+    "name": "Clam & Fish Chowder",
+    "price": "",
+    "description": "Chowder reviewers call the best they've ever had.",
+    "basis": "chowder was the best I've ever had"
+   },
+   {
+    "name": "Fish and Chips",
+    "price": "",
+    "description": "Solid fish and chips with a perfect light, crisp batter.",
+    "basis": "fish had a perfect light but crisp batter"
+   },
+   {
+    "name": "Crab Cakes",
+    "price": "",
+    "description": "A tasty highlight among the seafood options.",
+    "basis": "the crab cakes were good"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJl-NPH2WAhYAR_j_6M67opXw",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Embarcadero",
+  "emoji": "🍩",
+  "why": "Market-style cafe famous for its must-try grilled cheese donut, called the best cafe in SF.",
+  "tags": [
+   "sweet",
+   "breakfast",
+   "coffee",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Grilled Cheese Donut",
+   "description": "An unusual, beloved combo reviewers call an absolute must-order here.",
+   "basis": "Grilled cheese donut is a must"
+  },
+  "menu": [
+   {
+    "name": "Chipotle Chicken Sandwich",
+    "price": "",
+    "description": "A filling sandwich loaded with chicken and veggies, with a spicy kick.",
+    "basis": "chipotle chicken if spicy is okay"
+   },
+   {
+    "name": "Breakfast Burrito",
+    "price": "",
+    "description": "A breakfast burrito reviewers loved alongside coffee and a donut.",
+    "basis": "breakfast burrito, coffee, and a donut and loved it"
+   },
+   {
+    "name": "Mocha",
+    "price": "",
+    "description": "Called the best mocha a reviewer has ever had.",
+    "basis": "the best Mocha I've ever had"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJJ6nevPSAhYARaA2MbiRuBSU",
+  "skip": false,
+  "cuisine": "Chinese",
+  "neighborhood": "Chinatown",
+  "emoji": "🥟",
+  "why": "50-year Chinatown institution famous for its perfected roast pork rice plate.",
+  "tags": [
+   "meat-heavy",
+   "comfort",
+   "rice",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Roast Pork Rice Plate",
+   "description": "Their most famous dish, a roast pork rice plate the kitchen has perfected.",
+   "basis": "most famous dish is the Roast Pork Rice plate"
+  },
+  "menu": [
+   {
+    "name": "Pork Chop with Orange Sauce",
+    "price": "",
+    "description": "Tender pork chop served with a flavorful orange sauce.",
+    "basis": "delicious pork with orange sauce or curry sauce"
+   },
+   {
+    "name": "Ox Tail",
+    "price": "",
+    "description": "Ox tail reviewers describe as so tender.",
+    "basis": "the ox tail is so tender"
+   },
+   {
+    "name": "HK Milk Tea",
+    "price": "",
+    "description": "A smooth Hong Kong-style milk tea served alongside the pork chop.",
+    "basis": "The milk tea is smooth"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJTf8zeW6BhYARscOTjrnTuSk",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Embarcadero",
+  "emoji": "☕",
+  "why": "Embarcadero cafe where the Yemeni coffee is incredibly delicious and the desserts are outstanding.",
+  "tags": [
+   "coffee",
+   "tea",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Yemeni Coffee",
+   "description": "Yemeni coffee reviewers call incredibly delicious, paired with outstanding desserts.",
+   "basis": "Yemeni coffee was incredibly delicious"
+  },
+  "menu": [
+   {
+    "name": "Chai",
+    "price": "",
+    "description": "A strong, flavorful chai, not made with sweet syrups.",
+    "basis": "strong and flavorful (not made with those fake, overly sweet syrups)"
+   },
+   {
+    "name": "Iced Latte",
+    "price": "",
+    "description": "One of the best iced lattes a reviewer has had in the city.",
+    "basis": "one of the best iced lattes"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJb1PHQQCBhYARgS4IUcsELNk",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Embarcadero",
+  "emoji": "☕",
+  "why": "Spacious Embarcadero-area cafe known for its seasonal maple and pine latte with a surprising spice.",
+  "tags": [
+   "coffee",
+   "casual",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Maple and Pine Latte",
+   "description": "A seasonal latte with a surprising little spice, called delicious.",
+   "basis": "the maple and pine latte"
+  },
+  "menu": [
+   {
+    "name": "Hot Latte",
+    "price": "",
+    "description": "Their normal hot latte, called super good with perfect proportions.",
+    "basis": "normal hot latte and that was super good"
+   },
+   {
+    "name": "Decaf",
+    "price": "",
+    "description": "A smooth, warm decaf without a post-drink caffeine hit.",
+    "basis": "smooth and warm, without any caffeine hit"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJXwWcTQSBhYARWTFH-P20ENc",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "🥐",
+  "why": "Charming North Beach corner cafe adored for its pistachio blackberry croissant and fruit tart.",
+  "tags": [
+   "coffee",
+   "brunch",
+   "sweet",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Pistachio Blackberry Croissant",
+   "description": "A pistachio blackberry croissant and fruit tart, called simply perfect with coffee.",
+   "basis": "pistachio blackberry croissant and fruit tart paired with their coffee"
+  },
+  "menu": [
+   {
+    "name": "Smoked Salmon Everything Bagel",
+    "price": "",
+    "description": "A beautiful smoked salmon everything bagel that tasted great too.",
+    "basis": "smoked salmon on an everything bagel and not only was it beautiful but it tasted great too"
+   },
+   {
+    "name": "Cortado",
+    "price": "",
+    "description": "A cortado a reviewer enjoyed alongside their panini.",
+    "basis": "ordered a cortado and a panini sandwich, and I enjoyed both"
+   },
+   {
+    "name": "Iced Almond Milk Latte",
+    "price": "",
+    "description": "An iced almond milk latte reviewers call perfect.",
+    "basis": "iced almond milk latte was also perfect"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ17mcM2KAhYARFGk0jnUJMEs",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "Beloved local chain where the signature Mint Mojito Coffee is to die for, especially iced.",
+  "tags": [
+   "coffee",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Mint Mojito Coffee",
+   "description": "Their signature mint mojito coffee, reviewers say is to die for, especially iced.",
+   "basis": "the Mint Mojito Coffee is to die for"
+  },
+  "menu": [
+   {
+    "name": "Tesora",
+    "price": "",
+    "description": "A pour-over blend a reviewer tried with cream but no sugar.",
+    "basis": "tried the Tesora (with cream but no sugar)"
+   },
+   {
+    "name": "Chocolate Croissant",
+    "price": "",
+    "description": "A chocolate croissant reviewers also call amazing.",
+    "basis": "The chocolate croissant was also amazing"
+   },
+   {
+    "name": "Iced Honey Haze",
+    "price": "",
+    "description": "A personal-favorite iced honey haze coffee drink.",
+    "basis": "personal favorites there are the iced honey Haze"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJrXyusmaAhYARHy-30QCG2e4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Embarcadero",
+  "emoji": "☕",
+  "why": "Home of the Iced Mint Mojito — a signature drink reviewers call unique and delightful.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Mint Mojito Iced Coffee",
+   "description": "Rich mint and espresso balance, called a truly unique and delightful flavor.",
+   "basis": "Mint Mojito coffee here offers a truly unique and delightful flavor experience"
+  },
+  "menu": [
+   {
+    "name": "Rose Coffee",
+    "price": "",
+    "description": "A customer favorite alongside the Mint Mojito, per longtime fans.",
+    "basis": "hooked on the Rose coffee and the Mint Mojito"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJWTGPjmaAhYAR6c9cUJ1axtM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Embarcadero",
+  "emoji": "☕",
+  "why": "The New Orleans-Style Iced Coffee is the move — sweet, coffee-forward, worth the hype.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "New Orleans-Style Iced Coffee",
+   "description": "Sweet, coffee-forward iced coffee reviewers call the best they've ever had.",
+   "basis": "the New Orleans-Style Iced Coffee, and it was honestly the best coffee I’ve ever had"
+  },
+  "menu": [
+   {
+    "name": "Cappuccino",
+    "price": "",
+    "description": "Smooth, clean espresso taste without any burnt or heavy notes.",
+    "basis": "The cappuccino is smooth with a clean espresso taste that doesn’t feel burnt or heavy."
+   },
+   {
+    "name": "Liège Waffle",
+    "price": "",
+    "description": "A warm waffle regulars pair with their coffee order.",
+    "basis": "The waffle is warm, slightl"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ3aSP7TWBhYAR_T9qhnREekA",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Financial District",
+  "emoji": "🍳",
+  "why": "Try the soft chili scramble toast with salmon — a standout on this Aussie-inspired menu.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "coffee",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Soft Chili Scramble Toast with Salmon",
+   "description": "Fresh scrambled eggs, balanced salmon, and a gentle chili kick on toast.",
+   "basis": "The soft chili scramble toast with salmon stood out."
+  },
+  "menu": [
+   {
+    "name": "Blueberry & Peanut Butter Smoothie",
+    "price": "",
+    "description": "A staff-recommended smoothie regulars say hits the mark.",
+    "basis": "the Blueberry and peanut butter smoothie, his recommendation was spot on"
+   },
+   {
+    "name": "Bacon Egg & Cheese Croissant",
+    "price": "",
+    "description": "A grab-and-go croissant reviewers say they'd order again.",
+    "basis": "a Bacon Egg and cheese croissant. Safe to say I’ll be back for more"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJF_paIXuAhYARO8nSqGWwaLo",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Financial District",
+  "emoji": "☕",
+  "why": "First-timers love the Honey Haze — plus one of few coffee shops that takes tea seriously.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "tea"
+  ],
+  "signatureDish": {
+   "name": "Honey Haze",
+   "description": "A honey-sweetened coffee drink that wins over first-time visitors instantly.",
+   "basis": "The Honey Haze was so nice!"
+  },
+  "menu": [
+   {
+    "name": "Tea",
+    "price": "",
+    "description": "Fresh, exceptional tea at a coffee chain that rarely gets tea right.",
+    "basis": "the quality and attention Philz puts into tea, it’s a drink that most places ignore"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ4WcYIz-BhYARw72VEt7JrC8",
+  "skip": false,
+  "cuisine": "Breakfast",
+  "neighborhood": "Financial District",
+  "emoji": "🧇",
+  "why": "Chicken and waffles here are unforgettable — crispy chicken, chili mayo, sweet soft waffles.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "sweet",
+   "comfort"
+  ],
+  "signatureDish": {
+   "name": "Chicken and Waffles",
+   "description": "Crispy chicken with a kicky chili mayo, paired with sweet, soft waffles.",
+   "basis": "I still think about the chicken and waffles at Sisterita"
+  },
+  "menu": [
+   {
+    "name": "Eggs Benedict with Crispy Chicken",
+    "price": "",
+    "description": "Divine eggs benedict, with the eggs done just right.",
+    "basis": "The Eggs Benedict tasted divine, with the eggs being done just right."
+   },
+   {
+    "name": "French Toast Brioche",
+    "price": "",
+    "description": "Beautifully plated with caramelized banana and candied walnuts.",
+    "basis": "the French toast brioche and it was beautifully plated with caramelized banana and candied walnuts"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJTebs7YWAhYARum8zCZd1gao",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Union Square",
+  "emoji": "🥪",
+  "why": "The Chicken Caesar Melt is a top-5 sandwich, served inside a real retired cable car.",
+  "tags": [
+   "quick-bite",
+   "casual",
+   "coffee",
+   "breakfast"
+  ],
+  "signatureDish": {
+   "name": "Chicken Caesar Melt",
+   "description": "A top-5 sandwich reviewers rave about, best ordered without the jalapenos.",
+   "basis": "I had the Chicken Cesar Melt. It was amazing once I removed the jalapenos."
+  },
+  "menu": [
+   {
+    "name": "Blueberry Muffin",
+    "price": "",
+    "description": "Exceptionally fresh with well-balanced flavors.",
+    "basis": "blue berry muffin was also exceptionally and surprisingly so fresh and flavors balanced"
+   },
+   {
+    "name": "Breakfast Sandwich",
+    "price": "",
+    "description": "Ciabatta, eggs, bacon and condiments, all just perfect.",
+    "basis": "The ciabatta, eggs, bacon and condiments were just perfect."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ2Y-TnfCBhYAR3yGb7IEYoU4",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Union Square",
+  "emoji": "☕",
+  "why": "The Iced Brown Sugar Shaken Espresso is top notch — plus a V60 fans call mind-blowing.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Iced Brown Sugar Shaken Espresso",
+   "description": "A top-notch shaken espresso, sweet and well-balanced with brown sugar.",
+   "basis": "The Iced brown sugar shaken espresso is top notch!!"
+  },
+  "menu": [
+   {
+    "name": "V60 Pour-over",
+    "price": "",
+    "description": "A mind-blowing pour-over unlike anywhere else in the area, per fans.",
+    "basis": "you guys have to try their V60 it’s mind blowing nobody does it in here like that"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJTbUmE5qAhYAR3Pp-88HmmFc",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Civic Center",
+  "emoji": "🍩",
+  "why": "A 24/7 ritual stop for regulars — grab an apple fritter or cruller, always fresh.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "quick-bite",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Apple Fritter",
+   "description": "A ritual grab for regulars, alongside the cruller, always fresh and quality.",
+   "basis": "swing by for a cruller or an apple fritter. At this point, it’s a ritual"
+  },
+  "menu": [
+   {
+    "name": "Donuts",
+    "price": "",
+    "description": "Always quality and fresh tasting, day or night.",
+    "basis": "The donuts here are always quality and fresh tasting"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJrbBwiYiAhYARU_nV7pI9VXU",
+  "skip": false,
+  "cuisine": "Sandwiches",
+  "neighborhood": "Union Square",
+  "emoji": "🥪",
+  "why": "Hidden gem serving what regulars call the best banh mi in the city.",
+  "tags": [
+   "bread",
+   "quick-bite",
+   "casual",
+   "vegetarian-friendly"
+  ],
+  "signatureDish": {
+   "name": "Banh Mi",
+   "description": "Big, meaty and delicious — widely called the best banh mi in the city.",
+   "basis": "Seriously the best Bahn Mi in the city, hands down!"
+  },
+  "menu": [
+   {
+    "name": "Chicken Meatball Banh Mi",
+    "price": "",
+    "description": "Hits the spot, with bread crunchy outside and soft inside.",
+    "basis": "chicken meatball bahn mi it really hit the spot. Bread was crunchy and soft on the inside"
+   },
+   {
+    "name": "Vietnamese Tofu Sandwich",
+    "price": "",
+    "description": "A superb organic tofu sandwich, a great vegetarian pick.",
+    "basis": "the Vietnamese sandwich I had was superb - organic tofu"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJfT_au0KBhYARbDTC-UznEk4",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "North Beach",
+  "emoji": "🍰",
+  "why": "Try the legendary rum-laced Sacripantina cake, a North Beach staple since 1945.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "casual",
+   "bread"
+  ],
+  "signatureDish": {
+   "name": "Sacripantina Cake",
+   "description": "A legendary rum-laced Italian sponge cake, chilled with bold rum flavor.",
+   "basis": "Try their signature creation, the Sacripantina cake, a legendary rum-laced Italian sponge cake."
+  },
+  "menu": [
+   {
+    "name": "Tiramisu Cake",
+    "price": "",
+    "description": "An excellent tiramisu, a top pick alongside the strawberry shortcake.",
+    "basis": "the strawberry shortcake and the tiramisu cakes are really excellent"
+   },
+   {
+    "name": "Biscotti",
+    "price": "",
+    "description": "Fantastic biscotti, perfect for taking home.",
+    "basis": "Their biscottis are also fantastic and perfect to take home."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJATlgTU6BhYAR_GqOgpcXxuc",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Civic Center",
+  "emoji": "☕",
+  "why": "A hidden-gem coffee counter with delicious, filling avocado toast and a great cappuccino.",
+  "tags": [
+   "coffee",
+   "breakfast",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Avocado Toast",
+   "description": "Delicious avocado toast that's satisfyingly filling.",
+   "basis": "The avacado toast was delicious and so filling."
+  },
+  "menu": [
+   {
+    "name": "California Bagel",
+    "price": "",
+    "description": "A good breakfast pairing, best enjoyed with the parfait.",
+    "basis": "We had the California Bagel and the Parfait and both were good!"
+   },
+   {
+    "name": "Cappuccino",
+    "price": "",
+    "description": "A cappuccino reviewers say was so good, best on a quick stop.",
+    "basis": "The cappuchino was so good!"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ5-AzaYuAhYARrZDTtCChxcs",
+  "skip": false,
+  "cuisine": "Bakery",
+  "neighborhood": "Chinatown",
+  "emoji": "🥧",
+  "why": "A century-old Chinatown bakery — the egg tart arrives warm, so tasty you'll eat it on the spot.",
+  "tags": [
+   "sweet",
+   "dessert",
+   "quick-bite",
+   "casual"
+  ],
+  "signatureDish": {
+   "name": "Egg Tart",
+   "description": "Warm from the counter, so tasty regulars sit right down to eat it.",
+   "basis": "The egg tart was warm when it was placed in my hands so I obviously had to sit down and eat it immediately. So tasty"
+  },
+  "menu": [
+   {
+    "name": "Coconut Egg Tart",
+    "price": "",
+    "description": "Egg tart made with a coconut twist.",
+    "basis": "I also got the coconut egg tart."
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJ4WAG3vOAhYARKLeCNdq7O-Y",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "North Beach",
+  "emoji": "☕",
+  "why": "Old-world North Beach cafe with cozy, nostalgic charm that keeps regulars coming back for coffee and tiramisu.",
+  "tags": [
+   "coffee",
+   "dessert",
+   "sweet",
+   "casual",
+   "late-night"
+  ],
+  "signatureDish": {
+   "name": "Tiramisu",
+   "description": "Classic Italian tiramisu at a nostalgic North Beach cafe regulars keep returning for.",
+   "basis": "the tiramisu is great"
+  },
+  "menu": [
+   {
+    "name": "Gelato",
+    "price": "",
+    "description": "Paired with cappuccino and tiramisu for a sweet late-night treat after dinner.",
+    "basis": "We had cappuccinos and gelato and tiramisu"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJs8i5N_KAhYARZvBUagii3hY",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Chinatown",
+  "emoji": "🍳",
+  "why": "Cute corner spot at the edge of Chinatown with fresh, generous breakfast plates and not-too-sweet yogurt drinks.",
+  "tags": [
+   "breakfast",
+   "brunch",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Spam Egg Pop Sandwich",
+   "description": "Spam and egg breakfast sandwich reviewers called part of a fresh, delicious meal.",
+   "basis": "I got the spam egg pop sandwich"
+  },
+  "menu": [
+   {
+    "name": "Avocado Egg Toast",
+    "price": "",
+    "description": "Well-seasoned avocado toast reviewers called excellently prepared.",
+    "basis": "The pepper and other spices are Executively Prepared"
+   },
+   {
+    "name": "Mango Pomelo Yogurt Smoothie",
+    "price": "",
+    "description": "Rich-flavored, not-too-sweet smoothie reviewers want to try in every flavor.",
+    "basis": "mango pomelo yogurt smoothie"
+   },
+   {
+    "name": "Tater Tot Wrap Burrito",
+    "price": "",
+    "description": "Big wrap burrito with tater tots that one reviewer called their favorite.",
+    "basis": "the one with the tater tots was my favorite"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJHSGzi_yAhYARXxruUwLoLhg",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Fisherman's Wharf",
+  "emoji": "☕",
+  "why": "Cozy corner coffee shop on Pier 39 known for its decadent Biscoff cheesecake and cookie-topped drinks.",
+  "tags": [
+   "coffee",
+   "dessert",
+   "sweet",
+   "casual",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Biscoff Cheesecake",
+   "description": "Decadent, rich cheesecake with Biscoff flavor a reviewer called simply amazing.",
+   "basis": "I tried the Biscoff cheesecake!"
+  },
+  "menu": [
+   {
+    "name": "Hot Chocolate",
+    "price": "",
+    "description": "Very tasty hot chocolate, part of a friendly, clean-and-cozy pier stop.",
+    "basis": "I tried the hot chocolate"
+   },
+   {
+    "name": "Biscoff Cookie",
+    "price": "",
+    "description": "A free Biscoff cookie comes with any order alongside your coffee.",
+    "basis": "Free biscoff cookie served with any order"
+   }
+  ]
+ },
+ {
+  "placeId": "ChIJj1EaYTiBhYARVClS372QSHM",
+  "skip": false,
+  "cuisine": "Cafe",
+  "neighborhood": "Russian Hill",
+  "emoji": "☕",
+  "why": "The city’s first café devoted to Indonesian coffee — palm-sugar kopi and pandan matcha you won’t find elsewhere.",
+  "tags": [
+   "coffee",
+   "casual",
+   "sweet",
+   "quick-bite"
+  ],
+  "signatureDish": {
+   "name": "Kopi Gula Aren",
+   "description": "Indonesian coffee sweetened with palm sugar — bold, nostalgic, and the regulars’ go-to.",
+   "basis": "kopi gula aren aka Coffee with palm sugar"
+  },
+  "menu": [
+   {
+    "name": "Pandan Matcha Latte",
+    "price": "",
+    "description": "Matcha with fragrant pandan syrup — a reviewer’s best pandan matcha ever.",
+    "basis": "the best Pandan Matcha that I ever had"
+   },
+   {
+    "name": "24 Hour Cold Brew",
+    "price": "",
+    "description": "A regular’s longtime favorite cup here.",
+    "basis": "their 24 hour cold brew"
+   },
+   {
+    "name": "Kopi Klepon",
+    "price": "",
+    "description": "Palm-sugar coffee that tastes like childhood sweets.",
+    "basis": "My favorite drink is the Kopi Klepon"
+   }
+  ]
+ }
+]

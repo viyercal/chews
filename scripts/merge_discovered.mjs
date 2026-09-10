@@ -15,7 +15,14 @@ const data = JSON.parse(readFileSync(join(root, 'data/restaurants.json'), 'utf8'
 
 const byPlaceId = new Map(discovered.map((d) => [d.placeId, d]))
 const norm = (s) => String(s).toLowerCase().replace(/\s+/g, ' ').trim()
-const existingNames = new Set(data.restaurants.map((r) => norm(r.name)))
+const mi = (a, b) => {
+  const t = Math.PI / 180
+  const h = Math.sin(((b.lat - a.lat) * t) / 2) ** 2 + Math.cos(a.lat * t) * Math.cos(b.lat * t) * Math.sin(((b.lng - a.lng) * t) / 2) ** 2
+  return 2 * 3958.8 * Math.asin(Math.sqrt(h))
+}
+// Same name within ~0.3 mi is the same place; the same name across town is
+// another location of a chain — chains are allowed (quality bar is the gate).
+const alreadyIn = (d) => data.restaurants.some((r) => norm(r.name) === norm(d.name) && mi(r, d) < 0.3)
 
 const cityOf = (addr, cityKey) => {
   const m = addr.match(/,\s*([A-Za-z .]+),\s*(?:CA|NY|NJ)/)
@@ -32,7 +39,7 @@ for (const e of editorial) {
   const d = byPlaceId.get(e.placeId)
   if (!d) continue
   if (e.skip) { droppedSkip++; continue }
-  if (existingNames.has(norm(d.name))) continue
+  if (alreadyIn(d)) continue
 
   const corpus = norm([d.editorialSummary, ...(d.reviews || [])].join(' \n '))
   const grounded = (basis) => basis && corpus.includes(norm(basis))
@@ -66,7 +73,6 @@ for (const e of editorial) {
     googleCategory: d.googleCategory,
     verified: true,
   })
-  existingNames.add(norm(d.name))
   added++
 }
 
