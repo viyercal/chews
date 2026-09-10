@@ -1,11 +1,11 @@
 import { el, esc, cuisineGradient, openStatus } from './cards.js'
 import { fmtMiles, milesBetween } from '../core/geo.js'
-import { buildSearchIndex, search } from '../core/search.js'
+import { buildSearchIndex, search, orderResults } from '../core/search.js'
 import { hoursStatus } from '../core/hours.js'
 import { whenChips } from './when.js'
 import { toast } from './toast.js'
 
-const MAX_RESULTS = 20
+const PAGE = 40 // rows per "Show more" step — the list scrolls, the DOM stays small
 
 // Search overlay: dishes, restaurant names, cuisines, tags — the whole index,
 // not just what's in radius (distance shown so far-away hits are obvious).
@@ -24,6 +24,8 @@ export class SearchView {
     this.index = null
     this.openEl = null
     this.showClosed = false
+    this.pageSize = PAGE
+    this.lastQuery = ''
   }
 
   get isOpen() {
@@ -76,15 +78,17 @@ export class SearchView {
 
   renderResults(list, hint, query) {
     list.innerHTML = ''
-    // Over-fetch so the time-frame cut still yields a full page of open spots.
-    const all = search(this.index, query, { limit: MAX_RESULTS * 3 })
+    if (query !== this.lastQuery) { this.pageSize = PAGE; this.lastQuery = query }
+    // Every hit, ranked here by distance — a score cap would drop the nearby
+    // tag-matched café behind sixty "Coffee"-named ones.
+    const all = search(this.index, query, { limit: Infinity })
     const when = this.deck.when()
     const isClosed = (r) => when.filtering && hoursStatus(r, when.date).status === 'closed'
     // A place searched for BY NAME is never hidden for being closed — it
     // shows dimmed with its status; only dish/cuisine hits get held back.
     const held = (h) => isClosed(h.resto) && !h.nameHit
-    const shown = all.filter((h) => !held(h)).slice(0, MAX_RESULTS)
-    const closed = all.filter(held).slice(0, MAX_RESULTS)
+    const shown = all.filter((h) => !held(h))
+    const closed = all.filter(held)
     const hits = this.showClosed ? [...shown, ...closed] : shown
     hint.classList.toggle('hidden', !!hits.length)
     if (!hits.length && query.trim()) {
@@ -94,13 +98,18 @@ export class SearchView {
     }
     const loc = this.store.settings.location
     const toRow = (h) => ({ ...h, d: loc ? milesBetween(loc, h.resto) : null, closed: isClosed(h.resto) })
-    // Relevance decides in ~1-point bands; within a band, open beats closed
-    // and distance breaks the tie so the Dublin sushi bar outranks an
-    // equally-matched one 30 mi away. Revealed closed-then spots trail.
-    const band = (s) => Math.round(s)
-    const order = (a, b) => band(b.score) - band(a.score) || a.closed - b.closed || (a.d ?? 1e9) - (b.d ?? 1e9)
-    const rows = [...shown.map(toRow).sort(order), ...(this.showClosed ? closed.map(toRow).sort(order) : [])]
-    for (const { resto, d, closed: c } of rows) list.appendChild(this.row(resto, d, when, c))
+    // Revealed closed-then spots trail the open list, each block nearest-first.
+    const ordered = [...orderResults(shown.map(toRow)), ...(this.showClosed ? orderResults(closed.map(toRow)) : [])]
+    const page = ordered.slice(0, this.pageSize)
+    for (const { resto, d, closed: c } of page) list.appendChild(this.row(resto, d, when, c))
+    if (ordered.length > page.length) {
+      const more = el(`<li class="search-closed"><button class="chip chip-btn">Show ${Math.min(PAGE, ordered.length - page.length)} more <em>${page.length} of ${ordered.length}</em></button></li>`)
+      more.querySelector('button').addEventListener('click', () => {
+        this.pageSize += PAGE
+        this.renderResults(list, hint, query)
+      })
+      list.appendChild(more)
+    }
     if (closed.length) {
       const label = when.mode === 'at' ? when.label : 'right now'
       const btn = el(`<li class="search-closed"><button class="chip chip-btn">${this.showClosed ? 'Hide' : 'Show'} ${closed.length} closed ${esc(label)}</button></li>`)

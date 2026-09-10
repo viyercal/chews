@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { buildSearchIndex, search } from '../js/core/search.js'
+import { buildSearchIndex, search, orderResults } from '../js/core/search.js'
 
 const resto = (over = {}) => ({
   id: over.id || 'r1', name: 'Test Spot', cuisine: 'Mexican', tags: ['casual'], price: 2,
@@ -94,4 +94,26 @@ test('category words that appear in many names are not name hits', () => {
   const philz = search(idx, 'philz')
   assert.equal(philz.length, 3)
   assert.ok(philz.every((h) => h.nameHit)) // chain locations stay name hits
+})
+
+test('strong = the query lands in name/dish/cuisine/tags, not just a description', () => {
+  const idx = buildSearchIndex(APOS_POOL)
+  const byId = (q) => Object.fromEntries(search(idx, q, { limit: Infinity }).map((h) => [h.resto.id, h.strong]))
+  const coffee = byId('coffee')
+  assert.equal(coffee.sanaa, true) // tag + cuisine
+  assert.equal(coffee.plain, true)
+  const birria = byId('birria')
+  assert.equal(birria.taqueria, true) // signature dish
+  assert.equal(birria.mention, false) // description only
+})
+
+test('orderResults: about-it first, open before closed, then nearest', () => {
+  const rows = [
+    { id: 'far-named', strong: true, closed: false, d: 9.4, score: 16.5 },
+    { id: 'near-tag', strong: true, closed: false, d: 1.0, score: 8.8 },
+    { id: 'near-closed', strong: true, closed: true, d: 0.2, score: 16.9 },
+    { id: 'mention', strong: false, closed: false, d: 0.1, score: 2 },
+    { id: 'nearest', strong: true, closed: false, d: 0.3, score: 16.8 },
+  ]
+  assert.deepEqual(orderResults(rows).map((r) => r.id), ['nearest', 'near-tag', 'far-named', 'near-closed', 'mention'])
 })

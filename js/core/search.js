@@ -79,15 +79,20 @@ function fit(tokens, qt) {
   return best
 }
 
-// Best score one query token earns in one entry across the weighted fields.
-function tokenScore(entry, qt) {
+// Best score one query token earns in one entry across the weighted fields
+// (optionally only fields at or above a weight — see STRONG_WEIGHT).
+function tokenScore(entry, qt, minWeight = 0) {
   let best = 0
   for (const f of entry.fields) {
-    if (f.weight <= best) continue
+    if (f.weight <= best || f.weight < minWeight) continue
     best = Math.max(best, f.weight * fit(f.tokens, qt))
   }
   return best
 }
+
+// A place is "about" the query when every token lands in its name, dishes,
+// cuisine, or tags — not merely in a description ("great coffee too").
+const STRONG_WEIGHT = 4
 
 // `nameHit`: the query is aimed at this place by name (every token lands in
 // the name, or the whole phrase does) — the UI keeps such hits visible even
@@ -110,11 +115,22 @@ export function search(index, query, { limit = 20 } = {}) {
     if (phrase) score += 6 // whole-phrase name hit
     score += Math.min(1, (entry.resto.rating - 4) || 0) // faint quality tiebreak
     const nameHit = phrase || qts.every((qt) => fit(entry.nameTokens, qt) > 0)
-    scored.push({ resto: entry.resto, score, full: matched === qts.length, nameHit })
+    const strong = matched === qts.length && qts.every((qt) => tokenScore(entry, qt, STRONG_WEIGHT) > 0)
+    scored.push({ resto: entry.resto, score, full: matched === qts.length, nameHit, strong })
   }
   if (scored.filter((s) => s.nameHit).length > NAME_HIT_MAX) for (const s of scored) s.nameHit = false
   scored.sort((a, b) => b.score - a.score)
   // If anything matches every token, partial matches are noise — drop them.
   const cut = scored.some((s) => s.full) ? scored.filter((s) => s.full) : scored
   return cut.slice(0, limit)
+}
+
+// List order for the search sheet: places the query is about, open ones
+// first, then NEAREST first — "coffee" is a "coffee near me" question, so
+// a tag-matched café a mile away must beat a "Coffee"-named one across the
+// bay. Score only breaks ties; `search` has already cut partial matches.
+export function orderResults(rows) {
+  return [...rows].sort(
+    (a, b) => (b.strong ? 1 : 0) - (a.strong ? 1 : 0) || (a.closed ? 1 : 0) - (b.closed ? 1 : 0) || (a.d ?? 1e9) - (b.d ?? 1e9) || b.score - a.score
+  )
 }
