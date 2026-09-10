@@ -10,8 +10,12 @@ export function milesBetween(a, b) {
   return 2 * EARTH_RADIUS_MI * Math.asin(Math.sqrt(h))
 }
 
+// Walking-scale precision near the user: a nearest-first list in a dense
+// neighborhood has a dozen spots under 0.15 mi, so feet (to the nearest 50)
+// keep them distinguishable; "right here" is reserved for the same block.
 export function fmtMiles(mi) {
-  if (mi < 0.15) return 'right here'
+  if (mi < 0.02) return 'right here'
+  if (mi < 0.19) return `${Math.max(50, Math.round((mi * 5280) / 50) * 50)} ft`
   if (mi < 10) return `${mi.toFixed(1)} mi`
   return `${Math.round(mi)} mi`
 }

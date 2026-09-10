@@ -71,3 +71,13 @@ test('dayHours / weekHours for the sheet planning view', () => {
   assert.deepEqual(week[6], { day: 0, name: 'Sunday', text: '8 AM–2 PM' })
   assert.equal(weekHours({}), null)
 })
+
+test('fmtMiles: same block, feet under ~0.2 mi, then miles', async () => {
+  const { fmtMiles } = await import('../js/core/geo.js')
+  assert.equal(fmtMiles(0.01), 'right here')
+  assert.equal(fmtMiles(0.05), '250 ft')
+  assert.equal(fmtMiles(0.14), '750 ft')
+  assert.equal(fmtMiles(0.19), '0.2 mi')
+  assert.equal(fmtMiles(1.04), '1.0 mi')
+  assert.equal(fmtMiles(12.4), '12 mi')
+})
